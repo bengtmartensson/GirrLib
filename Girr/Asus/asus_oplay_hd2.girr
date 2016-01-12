@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
+<remotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:girr="http://www.harctoolbox.org/schemas/girr.xsd" title="Translated by harc2girr" girrVersion="1.0" xsi:noNamespaceSchemaLocation="http://www.harctoolbox.org/schemas/girr.xsd">
+    <remote deviceClass="misc_audio" manufacturer="asus" model="oplay_hd2" name="ASUS O!Play HD2">
+        <commandSet name="nec1_108">
+            <parameters protocol="nec1">
+                <parameter name="D" value="108"/>
+            </parameters>
+            <command name="power_toggle" F="86"/>
+            <command name="display" F="84"/>
+            <command name="file_mode" F="75"/>
+            <command name="dvd_menu" F="80"/>
+            <command name="eject" F="79"/>
+            <command name="rewind" F="65" comment="set speed backwards"/>
+            <command name="play_pause" F="24"/>
+            <command name="fast_forward" F="23" comment="set speed forwards"/>
+            <command name="previous" F="25"/>
+            <command name="stop" F="4"/>
+            <command name="next" F="19"/>
+            <command name="home" F="64"/>
+            <command name="cmd_return" F="68"/>
+            <command name="up" F="94"/>
+            <command name="left" F="88"/>
+            <command name="ok" F="93"/>
+            <command name="right" F="95"/>
+            <command name="down" F="92"/>
+            <command name="volume_up" F="27"/>
+            <command name="setup" F="69"/>
+            <command name="volume_down" F="76"/>
+            <command name="shuffle" F="5"/>
+            <command name="mode" F="74"/>
+            <command name="subtitle" F="91"/>
+            <command name="zoom" F="66"/>
+            <command name="audio" F="87"/>
+            <command name="repeat" F="90"/>
+            <command name="mute_toggle" F="81"/>
+            <command name="nas_mode" F="77"/>
+            <command name="movie_mode" F="70"/>
+            <command name="music_mode" F="71"/>
+            <command name="picture_mode" F="72"/>
+            <command name="internet_mode" F="78"/>
+        </commandSet>
+    </remote>
+</remotes>

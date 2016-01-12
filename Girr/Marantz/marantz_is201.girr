@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
+<remotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:girr="http://www.harctoolbox.org/schemas/girr.xsd" title="Translated by harc2girr" girrVersion="1.0" xsi:noNamespaceSchemaLocation="http://www.harctoolbox.org/schemas/girr.xsd">
+    <remote deviceClass="misc_audio" manufacturer="Marantz" model="is201" name="Marantz IS201 iPod dock">
+        <commandSet name="rc5_14_">
+            <parameters protocol="rc5">
+                <parameter name="D" value="14"/>
+            </parameters>
+            <command name="power_toggle" F="12"/>
+            <command name="mute_toggle" F="13"/>
+        </commandSet>
+        <commandSet name="rc5x_14_12">
+            <parameters protocol="rc5x">
+                <parameter name="D" value="14"/>
+                <parameter name="S" value="12"/>
+            </parameters>
+            <command name="power_on" F="01" comment="Power On iPod"/>
+            <command name="power_off" F="02" comment="Power Off iPod (Charging)"/>
+        </commandSet>
+        <commandSet name="rc5x_14_13">
+            <parameters protocol="rc5x">
+                <parameter name="D" value="14"/>
+                <parameter name="S" value="13"/>
+            </parameters>
+            <command name="mute_on" F="00" comment="Mute On"/>
+            <command name="mute_off" F="01" comment="Mute Off"/>
+        </commandSet>
+        <commandSet name="rc5x_14_28">
+            <parameters protocol="rc5x">
+                <parameter name="D" value="14"/>
+                <parameter name="S" value="28"/>
+            </parameters>
+            <command name="repeat" F="01" comment="Select Repeat mode (1Track &gt; All &gt; Repeat Off ) togle"/>
+            <command name="repeat_track" F="02" comment="Repeat Track"/>
+            <command name="repeat_all" F="03" comment="Repeat All"/>
+            <command name="repeat_off" F="04" comment="Repeat Off"/>
+        </commandSet>
+        <commandSet name="rc5x_14_29">
+            <parameters protocol="rc5x">
+                <parameter name="D" value="14"/>
+                <parameter name="S" value="29"/>
+            </parameters>
+            <command name="shuffle" F="01" comment="Select Shuffle mode (Song &gt;Album &gt; Shuffle Off) toggle"/>
+            <command name="shuffle_songs" F="02" comment="Shuffle by Songs"/>
+            <command name="shuffle_albums" F="03" comment="Shuffle by Albums"/>
+            <command name="shuffle_off" F="04" comment="Shuffle Off"/>
+        </commandSet>
+        <!--commandSet name="rc5x_14_13">
+            <parameters protocol="rc5x">
+                <parameter name="D" value="14"/>
+                <parameter name="S" value="13"/>
+            </parameters>
+            <command name="fast_forward" F="01" comment="Fast Forward"/>
+        </commandSet-->
+        <commandSet name="rc5x_14_31">
+            <parameters protocol="rc5x">
+                <parameter name="D" value="14"/>
+                <parameter name="S" value="31"/>
+            </parameters>
+            <command name="rewind" F="01"/>
+        </commandSet>
+        <commandSet name="rc5x_14_32">
+            <parameters protocol="rc5x">
+                <parameter name="D" value="14"/>
+                <parameter name="S" value="32"/>
+            </parameters>
+            <command name="next" F="01" comment="Next Track"/>
+            <command name="next_album" F="02" comment="Select Next Album"/>
+            <command name="next_playlist" F="03" comment="Select Next Playlist"/>
+        </commandSet>
+        <commandSet name="rc5x_14_33">
+            <parameters protocol="rc5x">
+                <parameter name="D" value="14"/>
+                <parameter name="S" value="33"/>
+            </parameters>
+            <command name="previous" F="01" comment="Previous Track"/>
+            <command name="previous_album" F="02" comment="Select Previous Album"/>
+            <command name="previous_playlist" F="03" comment="Select Previous Playlist"/>
+        </commandSet>
+        <commandSet name="rc5x_14_36">
+            <parameters protocol="rc5x">
+                <parameter name="D" value="14"/>
+                <parameter name="S" value="36"/>
+            </parameters>
+            <command name="operation_mode" F="01" comment="Operation mode (Display OSD &gt; Display LCD on iPod) toggle"/>
+            <command name="mode_osd_sidplay" F="02" comment="OSD Display mode (2way control)"/>
+            <command name="mode_ipod_lcd_display" F="03" comment="iPod LCD Display mode (Standard mode)"/>
+        </commandSet>
+        <commandSet name="rc5x_14_41">
+            <parameters protocol="rc5x">
+                <parameter name="D" value="14"/>
+                <parameter name="S" value="41"/>
+            </parameters>
+            <command name="sort" F="01" comment="Sort mode (Artist/Album/Song/Genre/Composer/Play list/Podcasting/Audiobook) toggle"/>
+            <command name="sort_artist" F="02" comment="Sort by Artist"/>
+            <command name="sort_album" F="03" comment="Sort by Album"/>
+            <command name="sort_song" F="04" comment="Sort by Song"/>
+            <command name="sort_genres" F="05" comment="Sort by Genres"/>
+            <command name="sort_composer" F="06" comment="Sort byComposer"/>
+            <command name="sort_playlist" F="07" comment="Sort by Play-List"/>
+            <command name="sort_podcasting" F="08" comment="Sort by Podcasting"/>
+            <command name="sort_audiobook" F="09" comment="Sort by Audio Books"/>
+        </commandSet>
+        <commandSet name="rc5x_14_48">
+            <parameters protocol="rc5x">
+                <parameter name="D" value="14"/>
+                <parameter name="S" value="48"/>
+            </parameters>
+            <command name="pause_toggle" F="01" comment="Pause"/>
+        </commandSet>
+        <commandSet name="rc5x_14_53">
+            <parameters protocol="rc5x">
+                <parameter name="D" value="14"/>
+                <parameter name="S" value="53"/>
+            </parameters>
+            <command name="play_pause" F="01" comment="Play/Pause toggle"/>
+            <command name="play" F="02" comment="Play"/>
+        </commandSet>
+        <commandSet name="rc5x_14_54">
+            <parameters protocol="rc5x">
+                <parameter name="D" value="14"/>
+                <parameter name="S" value="54"/>
+            </parameters>
+            <command name="stop" F="01"/>
+        </commandSet>
+        <commandSet name="rc5x_14_80">
+            <parameters protocol="rc5x">
+                <parameter name="D" value="14"/>
+                <parameter name="S" value="80"/>
+            </parameters>
+            <command name="up" F="01" comment="Select contents up"/>
+        </commandSet>
+        <commandSet name="rc5x_14_81">
+            <parameters protocol="rc5x">
+                <parameter name="D" value="14"/>
+                <parameter name="S" value="81"/>
+            </parameters>
+            <command name="down" F="01" comment="Select contents down"/>
+        </commandSet>
+        <commandSet name="rc5x_14_82">
+            <parameters protocol="rc5x">
+                <parameter name="D" value="14"/>
+                <parameter name="S" value="82"/>
+            </parameters>
+            <command name="menu" F="01" comment="Menu or Return "/>
+        </commandSet>
+        <commandSet name="rc5x_14_87">
+            <parameters protocol="rc5x">
+                <parameter name="D" value="14"/>
+                <parameter name="S" value="87"/>
+            </parameters>
+            <command name="ok" F="01" comment="Enter "/>
+        </commandSet>
+    </remote>
+</remotes>

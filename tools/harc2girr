@@ -1,0 +1,7 @@
+#!/bin/sh
+
+XHOME="$(dirname -- "$(readlink -f -- "${0}")" )"
+arg=$1
+out=`echo $arg|sed -e s/.xml$/.girr/`
+
+xsltproc --xinclude -o $out ${XHOME}/../stylesheets/harc2girr.xsl $arg

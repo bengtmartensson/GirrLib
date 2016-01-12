@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?><!--This file is in the Girr (General IR Remote) format, see http://www.harctoolbox.org/Girr.html--><remotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" girrVersion="1.0" title="IrScrutinizer parametric export" xsi:noNamespaceSchemaLocation="http://www.harctoolbox.org/schemas/girr.xsd">
+    <adminData>
+        <creationData creatingUser="bengt" creationDate="2016-01-12_15:42:17" source="IrScrutinizer parametrized table" tool="IrScrutinizer" tool2="DecodeIR" tool2Version="2.45" toolVersion="1.1.4snapshot"/>
+    </adminData>
+    <remote comment="Export from IrScrutinizer" name="unnamed">
+        <commandSet name="commandSet">
+            <command comment="" master="parameters" name="volume_up">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="18"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="volume_down">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="19"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="channel_up">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="16"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="channel_down">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="17"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="in_av">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="37"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="mute_toggle">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="20"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="power_toggle">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="21"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="power_on">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="46"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="power_off">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="47"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="contrast_up">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="24"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="contrast_down">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="25"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="color_up">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="30"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="color_down">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="31"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="info">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="58"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="cmd_1">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="0"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="cmd_2">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="1"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="cmd_3">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="2"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="cmd_4">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="3"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="cmd_5">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="4"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="cmd_6">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="5"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="cmd_7">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="6"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="cmd_8">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="7"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="cmd_9">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="8"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="cmd_0">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="9"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="two_digit">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="57"/>
+                </parameters>
+            </command>
+        </commandSet>
+    </remote>
+</remotes>

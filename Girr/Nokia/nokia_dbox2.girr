@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
+<remotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:girr="http://www.harctoolbox.org/schemas/girr.xsd" title="Translated by harc2girr" girrVersion="1.0" xsi:noNamespaceSchemaLocation="http://www.harctoolbox.org/schemas/girr.xsd">
+    <remote deviceClass="sat" manufacturer="Nokia" model="dbox2" name="dbox2">
+        <commandSet name="nokia_dbox">
+            <parameters protocol="nrc17">
+                <parameter name="D" value="12"/>
+                <parameter name="S" value="5"/>
+            </parameters>
+            <command name="cmd_0" 	F="0"/>
+            <command name="cmd_1"     	F="1"/>
+            <command name="cmd_2"     	F="2"/>
+            <command name="cmd_3"     	F="3"/>
+            <command name="cmd_4"     	F="4"/>
+            <command name="cmd_5"     	F="5"/>
+            <command name="cmd_6"     	F="6"/>
+            <command name="cmd_7"     	F="7"/>
+            <command name="cmd_8"     	F="8"/>
+            <command name="cmd_9"     	F="9"/>
+            <command name="right"       F="46"/>
+            <command name="left"  	F="47"/>
+            <command name="up"    	F="14"/>
+            <command name="down"  	F="15"/>
+            <command name="ok"    	F="48"/>
+            <command name="mute_toggle" F="40"/>
+            <command name="power_toggle" F="12"/>
+            <command name="green" 	F="85"/>
+            <command name="yellow" 	F="82"/>
+            <command name="red"   	F="45"/>
+            <command name="blue"  	F="59"/>
+            <command name="volume_up" 	F="22"/>
+            <command name="volume_down" F="23"/>
+            <command name="info"  	F="130"/>
+            <command name="setup" 	F="39"/>
+            <command name="home"  	F="32"/>
+
+            <!-- The "double arrows" (?) on very old remotes -->
+            <command name="page_down" 	F="83"/>
+            <command name="page_up" 	F="84"/>
+
+            <!-- Not present on most remotes. -->
+            <command name="topleft" 	F="255"/>
+            <command name="topright" 	F="251"/>
+            <command name="bottomleft" 	F="253"/>
+            <command name="bottomright" F="252"/>
+        </commandSet>
+    </remote>
+</remotes>

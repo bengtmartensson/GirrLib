@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
+<remotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:girr="http://www.harctoolbox.org/schemas/girr.xsd" title="Translated by harc2girr" girrVersion="1.0" xsi:noNamespaceSchemaLocation="http://www.harctoolbox.org/schemas/girr.xsd">
+    <remote deviceClass="sat" manufacturer="Coolstream" model="neo" name="coolstream_neo">
+        <commandSet name="nec1_128">
+            <parameters protocol="nec1">
+                <parameter name="D" value="128"/>
+                <parameter name="S" value="255"/>
+            </parameters>
+            <command name="power_toggle" F="10"/>
+            <command name="mute_toggle" F="13"/>
+            <command name="tv_radio" F="29"/>
+            <command name="aspectratio" F="95"/>
+            <command name="aspectratio_for_4_3" F="90"/>
+            <command name="resolution" F="64"/>
+            <command name="satellites" F="4"/>
+            <command name="sleep" F="46"/>
+            <command name="audio" F="73"/>
+            <command name="cmd_0x0f" F="15"/>
+            <command name="cmd_0x2f" F="47"/>
+            <command name="cmd_0x3f" F="63"/>
+            <command name="cmd_0x3e" F="62"/>
+            <command name="cmd_0x3c" F="60"/>
+            <command name="cmd_1" F="17"/>
+            <command name="cmd_2" F="18"/>
+            <command name="cmd_3" F="19"/>
+            <command name="cmd_4" F="20"/>
+            <command name="cmd_5" F="21"/>
+            <command name="cmd_6" F="22"/>
+            <command name="cmd_7" F="23"/>
+            <command name="cmd_8" F="24"/>
+            <command name="cmd_9" F="25"/>
+            <command name="cmd_0" F="16"/>
+            <command name="teletext" F="6"/>
+            <command name="favorites" F="27"/>
+            <command name="volume_up" F="14"/>
+            <command name="volume_down" F="72"/>
+            <command name="page_up" F="76"/>
+            <command name="page_down" F="7"/>
+            <command name="up" F="0"/>
+            <command name="left" F="3"/>
+            <command name="right" F="2"/>
+            <command name="down" F="1"/>
+            <command name="ok" F="31"/>
+            <command name="epg" F="30"/>
+            <command name="info" F="11"/>
+            <command name="setup" F="26"/>
+            <command name="home" F="28"/>
+            <command name="red" F="5"/>
+            <command name="green" F="9"/>
+            <command name="yellow" F="66"/>
+            <command name="blue" F="67"/>
+            <command name="rewind" F="68"/>
+            <command name="play" F="70"/>
+            <command name="fast_forward" F="69"/>
+            <command name="stop" F="71"/>
+            <command name="record_toggle" F="89"/>
+            <command name="pause_toggle" F="65"/>
+            <command name="games_mode" F="12"/>
+            <command name="timeshift" F="94"/>
+        </commandSet>
+    </remote>
+</remotes>

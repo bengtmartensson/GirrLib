@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?><!--This file is in the Girr (General IR Remote) format, see http://www.harctoolbox.org/Girr.html--><remotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" girrVersion="1.0" title="IrScrutinizer parametric export" xsi:noNamespaceSchemaLocation="http://www.harctoolbox.org/schemas/girr.xsd">
+    <adminData>
+        <creationData creatingUser="bengt" creationDate="2016-01-12_15:49:14" source="IrScrutinizer parametrized table" tool="IrScrutinizer" tool2="DecodeIR" tool2Version="2.45" toolVersion="1.1.4snapshot"/>
+    </adminData>
+    <remote comment="Export from IrScrutinizer" name="unnamed">
+        <commandSet name="commandSet">
+            <command comment="" master="parameters" name="cmd_0">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="208"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="cmd_1">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="64"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="cmd_2">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="192"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="cmd_3">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="32"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="cmd_4">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="160"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="cmd_5">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="96"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="cmd_6">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="224"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="cmd_7">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="16"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="cmd_8">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="144"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="cmd_9">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="80"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="next">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="136"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="a_b">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="20"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="audio">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="164"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="yellow">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="196"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="home">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="212"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="open_close">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="128"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="slow_reverse">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="240"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="repeat">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="228"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="slow_forward">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="8"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="marker">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="148"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="power_toggle">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="0"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="play_pause">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="40"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="rewind">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="72"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="fast_forward">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="168"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="stop">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="200"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="ok">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="56"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="title">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="184"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="up">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="24"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="down">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="152"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="left">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="216"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="right">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="88"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="info">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="120"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="cmd_return">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="232"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="previous">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="176"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="dvd_menu">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="104"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="subtitle">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="100"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="zoom">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="84"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="slow">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="112"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="cancel">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="248"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="scene_search">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="48"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="menu">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="4"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="red">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="132"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="green">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="68"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="blue">
+                <parameters protocol="samsung36">
+                    <parameter name="D" value="32"/>
+                    <parameter name="F" value="36"/>
+                </parameters>
+            </command>
+        </commandSet>
+    </remote>
+</remotes>

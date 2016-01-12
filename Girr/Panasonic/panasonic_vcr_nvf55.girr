@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
+<remotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:girr="http://www.harctoolbox.org/schemas/girr.xsd" title="Translated by harc2girr" girrVersion="1.0" xsi:noNamespaceSchemaLocation="http://www.harctoolbox.org/schemas/girr.xsd">
+    <remote deviceClass="dvd" manufacturer="Panasonic" model="S75" name="Panasonic DVD S75">
+        <commandSet name="panasonic_144_0">
+            <parameters protocol="panasonic">
+                <parameter name="D" value="144"/>
+                <parameter name="S" value="0"/>
+            </parameters>
+            <command name="still_advance" F="6"/>
+            <command name="stop" F="0"/>
+            <command name="rewind" F="2"/>
+            <command name="play" F="10"/>
+            <command name="fast_forward" F="3"/>
+            <command name="record_on" F="8"/>
+            <command name="slow_down" F="143"/>
+            <command name="slow" F="15"/>
+            <command name="slow_up" F="142"/>
+            <command name="clock_counter" F="86"/>
+            <command name="tape_remaining" F="85"/>
+            <command name="reset" F="84"/>
+            <command name="monitor" F="145"/>
+            <command name="vcr_tv" F="54"/>
+            <command name="input_select" F="192"/>
+            <command name="index" F="64"/>
+            <command name="time_search" F="68"/>
+            <command name="tracking_down" F="178"/>
+            <command name="tracking_up" F="177"/>
+            <command name="repeat" F="249"/>
+            <command name="memory" F="244"/>
+            <command name="sleep" F="242"/>
+            <command name="auto_rewind" F="243"/>
+            <command name="audio" F="51"/>
+            <command name="cmd_1" F="16"/>
+            <command name="cmd_2" F="17"/>
+            <command name="cmd_3" F="18"/>
+            <command name="cmd_4" F="19"/>
+            <command name="cmd_5" F="20"/>
+            <command name="cmd_6" F="21"/>
+            <command name="cmd_7" F="22"/>
+            <command name="cmd_8" F="23"/>
+            <command name="cmd_9" F="24"/>
+            <command name="cmd_0" F="25"/>
+            <command name="two_digit" F="59"/>
+            <command name="timer" F="180"/>
+            <command name="pal_secam" F="201"/>
+        </commandSet>
+    </remote>
+</remotes>

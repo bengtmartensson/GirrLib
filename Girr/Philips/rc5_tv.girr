@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+
+  <?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
+        <remotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:girr="http://www.harctoolbox.org/schemas/girr.xsd" title="Translated by harc2girr" girrVersion="1.0" xsi:noNamespaceSchemaLocation="http://www.harctoolbox.org/schemas/girr.xsd"><remote deviceClass="tv" manufacturer="" model="" name="Canonical RC5 TV">
+        <commandSet name="rc5_0_">
+            <parameters protocol="rc5"><parameter name="D" value="0"/></parameters>
+        <command name="cmd_0" F="0"/>
+        <command name="cmd_1" F="1"/>
+        <command name="cmd_2" F="2"/>
+        <command name="cmd_3" F="3"/>
+        <command name="cmd_4" F="4"/>
+        <command name="cmd_5" F="5"/>
+        <command name="cmd_6" F="6"/>
+        <command name="cmd_7" F="7"/>
+        <command name="cmd_8" F="8"/>
+        <command name="cmd_9" F="9"/>
+        <command name="power_toggle" F="12"/>
+        <command name="in_tv" F="63"/>
+        <command name="channel_up" F="32"/>
+        <command name="channel_down" F="33"/>
+        <command name="mute_toggle" F="13"/>
+        <command name="last_channel" F="34"/>
+        <command name="volume_up" F="16"/>
+        <command name="volume_down" F="17"/>
+        <command name="PP" F="14"/>
+        <command name="info" F="15"/>
+        <command name="brightness_down" F="19"/>
+        <command name="brightness_up" F="18"/>
+            </commandSet></remote></remotes>
+

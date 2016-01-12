@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
+        <remotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:girr="http://www.harctoolbox.org/schemas/girr.xsd" title="Translated by harc2girr" girrVersion="1.0" xsi:noNamespaceSchemaLocation="http://www.harctoolbox.org/schemas/girr.xsd"><remote deviceClass="misc_audio" manufacturer="Vicanco" model="avc5" name="AVControl 5">
+        <commandSet name="recs80_5_">
+            <parameters protocol="recs80"><parameter name="D" value="5"/></parameters>
+        <command name="in_tv" F="13"/>
+        <command name="in_vcr" F="1"/>
+        <command name="in_dvd" F="3"/>
+        <command name="in_sat" F="7"/>
+        <command name="in_dvb_t" F="2"/>
+        <command name="in_aux" F="9"/>
+        <command name="lock_input" F="10"/>
+            </commandSet></remote></remotes>

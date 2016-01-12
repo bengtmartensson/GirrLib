@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+
+  <?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
+        <remotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:girr="http://www.harctoolbox.org/schemas/girr.xsd" title="Translated by harc2girr" girrVersion="1.0" xsi:noNamespaceSchemaLocation="http://www.harctoolbox.org/schemas/girr.xsd"><remote deviceClass="receiver" manufacturer="Yamaha" model="RX-V 596" name="Yamaha RX-V 596 Receiver">
+        <commandSet name="nec1_122_">
+            <parameters protocol="nec1"><parameter name="D" value="122"/></parameters>
+        <command name="in_phono" F="0x14"/>
+        <command name="in_cd" F="0x15"/>
+        <command name="in_tuner" F="0x16"/>
+        <command name="in_tape_mon" F="0x18"/>
+        <command name="in_dvd" F="0x17"/>
+        <command name="in_dtv" F="0x54"/>
+        <command name="in_cable" F="0xc0"/>
+        <command name="in_vcr" F="0x0f"/>
+        <command name="in_video_aux" F="0x55"/>
+        <command name="volume_up" F="0x1a"/>
+        <command name="volume_down" F="0x1b"/>
+        <command name="power_on" F="0x1d"/>
+        <command name="power_off" F="0x1e"/>
+        <command name="power_toggle" F="0x1f"/>
+        <command name="mute_toggle" F="0x1c"/>
+        <command name="ext_input_toggle" F="0x87"/>
+        <command name="osd" F="0xc2"/>
+        <command name="sleep" F="0x57"/>
+        <command name="menu" F="0x9c"/>
+        <command name="stereo" F="0x88"/>
+        <command name="hall" F="0x89"/>
+        <command name="jazz_club" F="0x8a"/>
+        <command name="rock_concert" F="0x8b"/>
+        <command name="entertainment" F="0x8c"/>
+        <command name="music_video" F="0x8d"/>
+        <command name="tv_theatre" F="0x8e"/>
+        <command name="movie_theatre" F="0x8f"/>
+        <command name="thx" F="0x90"/>
+        <command name="dolby_dts" F="0x91"/>
+        <command name="ok" F="0x96"/>
+        <command name="night_toggle" F="0x95"/>
+        <command name="ex_es" F="0x97"/>
+        <command name="effect_toggle" F="0x56"/>
+        <command name="effect_level_select" F="0x86"/>
+        <command name="test_mode" F="0x85"/>
+        <command name="up" F="0x98"/>
+        <command name="down" F="0x99"/>
+        <command name="plus" F="0x52"/>
+        <command name="minus" F="0x53"/>
+        <command name="preset_page_toggle" F="0x12"/>
+        <command name="channel_up" F="0x10"/>
+        <command name="channel_down" F="0x11"/>
+        <command name="service_menu" F="0xdf"/>
+        <command name="page_a" F="0xe0"/>
+        <command name="page_b" F="0xe1"/>
+        <command name="page_c" F="0xe2"/>
+        <command name="page_d" F="0xe3"/>
+        <command name="page_e" F="0xe4"/>
+        <command name="cmd_1" F="0xe5"/>
+        <command name="cmd_2" F="0xe6"/>
+        <command name="cmd_3" F="0xe7"/>
+        <command name="cmd_4" F="0xe8"/>
+        <command name="cmd_5" F="0xe9"/>
+        <command name="cmd_6" F="0xea"/>
+        <command name="cmd_7" F="0xeb"/>
+        <command name="cmd_8" F="0xec"/>
+            </commandSet></remote></remotes>
+

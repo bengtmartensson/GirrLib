@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?><!--This file is in the Girr (General IR Remote) format, see http://www.harctoolbox.org/Girr.html--><remotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" girrVersion="1.0" title="IrScrutinizer parametric export" xsi:noNamespaceSchemaLocation="http://www.harctoolbox.org/schemas/girr.xsd">
+    <adminData>
+        <creationData creatingUser="bengt" creationDate="2016-01-12_15:39:11" source="IrScrutinizer parametrized table" tool="IrScrutinizer" tool2="DecodeIR" tool2Version="2.45" toolVersion="1.1.4snapshot"/>
+    </adminData>
+    <remote comment="Export from IrScrutinizer" name="unnamed">
+        <commandSet name="commandSet">
+            <command comment="" master="parameters" name="cmd_0">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="27"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="cmd_1">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="65"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="cmd_2">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="3"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="cmd_3">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="66"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="cmd_4">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="69"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="cmd_5">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="7"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="cmd_6">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="70"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="cmd_7">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="85"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="cmd_8">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="23"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="cmd_9">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="86"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="caps_num">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="90"/>
+                </parameters>
+            </command>
+            <command comment="power + delete to shutdown" master="parameters" name="delete">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="89"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="mute_toggle">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="81"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="page_up">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="78"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="page_down">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="82"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="power_toggle">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="74"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="cmd_return">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="71"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="source">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="5"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="info">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="75"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="home">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="9"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="up">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="6"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="down">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="10"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="left">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="67"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="right">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="1"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="ok">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="2"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="file_mode">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="72"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="setup">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="15"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="suspend">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="77"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="tv_mode">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="19"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="play">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="80"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="pause_toggle">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="84"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="reverse">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="14"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="fast_forward">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="13"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="stop">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="76"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="slow">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="21"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="next">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="17"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="previous">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="18"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="repeat">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="87"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="zoom">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="25"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="angle">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="22"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="audio">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="26"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="title">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="79"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="subtitle">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="88"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="time_search">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="91"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="red">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="95"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="green">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="30"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="yellow">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="92"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="blue">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="29"/>
+                </parameters>
+            </command>
+            <command comment="power + open/close to reset" master="parameters" name="open_close">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="68"/>
+                </parameters>
+            </command>
+            <command comment="" master="parameters" name="menu">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="203"/>
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="83"/>
+                </parameters>
+            </command>
+        </commandSet>
+    </remote>
+</remotes>

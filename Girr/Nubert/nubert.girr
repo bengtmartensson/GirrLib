@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
+<remotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:girr="http://www.harctoolbox.org/schemas/girr.xsd" title="Translated by harc2girr" girrVersion="1.0" xsi:noNamespaceSchemaLocation="http://www.harctoolbox.org/schemas/girr.xsd">
+    <remote deviceClass="misc_audio" manufacturer="Nubert" model="" name="Nubert Subwoofer">
+        <commandSet name="f12_1_1">
+            <parameters protocol="f12">
+                <parameter name="D" value="1"/>
+                <parameter name="S" value="1"/>
+            </parameters>
+            <command name="volume_down" F="16"/>
+            <command name="volume_up" F="32"/>
+            <command name="frequency_down" F="8"/>
+            <command name="frequency_up" F="4"/>
+        </commandSet>
+    </remote>
+</remotes>

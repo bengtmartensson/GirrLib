@@ -1,0 +1,338 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
+<remotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:girr="http://www.harctoolbox.org/schemas/girr.xsd" title="Translated by harc2girr" girrVersion="1.0" xsi:noNamespaceSchemaLocation="http://www.harctoolbox.org/schemas/girr.xsd">
+    <remote deviceClass="receiver" manufacturer="Denon" model="AVR-3808" name="Denon AVR-3808 Receiver">
+        <!-- There are non-unique command names here, making the document invalid.
+        Relaxing this requirement is planned, see https://github.com/bengtmartensson/harctoolboxbundle/issues/85 -->
+        <commandSet name="denon_2_">
+            <parameters protocol="denon">
+                <parameter name="D" value="2"/>
+            </parameters>
+            <command name="zone3_tuner" F="072"/>
+            <command name="zone3_phono" F="073"/>
+            <command name="zone3_cd" F="074"/>
+            <command name="zone3_dvd" F="078"/>
+            <command name="zone3_hdp" F="079"/>
+            <command name="zone3_tv_cbl" F="082"/>
+            <command name="zone3_sat" F="083"/>
+            <command name="zone3_vcr" F="084"/>
+            <command name="zone3_dvr" F="085"/>
+            <command name="zone3_video_aux" F="087"/>
+            <command name="zone2_toggle" F="093"/>
+            <command name="zone3_volume_down" F="101"/>
+            <command name="zone3_volume_up" F="102"/>
+            <command name="pure_direct" F="106"/>
+            <command name="zone1_on" F="121"/>
+            <command name="zone1_off" F="122"/>
+            <command name="zone2_on" F="123"/>
+            <command name="zone2_off" F="124"/>
+            <command name="zone3_on" F="125"/>
+            <command name="zone3_off" F="126"/>
+            <command name="power_toggle" F="193"/>
+            <command name="fl_level_up" F="194"/>
+            <command name="in_phono" F="195"/>
+            <command name="in_cd" F="196"/>
+            <command name="in_tuner" F="197"/>
+            <command name="fl_level_down" F="199"/>
+            <command name="in_sat" F="200"/>
+            <command name="in_tv_cbl" F="201"/>
+            <command name="in_hdp" F="202"/>
+            <command name="fr_level_up" F="203"/>
+            <command name="in_video_aux" F="204"/>
+            <command name="in_vcr" F="205"/>
+            <command name="in_dvr" F="206"/>
+            <command name="fr_level_down" F="208"/>
+            <command name="sr_level_up" F="214"/>
+            <command name="sr_level_down" F="215"/>
+            <command name="video_select" F="216"/>
+            <command name="input_mode_analog" F="220"/>
+            <command name="right" F="221"/>
+            <command name="osd" F="223" comment="menu-&gt;status"/>
+            <command name="ok" F="224"/>
+            <command name="power_on" F="225"/>
+            <command name="power_off" F="226"/>
+            <command name="in_dvd" F="227"/>
+            <command name="standard_dolby_dts_surr" F="228"/>
+            <command name="sw_level_down" F="229"/>
+            <command name="soundfield" F="230"/>
+            <command name="sb_level_up" F="231"/>
+            <command name="test_tone" F="234"/>
+            <command name="sb_level_down" F="235"/>
+            <command name="sw_level_up" F="236"/>
+            <command name="main_spk_toggle" F="237"/>
+            <command name="mute_toggle" F="240"/>
+            <command name="volume_up" F="241"/>
+            <command name="volume_down" F="242"/>
+            <command name="sl_level_up" F="243"/>
+            <command name="sl_level_down" F="244"/>
+            <command name="c_level_up" F="245"/>
+            <command name="c_level_down" F="246"/>
+            <command name="sbr_level_up" F="247"/>
+            <command name="sbr_level_down" F="248"/>
+            <command name="tone_defeat_on" F="249"/>
+            <command name="tone_defeat_off" F="250"/>
+        </commandSet>
+        <commandSet name="denon_4_">
+            <parameters protocol="denon">
+                <parameter name="D" value="4"/>
+            </parameters>
+            <command name="movie_theatre" F="129"/>
+            <command name="super_stadium" F="130"/>
+            <command name="rock_concert" F="131"/>
+            <command name="jazz_club" F="132"/>
+            <command name="hall" F="133"/>
+            <command name="mono_movie" F="134"/>
+            <command name="matrix" F="135"/>
+            <command name="game" F="136"/>
+            <command name="virtual" F="137"/>
+            <command name="dts_neo_6_cinema" F="141"/>
+            <command name="dts_neo_6_music" F="142"/>
+            <command name="dolby_pl_ii_cinema" F="143"/>
+            <command name="dolby_pl_ii_music" F="144"/>
+            <command name="dolby_pl" F="145" comment="last selected version"/>
+            <command name="cinema_mode" F="149"/>
+            <command name="music_mode" F="150"/>
+            <command name="game_mode" F="151"/>
+            <command name="room_eq" F="157"/>
+            <command name="input_mode_auto" F="179"/>
+            <command name="input_mode_ext_in" F="183"/>
+        </commandSet>
+        <commandSet name="denon_12_">
+            <parameters protocol="denon">
+                <parameter name="D" value="12"/>
+            </parameters>
+            <command name="left" F="127"/>
+            <command name="bass_down" F="128"/>
+            <command name="surround_back" F="130"/>
+            <command name="master_vol_preset1" F="131"/>
+            <command name="master_vol_preset2" F="133"/>
+            <command name="master_vol_preset3" F="134"/>
+            <command name="zone2_vol_preset1" F="135"/>
+            <command name="zone2_vol_preset2" F="136"/>
+            <command name="zone2_vol_preset3" F="137"/>
+            <command name="zone2_sat" F="138"/>
+            <command name="zone3_vol_preset1" F="140"/>
+            <command name="zone2_volume_up" F="141"/>
+            <command name="zone2_volume_down" F="142"/>
+            <command name="zone2_phono" F="143"/>
+            <command name="zone2_cd" F="144"/>
+            <command name="zone2_tuner" F="145"/>
+            <command name="zone2_hdp" F="146"/>
+            <command name="zone2_video_aux" F="147"/>
+            <command name="zone2_vcr" F="148"/>
+            <command name="multi_preset_up" F="150"/>
+            <command name="multi_preset_down" F="151"/>
+            <command name="zone2_dvr" F="153"/>
+            <command name="zone2_tv_cbl" F="155"/>
+            <command name="stereo" F="157"/>
+            <command name="direct" F="158"/>
+            <command name="zone3_vol_preset2" F="159"/>
+            <command name="setup" F="160"/>
+            <command name="surround_parameters" F="161" comment="shortcut into menu"/>
+            <command name="zone3_vol_preset3" F="162"/>
+            <command name="up" F="163"/>
+            <command name="down" F="164"/>
+            <command name="cmd_7ch_stereo" F="168"/>
+            <command name="tuner_shift_f" F="171"/>
+            <command name="tuner_shift_g" F="174"/>
+            <command name="input_mode_ext_in" F="181"/>
+            <command name="input_mode" F="182"/>
+            <command name="treble_up" F="183"/>
+            <command name="treble_down" F="184"/>
+            <command name="tuner_shift_a" F="185"/>
+            <command name="tuner_shift_b" F="186"/>
+            <command name="tuner_shift_c" F="187"/>
+            <command name="tuner_shift_d" F="188"/>
+            <command name="tuner_shift_e" F="189"/>
+            <command name="zone2_dvd" F="190"/>
+            <command name="bass_up" F="191"/>
+            <command name="tuner_preset_ch_1" F="193"/>
+            <command name="tuner_preset_ch_2" F="194"/>
+            <command name="tuner_preset_ch_3" F="195"/>
+            <command name="tuner_preset_ch_4" F="196"/>
+            <command name="tuner_preset_ch_5" F="197"/>
+            <command name="tuner_preset_ch_6" F="198"/>
+            <command name="tuner_preset_ch_7" F="199"/>
+            <command name="tuner_preset_ch_8" F="200"/>
+            <command name="tuner_memory" F="204"/>
+            <command name="tuner_shift" F="205"/>
+            <command name="tuner_rt" F="206"/>
+            <command name="tuner_rds" F="210"/>
+            <command name="tuner_pty" F="212"/>
+            <command name="channel_down" F="213"/>
+            <command name="channel_up" F="214"/>
+            <command name="tuner_band" F="215"/>
+            <command name="tuner_tuning_mode" F="216"/>
+            <command name="frequency_up" F="217"/>
+            <command name="frequency_down" F="218"/>
+            <command name="dimmer" F="223"/>
+        </commandSet>
+        <commandSet name="denon_k_4_1">
+            <parameters protocol="denon_k">
+                <parameter name="D" value="4"/>
+                <parameter name="S" value="1"/>
+            </parameters>
+            <command name="cmd_return" F="34"/>
+            <command name="menu" F="35"/>
+            <command name="quick1" F="292"/>
+            <command name="quick2" F="293"/>
+            <command name="quick3" F="294"/>
+            <command name="stereo_direct" F="305"/>
+            <command name="neural" F="347"/>
+            <command name="input_mode_hdmi" F="357"/>
+            <command name="input_mode_digital" F="359"/>
+            <command name="decode_mode" F="364"/>
+            <command name="restorer" F="548"/>
+            <command name="restorer_off" F="556"/>
+            <command name="restorer_1" F="557"/>
+            <command name="restorer_2" F="558"/>
+            <command name="restorer_3" F="559"/>
+            <command name="delay_time" F="620"/>
+            <command name="delay_time_up" F="621"/>
+            <command name="delay_time_down" F="622"/>
+            <command name="restorer_off" F="556"/>
+            <command name="get_status" F="645"/>
+            <command name="in_net_usb" F="711"/>
+            <command name="in_xm" F="714"/>
+            <command name="in_net" F="716"/>
+            <command name="in_ipod" F="717"/>
+            <command name="in_usb" F="718"/>
+            <command name="in_dvd_hdp" F="732"/>
+            <command name="in_vcr_dvr" F="735"/>
+            <command name="audyssey_dyn_vol_eq_on" F="745"/>
+            <command name="audyssey_dyn_eq_on" F="746"/>
+            <command name="audyssey_dyn_vol_eq_off" F="747"/>
+            <command name="audyssey_dyn_volume_midnight" F="748"/>
+            <command name="audyssey_dyn_volume_evening" F="749"/>
+            <command name="audyssey_dyn_volume_day" F="750"/>
+            <command name="repeat" F="956"/>
+            <command name="shuffle" F="957"/>
+            <command name="usb_direct_play" F="958"/>
+            <command name="favorite_direct_play" F="959"/>
+            <command name="channel_up" F="972"/>
+            <command name="channel_down" F="973"/>
+            <command name="search" F="983"/>
+            <command name="play_pause" F="992"/>
+            <command name="stop" F="993"/>
+            <command name="frequency_down" F="995"/>
+            <command name="frequency_up" F="996"/>
+            <command name="fm" F="153"/>
+            <command name="am" F="154"/>
+        </commandSet>
+        <commandSet name="denon_k_4_3">
+            <parameters protocol="denon_k">
+                <parameter name="D" value="4"/>
+                <parameter name="S" value="3"/>
+            </parameters>
+            <command name="zone2_up" F="27"/>
+            <command name="zone2_down" F="28"/>
+            <command name="zone2_left" F="29"/>
+            <command name="zone2_right" F="30"/>
+            <command name="zone2_ok" F="31"/>
+            <command name="zone2_return" F="34"/>
+            <command name="zone2_menu" F="35"/>
+            <command name="zone2_mute_toggle" F="370"/>
+            <command name="zone2_setup" F="560"/>
+            <command name="get_zone2_status" F="645"/>
+            <command name="zone2_net_usb" F="711"/>
+            <command name="zone2_xm" F="714"/>
+            <command name="zone2_net" F="716"/>
+            <command name="zone2_ipod" F="717"/>
+            <command name="zone2_usb" F="718"/>
+            <command name="zone2_video_aux" F="729"/>
+            <command name="zone2_dvd_hdp" F="732"/>
+            <command name="zone2_vcr_dvr" F="735"/>
+            <command name="zone2_repeat" F="956"/>
+            <command name="zone2_shuffle" F="957"/>
+            <command name="zone2_usb_direct_play" F="958"/>
+            <command name="zone2_favorite_direct_play" F="959"/>
+            <command name="zone2_channel_up" F="972"/>
+            <command name="zone2_channel_down" F="973"/>
+            <command name="zone2_channel_shift" F="974"/>
+            <command name="zone2_search" F="983"/>
+            <command name="zone2_play_pause" F="992"/>
+            <command name="zone2_stop" F="993"/>
+            <command name="zone2_frequency_down" F="995"/>
+            <command name="zone2_frequency_up" F="996"/>
+        </commandSet>
+        <commandSet name="denon_k_4_4">
+            <parameters protocol="denon_k">
+                <parameter name="D" value="4"/>
+                <parameter name="S" value="4"/>
+            </parameters>
+            <command name="zone2_toggle" F="5"/>
+            <command name="zone2_on" F="6"/>
+            <command name="zone2_off" F="7"/>
+        </commandSet>
+        <commandSet name="denon_k_4_5">
+            <parameters protocol="denon_k">
+                <parameter name="D" value="4"/>
+                <parameter name="S" value="5"/>
+            </parameters>
+            <command name="zone3_toggle" F="5"/>
+            <command name="zone3_up" F="27"/>
+            <command name="zone3_down" F="28"/>
+            <command name="zone3_left" F="29"/>
+            <command name="zone3_right" F="30"/>
+            <command name="zone3_ok" F="31"/>
+            <command name="zone3_return" F="34"/>
+            <command name="zone3_menu" F="35"/>
+            <command name="zone3_mute_toggle" F="370"/>
+            <command name="zone3_setup" F="560"/>
+            <command name="get_zone3_status" F="645"/>
+            <command name="zone3_net_usb" F="711"/>
+            <command name="zone3_xm" F="714"/>
+            <command name="zone3_net" F="716"/>
+            <command name="zone3_ipod" F="717"/>
+            <command name="zone3_usb" F="718"/>
+            <command name="zone3_video_aux" F="729"/>
+            <command name="zone3_dvd_hdp" F="732"/>
+            <command name="zone3_vcr_dvr" F="735"/>
+            <command name="zone3_repeat" F="956"/>
+            <command name="zone3_shuffle" F="957"/>
+            <command name="zone3_usb_direct_play" F="958"/>
+            <command name="zone3_favorite_direct_play" F="959"/>
+            <command name="zone3_channel_up" F="972"/>
+            <command name="zone3_channel_down" F="973"/>
+            <command name="zone3_channel_shift" F="974"/>
+            <command name="zone3_search" F="983"/>
+            <command name="zone3_play_pause" F="992"/>
+            <command name="zone3_stop" F="993"/>
+            <command name="zone3_frequency_down" F="995"/>
+            <command name="zone3_frequency_up" F="996"/>
+        </commandSet>
+        <commandSet name="denon_k_4_7">
+            <parameters protocol="denon_k">
+                <parameter name="D" value="4"/>
+                <parameter name="S" value="7"/>
+            </parameters>
+            <command name="cmd_0xff" F="27"/>
+        </commandSet>
+        <commandSet name="denon_k_2_3">
+            <parameters protocol="denon_k">
+                <parameter name="D" value="2"/>
+                <parameter name="S" value="3"/>
+            </parameters>
+            <command name="previous" F="5"/>
+            <command name="ipod_play_pause" F="1"/>
+            <command name="next" F="4"/>
+            <command name="ipod_menu" F="23"/>
+            <command name="shuffle" F="17"/>
+            <command name="repeat" F="16"/>
+            <command name="page_down" F="73"/>
+            <command name="page_up" F="74"/>
+            <command name="get_status" F="31"/>
+            <command name="ipod_stop" F="8"/>
+            <command name="fast_forward" F="21"/>
+            <command name="rewind" F="22"/>
+            <command name="browse_mode" F="46"/>
+            <command name="remote_mode" F="47"/>
+            <command name="shuffle_songs" F="64"/>
+            <command name="shuffle_albums" F="65"/>
+            <command name="shuffle_off" F="66"/>
+            <command name="repeat_one" F="67"/>
+            <command name="repeat_all" F="68"/>
+            <command name="repeat_off" F="69"/>
+        </commandSet>
+    </remote>
+</remotes>

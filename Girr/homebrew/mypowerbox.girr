@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
+<remotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:girr="http://www.harctoolbox.org/schemas/girr.xsd" title="Translated by harc2girr" girrVersion="1.0" xsi:noNamespaceSchemaLocation="http://www.harctoolbox.org/schemas/girr.xsd">
+    <remote deviceClass="ha" manufacturer="Bengt Martensson" model="xyz" name="mypowerbox">
+        <commandSet name="rc5_12_">
+            <parameters protocol="rc5">
+                <parameter name="D" value="12"/>
+            </parameters>
+            <command name="all_off" F="0"/>
+            <command name="cmd_1toggle" F="1"/>
+            <command name="cmd_2toggle" F="2"/>
+            <command name="cmd_3toggle" F="3"/>
+            <command name="cmd_4toggle" F="4"/>
+            <command name="cmd_5toggle" F="5"/>
+            <command name="cmd_6toggle" F="6"/>
+            <command name="cmd_7toggle" F="7"/>
+            <command name="cmd_8toggle" F="8"/>
+            <command name="all_on" F="9"/>
+            <command name="cmd_1on" F="11"/>
+            <command name="cmd_2on" F="12"/>
+            <command name="cmd_3on" F="13"/>
+            <command name="cmd_4on" F="14"/>
+            <command name="cmd_5on" F="15"/>
+            <command name="cmd_6on" F="16"/>
+            <command name="cmd_7on" F="17"/>
+            <command name="cmd_8on" F="18"/>
+            <command name="cmd_1off" F="21"/>
+            <command name="cmd_2off" F="22"/>
+            <command name="cmd_3off" F="23"/>
+            <command name="cmd_4off" F="24"/>
+            <command name="cmd_5off" F="25"/>
+            <command name="cmd_6off" F="26"/>
+            <command name="cmd_7off" F="27"/>
+            <command name="cmd_8off" F="28"/>
+        </commandSet>
+    </remote>
+</remotes>
+

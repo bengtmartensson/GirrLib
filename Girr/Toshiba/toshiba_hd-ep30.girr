@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
+        <remotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:girr="http://www.harctoolbox.org/schemas/girr.xsd" title="Translated by harc2girr" girrVersion="1.0" xsi:noNamespaceSchemaLocation="http://www.harctoolbox.org/schemas/girr.xsd"><remote deviceClass="dvd" manufacturer="" model="ep30" name="Toshiba HD EP30">
+        <commandSet name="nec1_69_181">
+            <parameters protocol="nec1"><parameter name="D" value="69"/><parameter name="S" value="181"/></parameters>
+        <command name="cmd_0" F="10"/>
+        <command name="cmd_1" F="1" comment="requires OK to select tracks"/>
+        <command name="cmd_2" F="2"/>
+        <command name="cmd_3" F="3"/>
+        <command name="cmd_4" F="4"/>
+        <command name="cmd_5" F="5"/>
+        <command name="cmd_6" F="6"/>
+        <command name="cmd_7" F="7"/>
+        <command name="cmd_8" F="8"/>
+        <command name="cmd_9" F="9"/>
+        <command name="plus10" F="37"/>
+        <command name="clear" F="239"/>
+        <command name="title_search" F="38"/>
+        <command name="up" F="128"/>
+        <command name="down" F="129"/>
+        <command name="left" F="81"/>
+        <command name="right" F="77"/>
+        <command name="ok" F="33"/>
+        <command name="pause_toggle" F="0"/>
+        <command name="play" F="21"/>
+        <command name="stop" F="20"/>
+        <command name="rewind" F="25"/>
+        <command name="fast_forward" F="19"/>
+        <command name="previous" F="35"/>
+        <command name="next" F="36"/>
+        <command name="cmd_return" F="34"/>
+        <command name="repeat" F="43"/>
+        <command name="slow" F="13"/>
+        <command name="a" F="52"/>
+        <command name="b" F="53"/>
+        <command name="c" F="54"/>
+        <command name="d" F="55"/>
+        <command name="audio" F="39"/>
+        <command name="subtitle" F="40"/>
+        <command name="angle" F="41"/>
+        <command name="dvd_menu" F="132"/>
+        <command name="title" F="222"/>
+        <command name="setup" F="32"/>
+        <command name="resolution" F="78"/>
+        <command name="display" F="22"/>
+        <command name="dimmer" F="65"/>
+        <command name="open_close" F="245"/>
+        <command name="power_toggle" F="18"/>
+        <command name="power_on" F="254"/>
+        <command name="power_off" F="147"/>
+        <command name="tray_lock_toggle" F="202"/>
+        <command name="factory_reset" F="205"/>
+        <command name="up_right" F="130"/>
+        <command name="down_right" F="131"/>
+        <command name="up_left" F="134"/>
+        <command name="down_left" F="133"/>
+        <command name="cancel" F="27"/>
+        <command name="resolution" F="196"/>
+        <command name="test_mode" F="197"/>
+        <command name="time" F="203"/>
+        <command name="firmware_version" F="207"/>
+            </commandSet></remote></remotes>

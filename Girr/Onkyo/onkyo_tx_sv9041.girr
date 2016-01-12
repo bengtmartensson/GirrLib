@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
+        <remotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:girr="http://www.harctoolbox.org/schemas/girr.xsd" title="Translated by harc2girr" girrVersion="1.0" xsi:noNamespaceSchemaLocation="http://www.harctoolbox.org/schemas/girr.xsd"><remote deviceClass="receiver" manufacturer="Onkyo" model="tx_sv9041" name="Onkyo TX-SV9041">
+        <commandSet name="nec1_210_109">
+            <parameters protocol="nec1"><parameter name="D" value="210"/><parameter name="S" value="109"/></parameters>
+        <command name="power_toggle" F="4"/>
+        <command name="sleep" F="93"/>
+        <command name="main_spk_toggle" F="89"/>
+        <command name="zone2_spk_toggle" F="90"/>
+        <command name="zone2_source" F="204"/>
+        <command name="in_tape1" F="8"/>
+        <command name="in_phono" F="10"/>
+        <command name="in_cd" F="9"/>
+        <command name="zone2_volume_up" F="194"/>
+        <command name="in_tuner" F="11"/>
+        <command name="in_tape2" F="7"/>
+        <command name="in_video1" F="15"/>
+        <command name="in_video2" F="14"/>
+        <command name="in_video3" F="13"/>
+        <command name="zone2_volume_down" F="195"/>
+        <command name="tuner_class_preset" F="74"/>
+        <command name="channel_up" F="0"/>
+        <command name="channel_down" F="1"/>
+        <command name="mute_toggle" F="5"/>
+        <command name="center_up" F="128"/>
+        <command name="center_down" F="129"/>
+        <command name="rear_up" F="66"/>
+        <command name="rear_down" F="67"/>
+        <command name="volume_up" F="2"/>
+        <command name="volume_down" F="3"/>
+        <command name="test_mode" F="154"/>
+        <command name="surround_mode" F="76"/>
+        <command name="delay_time" F="83"/>
+            </commandSet></remote></remotes>

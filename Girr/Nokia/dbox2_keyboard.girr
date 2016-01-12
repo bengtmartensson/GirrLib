@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
+<remotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:girr="http://www.harctoolbox.org/schemas/girr.xsd" title="Translated by harc2girr" girrVersion="1.0" xsi:noNamespaceSchemaLocation="http://www.harctoolbox.org/schemas/girr.xsd">
+    <remote deviceClass="keyboard" manufacturer="unknown" model="dbox2_keyboard" name="dbox2_keyboard">
+        <commandSet name="nokia_13_64">
+            <parameters protocol="nokia12">
+                <parameter name="D" value="8"/>
+            </parameters>
+            <!-- Keyboard -->
+
+            <!-- Upper row -->
+            <command name="key_esc" F="1"/>
+            <command name="key_f1" F="2"/>
+            <command name="key_f2" F="3"/>
+            <command name="key_f3" F="4"/>
+            <command name="key_f4" F="5"/>
+            <command name="key_f5" F="6"/>
+            <command name="key_f6" F="7"/>
+            <command name="key_f7" F="8"/>
+            <command name="key_f8" F="9"/>
+            <command name="key_f9" F="10"/>
+            <command name="key_f10" F="11"/>
+            <command name="key_numlock" F="100"/>
+            <command name="key_sysrq" F="82"/>
+            <command name="key_scrolllock" F="83"/>
+            <command name="key_pause" F="84"/>
+            <command name="key_insert" F="85"/>
+            <command name="key_delete" F="88"/>
+
+            <!-- second row -->
+            <command name="key_1" F="21"/>
+            <command name="key_2" F="22"/>
+            <command name="key_3" F="23"/>
+            <command name="key_4" F="24"/>
+            <command name="key_5" F="25"/>
+            <command name="key_6" F="26"/>
+            <command name="key_7" F="27"/>
+            <command name="key_8" F="28"/>
+            <command name="key_9" F="29"/>
+            <command name="key_0" F="30"/>
+            <command name="key_minus" F="31"/>
+            <command name="key_equal" F="32"/>
+            <command name="key_backspace" F="33"/>
+            <!--command name="key_home" F="97"/--><!-- key_fn_down + key_left + key_fcn_up-->
+
+            <!-- third row -->
+            <command name="key_tab" F="34"/>
+            <command name="key_q" F="35"/>
+            <command name="key_w" F="36"/>
+            <command name="key_e" F="37"/>
+            <command name="key_r" F="38"/>
+            <command name="key_t" F="39"/>
+            <command name="key_y" F="40"/>
+            <command name="key_u" F="41"/>
+            <command name="key_i" F="42"/>
+            <command name="key_o" F="43"/>
+            <command name="key_p" F="44"/>
+            <command name="key_leftbrace" F="45"/>
+            <command name="key_rightbrace" F="46"/>
+            <command name="key_backslash" F="47"/>
+            <!--command name="key_pageup" F="95"/--><!-- key_fn_down + key_up + key_fcn_up-->
+
+            <!--forth row -->
+            <command name="key_capslock" F="48"/>
+            <command name="key_a" F="49"/>
+            <command name="key_s" F="50"/>
+            <command name="key_d" F="51"/>
+            <command name="key_f" F="52"/>
+            <command name="key_g" F="53"/>
+            <command name="key_h" F="54"/>
+            <command name="key_j" F="55"/>
+            <command name="key_k" F="56"/>
+            <command name="key_l" F="57"/>
+            <command name="key_semicolon" F="58"/>
+            <command name="key_apostrophe" F="59"/>
+            <command name="key_enter" F="60"/>
+            <!--command name="key_pagedown" F="98"/--><!-- key_fn_down + key_right + key_fcn_up-->
+
+            <!-- fifth row -->
+            <command name="key_leftshift" F="61"/>
+            <command name="key_z" F="62"/>
+            <command name="key_x" F="63"/>
+            <command name="key_c" F="64"/>
+            <command name="key_v" F="65"/>
+            <command name="key_b" F="66"/>
+            <command name="key_n" F="67"/>
+            <command name="key_m" F="68"/>
+            <command name="key_comma" F="69"/>
+            <command name="key_dot" F="70"/>
+            <command name="key_slash" F="71"/>
+            <command name="key_rightshift" F="72"/>
+            <command name="key_up" F="95"/>
+            <!--command name="key_end" F="99"/--><!-- key_fn_down + key_right + key_fcn_up-->
+
+            <!-- sixth row -->
+            <command name="key_leftctrl" F="74"/>
+            <command name="key_leftmeta" F="75"/>
+            <command name="key_leftalt" F="76"/>
+            <command name="key_space" F="77"/>
+            <command name="key_102nd" F="96"/>
+            <command name="key_grave" F="20"/>
+            <command name="key_rightalt" F="78"/>
+            <command name="key_rightmeta" F="80"/>
+            <command name="key_left" F="97"/>
+            <command name="key_down" F="98"/>
+            <command name="key_right" F="99"/>
+
+            <!-- other -->
+            <command name="key_fn_down" F="73"/>
+            <command name="key_fn_up" F="201"/>
+            <command name="key_btnleft" F="127"/>
+            <command name="key_btnright" F="126"/>
+        </commandSet>
+    </remote>
+</remotes>

@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
+<remotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:girr="http://www.harctoolbox.org/schemas/girr.xsd" title="Translated by harc2girr" girrVersion="1.0" xsi:noNamespaceSchemaLocation="http://www.harctoolbox.org/schemas/girr.xsd">
+    <remote deviceClass="cable" manufacturer="Humax" model="s-hd3" name="Sky cable receiver">
+        <commandSet name="mcd_38_72">
+            <parameters protocol="mcd">
+                <parameter name="D" value="38"/>
+                <parameter name="S" value="72"/>
+            </parameters>
+            <command name="cmd_0" F="0"/>
+            <command name="cmd_1" F="1"/>
+            <command name="cmd_2" F="2"/>
+            <command name="cmd_3" F="3"/>
+            <command name="cmd_4" F="4"/>
+            <command name="cmd_5" F="5"/>
+            <command name="cmd_6" F="6"/>
+            <command name="cmd_7" F="7"/>
+            <command name="cmd_8" F="8"/>
+            <command name="cmd_9" F="9"/>
+            <command name="tv_mode" F="166"/>
+            <command name="key_esc" F="131"/>
+            <command name="power_toggle" F="12"/>
+            <command name="search" F="64"/>
+            <command name="key_backspace" F="58"/>
+            <command name="epg" F="204"/>
+            <command name="menu" F="84"/>
+            <command name="select" F="240"/>
+            <command name="info" F="15"/>
+            <command name="up" F="88"/>
+            <command name="left" F="90"/>
+            <command name="ok" F="92"/>
+            <command name="right" F="91"/>
+            <command name="down" F="89"/>
+            <command name="volume_up" F="16"/>
+            <command name="cmd_return" F="85"/>
+            <command name="channel_up" F="30"/>
+            <command name="volume_down" F="17"/>
+            <command name="mute_toggle" F="13"/>
+            <command name="channel_down" F="31"/>
+            <command name="record_toggle" F="55"/>
+            <command name="archive" F="213"/>
+            <command name="stop" F="49"/>
+            <command name="rewind" F="33"/>
+            <command name="play" F="56"/>
+            <command name="fast_forward" F="32"/>
+            <command name="setup" F="70"/>
+            <command name="zoom" F="216"/>
+            <command name="help" F="129"/>
+            <command name="teletext_on" F="60"/>
+            <command name="red" F="109"/>
+            <command name="green" F="110"/>
+            <command name="yellow" F="111"/>
+            <command name="blue" F="112"/>
+        </commandSet>
+    </remote>
+</remotes>
