@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
+<!--This file is in the Girr (General IR Remote) format, see http://www.harctoolbox.org/Girr.html-->
+<remotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" girrVersion="1.0"
+         title="IrScrutinizer parametric export" xsi:noNamespaceSchemaLocation="http://www.harctoolbox.org/schemas/girr.xsd">
+    <adminData>
+        <creationData creatingUser="bengt" creationDate="2015-11-19_19:30:43" source="IrScrutinizer parametrized table" tool="IrScrutinizer" tool2="DecodeIR" tool2Version="2.45" toolVersion="1.1.3"/>
+    </adminData>
+    <remote comment="Export from IrScrutinizer" deviceClass="Screen" manufacturer="Alphaluxx" model="-" name="" remoteName="1GD-IRAn">
+        <commandSet name="commandSet">
+            <command master="parameters" name="Up">
+                <parameters protocol="F32">
+                    <parameter name="D" value="240"/>
+                    <parameter name="S" value="17"/>
+                    <parameter name="F" value="221"/>
+                    <parameter name="E" value="222"/>
+                </parameters>
+                <ccf>0000 006D 0000 0020 0030 0010 0030 0010 0030 0010 0030 0010 0010 0030 0010 0030 0010 0030 0010 0030 0010 0030 0010 0030 0010 0030 0030 0010 0010 0030 0010 0030 0010 0030 0030 0010 0030 0010 0030 0010 0010 0030 0030 0010 0030 0010 0030 0010 0010 0030 0030 0010 0030 0010 0030 0010 0010 0030 0030 0010 0030 0010 0030 0010 0030 0010 0010 0EFE</ccf>
+            </command>
+            <command master="parameters" name="Stop">
+                <parameters protocol="F32">
+                    <parameter name="D" value="240"/>
+                    <parameter name="S" value="33"/>
+                    <parameter name="F" value="204"/>
+                    <parameter name="E" value="221"/>
+                </parameters>
+                <ccf>0000 006D 0000 0020 0030 0010 0030 0010 0030 0010 0030 0010 0010 0030 0010 0030 0010 0030 0010 0030 0010 0030 0010 0030 0030 0010 0010 0030 0010 0030 0010 0030 0010 0030 0030 0010 0030 0010 0030 0010 0010 0030 0010 0030 0030 0010 0030 0010 0010 0030 0010 0030 0030 0010 0030 0010 0010 0030 0030 0010 0030 0010 0030 0010 0010 0030 0030 0EDE</ccf>
+            </command>
+            <command master="parameters" name="Down">
+                <parameters protocol="F32">
+                    <parameter name="D" value="240"/>
+                    <parameter name="S" value="65"/>
+                    <parameter name="F" value="238"/>
+                    <parameter name="E" value="31"/>
+                </parameters>
+                <ccf>0000 006D 0000 0020 0030 0010 0030 0010 0030 0010 0030 0010 0010 0030 0010 0030 0010 0030 0010 0030 0010 0030 0030 0010 0010 0030 0010 0030 0010 0030 0010 0030 0010 0030 0030 0010 0030 0010 0030 0010 0030 0010 0010 0030 0030 0010 0030 0010 0030 0010 0010 0030 0010 0030 0010 0030 0010 0030 0030 0010 0030 0010 0030 0010 0030 0010 0030 0EDE</ccf>
+            </command>
+            <command master="parameters" name="Step Up">
+                <parameters protocol="F32">
+                    <parameter name="D" value="240"/>
+                    <parameter name="S" value="129"/>
+                    <parameter name="F" value="209"/>
+                    <parameter name="E" value="66"/>
+                </parameters>
+                <ccf>0000 006D 0000 0020 0030 0010 0030 0010 0030 0010 0030 0010 0010 0030 0010 0030 0010 0030 0010 0030 0030 0010 0010 0030 0010 0030 0010 0030 0010 0030 0010 0030 0010 0030 0030 0010 0030 0010 0030 0010 0010 0030 0030 0010 0010 0030 0010 0030 0010 0030 0030 0010 0010 0030 0030 0010 0010 0030 0010 0030 0010 0030 0010 0030 0030 0010 0010 0EFE</ccf>
+            </command>
+            <command master="parameters" name="Step Down">
+                <parameters protocol="F32">
+                    <parameter name="D" value="241"/>
+                    <parameter name="S" value="1"/>
+                    <parameter name="F" value="225"/>
+                    <parameter name="E" value="211"/>
+                </parameters>
+                <ccf>0000 006D 0000 0020 0030 0010 0030 0010 0030 0010 0030 0010 0010 0030 0010 0030 0010 0030 0030 0010 0010 0030 0010 0030 0010 0030 0010 0030 0010 0030 0010 0030 0010 0030 0030 0010 0030 0010 0030 0010 0030 0010 0010 0030 0010 0030 0010 0030 0010 0030 0030 0010 0030 0010 0030 0010 0010 0030 0030 0010 0010 0030 0010 0030 0030 0010 0030 0EDE</ccf>
+            </command>
+        </commandSet>
+    </remote>
+</remotes>
