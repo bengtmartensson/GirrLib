@@ -3,7 +3,8 @@
 <remotes
          xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
          xmlns:html="http://www.w3.org/1999/xhtml"
-         xs:noNamespaceSchemaLocation="http://www.harctoolbox.org/schemas/girr.xsd"
+         xmlns="http://www.harctoolbox.org/Girr"
+         xs:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns.xsd"
          girrVersion="1.0"
          title="Hand written example">
     <adminData>

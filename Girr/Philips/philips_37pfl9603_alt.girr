@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
 <!--This file is in the Girr (General IR Remote) format, see http://www.harctoolbox.org/Girr.html-->
-<remotes girrVersion="1.0" title="IrScrutinizer parametric export" xsi:noNamespaceSchemaLocation="http://www.harctoolbox.org/schemas/girr.xsd" xmlns:girr="http://www.harctoolbox.org/schemas/girr.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<remotes girrVersion="1.0" title="IrScrutinizer parametric export"
+         xsi:schemaLocation="http://www.harctoolbox.org/Girr  http://www.harctoolbox.org/schemas/girr_ns.xsd"
+         xmlns="http://www.harctoolbox.org/Girr"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <!-- There are non-unique command names here, making the document invalid.
     Relaxing this requirement is planned, see https://github.com/bengtmartensson/harctoolboxbundle/issues/85 -->
     <adminData>

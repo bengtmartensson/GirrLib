@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
-<remotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:girr="http://www.harctoolbox.org/schemas/girr.xsd" title="Translated by harc2girr" girrVersion="1.0" xsi:noNamespaceSchemaLocation="http://www.harctoolbox.org/schemas/girr.xsd">
+<remotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://www.harctoolbox.org/Girr" title="Translated by harc2girr" girrVersion="1.0"
+         xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns.xsd">
     <remote deviceClass="receiver" manufacturer="Denon" model="AVR-4311" name="Denon AVR-4311 Receiver">
-        <!-- There are non-unique command names here, making the document invalid.
-        Relaxing this requirement is planned, see https://github.com/bengtmartensson/harctoolboxbundle/issues/85 -->
         <commandSet name="denon_2_">
             <parameters protocol="denon">
                 <parameter name="D" value="2"/>
@@ -176,6 +176,8 @@
             </parameters>
             <command name="cmd_return" F="34"/>
             <command name="menu" F="35"/>
+            <command name="fm" F="153"/>
+            <command name="am" F="154"/>
             <command name="quick1" F="292"/>
             <command name="quick2" F="293"/>
             <command name="quick3" F="294"/>
@@ -192,7 +194,6 @@
             <command name="delay_time" F="620"/>
             <command name="delay_time_up" F="621"/>
             <command name="delay_time_down" F="622"/>
-            <command name="restorer_off" F="556"/>
             <command name="get_status" F="645"/>
             <command name="in_net_usb" F="711"/>
             <command name="in_xm" F="714"/>
@@ -300,14 +301,6 @@
             <command name="zone3_stop" F="993"/>
             <command name="zone3_frequency_down" F="995"/>
             <command name="zone3_frequency_up" F="996"/>
-        </commandSet>
-        <commandSet name="denon_k_4_1">
-            <parameters protocol="denon_k">
-                <parameter name="D" value="4"/>
-                <parameter name="S" value="1"/>
-            </parameters>
-            <command name="fm" F="153"/>
-            <command name="am" F="154"/>
         </commandSet>
         <commandSet name="denon_k_4_7">
             <parameters protocol="denon_k">

@@ -190,7 +190,6 @@
             <command name="delay_time" F="620"/>
             <command name="delay_time_up" F="621"/>
             <command name="delay_time_down" F="622"/>
-            <command name="restorer_off" F="556"/>
             <command name="get_status" F="645"/>
             <command name="in_net_usb" F="711"/>
             <command name="in_xm" F="714"/>
