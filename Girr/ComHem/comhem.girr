@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--This file is in the Girr (General IR Remote) format, see http://www.harctoolbox.org/Girr.html-->
+<remotes girrVersion="1.0" title="IrScrutinizer parametric export">
+    <adminData>
+        <creationData creatingUser="bengt" creationDate="2014-12-26_11:29:01" source="IrScrutinizer parametrized table" tool="IrScrutinizer" tool2="DecodeIR" tool2Version="2.44" toolVersion="1.1.1"/>
+    </adminData>
+    <remote comment="Export from IrScrutinizer" manufacturer="ComHem" name="ComHem STB" deviceClass="STB">
+        <commandSet name="commandSet">
+            <command master="parameters" name="Power">
+                <parameters protocol="Zaptor-36">
+                    <parameter name="D" value="16"/>
+                    <parameter name="S" value="0"/>
+                    <parameter name="F" value="8"/>
+                    <parameter name="E" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 001E 005F 0047 0018 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 0018 000C 000C 0018 0A74</ccf>
+            </command>
+            <command master="parameters" name="1">
+                <parameters protocol="Zaptor-36">
+                    <parameter name="D" value="16"/>
+                    <parameter name="S" value="0"/>
+                    <parameter name="F" value="89"/>
+                    <parameter name="E" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 001D 005F 0047 0018 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 0018 0018 000C 000C 0018 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 0018 000C 000C 000C 000C 000C 000C 0A74</ccf>
+            </command>
+            <command master="parameters" name="2">
+                <parameters protocol="Zaptor-36">
+                    <parameter name="D" value="16"/>
+                    <parameter name="S" value="0"/>
+                    <parameter name="F" value="105"/>
+                    <parameter name="E" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 001E 005F 0047 0018 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 0018 0018 0018 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0A68</ccf>
+            </command>
+            <command master="parameters" name="3">
+                <parameters protocol="Zaptor-36">
+                    <parameter name="D" value="16"/>
+                    <parameter name="S" value="0"/>
+                    <parameter name="F" value="121"/>
+                    <parameter name="E" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 001E 005F 0047 0018 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 000C 000C 000C 000C 0018 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 0A74</ccf>
+            </command>
+            <command master="parameters" name="4">
+                <parameters protocol="Zaptor-36">
+                    <parameter name="D" value="16"/>
+                    <parameter name="S" value="0"/>
+                    <parameter name="F" value="28"/>
+                    <parameter name="E" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 001F 005F 0047 0018 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 000C 000C 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 000C 000C 0018 000C 0A68</ccf>
+            </command>
+            <command master="parameters" name="5">
+                <parameters protocol="Zaptor-36">
+                    <parameter name="D" value="16"/>
+                    <parameter name="S" value="0"/>
+                    <parameter name="F" value="44"/>
+                    <parameter name="E" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 001E 005F 0047 0018 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 0018 0018 000C 000C 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 000C 000C 000C 000C 0A74</ccf>
+            </command>
+            <command master="parameters" name="6">
+                <parameters protocol="Zaptor-36">
+                    <parameter name="D" value="16"/>
+                    <parameter name="S" value="0"/>
+                    <parameter name="F" value="60"/>
+                    <parameter name="E" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 0020 005F 0047 0018 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 000C 000C 000C 000C 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0A68</ccf>
+            </command>
+            <command master="parameters" name="7">
+                <parameters protocol="Zaptor-36">
+                    <parameter name="D" value="16"/>
+                    <parameter name="S" value="0"/>
+                    <parameter name="F" value="76"/>
+                    <parameter name="E" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 001E 005F 0047 0018 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 0018 000C 000C 0018 000C 000C 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 0A74</ccf>
+            </command>
+            <command master="parameters" name="8">
+                <parameters protocol="Zaptor-36">
+                    <parameter name="D" value="16"/>
+                    <parameter name="S" value="0"/>
+                    <parameter name="F" value="92"/>
+                    <parameter name="E" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 001E 005F 0047 0018 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 0018 0018 000C 000C 000C 000C 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 0018 000C 0A68</ccf>
+            </command>
+            <command master="parameters" name="9">
+                <parameters protocol="Zaptor-36">
+                    <parameter name="D" value="16"/>
+                    <parameter name="S" value="0"/>
+                    <parameter name="F" value="108"/>
+                    <parameter name="E" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 001E 005F 0047 0018 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 0018 0018 000C 000C 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 0A74</ccf>
+            </command>
+            <command master="parameters" name="Text">
+                <parameters protocol="Zaptor-36">
+                    <parameter name="D" value="16"/>
+                    <parameter name="S" value="0"/>
+                    <parameter name="F" value="12"/>
+                    <parameter name="E" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 001E 005F 0047 0018 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 0018 0018 0A74</ccf>
+            </command>
+            <command master="parameters" name="0">
+                <parameters protocol="Zaptor-36">
+                    <parameter name="D" value="16"/>
+                    <parameter name="S" value="0"/>
+                    <parameter name="F" value="29"/>
+                    <parameter name="E" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 001E 005F 0047 0018 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 000C 000C 0018 0018 0018 000C 000C 000C 000C 000C 000C 0018 000C 000C 000C 000C 000C 000C 0A74</ccf>
+            </command>
+            <command master="parameters" name="Exit">
+                <parameters protocol="Zaptor-36">
+                    <parameter name="D" value="16"/>
+                    <parameter name="S" value="0"/>
+                    <parameter name="F" value="25"/>
+                    <parameter name="E" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 001D 005F 0047 0018 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 0018 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 0018 0018 0018 000C 000C 0A74</ccf>
+            </command>
+            <command master="parameters" name="Vol+">
+                <parameters protocol="Zaptor-36">
+                    <parameter name="D" value="16"/>
+                    <parameter name="S" value="0"/>
+                    <parameter name="F" value="77"/>
+                    <parameter name="E" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 001D 005F 0047 0018 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 0018 000C 000C 0018 000C 000C 0018 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 0018 000C 0A68</ccf>
+            </command>
+            <command master="parameters" name="FAV">
+                <parameters protocol="Zaptor-36">
+                    <parameter name="D" value="16"/>
+                    <parameter name="S" value="0"/>
+                    <parameter name="F" value="110"/>
+                    <parameter name="E" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 001D 005F 0047 0018 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 0018 0018 000C 000C 000C 000C 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 0018 0018 0A74</ccf>
+            </command>
+            <command master="parameters" name="Ch+">
+                <parameters protocol="Zaptor-36">
+                    <parameter name="D" value="16"/>
+                    <parameter name="S" value="0"/>
+                    <parameter name="F" value="16"/>
+                    <parameter name="E" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 001F 005F 0047 0018 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 0018 000C 0A68</ccf>
+            </command>
+            <command master="parameters" name="Vol-">
+                <parameters protocol="Zaptor-36">
+                    <parameter name="D" value="16"/>
+                    <parameter name="S" value="0"/>
+                    <parameter name="F" value="61"/>
+                    <parameter name="E" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 001E 005F 0047 0018 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 000C 000C 000C 000C 0018 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 0A74</ccf>
+            </command>
+            <command master="parameters" name="Mute">
+                <parameters protocol="Zaptor-36">
+                    <parameter name="D" value="16"/>
+                    <parameter name="S" value="0"/>
+                    <parameter name="F" value="107"/>
+                    <parameter name="E" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 001D 005F 0047 0018 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 0018 0018 0018 0018 000C 000C 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 0018 000C 0A68</ccf>
+            </command>
+            <command master="parameters" name="Ch-">
+                <parameters protocol="Zaptor-36">
+                    <parameter name="D" value="16"/>
+                    <parameter name="S" value="0"/>
+                    <parameter name="F" value="17"/>
+                    <parameter name="E" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 001E 005F 0047 0018 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 0A74</ccf>
+            </command>
+            <command master="parameters" name="Up">
+                <parameters protocol="Zaptor-36">
+                    <parameter name="D" value="16"/>
+                    <parameter name="S" value="0"/>
+                    <parameter name="F" value="56"/>
+                    <parameter name="E" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 001F 005F 0047 0018 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 000C 000C 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 0018 000C 000C 000C 0A68</ccf>
+            </command>
+            <command master="parameters" name="Left">
+                <parameters protocol="Zaptor-36">
+                    <parameter name="D" value="16"/>
+                    <parameter name="S" value="0"/>
+                    <parameter name="F" value="88"/>
+                    <parameter name="E" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 001E 005F 0047 0018 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 0018 0018 000C 000C 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 000C 000C 0018 000C 0A68</ccf>
+            </command>
+            <command master="parameters" name="OK">
+                <parameters protocol="Zaptor-36">
+                    <parameter name="D" value="16"/>
+                    <parameter name="S" value="0"/>
+                    <parameter name="F" value="15"/>
+                    <parameter name="E" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 0020 005F 0047 0018 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 000C 000C 000C 000C 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0A68</ccf>
+            </command>
+            <command master="parameters" name="Right">
+                <parameters protocol="Zaptor-36">
+                    <parameter name="D" value="16"/>
+                    <parameter name="S" value="0"/>
+                    <parameter name="F" value="104"/>
+                    <parameter name="E" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 001E 005F 0047 0018 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 0018 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 000C 000C 000C 000C 0A74</ccf>
+            </command>
+            <command master="parameters" name="Down">
+                <parameters protocol="Zaptor-36">
+                    <parameter name="D" value="16"/>
+                    <parameter name="S" value="0"/>
+                    <parameter name="F" value="72"/>
+                    <parameter name="E" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 001D 005F 0047 0018 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 0018 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 0018 0018 0A74</ccf>
+            </command>
+            <command master="parameters" name="Red">
+                <parameters protocol="Zaptor-36">
+                    <parameter name="D" value="16"/>
+                    <parameter name="S" value="0"/>
+                    <parameter name="F" value="75"/>
+                    <parameter name="E" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 001E 005F 0047 0018 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 0018 000C 000C 0018 0018 0018 000C 000C 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0A68</ccf>
+            </command>
+            <command master="parameters" name="Green">
+                <parameters protocol="Zaptor-36">
+                    <parameter name="D" value="16"/>
+                    <parameter name="S" value="0"/>
+                    <parameter name="F" value="63"/>
+                    <parameter name="E" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 001F 005F 0047 0018 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 0A74</ccf>
+            </command>
+            <command master="parameters" name="Yellow">
+                <parameters protocol="Zaptor-36">
+                    <parameter name="D" value="16"/>
+                    <parameter name="S" value="0"/>
+                    <parameter name="F" value="120"/>
+                    <parameter name="E" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 0020 005F 0047 0018 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 000C 000C 000C 000C 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0A68</ccf>
+            </command>
+            <command master="parameters" name="Blue">
+                <parameters protocol="Zaptor-36">
+                    <parameter name="D" value="16"/>
+                    <parameter name="S" value="0"/>
+                    <parameter name="F" value="31"/>
+                    <parameter name="E" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 001F 005F 0047 0018 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 0A74</ccf>
+            </command>
+            <command master="parameters" name="Guide">
+                <parameters protocol="Zaptor-36">
+                    <parameter name="D" value="16"/>
+                    <parameter name="S" value="0"/>
+                    <parameter name="F" value="73"/>
+                    <parameter name="E" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 001D 005F 0047 0018 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 0018 000C 000C 0018 0018 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 0018 000C 000C 000C 000C 0018 000C 0A68</ccf>
+            </command>
+            <command master="parameters" name="Play (text)">
+                <parameters protocol="Zaptor-36">
+                    <parameter name="D" value="16"/>
+                    <parameter name="S" value="0"/>
+                    <parameter name="F" value="112"/>
+                    <parameter name="E" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 001F 005F 0047 0018 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 000C 000C 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 0A68</ccf>
+            </command>
+            <command master="parameters" name="Film">
+                <parameters protocol="Zaptor-36">
+                    <parameter name="D" value="16"/>
+                    <parameter name="S" value="0"/>
+                    <parameter name="F" value="119"/>
+                    <parameter name="E" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 001E 005F 0047 0018 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 0018 000C 000C 000C 000C 000C 000C 0018 000C 000C 000C 000C 000C 000C 0A74</ccf>
+            </command>
+            <command master="parameters" name="Return">
+                <parameters protocol="Zaptor-36">
+                    <parameter name="D" value="16"/>
+                    <parameter name="S" value="0"/>
+                    <parameter name="F" value="91"/>
+                    <parameter name="E" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 001D 005F 0047 0018 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 0018 0018 000C 000C 0018 0018 000C 000C 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 0A74</ccf>
+            </command>
+            <command master="parameters" name="Info">
+                <parameters protocol="Zaptor-36">
+                    <parameter name="D" value="16"/>
+                    <parameter name="S" value="0"/>
+                    <parameter name="F" value="124"/>
+                    <parameter name="E" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 001F 005F 0047 0018 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 0A68</ccf>
+            </command>
+            <command master="parameters" name="Help">
+                <parameters protocol="Zaptor-36">
+                    <parameter name="D" value="16"/>
+                    <parameter name="S" value="0"/>
+                    <parameter name="F" value="116"/>
+                    <parameter name="E" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 001E 005F 0047 0018 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 000C 000C 0018 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 0018 000C 000C 000C 0A68</ccf>
+            </command>
+            <command master="parameters" name="Play">
+                <parameters protocol="Zaptor-36">
+                    <parameter name="D" value="16"/>
+                    <parameter name="S" value="0"/>
+                    <parameter name="F" value="26"/>
+                    <parameter name="E" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 001E 005F 0047 0018 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 0018 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 0018 000C 000C 000C 0A68</ccf>
+            </command>
+            <command master="parameters" name="Rewind">
+                <parameters protocol="Zaptor-36">
+                    <parameter name="D" value="16"/>
+                    <parameter name="S" value="0"/>
+                    <parameter name="F" value="42"/>
+                    <parameter name="E" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 001C 005F 0047 0018 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 0018 0018 0018 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 0018 0018 0A74</ccf>
+            </command>
+            <command master="parameters" name="FastForward">
+                <parameters protocol="Zaptor-36">
+                    <parameter name="D" value="16"/>
+                    <parameter name="S" value="0"/>
+                    <parameter name="F" value="58"/>
+                    <parameter name="E" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 001E 005F 0047 0018 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 000C 000C 0018 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 000C 000C 0018 000C 0A68</ccf>
+            </command>
+            <command master="parameters" name="Stop">
+                <parameters protocol="Zaptor-36">
+                    <parameter name="D" value="16"/>
+                    <parameter name="S" value="0"/>
+                    <parameter name="F" value="74"/>
+                    <parameter name="E" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 001D 005F 0047 0018 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 0018 000C 000C 0018 0018 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 000C 000C 000C 000C 0A74</ccf>
+            </command>
+            <command master="parameters" name="Pause">
+                <parameters protocol="Zaptor-36">
+                    <parameter name="D" value="16"/>
+                    <parameter name="S" value="0"/>
+                    <parameter name="F" value="26"/>
+                    <parameter name="E" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 001E 005F 0047 0018 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 0018 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 0018 000C 000C 000C 0A68</ccf>
+            </command>
+            <command master="parameters" name="Previous">
+                <parameters protocol="Zaptor-36">
+                    <parameter name="D" value="16"/>
+                    <parameter name="S" value="0"/>
+                    <parameter name="F" value="90"/>
+                    <parameter name="E" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 001E 005F 0047 0018 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 0018 0018 000C 000C 0018 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0A68</ccf>
+            </command>
+            <command master="parameters" name="Next">
+                <parameters protocol="Zaptor-36">
+                    <parameter name="D" value="16"/>
+                    <parameter name="S" value="0"/>
+                    <parameter name="F" value="122"/>
+                    <parameter name="E" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 001E 005F 0047 0018 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 000C 000C 000C 000C 000C 000C 0018 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 0018 000C 0A68</ccf>
+            </command>
+            <command master="parameters" name="Recording">
+                <parameters protocol="Zaptor-36">
+                    <parameter name="D" value="16"/>
+                    <parameter name="S" value="0"/>
+                    <parameter name="F" value="39"/>
+                    <parameter name="E" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 001D 005F 0047 0018 000C 000C 000C 000C 000C 0018 0018 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 000C 0018 0018 000C 000C 0018 000C 000C 000C 000C 0018 000C 000C 000C 000C 000C 000C 0018 0018 0018 0018 000C 0A68</ccf>
+            </command>
+        </commandSet>
+    </remote>
+</remotes>

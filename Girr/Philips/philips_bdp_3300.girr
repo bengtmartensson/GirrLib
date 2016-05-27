@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--This file is in the Girr (General IR Remote) format, see http://www.harctoolbox.org/Girr.html-->
+<remotes girrVersion="1.0" title="IrScrutinizer parametric export">
+    <adminData>
+        <creationData creatingUser="bengt" creationDate="2014-12-26_20:58:04" source="IrScrutinizer parametrized table" tool="IrScrutinizer" tool2="DecodeIR" tool2Version="2.44" toolVersion="1.1.1"/>
+    </adminData>
+    <remote comment="Export from IrScrutinizer" deviceClass="BluRay" manufacturer="Philips" model="BDP-3300" name="Philips-BDP-3300" remoteName="Philips BluRay Player">
+        <commandSet name="commandSet">
+            <command master="parameters" name="Power">
+                <parameters protocol="RC6">
+                    <parameter name="D" value="70"/>
+                    <parameter name="F" value="199"/>
+                    <parameter name="T" value="1"/>
+                </parameters>
+                <ccf>0000 0073 0000 0011 0060 0020 0010 0020 0010 0010 0010 0010 0030 0030 0020 0020 0010 0010 0010 0010 0020 0010 0010 0020 0020 0010 0010 0020 0010 0010 0010 0010 0020 0010 0010 0010 0010 0BDD</ccf>
+            </command>
+            <command master="parameters" name="Red">
+                <parameters protocol="RC6">
+                    <parameter name="D" value="70"/>
+                    <parameter name="F" value="109"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 0011 0060 0020 0010 0020 0010 0010 0010 0010 0010 0020 0020 0010 0020 0020 0010 0010 0010 0010 0020 0010 0010 0020 0010 0010 0020 0010 0010 0020 0020 0010 0010 0020 0020 0BDD</ccf>
+            </command>
+            <command master="parameters" name="Green">
+                <parameters protocol="RC6">
+                    <parameter name="D" value="70"/>
+                    <parameter name="F" value="110"/>
+                    <parameter name="T" value="1"/>
+                </parameters>
+                <ccf>0000 0073 0000 0011 0060 0020 0010 0020 0010 0010 0010 0010 0030 0030 0020 0020 0010 0010 0010 0010 0020 0010 0010 0020 0010 0010 0020 0010 0010 0020 0020 0010 0010 0010 0010 0020 0010 0BCD</ccf>
+            </command>
+            <command master="parameters" name="Yellow">
+                <parameters protocol="RC6">
+                    <parameter name="D" value="70"/>
+                    <parameter name="F" value="111"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 0012 0060 0020 0010 0020 0010 0010 0010 0010 0010 0020 0020 0010 0020 0020 0010 0010 0010 0010 0020 0010 0010 0020 0010 0010 0020 0010 0010 0020 0020 0010 0010 0010 0010 0010 0010 0BDD</ccf>
+            </command>
+            <command master="parameters" name="Blue">
+                <parameters protocol="RC6">
+                    <parameter name="D" value="70"/>
+                    <parameter name="F" value="112"/>
+                    <parameter name="T" value="1"/>
+                </parameters>
+                <ccf>0000 0073 0000 0012 0060 0020 0010 0020 0010 0010 0010 0010 0030 0030 0020 0020 0010 0010 0010 0010 0020 0010 0010 0020 0010 0010 0020 0010 0010 0010 0010 0020 0010 0010 0010 0010 0010 0010 0010 0BCD</ccf>
+            </command>
+            <command master="parameters" name="Menu">
+                <parameters protocol="RC6">
+                    <parameter name="D" value="70"/>
+                    <parameter name="F" value="154"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 0011 0060 0020 0010 0020 0010 0010 0010 0010 0010 0020 0020 0010 0020 0020 0010 0010 0010 0010 0020 0010 0010 0020 0020 0020 0010 0010 0020 0010 0010 0020 0020 0020 0010 0BCD</ccf>
+            </command>
+            <command master="parameters" name="Home">
+                <parameters protocol="RC6">
+                    <parameter name="D" value="70"/>
+                    <parameter name="F" value="146"/>
+                    <parameter name="T" value="1"/>
+                </parameters>
+                <ccf>0000 0073 0000 0010 0060 0020 0010 0020 0010 0010 0010 0010 0030 0030 0020 0020 0010 0010 0010 0010 0020 0010 0010 0020 0020 0020 0010 0010 0020 0020 0010 0010 0020 0020 0010 0BCD</ccf>
+            </command>
+            <command master="parameters" name="TopMenu">
+                <parameters protocol="RC6">
+                    <parameter name="D" value="70"/>
+                    <parameter name="F" value="156"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 0012 0060 0020 0010 0020 0010 0010 0010 0010 0010 0020 0020 0010 0020 0020 0010 0010 0010 0010 0020 0010 0010 0020 0020 0020 0010 0010 0020 0010 0010 0010 0010 0020 0010 0010 0010 0BCD</ccf>
+            </command>
+            <command master="parameters" name="Up">
+                <parameters protocol="RC6">
+                    <parameter name="D" value="70"/>
+                    <parameter name="F" value="88"/>
+                    <parameter name="T" value="1"/>
+                </parameters>
+                <ccf>0000 0073 0000 0011 0060 0020 0010 0020 0010 0010 0010 0010 0030 0030 0020 0020 0010 0010 0010 0010 0020 0010 0010 0020 0010 0010 0020 0020 0020 0010 0010 0020 0010 0010 0010 0010 0010 0BCD</ccf>
+            </command>
+            <command master="parameters" name="Left">
+                <parameters protocol="RC6">
+                    <parameter name="D" value="70"/>
+                    <parameter name="F" value="90"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 0011 0060 0020 0010 0020 0010 0010 0010 0010 0010 0020 0020 0010 0020 0020 0010 0010 0010 0010 0020 0010 0010 0020 0010 0010 0020 0020 0020 0010 0010 0020 0020 0020 0010 0BCD</ccf>
+            </command>
+            <command master="parameters" name="OK">
+                <parameters protocol="RC6">
+                    <parameter name="D" value="70"/>
+                    <parameter name="F" value="92"/>
+                    <parameter name="T" value="1"/>
+                </parameters>
+                <ccf>0000 0073 0000 0011 0060 0020 0010 0020 0010 0010 0010 0010 0030 0030 0020 0020 0010 0010 0010 0010 0020 0010 0010 0020 0010 0010 0020 0020 0020 0010 0010 0010 0010 0020 0010 0010 0010 0BCD</ccf>
+            </command>
+            <command master="parameters" name="Right">
+                <parameters protocol="RC6">
+                    <parameter name="D" value="70"/>
+                    <parameter name="F" value="91"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 0011 0060 0020 0010 0020 0010 0010 0010 0010 0010 0020 0020 0010 0020 0020 0010 0010 0010 0010 0020 0010 0010 0020 0010 0010 0020 0020 0020 0010 0010 0020 0020 0010 0010 0BDD</ccf>
+            </command>
+            <command master="parameters" name="Down">
+                <parameters protocol="RC6">
+                    <parameter name="D" value="70"/>
+                    <parameter name="F" value="89"/>
+                    <parameter name="T" value="1"/>
+                </parameters>
+                <ccf>0000 0073 0000 0010 0060 0020 0010 0020 0010 0010 0010 0010 0030 0030 0020 0020 0010 0010 0010 0010 0020 0010 0010 0020 0010 0010 0020 0020 0020 0010 0010 0020 0010 0010 0020 0BDD</ccf>
+            </command>
+            <command master="parameters" name="Return">
+                <parameters protocol="RC6">
+                    <parameter name="D" value="70"/>
+                    <parameter name="F" value="131"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 0012 0060 0020 0010 0020 0010 0010 0010 0010 0010 0020 0020 0010 0020 0020 0010 0010 0010 0010 0020 0010 0010 0020 0020 0020 0010 0010 0010 0010 0010 0010 0010 0010 0020 0010 0010 0BDD</ccf>
+            </command>
+            <command master="parameters" name="Info">
+                <parameters protocol="RC6">
+                    <parameter name="D" value="70"/>
+                    <parameter name="F" value="201"/>
+                    <parameter name="T" value="1"/>
+                </parameters>
+                <ccf>0000 0073 0000 0010 0060 0020 0010 0020 0010 0010 0010 0010 0030 0030 0020 0020 0010 0010 0010 0010 0020 0010 0010 0020 0020 0010 0010 0020 0010 0010 0020 0020 0010 0010 0020 0BDD</ccf>
+            </command>
+            <command master="parameters" name="Play">
+                <parameters protocol="RC6">
+                    <parameter name="D" value="70"/>
+                    <parameter name="F" value="44"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 0012 0060 0020 0010 0020 0010 0010 0010 0010 0010 0020 0020 0010 0020 0020 0010 0010 0010 0010 0020 0010 0010 0020 0010 0010 0010 0010 0020 0020 0020 0010 0010 0020 0010 0010 0010 0BCD</ccf>
+            </command>
+            <command master="parameters" name="Pause">
+                <parameters protocol="RC6">
+                    <parameter name="D" value="70"/>
+                    <parameter name="F" value="48"/>
+                    <parameter name="T" value="1"/>
+                </parameters>
+                <ccf>0000 0073 0000 0012 0060 0020 0010 0020 0010 0010 0010 0010 0030 0030 0020 0020 0010 0010 0010 0010 0020 0010 0010 0020 0010 0010 0010 0010 0020 0010 0010 0020 0010 0010 0010 0010 0010 0010 0010 0BCD</ccf>
+            </command>
+            <command master="parameters" name="Previous">
+                <parameters protocol="RC6">
+                    <parameter name="D" value="70"/>
+                    <parameter name="F" value="33"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 0012 0060 0020 0010 0020 0010 0010 0010 0010 0010 0020 0020 0010 0020 0020 0010 0010 0010 0010 0020 0010 0010 0020 0010 0010 0010 0010 0020 0020 0010 0010 0010 0010 0010 0010 0020 0BDD</ccf>
+            </command>
+            <command master="parameters" name="Next">
+                <parameters protocol="RC6">
+                    <parameter name="D" value="70"/>
+                    <parameter name="F" value="32"/>
+                    <parameter name="T" value="1"/>
+                </parameters>
+                <ccf>0000 0073 0000 0012 0060 0020 0010 0020 0010 0010 0010 0010 0030 0030 0020 0020 0010 0010 0010 0010 0020 0010 0010 0020 0010 0010 0010 0010 0020 0020 0010 0010 0010 0010 0010 0010 0010 0010 0010 0BCD</ccf>
+            </command>
+            <command master="parameters" name="Rewind">
+                <parameters protocol="RC6">
+                    <parameter name="D" value="70"/>
+                    <parameter name="F" value="41"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 0011 0060 0020 0010 0020 0010 0010 0010 0010 0010 0020 0020 0010 0020 0020 0010 0010 0010 0010 0020 0010 0010 0020 0010 0010 0010 0010 0020 0020 0020 0020 0010 0010 0020 0BDD</ccf>
+            </command>
+            <command master="parameters" name="Stop">
+                <parameters protocol="RC6">
+                    <parameter name="D" value="70"/>
+                    <parameter name="F" value="49"/>
+                    <parameter name="T" value="1"/>
+                </parameters>
+                <ccf>0000 0073 0000 0011 0060 0020 0010 0020 0010 0010 0010 0010 0030 0030 0020 0020 0010 0010 0010 0010 0020 0010 0010 0020 0010 0010 0010 0010 0020 0010 0010 0020 0010 0010 0010 0010 0020 0BDD</ccf>
+            </command>
+            <command master="parameters" name="FastForward">
+                <parameters protocol="RC6">
+                    <parameter name="D" value="70"/>
+                    <parameter name="F" value="40"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 0012 0060 0020 0010 0020 0010 0010 0010 0010 0010 0020 0020 0010 0020 0020 0010 0010 0010 0010 0020 0010 0010 0020 0010 0010 0010 0010 0020 0020 0020 0020 0010 0010 0010 0010 0010 0BCD</ccf>
+            </command>
+            <command master="parameters" name="1">
+                <parameters protocol="RC6">
+                    <parameter name="D" value="70"/>
+                    <parameter name="F" value="1"/>
+                    <parameter name="T" value="1"/>
+                </parameters>
+                <ccf>0000 0073 0000 0012 0060 0020 0010 0020 0010 0010 0010 0010 0030 0030 0020 0020 0010 0010 0010 0010 0020 0010 0010 0020 0010 0010 0010 0010 0010 0010 0010 0010 0010 0010 0010 0010 0010 0010 0020 0BDD</ccf>
+            </command>
+            <command master="parameters" name="2">
+                <parameters protocol="RC6">
+                    <parameter name="D" value="70"/>
+                    <parameter name="F" value="2"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 0013 0060 0020 0010 0020 0010 0010 0010 0010 0010 0020 0020 0010 0020 0020 0010 0010 0010 0010 0020 0010 0010 0020 0010 0010 0010 0010 0010 0010 0010 0010 0010 0010 0010 0010 0020 0020 0010 0BCD</ccf>
+            </command>
+            <command master="parameters" name="3">
+                <parameters protocol="RC6">
+                    <parameter name="D" value="70"/>
+                    <parameter name="F" value="3"/>
+                    <parameter name="T" value="1"/>
+                </parameters>
+                <ccf>0000 0073 0000 0012 0060 0020 0010 0020 0010 0010 0010 0010 0030 0030 0020 0020 0010 0010 0010 0010 0020 0010 0010 0020 0010 0010 0010 0010 0010 0010 0010 0010 0010 0010 0010 0010 0020 0010 0010 0BDD</ccf>
+            </command>
+            <command master="parameters" name="4">
+                <parameters protocol="RC6">
+                    <parameter name="D" value="70"/>
+                    <parameter name="F" value="4"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 0013 0060 0020 0010 0020 0010 0010 0010 0010 0010 0020 0020 0010 0020 0020 0010 0010 0010 0010 0020 0010 0010 0020 0010 0010 0010 0010 0010 0010 0010 0010 0010 0010 0020 0020 0010 0010 0010 0BCD</ccf>
+            </command>
+            <command master="parameters" name="5">
+                <parameters protocol="RC6">
+                    <parameter name="D" value="70"/>
+                    <parameter name="F" value="5"/>
+                    <parameter name="T" value="1"/>
+                </parameters>
+                <ccf>0000 0073 0000 0011 0060 0020 0010 0020 0010 0010 0010 0010 0030 0030 0020 0020 0010 0010 0010 0010 0020 0010 0010 0020 0010 0010 0010 0010 0010 0010 0010 0010 0010 0010 0020 0020 0020 0BDD</ccf>
+            </command>
+            <command master="parameters" name="6">
+                <parameters protocol="RC6">
+                    <parameter name="D" value="70"/>
+                    <parameter name="F" value="6"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 0013 0060 0020 0010 0020 0010 0010 0010 0010 0010 0020 0020 0010 0020 0020 0010 0010 0010 0010 0020 0010 0010 0020 0010 0010 0010 0010 0010 0010 0010 0010 0010 0010 0020 0010 0010 0020 0010 0BCD</ccf>
+            </command>
+            <command master="parameters" name="7">
+                <parameters protocol="RC6">
+                    <parameter name="D" value="70"/>
+                    <parameter name="F" value="7"/>
+                    <parameter name="T" value="1"/>
+                </parameters>
+                <ccf>0000 0073 0000 0012 0060 0020 0010 0020 0010 0010 0010 0010 0030 0030 0020 0020 0010 0010 0010 0010 0020 0010 0010 0020 0010 0010 0010 0010 0010 0010 0010 0010 0010 0010 0020 0010 0010 0010 0010 0BDD</ccf>
+            </command>
+            <command master="parameters" name="8">
+                <parameters protocol="RC6">
+                    <parameter name="D" value="70"/>
+                    <parameter name="F" value="8"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 0013 0060 0020 0010 0020 0010 0010 0010 0010 0010 0020 0020 0010 0020 0020 0010 0010 0010 0010 0020 0010 0010 0020 0010 0010 0010 0010 0010 0010 0010 0010 0020 0020 0010 0010 0010 0010 0010 0BCD</ccf>
+            </command>
+            <command master="parameters" name="9">
+                <parameters protocol="RC6">
+                    <parameter name="D" value="70"/>
+                    <parameter name="F" value="9"/>
+                    <parameter name="T" value="1"/>
+                </parameters>
+                <ccf>0000 0073 0000 0011 0060 0020 0010 0020 0010 0010 0010 0010 0030 0030 0020 0020 0010 0010 0010 0010 0020 0010 0010 0020 0010 0010 0010 0010 0010 0010 0010 0010 0020 0020 0010 0010 0020 0BDD</ccf>
+            </command>
+            <command master="parameters" name="Subtitle">
+                <parameters protocol="RC6">
+                    <parameter name="D" value="70"/>
+                    <parameter name="F" value="75"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 0011 0060 0020 0010 0020 0010 0010 0010 0010 0010 0020 0020 0010 0020 0020 0010 0010 0010 0010 0020 0010 0010 0020 0010 0010 0020 0020 0010 0010 0020 0020 0020 0010 0010 0BDD</ccf>
+            </command>
+            <command master="parameters" name="0">
+                <parameters protocol="RC6">
+                    <parameter name="D" value="70"/>
+                    <parameter name="F" value="0"/>
+                    <parameter name="T" value="1"/>
+                </parameters>
+                <ccf>0000 0073 0000 0013 0060 0020 0010 0020 0010 0010 0010 0010 0030 0030 0020 0020 0010 0010 0010 0010 0020 0010 0010 0020 0010 0010 0010 0010 0010 0010 0010 0010 0010 0010 0010 0010 0010 0010 0010 0010 0010 0BCD</ccf>
+            </command>
+            <command master="parameters" name="Audio">
+                <parameters protocol="RC6">
+                    <parameter name="D" value="70"/>
+                    <parameter name="F" value="78"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 0012 0060 0020 0010 0020 0010 0010 0010 0010 0010 0020 0020 0010 0020 0020 0010 0010 0010 0010 0020 0010 0010 0020 0010 0010 0020 0020 0010 0010 0020 0010 0010 0010 0010 0020 0010 0BCD</ccf>
+            </command>
+        </commandSet>
+    </remote>
+</remotes>

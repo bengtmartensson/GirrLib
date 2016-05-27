@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--This file is in the Girr (General IR Remote) format, see http://www.harctoolbox.org/Girr.html-->
+<remotes girrVersion="1.0" title="IrScrutinizer parametric export">
+    <adminData>
+        <creationData creatingUser="bengt" creationDate="2014-12-26_17:55:45" source="IrScrutinizer parametrized table" tool="IrScrutinizer" tool2="DecodeIR" tool2Version="2.44" toolVersion="1.1.1"/>
+    </adminData>
+    <remote comment="Export from IrScrutinizer" name="Andersson TV" deviceClass="TV"
+            manufacturer="Andersson">
+        <commandSet name="commandSet">
+            <command master="parameters" name="HDMI">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="23"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 000B 0020 0020 0040 0020 0020 0020 0020 0020 0020 0020 0020 0040 0040 0040 0040 0040 0020 0020 0020 0020 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="Power">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="12"/>
+                    <parameter name="T" value="1"/>
+                </parameters>
+                <ccf>0000 0073 0000 000B 0020 0020 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0CC8</ccf>
+            </command>
+            <command master="parameters" name="RecordNext">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="51"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 000C 0020 0020 0040 0020 0020 0020 0020 0020 0020 0020 0020 0040 0020 0020 0020 0020 0040 0020 0020 0040 0020 0020 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="Play">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="25"/>
+                    <parameter name="T" value="1"/>
+                </parameters>
+                <ccf>0000 0073 0000 000B 0020 0020 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0040 0040 0020 0020 0040 0020 0020 0040 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="Pause">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="49"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 000C 0020 0020 0040 0020 0020 0020 0020 0020 0020 0020 0020 0040 0020 0020 0020 0020 0040 0020 0020 0020 0020 0040 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="Stop">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="24"/>
+                    <parameter name="T" value="1"/>
+                </parameters>
+                <ccf>0000 0073 0000 000B 0020 0020 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0040 0040 0020 0020 0040 0020 0020 0020 0020 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Previous">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="29"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 000B 0020 0020 0040 0020 0020 0020 0020 0020 0020 0020 0020 0040 0040 0040 0020 0020 0020 0020 0040 0040 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="Rewind">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="27"/>
+                    <parameter name="T" value="1"/>
+                </parameters>
+                <ccf>0000 0073 0000 000B 0020 0020 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0040 0040 0020 0020 0040 0040 0020 0020 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="FastForward">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="28"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 000B 0020 0020 0040 0020 0020 0020 0020 0020 0020 0020 0020 0040 0040 0040 0020 0020 0020 0020 0040 0020 0020 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Next">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="30"/>
+                    <parameter name="T" value="1"/>
+                </parameters>
+                <ccf>0000 0073 0000 000B 0020 0020 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0040 0040 0020 0020 0020 0020 0020 0020 0040 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Screen">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="11"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 000B 0020 0020 0040 0020 0020 0020 0020 0020 0020 0020 0020 0040 0040 0020 0020 0040 0040 0040 0020 0020 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="Lang">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="15"/>
+                    <parameter name="T" value="1"/>
+                </parameters>
+                <ccf>0000 0073 0000 000C 0020 0020 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0040 0020 0020 0040 0020 0020 0020 0020 0020 0020 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="Subtitle">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="31"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 000C 0020 0020 0040 0020 0020 0020 0020 0020 0020 0020 0020 0040 0040 0040 0020 0020 0020 0020 0020 0020 0020 0020 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="Global">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="46"/>
+                    <parameter name="T" value="1"/>
+                </parameters>
+                <ccf>0000 0073 0000 000B 0020 0020 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0020 0020 0040 0040 0020 0020 0020 0020 0040 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Zoom">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="55"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 000C 0020 0020 0040 0020 0020 0020 0020 0020 0020 0020 0020 0040 0020 0020 0020 0020 0040 0040 0020 0020 0020 0020 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="Repeat">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="54"/>
+                    <parameter name="T" value="1"/>
+                </parameters>
+                <ccf>0000 0073 0000 000B 0020 0020 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0020 0020 0020 0020 0040 0040 0020 0020 0040 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Root">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="50"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 000B 0020 0020 0040 0020 0020 0020 0020 0020 0020 0020 0020 0040 0020 0020 0020 0020 0040 0020 0020 0040 0040 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Title">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="52"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 000B 0020 0020 0040 0020 0020 0020 0020 0020 0020 0020 0020 0040 0020 0020 0020 0020 0040 0040 0040 0020 0020 0CC8</ccf>
+            </command>
+            <command comment="" master="parameters" name="1">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="1"/>
+                    <parameter name="T" value="1"/>
+                </parameters>
+                <ccf>0000 0073 0000 000C 0020 0020 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0040 0020 0020 0020 0020 0020 0020 0020 0020 0040 0020 0CA8</ccf>
+            </command>
+            <command comment="" master="parameters" name="2">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="2"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 000B 0020 0020 0040 0020 0020 0020 0020 0020 0020 0020 0020 0040 0040 0020 0020 0020 0020 0020 0020 0040 0040 0CC8</ccf>
+            </command>
+            <command master="parameters" name="3">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="3"/>
+                    <parameter name="T" value="1"/>
+                </parameters>
+                <ccf>0000 0073 0000 000C 0020 0020 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0040 0020 0020 0020 0020 0020 0020 0040 0020 0020 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="4">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="4"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 000B 0020 0020 0040 0020 0020 0020 0020 0020 0020 0020 0020 0040 0040 0020 0020 0020 0020 0040 0040 0020 0020 0CC8</ccf>
+            </command>
+            <command master="parameters" name="5">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="5"/>
+                    <parameter name="T" value="1"/>
+                </parameters>
+                <ccf>0000 0073 0000 000B 0020 0020 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0040 0020 0020 0020 0020 0040 0040 0040 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="6">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="6"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 000B 0020 0020 0040 0020 0020 0020 0020 0020 0020 0020 0020 0040 0040 0020 0020 0020 0020 0040 0020 0020 0040 0CC8</ccf>
+            </command>
+            <command master="parameters" name="7">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="7"/>
+                    <parameter name="T" value="1"/>
+                </parameters>
+                <ccf>0000 0073 0000 000C 0020 0020 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0040 0020 0020 0020 0020 0040 0020 0020 0020 0020 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="8">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="8"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 000B 0020 0020 0040 0020 0020 0020 0020 0020 0020 0020 0020 0040 0040 0020 0020 0040 0040 0020 0020 0020 0020 0CC8</ccf>
+            </command>
+            <command master="parameters" name="9">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="9"/>
+                    <parameter name="T" value="1"/>
+                </parameters>
+                <ccf>0000 0073 0000 000B 0020 0020 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0040 0020 0020 0040 0040 0020 0020 0040 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="Text">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="60"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 000C 0020 0020 0040 0020 0020 0020 0020 0020 0020 0020 0020 0040 0020 0020 0020 0020 0020 0020 0020 0020 0040 0020 0020 0CC8</ccf>
+            </command>
+            <command master="parameters" name="0">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="0"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 000C 0020 0020 0040 0020 0020 0020 0020 0020 0020 0020 0020 0040 0040 0020 0020 0020 0020 0020 0020 0020 0020 0020 0020 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Swap">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="34"/>
+                    <parameter name="T" value="1"/>
+                </parameters>
+                <ccf>0000 0073 0000 000B 0020 0020 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0020 0020 0040 0020 0020 0020 0020 0040 0040 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Info">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="18"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 000A 0020 0020 0040 0020 0020 0020 0020 0020 0020 0020 0020 0040 0040 0040 0040 0020 0020 0040 0040 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Source">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="56"/>
+                    <parameter name="T" value="1"/>
+                </parameters>
+                <ccf>0000 0073 0000 000C 0020 0020 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0020 0020 0020 0020 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Ch+">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="32"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 000C 0020 0020 0040 0020 0020 0020 0020 0020 0020 0020 0020 0040 0020 0020 0040 0020 0020 0020 0020 0020 0020 0020 0020 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Ch-">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="33"/>
+                    <parameter name="T" value="1"/>
+                </parameters>
+                <ccf>0000 0073 0000 000C 0020 0020 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="Vol+">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="16"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 000B 0020 0020 0040 0020 0020 0020 0020 0020 0020 0020 0020 0040 0040 0040 0040 0020 0020 0020 0020 0020 0020 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Vol-">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="17"/>
+                    <parameter name="T" value="1"/>
+                </parameters>
+                <ccf>0000 0073 0000 000B 0020 0020 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0040 0040 0040 0020 0020 0020 0020 0040 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="Up">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="20"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 000A 0020 0020 0040 0020 0020 0020 0020 0020 0020 0020 0020 0040 0040 0040 0040 0040 0040 0020 0020 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Left">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="21"/>
+                    <parameter name="T" value="1"/>
+                </parameters>
+                <ccf>0000 0073 0000 000A 0020 0020 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0040 0040 0040 0040 0040 0040 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="OK">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="53"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 000B 0020 0020 0040 0020 0020 0020 0020 0020 0020 0020 0020 0040 0020 0020 0020 0020 0040 0040 0040 0040 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="Right">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="22"/>
+                    <parameter name="T" value="1"/>
+                </parameters>
+                <ccf>0000 0073 0000 000A 0020 0020 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0040 0040 0040 0040 0020 0020 0040 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Down">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="19"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 000B 0020 0020 0040 0020 0020 0020 0020 0020 0020 0020 0020 0040 0040 0040 0040 0020 0020 0040 0020 0020 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="Mute">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="13"/>
+                    <parameter name="T" value="1"/>
+                </parameters>
+                <ccf>0000 0073 0000 000B 0020 0020 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0040 0020 0020 0040 0020 0020 0040 0040 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="Menu">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="48"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 000C 0020 0020 0040 0020 0020 0020 0020 0020 0020 0020 0020 0040 0020 0020 0020 0020 0040 0020 0020 0020 0020 0020 0020 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Return">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="10"/>
+                    <parameter name="T" value="1"/>
+                </parameters>
+                <ccf>0000 0073 0000 000A 0020 0020 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0040 0020 0020 0040 0040 0040 0040 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Fav">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="40"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 000B 0020 0020 0040 0020 0020 0020 0020 0020 0020 0020 0020 0040 0020 0020 0040 0040 0040 0020 0020 0020 0020 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Sleep">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="42"/>
+                    <parameter name="T" value="1"/>
+                </parameters>
+                <ccf>0000 0073 0000 000A 0020 0020 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0020 0020 0040 0040 0040 0040 0040 0CC8</ccf>
+            </command>
+            <command master="parameters" name="EPG">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="47"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 000C 0020 0020 0040 0020 0020 0020 0020 0020 0020 0020 0020 0040 0020 0020 0040 0040 0020 0020 0020 0020 0020 0020 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="Multimedia">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="57"/>
+                    <parameter name="T" value="1"/>
+                </parameters>
+                <ccf>0000 0073 0000 000C 0020 0020 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0020 0020 0040 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="Search">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="26"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 000A 0020 0020 0040 0020 0020 0020 0020 0020 0020 0020 0020 0040 0040 0040 0020 0020 0040 0040 0040 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Display">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="59"/>
+                    <parameter name="T" value="1"/>
+                </parameters>
+                <ccf>0000 0073 0000 000C 0020 0020 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0040 0020 0020 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="Presets">
+                <parameters protocol="RC5">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="14"/>
+                    <parameter name="T" value="0"/>
+                </parameters>
+                <ccf>0000 0073 0000 000B 0020 0020 0040 0020 0020 0020 0020 0020 0020 0020 0020 0040 0040 0020 0020 0040 0020 0020 0020 0020 0040 0CC8</ccf>
+            </command>
+        </commandSet>
+    </remote>
+</remotes>
