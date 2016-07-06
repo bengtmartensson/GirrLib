@@ -8,7 +8,7 @@
     <adminData>
         <creationData creatingUser="bengt" creationDate="2015-11-19_19:30:43" source="IrScrutinizer parametrized table" tool="IrScrutinizer" tool2="DecodeIR" tool2Version="2.45" toolVersion="1.1.3"/>
     </adminData>
-    <remote comment="Export from IrScrutinizer" deviceClass="Screen" manufacturer="Alphaluxx" model="-" name="" remoteName="1GD-IRAn">
+    <remote comment="Export from IrScrutinizer" deviceClass="Screen" manufacturer="Alphaluxx" model="-" name="Alphalux_motor_screen_remote" remoteName="1GD-IRAn">
         <commandSet name="commandSet">
             <command master="parameters" name="Up">
                 <parameters protocol="F32">

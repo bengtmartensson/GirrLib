@@ -3,7 +3,7 @@
     <adminData>
         <creationData creatingUser="bengt" creationDate="2016-01-12_15:39:11" source="IrScrutinizer parametrized table" tool="IrScrutinizer" tool2="DecodeIR" tool2Version="2.45" toolVersion="1.1.4snapshot"/>
     </adminData>
-    <remote comment="Export from IrScrutinizer" name="unnamed">
+    <remote comment="Export from IrScrutinizer" name="Popcorn Hour A100">
         <commandSet name="commandSet">
             <command comment="" master="parameters" name="cmd_0">
                 <parameters protocol="nec1">

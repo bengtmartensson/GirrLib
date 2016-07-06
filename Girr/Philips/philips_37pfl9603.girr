@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <remotes girrVersion="1.0" title="IrScrutinizer parametric export" xsi:noNamespaceSchemaLocation="http://www.harctoolbox.org/schemas/girr.xsd" xmlns:girr="http://www.harctoolbox.org/schemas/girr.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
-    <remote deviceClass="tv" manufacturer="Philips" model="37PFL9603" name="unknown_thing" remoteName="unknown_remote">
+    <remote deviceClass="tv" manufacturer="Philips" model="37PFL9603" name="Philips 37PFL9603" remoteName="unknown_remote">
         <commandSet name="rc5_0">
             <parameters protocol="rc5">
                 <parameter name="D" value="0"/>

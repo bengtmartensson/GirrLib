@@ -4,7 +4,7 @@
     <adminData>
         <creationData creatingUser="bengt" creationDate="2015-12-13_17:54:02" source="IrScrutinizer parametrized table" tool="IrScrutinizer" tool2="DecodeIR" tool2Version="2.45" toolVersion="1.1.3"/>
     </adminData>
-    <remote comment="Export from IrScrutinizer" deviceClass="MediaCenter" manufacturer="Microsoft" model="MCE" name="" remoteName="VRC-1100">
+    <remote comment="Export from IrScrutinizer" deviceClass="MediaCenter" manufacturer="Microsoft" model="MCE" name="mce" remoteName="VRC-1100">
         <commandSet name="commandSet">
             <command master="parameters" name="explorer">
                 <parameters protocol="OrtekMCE">

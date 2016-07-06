@@ -3,7 +3,7 @@
     <adminData>
         <creationData creatingUser="bengt" creationDate="2016-01-12_15:41:20" source="IrScrutinizer parametrized table" tool="IrScrutinizer" tool2="DecodeIR" tool2Version="2.45" toolVersion="1.1.4snapshot"/>
     </adminData>
-    <remote comment="Export from IrScrutinizer" name="unnamed">
+    <remote comment="Export from IrScrutinizer" name="Sony LaserDisk">
         <commandSet name="commandSet">
             <command comment="" master="parameters" name="open_close">
                 <parameters protocol="sony12">
