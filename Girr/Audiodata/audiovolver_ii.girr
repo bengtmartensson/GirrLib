@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
+<!--This file is in the Girr (General IR Remote) format, see http://www.harctoolbox.org/Girr.html-->
+<remotes xmlns="http://www.harctoolbox.org/Girr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" girrVersion="1.0" title="IrScrutinizer parametric export" xsi:schemaLocation="http://www.harctoolbox.org/schemas/girr_ns.xsd">
+    <adminData>
+        <creationData creatingUser="bengt" creationDate="2016-09-11_12:44:37" source="http://www.remotecentral.com/cgi-bin/mboard/rc-discrete/thread.cgi?7627" tool="IrScrutinizer" tool2="DecodeIR" tool2Version="2.45" toolVersion="1.3"/>
+    </adminData>
+    <remote comment="Export from IrScrutinizer" deviceClass="Audio" displayName="Audiovolver II" manufacturer="Audiodata" model="Audiovolver_II" name="audiovolver_ii" remoteName="Audiovolver II">
+        <commandSet name="commandSet">
+            <command master="parameters" name="Digital1">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="41"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Digital2">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="42"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Digital3">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="43"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Analog">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="44"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Demo5">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="45"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Demo6">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="46"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Demo7">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="47"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Demo8">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="48"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Volume 0 dB">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="59"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Video">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="51"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Bypass">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="52"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Tube">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="53"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Mute">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="54"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Channel Check">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="55"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Pegel">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="56"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Messung">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="57"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Alt">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="58"/>
+                </parameters>
+            </command>
+        </commandSet>
+    </remote>
+</remotes>
