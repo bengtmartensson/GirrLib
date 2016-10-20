@@ -169,8 +169,8 @@
             <command name="frequency_down" F="218"/>
             <command name="dimmer" F="223"/>
         </commandSet>
-        <commandSet name="denon_k_4_1">
-            <parameters protocol="denon_k">
+        <commandSet name="denon-k_4_1">
+            <parameters protocol="denon-k">
                 <parameter name="D" value="4"/>
                 <parameter name="S" value="1"/>
             </parameters>
@@ -220,8 +220,8 @@
             <command name="frequency_down" F="995"/>
             <command name="frequency_up" F="996"/>
         </commandSet>
-        <commandSet name="denon_k_4_3">
-            <parameters protocol="denon_k">
+        <commandSet name="denon-k_4_3">
+            <parameters protocol="denon-k">
                 <parameter name="D" value="4"/>
                 <parameter name="S" value="3"/>
             </parameters>
@@ -256,8 +256,8 @@
             <command name="zone2_frequency_down" F="995"/>
             <command name="zone2_frequency_up" F="996"/>
         </commandSet>
-        <commandSet name="denon_k_4_4">
-            <parameters protocol="denon_k">
+        <commandSet name="denon-k_4_4">
+            <parameters protocol="denon-k">
                 <parameter name="D" value="4"/>
                 <parameter name="S" value="4"/>
             </parameters>
@@ -265,8 +265,8 @@
             <command name="zone2_on" F="6"/>
             <command name="zone2_off" F="7"/>
         </commandSet>
-        <commandSet name="denon_k_4_5">
-            <parameters protocol="denon_k">
+        <commandSet name="denon-k_4_5">
+            <parameters protocol="denon-k">
                 <parameter name="D" value="4"/>
                 <parameter name="S" value="5"/>
             </parameters>
@@ -302,15 +302,15 @@
             <command name="zone3_frequency_down" F="995"/>
             <command name="zone3_frequency_up" F="996"/>
         </commandSet>
-        <commandSet name="denon_k_4_7">
-            <parameters protocol="denon_k">
+        <commandSet name="denon-k_4_7">
+            <parameters protocol="denon-k">
                 <parameter name="D" value="4"/>
                 <parameter name="S" value="7"/>
             </parameters>
             <command name="cmd_0xff" F="27"/>
         </commandSet>
-        <commandSet name="denon_k_2_3">
-            <parameters protocol="denon_k">
+        <commandSet name="denon-k_2_3">
+            <parameters protocol="denon-k">
                 <parameter name="D" value="2"/>
                 <parameter name="S" value="3"/>
             </parameters>
