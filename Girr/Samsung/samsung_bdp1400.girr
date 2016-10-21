@@ -5,6 +5,10 @@
     </adminData>
     <remote comment="Export from IrScrutinizer" name="Samsung BDP1400">
         <commandSet name="commandSet">
+            <parameters protocol="samsung36">
+                <parameter name="S" value="0"/>
+                <parameter name="E" value="7"/>
+            </parameters>
             <command comment="" master="parameters" name="cmd_0">
                 <parameters protocol="samsung36">
                     <parameter name="D" value="32"/>
