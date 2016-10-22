@@ -10,15 +10,16 @@
     <remote deviceClass="misc_audio" manufacturer="apple" model="remote" name="Apple Remote">
 
         <commandSet xmlns:girr="http://www.harctoolbox.org/schemas/girr.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="apple_212">
-            <parameters protocol="apple">
-                <parameter name="D" value="212"/>
+            <parameters protocol="Apple">
+                <parameter name="D" value="238"/>
+                <parameter name="PairID" value="212">
             </parameters>
-            <command name="play_pause" F="4"/>
-            <command name="previous" F="8"/>
-            <command name="next" F="7"/>
-            <command name="menu" F="2"/>
-            <command name="up" F="11"/>
-            <command name="down" F="13"/>
+            <command name="play_pause" F="2"/>
+            <command name="previous" F="4"/>
+            <command name="next" F="3"/>
+            <command name="menu" F="1"/>
+            <command name="up" F="5"/>
+            <command name="down" F="6"/>
         </commandSet>
     </remote>
 </remotes>
