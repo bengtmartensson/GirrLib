@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
+<!--This file is in the Girr (General IR Remote) format, see http://www.harctoolbox.org/Girr.html-->
+<remotes xmlns="http://www.harctoolbox.org/Girr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" girrVersion="1.0" title="IrScrutinizer parametric export" xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns.xsd">
+    <adminData>
+        <creationData creatingUser="bengt" creationDate="2017-10-29_13:33:40" source="IrScrutinizer parametrized table" tool="IrScrutinizer" tool2="DecodeIR" tool2Version="2.45" toolVersion="1.4.1"/>
+    </adminData>
+    <remote comment="Export from IrScrutinizer" deviceClass="surround sound processor" displayName="Lyngdorf MP-50" manufacturer="Lyngdorf" model="MP-50" name="lyngdorf-MP-50" remoteName="">
+        <commandSet name="commandSet">
+            <command master="parameters" name="0">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="202"/>
+                    <parameter name="D" value="55"/>
+                    <parameter name="F" value="0"/>
+                </parameters>
+                <ccf>0000 006C 0022 0002 015B 00AD 0016 0041 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0016 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0041 0016 0041 0016 0041 0016 0041 0016 0041 0016 0041 0016 0041 0016 0041 0016 05CB 015B 0057 0016 0E6C</ccf>
+                <format name="short-ccf">900A 006C 0000 0001 37CA 00FF</format>
+            </command>
+            <command master="parameters" name="1">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="202"/>
+                    <parameter name="D" value="55"/>
+                    <parameter name="F" value="1"/>
+                </parameters>
+                <ccf>0000 006C 0022 0002 015B 00AD 0016 0041 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0016 0016 0016 0016 0041 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0041 0016 0041 0016 0041 0016 0041 0016 0041 0016 0041 0016 0041 0016 05CB 015B 0057 0016 0E6C</ccf>
+                <format name="short-ccf">900A 006C 0000 0001 37CA 01FE</format>
+            </command>
+            <command master="parameters" name="2">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="202"/>
+                    <parameter name="D" value="55"/>
+                    <parameter name="F" value="2"/>
+                </parameters>
+                <ccf>0000 006C 0022 0002 015B 00AD 0016 0041 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0016 0016 0016 0016 0041 0016 0041 0016 0016 0016 0041 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0041 0016 0041 0016 0041 0016 0041 0016 0041 0016 05CB 015B 0057 0016 0E6C</ccf>
+                <format name="short-ccf">900A 006C 0000 0001 37CA 02FD</format>
+            </command>
+            <command master="parameters" name="3">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="202"/>
+                    <parameter name="D" value="55"/>
+                    <parameter name="F" value="3"/>
+                </parameters>
+                <ccf>0000 006C 0022 0002 015B 00AD 0016 0041 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0016 0016 0016 0016 0041 0016 0041 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0041 0016 0041 0016 0041 0016 0041 0016 0041 0016 0041 0016 05CB 015B 0057 0016 0E6C</ccf>
+                <format name="short-ccf">900A 006C 0000 0001 37CA 03FC</format>
+            </command>
+            <command master="parameters" name="4">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="202"/>
+                    <parameter name="D" value="55"/>
+                    <parameter name="F" value="4"/>
+                </parameters>
+                <ccf>0000 006C 0022 0002 015B 00AD 0016 0041 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0016 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0041 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0041 0016 0041 0016 0041 0016 05CB 015B 0057 0016 0E6C</ccf>
+                <format name="short-ccf">900A 006C 0000 0001 37CA 04FB</format>
+            </command>
+            <command master="parameters" name="5">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="202"/>
+                    <parameter name="D" value="55"/>
+                    <parameter name="F" value="5"/>
+                </parameters>
+                <ccf>0000 006C 0022 0002 015B 00AD 0016 0041 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0016 0016 0016 0016 0041 0016 0041 0016 0041 0016 0016 0016 0041 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0041 0016 0041 0016 0041 0016 0041 0016 05CB 015B 0057 0016 0E6C</ccf>
+                <format name="short-ccf">900A 006C 0000 0001 37CA 05FA</format>
+            </command>
+            <command master="parameters" name="6">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="202"/>
+                    <parameter name="D" value="55"/>
+                    <parameter name="F" value="6"/>
+                </parameters>
+                <ccf>0000 006C 0022 0002 015B 00AD 0016 0041 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0016 0016 0016 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0016 0016 0041 0016 0041 0016 0041 0016 0041 0016 0041 0016 05CB 015B 0057 0016 0E6C</ccf>
+                <format name="short-ccf">900A 006C 0000 0001 37CA 06F9</format>
+            </command>
+            <command master="parameters" name="7">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="202"/>
+                    <parameter name="D" value="55"/>
+                    <parameter name="F" value="7"/>
+                </parameters>
+                <ccf>0000 006C 0022 0002 015B 00AD 0016 0041 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0016 0016 0016 0016 0041 0016 0041 0016 0041 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0041 0016 0041 0016 0041 0016 0041 0016 0041 0016 05CB 015B 0057 0016 0E6C</ccf>
+                <format name="short-ccf">900A 006C 0000 0001 37CA 07F8</format>
+            </command>
+            <command master="parameters" name="8">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="202"/>
+                    <parameter name="D" value="55"/>
+                    <parameter name="F" value="8"/>
+                </parameters>
+                <ccf>0000 006C 0022 0002 015B 00AD 0016 0041 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0016 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0016 0016 0016 0016 0016 0016 0041 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0041 0016 0041 0016 05CB 015B 0057 0016 0E6C</ccf>
+                <format name="short-ccf">900A 006C 0000 0001 37CA 08F7</format>
+            </command>
+            <command master="parameters" name="9">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="202"/>
+                    <parameter name="D" value="55"/>
+                    <parameter name="F" value="9"/>
+                </parameters>
+                <ccf>0000 006C 0022 0002 015B 00AD 0016 0041 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0016 0016 0016 0016 0041 0016 0041 0016 0041 0016 0016 0016 0016 0016 0041 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0041 0016 0041 0016 05CB 015B 0057 0016 0E6C</ccf>
+                <format name="short-ccf">900A 006C 0000 0001 37CA 09F6</format>
+            </command>
+            <command master="parameters" name="Audio">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="202"/>
+                    <parameter name="D" value="55"/>
+                    <parameter name="F" value="10"/>
+                </parameters>
+                <ccf>0000 006C 0022 0002 015B 00AD 0016 0041 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0016 0016 0016 0016 0041 0016 0041 0016 0016 0016 0041 0016 0016 0016 0041 0016 0016 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0016 0016 0041 0016 0041 0016 0041 0016 0041 0016 05CB 015B 0057 0016 0E6C</ccf>
+                <format name="short-ccf">900A 006C 0000 0001 37CA 0AF5</format>
+            </command>
+            <command master="parameters" name="Setup">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="202"/>
+                    <parameter name="D" value="55"/>
+                    <parameter name="F" value="11"/>
+                </parameters>
+                <ccf>0000 006C 0022 0002 015B 00AD 0016 0041 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0016 0016 0016 0016 0041 0016 0041 0016 0041 0016 0041 0016 0016 0016 0041 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0041 0016 0041 0016 0041 0016 05CB 015B 0057 0016 0E6C</ccf>
+                <format name="short-ccf">900A 006C 0000 0001 37CA 0BF4</format>
+            </command>
+            <command master="parameters" name="Power Togle">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="202"/>
+                    <parameter name="D" value="55"/>
+                    <parameter name="F" value="12"/>
+                </parameters>
+                <ccf>0000 006C 0022 0002 015B 00AD 0016 0041 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0016 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0041 0016 0041 0016 0041 0016 0041 0016 05CB 015B 0057 0016 0E6C</ccf>
+                <format name="short-ccf">900A 006C 0000 0001 37CA 0CF3</format>
+            </command>
+            <command master="parameters" name="Power On">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="202"/>
+                    <parameter name="D" value="55"/>
+                    <parameter name="F" value="128"/>
+                </parameters>
+                <ccf>0000 006C 0022 0002 015B 00AD 0016 0041 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0016 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0041 0016 0041 0016 0041 0016 0041 0016 0041 0016 0041 0016 0041 0016 0041 0016 0016 0016 05CB 015B 0057 0016 0E6C</ccf>
+                <format name="short-ccf">900A 006C 0000 0001 37CA 807F</format>
+            </command>
+            <command master="parameters" name="Power Off">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="202"/>
+                    <parameter name="D" value="55"/>
+                    <parameter name="F" value="129"/>
+                </parameters>
+                <ccf>0000 006C 0022 0002 015B 00AD 0016 0041 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0016 0016 0016 0016 0041 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0041 0016 0041 0016 0041 0016 0041 0016 0041 0016 0016 0016 05CB 015B 0057 0016 0E6C</ccf>
+                <format name="short-ccf">900A 006C 0000 0001 37CA 817E</format>
+            </command>
+            <command master="parameters" name="Info">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="202"/>
+                    <parameter name="D" value="55"/>
+                    <parameter name="F" value="13"/>
+                </parameters>
+                <ccf>0000 006C 0022 0002 015B 00AD 0016 0041 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0016 0016 0016 0016 0041 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0016 0016 0041 0016 0041 0016 0041 0016 0041 0016 05CB 015B 0057 0016 0E6C</ccf>
+                <format name="short-ccf">900A 006C 0000 0001 37CA 0DF2</format>
+            </command>
+            <command master="parameters" name="Previous">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="202"/>
+                    <parameter name="D" value="55"/>
+                    <parameter name="F" value="14"/>
+                </parameters>
+                <ccf>0000 006C 0022 0002 015B 00AD 0016 0041 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0016 0016 0016 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0041 0016 0041 0016 0041 0016 05CB 015B 0057 0016 0E6C</ccf>
+                <format name="short-ccf">900A 006C 0000 0001 37CA 0EF1</format>
+            </command>
+            <command master="parameters" name="Play_Pause">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="202"/>
+                    <parameter name="D" value="55"/>
+                    <parameter name="F" value="15"/>
+                </parameters>
+                <ccf>0000 006C 0022 0002 015B 00AD 0016 0041 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0016 0016 0016 0016 0041 0016 0041 0016 0041 0016 0041 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0041 0016 0041 0016 0041 0016 0041 0016 05CB 015B 0057 0016 0E6C</ccf>
+                <format name="short-ccf">900A 006C 0000 0001 37CA 0FF0</format>
+            </command>
+            <command master="parameters" name="Next">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="202"/>
+                    <parameter name="D" value="55"/>
+                    <parameter name="F" value="16"/>
+                </parameters>
+                <ccf>0000 006C 0022 0002 015B 00AD 0016 0041 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0016 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0041 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0041 0016 05CB 015B 0057 0016 0E6C</ccf>
+                <format name="short-ccf">900A 006C 0000 0001 37CA 10EF</format>
+            </command>
+            <command master="parameters" name="Up">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="202"/>
+                    <parameter name="D" value="55"/>
+                    <parameter name="F" value="17"/>
+                </parameters>
+                <ccf>0000 006C 0022 0002 015B 00AD 0016 0041 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0016 0016 0016 0016 0041 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0016 0016 0016 0016 0016 0016 0041 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0041 0016 05CB 015B 0057 0016 0E6C</ccf>
+                <format name="short-ccf">900A 006C 0000 0001 37CA 11EE</format>
+            </command>
+            <command master="parameters" name="Left">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="202"/>
+                    <parameter name="D" value="55"/>
+                    <parameter name="F" value="18"/>
+                </parameters>
+                <ccf>0000 006C 0022 0002 015B 00AD 0016 0041 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0016 0016 0016 0016 0041 0016 0041 0016 0016 0016 0041 0016 0016 0016 0016 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0041 0016 05CB 015B 0057 0016 0E6C</ccf>
+                <format name="short-ccf">900A 006C 0000 0001 37CA 12ED</format>
+            </command>
+            <command master="parameters" name="OK">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="202"/>
+                    <parameter name="D" value="55"/>
+                    <parameter name="F" value="19"/>
+                </parameters>
+                <ccf>0000 006C 0022 0002 015B 00AD 0016 0041 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0016 0016 0016 0016 0041 0016 0041 0016 0041 0016 0041 0016 0016 0016 0016 0016 0041 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0041 0016 05CB 015B 0057 0016 0E6C</ccf>
+                <format name="short-ccf">900A 006C 0000 0001 37CA 13EC</format>
+            </command>
+            <command master="parameters" name="Right">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="202"/>
+                    <parameter name="D" value="55"/>
+                    <parameter name="F" value="20"/>
+                </parameters>
+                <ccf>0000 006C 0022 0002 015B 00AD 0016 0041 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0016 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0041 0016 0016 0016 0041 0016 0016 0016 0041 0016 0041 0016 0041 0016 05CB 015B 0057 0016 0E6C</ccf>
+                <format name="short-ccf">900A 006C 0000 0001 37CA 14EB</format>
+            </command>
+            <command master="parameters" name="Down">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="202"/>
+                    <parameter name="D" value="55"/>
+                    <parameter name="F" value="21"/>
+                </parameters>
+                <ccf>0000 006C 0022 0002 015B 00AD 0016 0041 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0016 0016 0016 0016 0041 0016 0041 0016 0041 0016 0016 0016 0041 0016 0016 0016 0041 0016 0016 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0016 0016 0041 0016 0041 0016 0041 0016 05CB 015B 0057 0016 0E6C</ccf>
+                <format name="short-ccf">900A 006C 0000 0001 37CA 15EA</format>
+            </command>
+            <command master="parameters" name="Back">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="202"/>
+                    <parameter name="D" value="55"/>
+                    <parameter name="F" value="22"/>
+                </parameters>
+                <ccf>0000 006C 0022 0002 015B 00AD 0016 0041 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0016 0016 0016 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0016 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0041 0016 0041 0016 05CB 015B 0057 0016 0E6C</ccf>
+                <format name="short-ccf">900A 006C 0000 0001 37CA 16E9</format>
+            </command>
+            <command master="parameters" name="Menu">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="202"/>
+                    <parameter name="D" value="55"/>
+                    <parameter name="F" value="23"/>
+                </parameters>
+                <ccf>0000 006C 0022 0002 015B 00AD 0016 0041 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0016 0016 0016 0016 0041 0016 0041 0016 0041 0016 0041 0016 0041 0016 0016 0016 0041 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0041 0016 0041 0016 05CB 015B 0057 0016 0E6C</ccf>
+                <format name="short-ccf">900A 006C 0000 0001 37CA 17E8</format>
+            </command>
+            <command master="parameters" name="SRC">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="202"/>
+                    <parameter name="D" value="55"/>
+                    <parameter name="F" value="24"/>
+                </parameters>
+                <ccf>0000 006C 0022 0002 015B 00AD 0016 0041 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0016 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0041 0016 0041 0016 0016 0016 0016 0016 0041 0016 0041 0016 0041 0016 05CB 015B 0057 0016 0E6C</ccf>
+                <format name="short-ccf">900A 006C 0000 0001 37CA 18E7</format>
+            </command>
+            <command master="parameters" name="Vol+">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="202"/>
+                    <parameter name="D" value="55"/>
+                    <parameter name="F" value="25"/>
+                </parameters>
+                <ccf>0000 006C 0022 0002 015B 00AD 0016 0041 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0016 0016 0016 0016 0041 0016 0041 0016 0041 0016 0016 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0041 0016 0041 0016 0041 0016 05CB 015B 0057 0016 0E6C</ccf>
+                <format name="short-ccf">900A 006C 0000 0001 37CA 19E6</format>
+            </command>
+            <command master="parameters" name="SRC+">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="202"/>
+                    <parameter name="D" value="55"/>
+                    <parameter name="F" value="26"/>
+                </parameters>
+                <ccf>0000 006C 0022 0002 015B 00AD 0016 0041 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0016 0016 0016 0016 0041 0016 0041 0016 0016 0016 0041 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0016 0016 0016 0016 0041 0016 0041 0016 0041 0016 05CB 015B 0057 0016 0E6C</ccf>
+                <format name="short-ccf">900A 006C 0000 0001 37CA 1AE5</format>
+            </command>
+            <command master="parameters" name="Vol-">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="202"/>
+                    <parameter name="D" value="55"/>
+                    <parameter name="F" value="27"/>
+                </parameters>
+                <ccf>0000 006C 0022 0002 015B 00AD 0016 0041 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0016 0016 0016 0016 0041 0016 0041 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0016 0016 0041 0016 0041 0016 0041 0016 05CB 015B 0057 0016 0E6C</ccf>
+                <format name="short-ccf">900A 006C 0000 0001 37CA 1BE4</format>
+            </command>
+            <command master="parameters" name="Mute">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="202"/>
+                    <parameter name="D" value="55"/>
+                    <parameter name="F" value="28"/>
+                </parameters>
+                <ccf>0000 006C 0022 0002 015B 00AD 0016 0041 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0016 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0041 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0041 0016 0041 0016 05CB 015B 0057 0016 0E6C</ccf>
+                <format name="short-ccf">900A 006C 0000 0001 37CA 1CE3</format>
+            </command>
+            <command master="parameters" name="SRC-">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="202"/>
+                    <parameter name="D" value="55"/>
+                    <parameter name="F" value="29"/>
+                </parameters>
+                <ccf>0000 006C 0022 0002 015B 00AD 0016 0041 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0041 0016 0016 0016 0016 0016 0041 0016 0041 0016 0041 0016 0016 0016 0041 0016 0041 0016 0041 0016 0016 0016 0016 0016 0016 0016 0016 0016 0041 0016 0016 0016 0016 0016 0016 0016 0041 0016 0041 0016 0041 0016 05CB 015B 0057 0016 0E6C</ccf>
+                <format name="short-ccf">900A 006C 0000 0001 37CA 1DE2</format>
+            </command>
+        </commandSet>
+    </remote>
+</remotes>
