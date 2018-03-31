@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?><!--This file is in the Girr (General IR Remote) format, see http://www.harctoolbox.org/Girr.html--><remotes xmlns="http://www.harctoolbox.org/Girr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" girrVersion="1.0" title="Pioneer XR-P470C" xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns.xsd">
+    <adminData>
+        <creationData creatingUser="Maciej S. Szmigiero"/>
+    </adminData>
+    <remote deviceClass="receiver" manufacturer="Pioneer" model="xrp470c" name="Pioneer XR-P470C" remoteName="CU-XR032">
+        <commandSet name="commandSet">
+            <command master="parameters" name="volume_down" displayName="Volume-">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="166"/>
+                    <parameter name="F" value="11"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="volume_up" displayName="Volume+">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="166"/>
+                    <parameter name="F" value="10"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="sleep" displayName="Sleep">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="166"/>
+                    <parameter name="F" value="25"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="power" displayName="Power">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="166"/>
+                    <parameter name="F" value="28"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="karaoke" displayName="Karaoke">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="166"/>
+                    <parameter name="F" value="105"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="sfc" displayName="SFC">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="166"/>
+                    <parameter name="F" value="218"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="pbass" displayName="P.Bass">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="166"/>
+                    <parameter name="F" value="221"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="display" displayName="Display">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="166"/>
+                    <parameter name="F" value="157"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="aux" displayName="Aux">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="166"/>
+                    <parameter name="F" value="76"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="disc_1" displayName="CD Disc 1">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="162"/>
+                    <parameter name="F" value="30"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="disc_2" displayName="CD Disc 2">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="162"/>
+                    <parameter name="F" value="31"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="disc_3" displayName="CD Disc 3">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="162"/>
+                    <parameter name="F" value="80"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="cd_clear" displayName="CD Clear">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="162"/>
+                    <parameter name="F" value="69"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="cd_pgm" displayName="CD PGM">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="162"/>
+                    <parameter name="F" value="13"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="cd_repeat" displayName="CD Repeat">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="162"/>
+                    <parameter name="F" value="12"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="cd_random" displayName="CD Random">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="162"/>
+                    <parameter name="F" value="74"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="cd_prev" displayName="CD Previous">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="162"/>
+                    <parameter name="F" value="17"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="cd_next" displayName="CD Next">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="162"/>
+                    <parameter name="F" value="16"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="cd_stop" displayName="CD Stop">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="162"/>
+                    <parameter name="F" value="22"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="cd_play_pause" displayName="CD Play/Pause">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="166"/>
+                    <parameter name="F" value="68"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="t1prev" displayName="Tape 1 Previous">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="161"/>
+                    <parameter name="F" value="87"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="t1next" displayName="Tape 1 Next">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="161"/>
+                    <parameter name="F" value="86"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="t1stop" displayName="Tape 1 Stop">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="161"/>
+                    <parameter name="F" value="92"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="t1play" displayName="Tape 1 Play">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="166"/>
+                    <parameter name="F" value="90"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="t2prev" displayName="Tape 2 Previous">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="161"/>
+                    <parameter name="F" value="17"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="t2next" displayName="Tape 2 Next">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="161"/>
+                    <parameter name="F" value="16"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="t2stop" displayName="Tape 2 Stop">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="161"/>
+                    <parameter name="F" value="22"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="t2play" displayName="Tape 2 Play">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="166"/>
+                    <parameter name="F" value="23"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="station_down" displayName="Tuner station-">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="164"/>
+                    <parameter name="F" value="17"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="station_up" displayName="Tuner station+">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="164"/>
+                    <parameter name="F" value="16"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="mono" displayName="Tuner mono">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="164"/>
+                    <parameter name="F" value="30"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="band" displayName="Tuner band">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="166"/>
+                    <parameter name="F" value="73"/>
+                </parameters>
+            </command>
+        </commandSet>
+    </remote>
+</remotes>
