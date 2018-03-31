@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
 <remotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:girr="http://www.harctoolbox.org/schemas/girr.xsd" title="Translated by harc2girr" girrVersion="1.0" xsi:noNamespaceSchemaLocation="http://www.harctoolbox.org/schemas/girr.xsd">
-    <remote deviceClass="dvd" manufacturer="Panasonic" model="S75" name="Panasonic DVD S75">
+    <remote deviceClass="vcr" manufacturer="Panasonic" model="NVF55" name="Panasonic VCR NFV55">
         <commandSet name="panasonic_144_0">
             <parameters protocol="panasonic">
                 <parameter name="D" value="144"/>
