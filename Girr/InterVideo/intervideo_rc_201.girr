@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?><!--This file is in the Girr (General IR Remote) format, see http://www.harctoolbox.org/Girr.html--><remotes xmlns="http://www.harctoolbox.org/Girr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" girrVersion="1.0" title="InterVideo RC-201" xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns.xsd">
+    <adminData>
+        <creationData creatingUser="Maciej S. Szmigiero"/>
+    </adminData>
+    <remote manufacturer="InterVideo" model="RC-201" name="intervideo_rc_201" remoteName="RC-201">
+        <commandSet name="commandSet">
+            <command master="parameters" name="power" displayName="Power">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="33"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="tv_dvr" displayName="TV/DVR">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="34"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="print" displayName="Print">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="35"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="close" displayName="Close">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="36"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="music" displayName="Music">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="37"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="pictures" displayName="Pictures">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="38"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="videos" displayName="Videos">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="39"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="dvd_menu" displayName="DVD/Menu">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="40"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="up" displayName="Cursor up">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="51"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="up_left" displayName="Cursor up left">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="52"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="up_right" displayName="Cursor up right">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="50"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="down" displayName="Cursor down">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="55"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="down_left" displayName="Cursor down left">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="54"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="down_right" displayName="Cursor down right">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="48"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="left" displayName="Cursor left">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="53"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="right" displayName="Cursor right">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="49"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="back" displayName="Back">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="45"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="ok" displayName="OK">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="17"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="home_end" displayName="Home/End">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="46"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="prev" displayName="Previous">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="41"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="play_pause" displayName="Play/Pause">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="42"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="next" displayName="Next">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="43"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="rew" displayName="Rewind">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="25"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="stop" displayName="Stop">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="18"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="fwd" displayName="Forward">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="9"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="volume_up" displayName="Volume+">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="26"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="volume_down" displayName="Volume-">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="27"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="channel_up" displayName="Channel+">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="10"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="channel_down" displayName="Channel-">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="11"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="home" displayName="Home">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="19"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="mute" displayName="Mute">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="28"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="record" displayName="Record">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="20"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="toggle" displayName="Toggle">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="12"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="num_1" displayName="1">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="29"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="num_2" displayName="2">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="21"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="num_3" displayName="3">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="13"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="num_4" displayName="4">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="30"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="num_5" displayName="5">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="22"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="num_6" displayName="6">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="14"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="num_7" displayName="7">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="31"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="num_8" displayName="8">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="23"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="num_9" displayName="9">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="15"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="shuffle" displayName="Shuffle">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="32"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="num_0" displayName="0">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="24"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="repeat" displayName="Repeat">
+                <parameters protocol="intervideo rc-201">
+                    <parameter name="F" value="16"/>
+                </parameters>
+            </command>
+        </commandSet>
+    </remote>
+</remotes>
