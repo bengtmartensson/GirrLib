@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?><!--This file is in the Girr (General IR Remote) format, see http://www.harctoolbox.org/Girr.html-->
-<remotes xmlns="http://www.harctoolbox.org/Girr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" girrVersion="1.0" title="Cyfrowy Polsat CRB47A01" comment="A remote for Cyfrowy Polsat TV platform STBs. Actual ODM is unknown." xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns.xsd">
+<remotes xmlns="http://www.harctoolbox.org/Girr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" girrVersion="1.0" title="Cyfrowy Polsat CRB47A01" xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns.xsd">
     <adminData>
         <creationData creatingUser="Maciej S. Szmigiero"/>
     </adminData>
-    <remote deviceClass="STB" name="cyfrowypolsat_crb47a01" remoteName="Cyfrowy Polsat CRB47A01">
+    <remote deviceClass="STB" name="cyfrowypolsat_crb47a01" comment="A remote for Cyfrowy Polsat TV platform STBs. Actual ODM is unknown." remoteName="Cyfrowy Polsat CRB47A01">
         <commandSet name="commandSet">
             <command master="parameters" name="mute" displayName="Mute">
                 <parameters protocol="samsung36">
