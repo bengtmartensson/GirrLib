@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?><!--This file is in the Girr (General IR Remote) format, see http://www.harctoolbox.org/Girr.html--><remotes xmlns="http://www.harctoolbox.org/Girr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" girrVersion="1.0" title="IrScrutinizer parametric export" xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns.xsd">
+    <adminData>
+        <creationData creatingUser="bengt" creationDate="2018-05-31_14:41:11" source="IrScrutinizer parametrized table" tool="IrScrutinizer" tool2="DecodeIR" tool2Version="2.45" toolVersion="1.4.1"/>
+    </adminData>
+    <remote comment="Export from IrScrutinizer" deviceClass="Other" displayName="Glow with the Show" manufacturer="Disney" model="" name="gwts" remoteName="">
+        <notes>
+            The know commands for the Disney Glow with the Show hats, see http://www.hifi-remote.com/forums/viewtopic.php?t=14541.
+        </notes>
+        <commandSet name="commandSet">
+            <command comment="" master="parameters" name="off">
+                <parameters protocol="gwts">
+                    <parameter name="CRC" value="166"/>
+                    <parameter name="F" value="96"/>
+                </parameters>
+                <raw frequency="38005">
+                    <intro>+2085 -417 +834 -834 +2502 -834 +417 -417 +834 -834 +834 -417 +417 -834</intro>
+                </raw>
+                <ccf>0000 006D 0007 0000 004F 0010 0020 0020 005F 0020 0010 0010 0020 0020 0020 0010 0010 0020</ccf>
+            </command>
+            <command comment="" master="parameters" name="blue">
+                <parameters protocol="gwts">
+                    <parameter name="CRC" value="248"/>
+                    <parameter name="F" value="97"/>
+                </parameters>
+                <raw frequency="38005">
+                    <intro>+2085 -417 +834 -834 +417 -417 +1668 -834 +417 -417 +1668 -2502</intro>
+                </raw>
+                <ccf>0000 006D 0006 0000 004F 0010 0020 0020 0010 0010 003F 0020 0010 0010 003F 005F</ccf>
+            </command>
+            <command comment="" master="parameters" name="green">
+                <parameters protocol="gwts">
+                    <parameter name="CRC" value="26"/>
+                    <parameter name="F" value="98"/>
+                </parameters>
+                <raw frequency="38005">
+                    <intro>+2085 -417 +834 -834 +834 -417 +1251 -834 +417 -417 +834 -417 +417 -834 +1251 -417</intro>
+                </raw>
+                <ccf>0000 006D 0008 0000 004F 0010 0020 0020 0020 0010 0030 0020 0010 0010 0020 0010 0010 0020 0030 0010</ccf>
+            </command>
+            <command comment="" master="parameters" name="cyan">
+                <parameters protocol="gwts">
+                    <parameter name="CRC" value="68"/>
+                    <parameter name="F" value="99"/>
+                </parameters>
+                <raw frequency="38005">
+                    <intro>+2085 -417 +834 -834 +417 -834 +1251 -834 +417 -417 +1251 -417 +1251 -417 +417 -417</intro>
+                </raw>
+                <ccf>0000 006D 0008 0000 004F 0010 0020 0020 0010 0020 0030 0020 0010 0010 0030 0010 0030 0010 0010 0010</ccf>
+            </command>
+            <command comment="" master="parameters" name="red">
+                <parameters protocol="gwts">
+                    <parameter name="CRC" value="199"/>
+                    <parameter name="F" value="100"/>
+                </parameters>
+                <raw frequency="38005">
+                    <intro>+2085 -417 +834 -834 +1251 -417 +834 -834 +417 -417 +417 -1251 +1251 -1251</intro>
+                </raw>
+                <ccf>0000 006D 0007 0000 004F 0010 0020 0020 0030 0010 0020 0020 0010 0010 0010 0030 0030 0030</ccf>
+            </command>
+            <command comment="" master="parameters" name="magenta">
+                <parameters protocol="gwts">
+                    <parameter name="CRC" value="153"/>
+                    <parameter name="F" value="101"/>
+                </parameters>
+                <raw frequency="38005">
+                    <intro>+2085 -417 +834 -834 +417 -417 +417 -417 +834 -834 +417 -417 +417 -417 +834 -834 +834 -834</intro>
+                </raw>
+                <ccf>0000 006D 0009 0000 004F 0010 0020 0020 0010 0010 0010 0010 0020 0020 0010 0010 0010 0010 0020 0020 0020 0020</ccf>
+            </command>
+            <command comment="" master="parameters" name="yellow">
+                <parameters protocol="gwts">
+                    <parameter name="CRC" value="123"/>
+                    <parameter name="F" value="102"/>
+                </parameters>
+                <raw frequency="38005">
+                    <intro>+2085 -417 +834 -834 +834 -834 +834 -834 +417 -417 +417 -834 +417 -1668 +417 -417</intro>
+                </raw>
+                <ccf>0000 006D 0008 0000 004F 0010 0020 0020 0020 0020 0020 0020 0010 0010 0010 0020 0010 003F 0010 0010</ccf>
+            </command>
+            <command comment="" master="parameters" name="white">
+                <parameters protocol="gwts">
+                    <parameter name="CRC" value="37"/>
+                    <parameter name="F" value="103"/>
+                </parameters>
+                <raw frequency="38005">
+                    <intro>+2085 -417 +834 -834 +417 -1251 +834 -834 +417 -417 +417 -417 +417 -417 +834 -417 +834 -417</intro>
+                </raw>
+                <ccf>0000 006D 0009 0000 004F 0010 0020 0020 0010 0030 0020 0020 0010 0010 0010 0010 0010 0010 0020 0010 0020 0010</ccf>
+            </command>
+            <command comment="" master="parameters" name="off_r">
+                <parameters protocol="gwts">
+                    <parameter name="CRC" value="100"/>
+                    <parameter name="F" value="104"/>
+                </parameters>
+                <raw frequency="38005">
+                    <intro>+2085 -417 +834 -834 +1668 -417 +417 -834 +417 -417 +1251 -417 +834 -834 +417 -417</intro>
+                </raw>
+                <ccf>0000 006D 0008 0000 004F 0010 0020 0020 003F 0010 0010 0020 0010 0010 0030 0010 0020 0020 0010 0010</ccf>
+            </command>
+            <command comment="" master="parameters" name="blue_r">
+                <parameters protocol="gwts">
+                    <parameter name="CRC" value="58"/>
+                    <parameter name="F" value="105"/>
+                </parameters>
+                <raw frequency="38005">
+                    <intro>+2085 -417 +834 -834 +417 -417 +834 -417 +417 -834 +417 -417 +834 -417 +417 -1251 +834 -417</intro>
+                </raw>
+                <ccf>0000 006D 0009 0000 004F 0010 0020 0020 0010 0010 0020 0010 0010 0020 0010 0010 0020 0010 0010 0030 0020 0010</ccf>
+            </command>
+            <command comment="" master="parameters" name="green_r">
+                <parameters protocol="gwts">
+                    <parameter name="CRC" value="216"/>
+                    <parameter name="F" value="106"/>
+                </parameters>
+                <raw frequency="38005">
+                    <intro>+2085 -417 +834 -834 +834 -417 +417 -417 +417 -834 +417 -417 +1668 -834 +417 -1251</intro>
+                </raw>
+                <ccf>0000 006D 0008 0000 004F 0010 0020 0020 0020 0010 0010 0010 0010 0020 0010 0010 003F 0020 0010 0030</ccf>
+            </command>
+            <command comment="" master="parameters" name="cyan_r">
+                <parameters protocol="gwts">
+                    <parameter name="CRC" value="134"/>
+                    <parameter name="F" value="107"/>
+                </parameters>
+                <raw frequency="38005">
+                    <intro>+2085 -417 +834 -834 +417 -834 +417 -417 +417 -834 +417 -417 +834 -834 +1668 -834</intro>
+                </raw>
+                <ccf>0000 006D 0008 0000 004F 0010 0020 0020 0010 0020 0010 0010 0010 0020 0010 0010 0020 0020 003F 0020</ccf>
+            </command>
+            <command comment="" master="parameters" name="red_r">
+                <parameters protocol="gwts">
+                    <parameter name="CRC" value="5"/>
+                    <parameter name="F" value="108"/>
+                </parameters>
+                <raw frequency="38005">
+                    <intro>+2085 -417 +834 -834 +1251 -834 +417 -834 +417 -417 +417 -417 +417 -417 +2085 -417</intro>
+                </raw>
+                <ccf>0000 006D 0008 0000 004F 0010 0020 0020 0030 0020 0010 0020 0010 0010 0010 0010 0010 0010 004F 0010</ccf>
+            </command>
+            <command comment="" master="parameters" name="magenta_r">
+                <parameters protocol="gwts">
+                    <parameter name="CRC" value="91"/>
+                    <parameter name="F" value="109"/>
+                </parameters>
+                <raw frequency="38005">
+                    <intro>+2085 -417 +834 -834 +417 -417 +417 -834 +417 -834 +417 -417 +417 -834 +417 -834 +417 -417 +417 -417</intro>
+                </raw>
+                <ccf>0000 006D 000A 0000 004F 0010 0020 0020 0010 0010 0010 0020 0010 0020 0010 0010 0010 0020 0010 0020 0010 0010 0010 0010</ccf>
+            </command>
+            <command comment="" master="parameters" name="yellow_r">
+                <parameters protocol="gwts">
+                    <parameter name="CRC" value="185"/>
+                    <parameter name="F" value="110"/>
+                </parameters>
+                <raw frequency="38005">
+                    <intro>+2085 -417 +834 -834 +834 -1251 +417 -834 +417 -417 +417 -417 +834 -1251 +417 -834</intro>
+                </raw>
+                <ccf>0000 006D 0008 0000 004F 0010 0020 0020 0020 0030 0010 0020 0010 0010 0010 0010 0020 0030 0010 0020</ccf>
+            </command>
+            <command comment="" master="parameters" name="white_r">
+                <parameters protocol="gwts">
+                    <parameter name="CRC" value="231"/>
+                    <parameter name="F" value="111"/>
+                </parameters>
+                <raw frequency="38005">
+                    <intro>+2085 -417 +834 -834 +417 -1668 +417 -834 +417 -417 +417 -1251 +834 -1668</intro>
+                </raw>
+                <ccf>0000 006D 0007 0000 004F 0010 0020 0020 0010 003F 0010 0020 0010 0010 0010 0030 0020 003F</ccf>
+            </command>
+        </commandSet>
+    </remote>
+</remotes>
