@@ -98,8 +98,8 @@
             <command name="sort_genres" F="05" comment="Sort by Genres"/>
             <command name="sort_composer" F="06" comment="Sort byComposer"/>
             <command name="sort_playlist" F="07" comment="Sort by Play-List"/>
-            <command name="sort_podcasting" F="08" comment="Sort by Podcasting"/>
-            <command name="sort_audiobook" F="09" comment="Sort by Audio Books"/>
+            <command name="sort_podcasting" F="8" comment="Sort by Podcasting"/>
+            <command name="sort_audiobook" F="9" comment="Sort by Audio Books"/>
         </commandSet>
         <commandSet name="rc5x_14_48">
             <parameters protocol="rc5x">

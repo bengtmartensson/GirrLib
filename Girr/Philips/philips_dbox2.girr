@@ -7,16 +7,16 @@
                 <parameter name="D" value="13"/>
                 <parameter name="S" value="64"/>
             </parameters>
-            <command name="cmd_0" F="00"/>
-            <command name="cmd_1" F="01"/>
-            <command name="cmd_2" F="02"/>
-            <command name="cmd_3" F="03"/>
-            <command name="cmd_4" F="04"/>
-            <command name="cmd_5" F="05"/>
-            <command name="cmd_6" F="06"/>
-            <command name="cmd_7" F="07"/>
-            <command name="cmd_8" F="08"/>
-            <command name="cmd_9" F="09"/>
+            <command name="cmd_0" F="0"/>
+            <command name="cmd_1" F="1"/>
+            <command name="cmd_2" F="2"/>
+            <command name="cmd_3" F="3"/>
+            <command name="cmd_4" F="4"/>
+            <command name="cmd_5" F="5"/>
+            <command name="cmd_6" F="6"/>
+            <command name="cmd_7" F="7"/>
+            <command name="cmd_8" F="8"/>
+            <command name="cmd_9" F="9"/>
             <command name="right" F="10"/>
             <command name="left" F="11"/>
             <command name="up" F="12"/>
