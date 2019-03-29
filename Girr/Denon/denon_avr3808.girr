@@ -8,17 +8,17 @@
             <parameters protocol="denon">
                 <parameter name="D" value="2"/>
             </parameters>
-            <command name="zone3_tuner" F="072"/>
-            <command name="zone3_phono" F="073"/>
-            <command name="zone3_cd" F="074"/>
-            <command name="zone3_dvd" F="078"/>
-            <command name="zone3_hdp" F="079"/>
-            <command name="zone3_tv_cbl" F="082"/>
-            <command name="zone3_sat" F="083"/>
-            <command name="zone3_vcr" F="084"/>
-            <command name="zone3_dvr" F="085"/>
-            <command name="zone3_video_aux" F="087"/>
-            <command name="zone2_toggle" F="093"/>
+            <command name="zone3_tuner" F="72"/>
+            <command name="zone3_phono" F="73"/>
+            <command name="zone3_cd" F="74"/>
+            <command name="zone3_dvd" F="78"/>
+            <command name="zone3_hdp" F="79"/>
+            <command name="zone3_tv_cbl" F="82"/>
+            <command name="zone3_sat" F="83"/>
+            <command name="zone3_vcr" F="84"/>
+            <command name="zone3_dvr" F="85"/>
+            <command name="zone3_video_aux" F="87"/>
+            <command name="zone2_toggle" F="93"/>
             <command name="zone3_volume_down" F="101"/>
             <command name="zone3_volume_up" F="102"/>
             <command name="pure_direct" F="106"/>
