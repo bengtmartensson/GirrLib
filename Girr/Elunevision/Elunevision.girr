@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?><!--This file is in the Girr (General IR Remote) format, see http://www.harctoolbox.org/Girr.html--><remotes xmlns="http://www.harctoolbox.org/Girr" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" girrVersion="1.0" title="IrScrutinizer parametric export" xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns.xsd">
+    <remote comment="Export from IrScrutinizer" deviceClass="Misc." displayName="Elunevision Luna motorized projector screen remote" manufacturer="Elunevision" name="Elunevision">
+        <commandSet name="commandSet">
+            <command master="parameters" name="up">
+                <parameters protocol="elunevision">
+                    <parameter name="F" value="221"/>
+                </parameters>
+                <ccf>0100 000A 0000 0021 05CC 01BD 01BD 0094 01BD 0094 01BD 0094 01BD 0094 0094 01BD 01BD 0094 0094 01BD 0094 01BD 01BD 0094 0094 01BD 0094 01BD 0094 01BD 0094 01BD 0094 01BD 0094 01BD 0094 01BD 01BD 0094 0094 01BD 0094 01BD 0094 01BD 0094 01BD 0094 01BD 0094 01BD 0094 01BD 01BD 0094 01BD 0094 0094 01BD 01BD 0094 01BD 0094 01BD 0094 0094 01BD 01BD 04A3</ccf>
+            </command>
+            <command master="parameters" name="down">
+                <parameters protocol="elunevision">
+                    <parameter name="F" value="238"/>
+                </parameters>
+                <ccf>0100 000A 0000 0021 05CC 01BD 01BD 0094 01BD 0094 01BD 0094 01BD 0094 0094 01BD 01BD 0094 0094 01BD 0094 01BD 01BD 0094 0094 01BD 0094 01BD 0094 01BD 0094 01BD 0094 01BD 0094 01BD 0094 01BD 01BD 0094 0094 01BD 0094 01BD 0094 01BD 0094 01BD 0094 01BD 0094 01BD 0094 01BD 01BD 0094 01BD 0094 01BD 0094 0094 01BD 01BD 0094 01BD 0094 01BD 0094 0094 05CC</ccf>
+            </command>
+            <command master="parameters" name="stop">
+                <parameters protocol="elunevision">
+                    <parameter name="F" value="204"/>
+                </parameters>
+                <ccf>0100 000A 0000 0021 05CC 01BD 01BD 0094 01BD 0094 01BD 0094 01BD 0094 0094 01BD 01BD 0094 0094 01BD 0094 01BD 01BD 0094 0094 01BD 0094 01BD 0094 01BD 0094 01BD 0094 01BD 0094 01BD 0094 01BD 01BD 0094 0094 01BD 0094 01BD 0094 01BD 0094 01BD 0094 01BD 0094 01BD 0094 01BD 01BD 0094 01BD 0094 0094 01BD 0094 01BD 01BD 0094 01BD 0094 0094 01BD 0094 05CC</ccf>
+            </command>
+        </commandSet>
+    </remote>
+</remotes>
