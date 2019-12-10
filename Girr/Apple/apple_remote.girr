@@ -12,7 +12,7 @@
         <commandSet xmlns:girr="http://www.harctoolbox.org/schemas/girr.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="apple_212">
             <parameters protocol="Apple">
                 <parameter name="D" value="238"/>
-                <parameter name="PairID" value="212">
+                <parameter name="PairID" value="212"/>
             </parameters>
             <command name="play_pause" F="2"/>
             <command name="previous" F="4"/>
