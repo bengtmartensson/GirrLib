@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
-<remotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" girrVersion="1.0" title="IrScrutinizer parametric export" xsi:noNamespaceSchemaLocation="http://www.harctoolbox.org/schemas/girr.xsd">
+<remotes girrVersion="1.0" title="IrScrutinizer parametric export"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://www.harctoolbox.org/Girr"
+         xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns.xsd">
     <adminData>
         <creationData creatingUser="bengt" creationDate="2015-12-13_17:54:02" source="IrScrutinizer parametrized table" tool="IrScrutinizer" tool2="DecodeIR" tool2Version="2.45" toolVersion="1.1.3"/>
     </adminData>

@@ -1,44 +1,45 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
-<remotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:girr="http://www.harctoolbox.org/schemas/girr.xsd" title="Translated by harc2girr" girrVersion="1.0" xsi:noNamespaceSchemaLocation="http://www.harctoolbox.org/schemas/girr.xsd">
+<remotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.harctoolbox.org/Girr" title="Translated by harc2girr" girrVersion="1.0"
+xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns.xsd">
     <remote deviceClass="sat" manufacturer="Sagem" model="dbox2" name="dbox2">
         <commandSet name="nokia_13_64">
             <parameters protocol="nokia">
                 <parameter name="D" value="13"/>
                 <parameter name="S" value="64"/>
             </parameters>
-            <command name="cmd_0" F="0"/>
-            <command name="cmd_1" F="1"/>
-            <command name="cmd_2" F="2"/>
-            <command name="cmd_3" F="3"/>
-            <command name="cmd_4" F="4"/>
-            <command name="cmd_5" F="5"/>
-            <command name="cmd_6" F="6"/>
-            <command name="cmd_7" F="7"/>
-            <command name="cmd_8" F="8"/>
-            <command name="cmd_9" F="9"/>
-            <command name="right" F="10"/>
-            <command name="left" F="11"/>
-            <command name="up" F="12"/>
-            <command name="down" F="13"/>
-            <command name="ok" F="14"/>
-            <command name="mute_toggle" F="15"/>
-            <command name="power_toggle" F="16"/>
-            <command name="green" F="17"/>
-            <command name="yellow" F="18"/>
-            <command name="red" F="19"/>
-            <command name="blue" F="20"/>
-            <command name="volume_up" F="21"/>
-            <command name="volume_down" F="22"/>
-            <command name="info" F="23"/>
-            <command name="setup" F="24"/>
-            <command name="home" F="31"/>
-            <command name="page_down" F="25"/>
-            <command name="page_up" F="26"/>
-            <command name="topleft" F="27"/>
-            <command name="topright" F="28"/>
-            <command name="bottomleft" F="29"/>
-            <command name="bottomright" F="30"/>
+            <command master="parameters" name="cmd_0" F="0"/>
+            <command master="parameters" name="cmd_1" F="1"/>
+            <command master="parameters" name="cmd_2" F="2"/>
+            <command master="parameters" name="cmd_3" F="3"/>
+            <command master="parameters" name="cmd_4" F="4"/>
+            <command master="parameters" name="cmd_5" F="5"/>
+            <command master="parameters" name="cmd_6" F="6"/>
+            <command master="parameters" name="cmd_7" F="7"/>
+            <command master="parameters" name="cmd_8" F="8"/>
+            <command master="parameters" name="cmd_9" F="9"/>
+            <command master="parameters" name="right" F="10"/>
+            <command master="parameters" name="left" F="11"/>
+            <command master="parameters" name="up" F="12"/>
+            <command master="parameters" name="down" F="13"/>
+            <command master="parameters" name="ok" F="14"/>
+            <command master="parameters" name="mute_toggle" F="15"/>
+            <command master="parameters" name="power_toggle" F="16"/>
+            <command master="parameters" name="green" F="17"/>
+            <command master="parameters" name="yellow" F="18"/>
+            <command master="parameters" name="red" F="19"/>
+            <command master="parameters" name="blue" F="20"/>
+            <command master="parameters" name="volume_up" F="21"/>
+            <command master="parameters" name="volume_down" F="22"/>
+            <command master="parameters" name="info" F="23"/>
+            <command master="parameters" name="setup" F="24"/>
+            <command master="parameters" name="home" F="31"/>
+            <command master="parameters" name="page_down" F="25"/>
+            <command master="parameters" name="page_up" F="26"/>
+            <command master="parameters" name="topleft" F="27"/>
+            <command master="parameters" name="topright" F="28"/>
+            <command master="parameters" name="bottomleft" F="29"/>
+            <command master="parameters" name="bottomright" F="30"/>
         </commandSet>
     </remote>
 </remotes>

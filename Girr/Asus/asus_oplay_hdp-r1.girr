@@ -1,35 +1,37 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
-<remotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:girr="http://www.harctoolbox.org/schemas/girr.xsd" title="Translated by harc2girr" girrVersion="1.0" xsi:noNamespaceSchemaLocation="http://www.harctoolbox.org/schemas/girr.xsd">
+<remotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.harctoolbox.org/Girr"
+         title="Translated by harc2girr" girrVersion="1.0"
+         xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns.xsd">
     <remote deviceClass="misc_audio" manufacturer="asus" model="oplay_hdp-r1" name="ASUS O!Play HDP-R1">
         <commandSet name="nec1_108">
             <parameters protocol="nec1">
                 <parameter name="D" value="108"/>
             </parameters>
-            <command name="power_toggle" F="86"/>
-            <command name="display" F="84"/>
-            <command name="rewind" F="65" comment="set speed backwards"/>
-            <command name="play_pause" F="24"/>
-            <command name="fast_forward" F="23" comment="set speed forwards"/>
-            <command name="previous" F="25"/>
-            <command name="stop" F="4"/>
-            <command name="next" F="19"/>
-            <command name="home" F="64"/>
-            <command name="cmd_return" F="68"/>
-            <command name="up" F="94"/>
-            <command name="left" F="88"/>
-            <command name="ok" F="93"/>
-            <command name="right" F="95"/>
-            <command name="down" F="92"/>
-            <command name="volume_up" F="27"/>
-            <command name="setup" F="69"/>
-            <command name="volume_down" F="76"/>
-            <command name="shuffle" F="5"/>
-            <command name="mode" F="73"/>
-            <command name="subtitle" F="91"/>
-            <command name="zoom" F="66"/>
-            <command name="audio" F="87"/>
-            <command name="repeat" F="90"/>
+            <command master="parameters" name="power_toggle" F="86"/>
+            <command master="parameters" name="display" F="84"/>
+            <command master="parameters" name="rewind" F="65" comment="set speed backwards"/>
+            <command master="parameters" name="play_pause" F="24"/>
+            <command master="parameters" name="fast_forward" F="23" comment="set speed forwards"/>
+            <command master="parameters" name="previous" F="25"/>
+            <command master="parameters" name="stop" F="4"/>
+            <command master="parameters" name="next" F="19"/>
+            <command master="parameters" name="home" F="64"/>
+            <command master="parameters" name="cmd_return" F="68"/>
+            <command master="parameters" name="up" F="94"/>
+            <command master="parameters" name="left" F="88"/>
+            <command master="parameters" name="ok" F="93"/>
+            <command master="parameters" name="right" F="95"/>
+            <command master="parameters" name="down" F="92"/>
+            <command master="parameters" name="volume_up" F="27"/>
+            <command master="parameters" name="setup" F="69"/>
+            <command master="parameters" name="volume_down" F="76"/>
+            <command master="parameters" name="shuffle" F="5"/>
+            <command master="parameters" name="mode" F="73"/>
+            <command master="parameters" name="subtitle" F="91"/>
+            <command master="parameters" name="zoom" F="66"/>
+            <command master="parameters" name="audio" F="87"/>
+            <command master="parameters" name="repeat" F="90"/>
         </commandSet>
     </remote>
 </remotes>

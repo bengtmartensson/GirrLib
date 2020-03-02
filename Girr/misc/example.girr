@@ -305,8 +305,8 @@
                 <parameter name="D" value="73"/>
             </parameters>
             <!--command-set id="oppo-just-f"-->
-                <command F="26" name="power"/>
-                <command F="27" name="eject"/>
+                <command master="parameters" F="26" name="power"/>
+                <command master="parameters" F="27" name="eject"/>
                 <!--/command-set-->
         </commandSet>
 <!--

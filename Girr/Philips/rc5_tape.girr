@@ -1,28 +1,33 @@
 <?xml version="1.0"?>
-
-  <?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
-        <remotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:girr="http://www.harctoolbox.org/schemas/girr.xsd" title="Translated by harc2girr" girrVersion="1.0" xsi:noNamespaceSchemaLocation="http://www.harctoolbox.org/schemas/girr.xsd"><remote deviceClass="tape" manufacturer="" model="" name="Canonical RC5 TAPE-Player">
+<?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
+<remotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.harctoolbox.org/Girr"
+         title="Translated by harc2girr" girrVersion="1.0"
+         xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns.xsd">
+    <remote deviceClass="tape" manufacturer="" model="" name="Canonical RC5 TAPE-Player">
         <commandSet name="rc5_18_">
-            <parameters protocol="rc5"><parameter name="D" value="18"/></parameters>
-        <command name="cmd_0" F="0"/>
-        <command name="cmd_1" F="1"/>
-        <command name="cmd_2" F="2"/>
-        <command name="cmd_3" F="3"/>
-        <command name="cmd_4" F="4"/>
-        <command name="cmd_5" F="5"/>
-        <command name="cmd_6" F="6"/>
-        <command name="cmd_7" F="7"/>
-        <command name="cmd_8" F="8"/>
-        <command name="cmd_9" F="9"/>
-        <command name="power_toggle" F="12"/>
-        <command name="in_tape" F="63"/>
-        <command name="previous" F="33"/>
-        <command name="next" F="32"/>
-        <command name="play" F="53"/>
-        <command name="rewind" F="50"/>
-        <command name="fast_forward" F="52"/>
-        <command name="stop" F="54"/>
-        <command name="pause_toggle" F="48"/>
-        <command name="record_on" F="55"/>
-            </commandSet></remote></remotes>
-
+            <parameters protocol="rc5">
+                <parameter name="D" value="18"/>
+            </parameters>
+            <command master="parameters" name="cmd_0" F="0"/>
+            <command master="parameters" name="cmd_1" F="1"/>
+            <command master="parameters" name="cmd_2" F="2"/>
+            <command master="parameters" name="cmd_3" F="3"/>
+            <command master="parameters" name="cmd_4" F="4"/>
+            <command master="parameters" name="cmd_5" F="5"/>
+            <command master="parameters" name="cmd_6" F="6"/>
+            <command master="parameters" name="cmd_7" F="7"/>
+            <command master="parameters" name="cmd_8" F="8"/>
+            <command master="parameters" name="cmd_9" F="9"/>
+            <command master="parameters" name="power_toggle" F="12"/>
+            <command master="parameters" name="in_tape" F="63"/>
+            <command master="parameters" name="previous" F="33"/>
+            <command master="parameters" name="next" F="32"/>
+            <command master="parameters" name="play" F="53"/>
+            <command master="parameters" name="rewind" F="50"/>
+            <command master="parameters" name="fast_forward" F="52"/>
+            <command master="parameters" name="stop" F="54"/>
+            <command master="parameters" name="pause_toggle" F="48"/>
+            <command master="parameters" name="record_on" F="55"/>
+        </commandSet>
+    </remote>
+</remotes>

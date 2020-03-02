@@ -1,40 +1,44 @@
 <?xml version="1.0"?>
 
 <?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
-<remotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:girr="http://www.harctoolbox.org/schemas/girr.xsd" title="Translated by harc2girr" girrVersion="1.0" xsi:noNamespaceSchemaLocation="http://www.harctoolbox.org/schemas/girr.xsd">
+<remotes
+    title="Translated by harc2girr" girrVersion="1.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://www.harctoolbox.org/Girr"
+         xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns.xsd">
     <remote deviceClass="projector" manufacturer="Sanyo" model="PLV-Z4" name="Sanyo PLV-Z4">
         <commandSet name="nec1_51_0">
             <parameters protocol="nec1">
                 <parameter name="D" value="51"/>
                 <parameter name="S" value="0"/>
             </parameters>
-            <command name="power_toggle" F="0"/>
-            <command name="lamp_mode" F="24"/>
-            <command name="video_mute_toggle" F="139"/>
-            <command name="freeze_toggle" F="67"/>
-            <command name="menu" F="28"/>
-            <command name="reset" F="25"/>
-            <command name="up" F="140"/>
-            <command name="down" F="141"/>
-            <command name="right" F="29"/>
-            <command name="left" F="30"/>
-            <command name="ok" F="15"/>
-            <command name="aspectratio" F="130"/>
-            <command name="image" F="12"/>
-            <command name="brightness" F="48"/>
-            <command name="contrast" F="49"/>
-            <command name="color" F="50"/>
-            <command name="iris" F="51"/>
-            <command name="img_preset_up" F="14"/>
-            <command name="img_user_up" F="13"/>
-            <command name="in_hdmi" F="55"/>
-            <command name="in_vga" F="56"/>
-            <command name="in_video" F="61"/>
-            <command name="in_s_video" F="62"/>
-            <command name="in_component2" F="129"/>
-            <command name="in_component1" F="131"/>
-            <command name="power_on" F="160"/>
-            <command name="power_off" F="161"/>
+            <command master="parameters" name="power_toggle" F="0"/>
+            <command master="parameters" name="lamp_mode" F="24"/>
+            <command master="parameters" name="video_mute_toggle" F="139"/>
+            <command master="parameters" name="freeze_toggle" F="67"/>
+            <command master="parameters" name="menu" F="28"/>
+            <command master="parameters" name="reset" F="25"/>
+            <command master="parameters" name="up" F="140"/>
+            <command master="parameters" name="down" F="141"/>
+            <command master="parameters" name="right" F="29"/>
+            <command master="parameters" name="left" F="30"/>
+            <command master="parameters" name="ok" F="15"/>
+            <command master="parameters" name="aspectratio" F="130"/>
+            <command master="parameters" name="image" F="12"/>
+            <command master="parameters" name="brightness" F="48"/>
+            <command master="parameters" name="contrast" F="49"/>
+            <command master="parameters" name="color" F="50"/>
+            <command master="parameters" name="iris" F="51"/>
+            <command master="parameters" name="img_preset_up" F="14"/>
+            <command master="parameters" name="img_user_up" F="13"/>
+            <command master="parameters" name="in_hdmi" F="55"/>
+            <command master="parameters" name="in_vga" F="56"/>
+            <command master="parameters" name="in_video" F="61"/>
+            <command master="parameters" name="in_s_video" F="62"/>
+            <command master="parameters" name="in_component2" F="129"/>
+            <command master="parameters" name="in_component1" F="131"/>
+            <command master="parameters" name="power_on" F="160"/>
+            <command master="parameters" name="power_off" F="161"/>
         </commandSet>
     </remote>
 </remotes>

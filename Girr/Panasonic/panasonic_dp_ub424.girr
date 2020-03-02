@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
-<?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?><!--This file is in the Girr (General IR Remote) format, see http://www.harctoolbox.org/Girr.html--><remotes xmlns="http://www.harctoolbox.org/Girr" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" girrVersion="1.0" title="IrScrutinizer parametric export" xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns.xsd">
+<?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
+<!--This file is in the Girr (General IR Remote) format, see http://www.harctoolbox.org/Girr.html-->
+<remotes xmlns="http://www.harctoolbox.org/Girr"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" girrVersion="1.0" title="IrScrutinizer parametric export"
+         xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns.xsd">
     <remote comment="Export from IrScrutinizer" deviceClass="Ultra Bluray" displayName="Panasonic DP UB424" manufacturer="Panasonic" model="DP-UB424" name="Panasonic_DP_UB424" remoteName="IR6">
         <commandSet name="commandSet">
             <command master="parameters" name="power_toggle">

@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
-<remotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:girr="http://www.harctoolbox.org/schemas/girr.xsd"
+<remotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.harctoolbox.org/Girr"
          title="Translated by harc2girr" girrVersion="1.0"
-         xsi:noNamespaceSchemaLocation="http://www.harctoolbox.org/schemas/girr.xsd">
+         xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns.xsd">
     <remote deviceClass="camera" manufacturer="" model="EOS-450D" name="Canon EOS 450D">
         <adminData>
             <notes>Canon EOS 450D, and probably a lot of other Canon models.
                 References: http://www.doc-diy.net/photo/rc-1_hacked</notes>
         </adminData>
         <commandSet name="raw_ccf_">
-            <command name="trigger">
+            <command master="ccf" name="trigger">
                 <ccf>0000 007e 0002 0000 0010 00f0 0010 00f0</ccf>
             </command>
-            <command name="delayed_trigger">
+            <command master="ccf" name="delayed_trigger">
                 <ccf>0000 007e 0002 0000 0010 00af 0010 00af</ccf>
             </command>
         </commandSet>

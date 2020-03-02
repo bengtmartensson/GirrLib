@@ -1,49 +1,52 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
-<remotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:girr="http://www.harctoolbox.org/schemas/girr.xsd" title="Translated by harc2girr" girrVersion="1.0" xsi:noNamespaceSchemaLocation="http://www.harctoolbox.org/schemas/girr.xsd">
+<remotes title="Translated by harc2girr" girrVersion="1.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://www.harctoolbox.org/Girr"
+         xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns.xsd">
     <remote deviceClass="vcr" manufacturer="Panasonic" model="NVF55" name="Panasonic VCR NFV55">
         <commandSet name="panasonic_144_0">
             <parameters protocol="panasonic">
                 <parameter name="D" value="144"/>
                 <parameter name="S" value="0"/>
             </parameters>
-            <command name="still_advance" F="6"/>
-            <command name="stop" F="0"/>
-            <command name="rewind" F="2"/>
-            <command name="play" F="10"/>
-            <command name="fast_forward" F="3"/>
-            <command name="record_on" F="8"/>
-            <command name="slow_down" F="143"/>
-            <command name="slow" F="15"/>
-            <command name="slow_up" F="142"/>
-            <command name="clock_counter" F="86"/>
-            <command name="tape_remaining" F="85"/>
-            <command name="reset" F="84"/>
-            <command name="monitor" F="145"/>
-            <command name="vcr_tv" F="54"/>
-            <command name="input_select" F="192"/>
-            <command name="index" F="64"/>
-            <command name="time_search" F="68"/>
-            <command name="tracking_down" F="178"/>
-            <command name="tracking_up" F="177"/>
-            <command name="repeat" F="249"/>
-            <command name="memory" F="244"/>
-            <command name="sleep" F="242"/>
-            <command name="auto_rewind" F="243"/>
-            <command name="audio" F="51"/>
-            <command name="cmd_1" F="16"/>
-            <command name="cmd_2" F="17"/>
-            <command name="cmd_3" F="18"/>
-            <command name="cmd_4" F="19"/>
-            <command name="cmd_5" F="20"/>
-            <command name="cmd_6" F="21"/>
-            <command name="cmd_7" F="22"/>
-            <command name="cmd_8" F="23"/>
-            <command name="cmd_9" F="24"/>
-            <command name="cmd_0" F="25"/>
-            <command name="two_digit" F="59"/>
-            <command name="timer" F="180"/>
-            <command name="pal_secam" F="201"/>
+            <command master="parameters" name="still_advance" F="6"/>
+            <command master="parameters" name="stop" F="0"/>
+            <command master="parameters" name="rewind" F="2"/>
+            <command master="parameters" name="play" F="10"/>
+            <command master="parameters" name="fast_forward" F="3"/>
+            <command master="parameters" name="record_on" F="8"/>
+            <command master="parameters" name="slow_down" F="143"/>
+            <command master="parameters" name="slow" F="15"/>
+            <command master="parameters" name="slow_up" F="142"/>
+            <command master="parameters" name="clock_counter" F="86"/>
+            <command master="parameters" name="tape_remaining" F="85"/>
+            <command master="parameters" name="reset" F="84"/>
+            <command master="parameters" name="monitor" F="145"/>
+            <command master="parameters" name="vcr_tv" F="54"/>
+            <command master="parameters" name="input_select" F="192"/>
+            <command master="parameters" name="index" F="64"/>
+            <command master="parameters" name="time_search" F="68"/>
+            <command master="parameters" name="tracking_down" F="178"/>
+            <command master="parameters" name="tracking_up" F="177"/>
+            <command master="parameters" name="repeat" F="249"/>
+            <command master="parameters" name="memory" F="244"/>
+            <command master="parameters" name="sleep" F="242"/>
+            <command master="parameters" name="auto_rewind" F="243"/>
+            <command master="parameters" name="audio" F="51"/>
+            <command master="parameters" name="cmd_1" F="16"/>
+            <command master="parameters" name="cmd_2" F="17"/>
+            <command master="parameters" name="cmd_3" F="18"/>
+            <command master="parameters" name="cmd_4" F="19"/>
+            <command master="parameters" name="cmd_5" F="20"/>
+            <command master="parameters" name="cmd_6" F="21"/>
+            <command master="parameters" name="cmd_7" F="22"/>
+            <command master="parameters" name="cmd_8" F="23"/>
+            <command master="parameters" name="cmd_9" F="24"/>
+            <command master="parameters" name="cmd_0" F="25"/>
+            <command master="parameters" name="two_digit" F="59"/>
+            <command master="parameters" name="timer" F="180"/>
+            <command master="parameters" name="pal_secam" F="201"/>
         </commandSet>
     </remote>
 </remotes>

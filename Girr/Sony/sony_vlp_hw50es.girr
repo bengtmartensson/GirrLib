@@ -1,70 +1,73 @@
 <?xml version="1.0"?>
 
 <?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
-<remotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:girr="http://www.harctoolbox.org/schemas/girr.xsd" title="Translated by harc2girr" girrVersion="1.0" xsi:noNamespaceSchemaLocation="http://www.harctoolbox.org/schemas/girr.xsd">
+<remotes title="Translated by harc2girr" girrVersion="1.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://www.harctoolbox.org/Girr"
+         xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns.xsd">
     <remote deviceClass="projector" manufacturer="Sony" model="VLP HW50ES" name="Sony VLP HW50ES">
         <commandSet name="sony15_84_">
             <parameters protocol="sony15">
                 <parameter name="D" value="84"/>
             </parameters>
-            <command name="video_mute_toggle" F="36" comment="toggle"/>
-            <command name="status_on" F="37" comment=""/>
-            <command name="status_off" F="38" comment=""/>
-            <command name="menu" F="41" comment=""/>
-            <command name="in_vga" F="43" comment="vga input"/>
-            <command name="in_component" F="44" comment=""/>
-            <command name="power_on" F="46" comment="discrete"/>
-            <command name="reset" F="123" comment=""/>
-            <command name="in_hdmi2" F="112" comment=""/>
-            <command name="in_hdmi1" F="111" comment=""/>
-            <command name="ok" F="90" comment=""/>
-            <command name="input_select" F="87" comment="cyclic"/>
-            <command name="down" F="54" comment=""/>
-            <command name="up" F="53" comment=""/>
-            <command name="left" F="52" comment=""/>
-            <command name="right" F="51" comment=""/>
-            <command name="power_off" F="47" comment="discrete"/>
-            <command name="sharpness_down" F="35" comment=""/>
-            <command name="sharpness_up" F="34" comment=""/>
-            <command name="hue_down" F="33" comment="-&gt;purple"/>
-            <command name="hue_up" F="32" comment="-&gt;green"/>
-            <command name="brightness_down" F="31" comment=""/>
-            <command name="brightness_up" F="30" comment=""/>
-            <command name="color_down" F="27" comment=""/>
-            <command name="color_up" F="26" comment=""/>
-            <command name="contrast_down" F="25" comment=""/>
-            <command name="contrast_up" F="24" comment=""/>
-            <command name="black_insertion" F="8" comment="toggle, Film projection in menu"/>
-            <command name="black_level" F="7"/>
-            <command name="motion_enhancer" F="5" comment="cyclic"/>
+            <command master="parameters" name="video_mute_toggle" F="36" comment="toggle"/>
+            <command master="parameters" name="status_on" F="37" comment=""/>
+            <command master="parameters" name="status_off" F="38" comment=""/>
+            <command master="parameters" name="menu" F="41" comment=""/>
+            <command master="parameters" name="in_vga" F="43" comment="vga input"/>
+            <command master="parameters" name="in_component" F="44" comment=""/>
+            <command master="parameters" name="power_on" F="46" comment="discrete"/>
+            <command master="parameters" name="reset" F="123" comment=""/>
+            <command master="parameters" name="in_hdmi2" F="112" comment=""/>
+            <command master="parameters" name="in_hdmi1" F="111" comment=""/>
+            <command master="parameters" name="ok" F="90" comment=""/>
+            <command master="parameters" name="input_select" F="87" comment="cyclic"/>
+            <command master="parameters" name="down" F="54" comment=""/>
+            <command master="parameters" name="up" F="53" comment=""/>
+            <command master="parameters" name="left" F="52" comment=""/>
+            <command master="parameters" name="right" F="51" comment=""/>
+            <command master="parameters" name="power_off" F="47" comment="discrete"/>
+            <command master="parameters" name="sharpness_down" F="35" comment=""/>
+            <command master="parameters" name="sharpness_up" F="34" comment=""/>
+            <command master="parameters" name="hue_down" F="33" comment="-&gt;purple"/>
+            <command master="parameters" name="hue_up" F="32" comment="-&gt;green"/>
+            <command master="parameters" name="brightness_down" F="31" comment=""/>
+            <command master="parameters" name="brightness_up" F="30" comment=""/>
+            <command master="parameters" name="color_down" F="27" comment=""/>
+            <command master="parameters" name="color_up" F="26" comment=""/>
+            <command master="parameters" name="contrast_down" F="25" comment=""/>
+            <command master="parameters" name="contrast_up" F="24" comment=""/>
+            <command master="parameters" name="black_insertion" F="8" comment="toggle, Film projection in menu"/>
+            <command master="parameters" name="black_level" F="7"/>
+            <command master="parameters" name="motion_enhancer" F="5" comment="cyclic"/>
         </commandSet>
         <commandSet name="sony20_26_42">
             <parameters protocol="sony20">
                 <parameter name="D" value="26"/>
                 <parameter name="S" value="42"/>
             </parameters>
-            <command name="gamma_toggle" F="94" comment="cyclic"/>
-            <command name="picturemode_game" F="86" comment=""/>
-            <command name="picturemode_reference" F="85" comment="cinema3 on VW95"/>
-            <command name="picturemode_user" F="84" comment="cinema2 on VW95"/>
-            <command name="picturemode_film1" F="83" comment="cinema1 on VW95"/>
-            <command name="picturemode_TV" F="82" comment="standard on VW95"/>
-            <command name="picturemode_bright_TV" F="81" comment="dynamic on VW95"/>
-            <command name="reality_creation" F="76" comment="menu, only HW50"/>
-            <command name="colorspace" F="75" comment="cyclic"/>
-            <command name="rcp" F="8" comment="menu"/>
-            <command name="color_temp" F="92" comment="cyclic"/>
-            <command name="picturemode" F="91" comment="cyclic"/>
-            <command name="picturemode_bright_cinema" F="89" comment="user2 on VW95"/>
-            <command name="picturemode_film2" F="88" comment="user1 on VW95"/>
-            <command name="picturemode_photo" F="87" comment=""/>
-            <command name="iris" F="95" comment="cyclic"/>
-            <command name="aspectratio" F="110" comment="cyclic, 'wide mode' on VW95"/>
-            <command name="lenstoggle_pattern" F="120" comment="toggle"/>
-            <command name="cmd_3D" F="59" comment="menu"/>
-            <command name="vertical_keystone" F="58" comment="menu"/>
-            <command name="vertical_keystone_down" F="1" comment=""/>
-            <command name="vertical_keystone_up" F="0" comment=""/>
+            <command master="parameters" name="gamma_toggle" F="94" comment="cyclic"/>
+            <command master="parameters" name="picturemode_game" F="86" comment=""/>
+            <command master="parameters" name="picturemode_reference" F="85" comment="cinema3 on VW95"/>
+            <command master="parameters" name="picturemode_user" F="84" comment="cinema2 on VW95"/>
+            <command master="parameters" name="picturemode_film1" F="83" comment="cinema1 on VW95"/>
+            <command master="parameters" name="picturemode_TV" F="82" comment="standard on VW95"/>
+            <command master="parameters" name="picturemode_bright_TV" F="81" comment="dynamic on VW95"/>
+            <command master="parameters" name="reality_creation" F="76" comment="menu, only HW50"/>
+            <command master="parameters" name="colorspace" F="75" comment="cyclic"/>
+            <command master="parameters" name="rcp" F="8" comment="menu"/>
+            <command master="parameters" name="color_temp" F="92" comment="cyclic"/>
+            <command master="parameters" name="picturemode" F="91" comment="cyclic"/>
+            <command master="parameters" name="picturemode_bright_cinema" F="89" comment="user2 on VW95"/>
+            <command master="parameters" name="picturemode_film2" F="88" comment="user1 on VW95"/>
+            <command master="parameters" name="picturemode_photo" F="87" comment=""/>
+            <command master="parameters" name="iris" F="95" comment="cyclic"/>
+            <command master="parameters" name="aspectratio" F="110" comment="cyclic, 'wide mode' on VW95"/>
+            <command master="parameters" name="lenstoggle_pattern" F="120" comment="toggle"/>
+            <command master="parameters" name="cmd_3D" F="59" comment="menu"/>
+            <command master="parameters" name="vertical_keystone" F="58" comment="menu"/>
+            <command master="parameters" name="vertical_keystone_down" F="1" comment=""/>
+            <command master="parameters" name="vertical_keystone_up" F="0" comment=""/>
         </commandSet>
     </remote>
 </remotes>

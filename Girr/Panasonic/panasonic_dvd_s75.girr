@@ -1,63 +1,66 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
-<remotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:girr="http://www.harctoolbox.org/schemas/girr.xsd" title="Translated by harc2girr" girrVersion="1.0" xsi:noNamespaceSchemaLocation="http://www.harctoolbox.org/schemas/girr.xsd">
-    <remote deviceClass="dvd" manufacturer="Panasonic" model="S75" name="Panasonic DVD S75">
+<remotes title="Translated by harc2girr" girrVersion="1.0"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://www.harctoolbox.org/Girr"
+    xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns.xsd">
+<remote deviceClass="dvd" manufacturer="Panasonic" model="S75" name="Panasonic DVD S75">
         <commandSet name="panasonic_176_0">
             <parameters protocol="panasonic">
                 <parameter name="D" value="176"/>
                 <parameter name="S" value="0"/>
             </parameters>
-            <command name="cmd_0" F="25"/>
-            <command name="cmd_1" F="16"/>
-            <command name="cmd_2" F="17"/>
-            <command name="cmd_3" F="18"/>
-            <command name="cmd_4" F="19"/>
-            <command name="cmd_5" F="20"/>
-            <command name="cmd_6" F="21"/>
-            <command name="cmd_7" F="22"/>
-            <command name="cmd_8" F="23"/>
-            <command name="cmd_9" F="24"/>
-            <command name="a_b" F="72"/>
-            <command name="a_srd" F="158"/>
-            <command name="angle" F="144"/>
-            <command name="audio" F="51"/>
-            <command name="audio_only" F="225"/>
-            <command name="clear" F="131"/>
-            <command name="depth_enh" F="216"/>
-            <command name="osd" F="146"/>
-            <command name="double_remaster" F="233"/>
-            <command name="down" F="134"/>
-            <command name="fast_forward" F="5"/>
-            <command name="group" F="224"/>
-            <command name="left" F="135"/>
-            <command name="marker" F="142"/>
-            <command name="menu" F="128"/>
-            <command name="next" F="74"/>
-            <command name="ok" F="130"/>
-            <command name="open_close" F="1"/>
-            <command name="still_advance" F="6"/>
-            <command name="play" F="10"/>
-            <command name="play_mode" F="141"/>
-            <command name="pos_mem" F="70"/>
-            <command name="power_off" F="63"/>
-            <command name="power_on" F="62"/>
-            <command name="power_toggle" F="61"/>
-            <command name="previous" F="73"/>
-            <command name="repeat" F="140"/>
-            <command name="cmd_return" F="129"/>
-            <command name="rewind" F="4"/>
-            <command name="right" F="136"/>
-            <command name="setup" F="148"/>
-            <command name="sleep" F="235"/>
-            <command name="special" F="69"/>
-            <command name="stop" F="0"/>
-            <command name="subtitle" F="145"/>
-            <command name="title" F="155"/>
-            <command name="two_digit" F="137"/>
-            <command name="up" F="133"/>
-            <command name="vss" F="158"/>
-            <command name="zoom" F="193"/>
-            <command name="cmd_0xfd" F="253"/>
+            <command master="parameters" name="cmd_0" F="25"/>
+            <command master="parameters" name="cmd_1" F="16"/>
+            <command master="parameters" name="cmd_2" F="17"/>
+            <command master="parameters" name="cmd_3" F="18"/>
+            <command master="parameters" name="cmd_4" F="19"/>
+            <command master="parameters" name="cmd_5" F="20"/>
+            <command master="parameters" name="cmd_6" F="21"/>
+            <command master="parameters" name="cmd_7" F="22"/>
+            <command master="parameters" name="cmd_8" F="23"/>
+            <command master="parameters" name="cmd_9" F="24"/>
+            <command master="parameters" name="a_b" F="72"/>
+            <command master="parameters" name="a_srd" F="158"/>
+            <command master="parameters" name="angle" F="144"/>
+            <command master="parameters" name="audio" F="51"/>
+            <command master="parameters" name="audio_only" F="225"/>
+            <command master="parameters" name="clear" F="131"/>
+            <command master="parameters" name="depth_enh" F="216"/>
+            <command master="parameters" name="osd" F="146"/>
+            <command master="parameters" name="double_remaster" F="233"/>
+            <command master="parameters" name="down" F="134"/>
+            <command master="parameters" name="fast_forward" F="5"/>
+            <command master="parameters" name="group" F="224"/>
+            <command master="parameters" name="left" F="135"/>
+            <command master="parameters" name="marker" F="142"/>
+            <command master="parameters" name="menu" F="128"/>
+            <command master="parameters" name="next" F="74"/>
+            <command master="parameters" name="ok" F="130"/>
+            <command master="parameters" name="open_close" F="1"/>
+            <command master="parameters" name="still_advance" F="6"/>
+            <command master="parameters" name="play" F="10"/>
+            <command master="parameters" name="play_mode" F="141"/>
+            <command master="parameters" name="pos_mem" F="70"/>
+            <command master="parameters" name="power_off" F="63"/>
+            <command master="parameters" name="power_on" F="62"/>
+            <command master="parameters" name="power_toggle" F="61"/>
+            <command master="parameters" name="previous" F="73"/>
+            <command master="parameters" name="repeat" F="140"/>
+            <command master="parameters" name="cmd_return" F="129"/>
+            <command master="parameters" name="rewind" F="4"/>
+            <command master="parameters" name="right" F="136"/>
+            <command master="parameters" name="setup" F="148"/>
+            <command master="parameters" name="sleep" F="235"/>
+            <command master="parameters" name="special" F="69"/>
+            <command master="parameters" name="stop" F="0"/>
+            <command master="parameters" name="subtitle" F="145"/>
+            <command master="parameters" name="title" F="155"/>
+            <command master="parameters" name="two_digit" F="137"/>
+            <command master="parameters" name="up" F="133"/>
+            <command master="parameters" name="vss" F="158"/>
+            <command master="parameters" name="zoom" F="193"/>
+            <command master="parameters" name="cmd_0xfd" F="253"/>
         </commandSet>
     </remote>
 </remotes>

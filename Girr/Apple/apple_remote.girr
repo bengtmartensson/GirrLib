@@ -14,12 +14,12 @@
                 <parameter name="D" value="238"/>
                 <parameter name="PairID" value="212"/>
             </parameters>
-            <command name="play_pause" F="2"/>
-            <command name="previous" F="4"/>
-            <command name="next" F="3"/>
-            <command name="menu" F="1"/>
-            <command name="up" F="5"/>
-            <command name="down" F="6"/>
+            <command master="parameters" name="play_pause" F="2"/>
+            <command master="parameters" name="previous" F="4"/>
+            <command master="parameters" name="next" F="3"/>
+            <command master="parameters" name="menu" F="1"/>
+            <command master="parameters" name="up" F="5"/>
+            <command master="parameters" name="down" F="6"/>
         </commandSet>
     </remote>
 </remotes>

@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
+<!--This file is in the Girr (General IR Remote) format, see http://www.harctoolbox.org/Girr.html-->
+<remotes xmlns="http://www.harctoolbox.org/Girr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         girrVersion="1.0" title="IrScrutinizer parametric export"
+         xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns.xsd">
+    <adminData>
+        <creationData creatingUser="bengt" creationDate="2019-03-12_17:00:05" source="IrScrutinizer parametrized table" tool="IrScrutinizer" tool2="DecodeIR" tool2Version="2.45" toolVersion="1.4.2"/>
+    </adminData>
+    <remote comment="Export from IrScrutinizer" deviceClass="" displayName="" manufacturer="" model="" name="unnamed" remoteName="">
+        <commandSet name="commandSet">
+            <command comment="Line 1, &lt;clipboard&gt;" master="ccf" name="10'S WAIT">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03F0</ccf>
+            </command>
+            <command comment="Line 3, &lt;clipboard&gt;" master="ccf" name="3D">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 02E8</ccf>
+            </command>
+            <command comment="Line 5, &lt;clipboard&gt;" master="ccf" name="3D DEMO ON">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 02E8</ccf>
+            </command>
+            <command comment="Line 7, &lt;clipboard&gt;" master="ccf" name="3D OFF">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 02D0</ccf>
+            </command>
+            <command comment="Line 9, &lt;clipboard&gt;" master="ccf" name="3D ON">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 02E8</ccf>
+            </command>
+            <command comment="Line 11, &lt;clipboard&gt;" master="ccf" name="ADD 10S CH PRESET">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03F0</ccf>
+            </command>
+            <command comment="Line 13, &lt;clipboard&gt;" master="ccf" name="AFT ON MFT OFF">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03C0</ccf>
+            </command>
+            <command comment="Line 15, &lt;clipboard&gt;" master="ccf" name="ALARM">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03F0</ccf>
+            </command>
+            <command comment="Line 17, &lt;clipboard&gt;" master="ccf" name="ALTERNATE AUDIO">
+                <ccf>0000 0068 0000 0015 0060 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 01E0</ccf>
+            </command>
+            <command comment="Line 19, &lt;clipboard&gt;" master="ccf" name="ALTERNATE VIDEO">
+                <ccf>0000 0068 0000 0015 0060 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 01F8</ccf>
+            </command>
+            <command comment="Line 21, &lt;clipboard&gt;" master="ccf" name="ANALOG MODE ANASEL">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03D8</ccf>
+            </command>
+            <command comment="Line 23, &lt;clipboard&gt;" master="ccf" name="ANTENNA SWITCH">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0408</ccf>
+            </command>
+            <command comment="Line 25, &lt;clipboard&gt;" master="ccf" name="ANTENNA SWITCH RESET">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03F0</ccf>
+            </command>
+            <command comment="Line 27, &lt;clipboard&gt;" master="ccf" name="AUDIO">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03F0</ccf>
+            </command>
+            <command comment="Line 29, &lt;clipboard&gt;" master="ccf" name="AUDIO ANALOG PICTURE ADJUSTMENT">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0408</ccf>
+            </command>
+            <command comment="Line 31, &lt;clipboard&gt;" master="ccf" name="AUDIO QUALITY SOUND MODE">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 02D0</ccf>
+            </command>
+            <command comment="Line 33, &lt;clipboard&gt;" master="ccf" name="AUDIO SELECT">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0408</ccf>
+            </command>
+            <command comment="Line 35, &lt;clipboard&gt;" master="ccf" name="AUTO PROGRAM CHANNEL SCAN">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03D8</ccf>
+            </command>
+            <command comment="Line 37, &lt;clipboard&gt;" master="ccf" name="BALANCE LEFT">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0408</ccf>
+            </command>
+            <command comment="Line 39, &lt;clipboard&gt;" master="ccf" name="BALANCE RIGHT">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03F0</ccf>
+            </command>
+            <command comment="Line 41, &lt;clipboard&gt;" master="ccf" name="BASS DOWN">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03D8</ccf>
+            </command>
+            <command comment="Line 43, &lt;clipboard&gt;" master="ccf" name="BASS UP">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03F0</ccf>
+            </command>
+            <command comment="Line 45, &lt;clipboard&gt;" master="ccf" name="BIVL">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 03A8</ccf>
+            </command>
+            <command comment="Line 47, &lt;clipboard&gt;" master="ccf" name="BRAVIA FORWARD">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0318</ccf>
+            </command>
+            <command comment="Line 49, &lt;clipboard&gt;" master="ccf" name="BRAVIA NEXT">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 02E8</ccf>
+            </command>
+            <command comment="Line 51, &lt;clipboard&gt;" master="ccf" name="BRAVIA PLAY">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0318</ccf>
+            </command>
+            <command comment="Line 53, &lt;clipboard&gt;" master="ccf" name="BRAVIA PREVIOUS">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0300</ccf>
+            </command>
+            <command comment="Line 55, &lt;clipboard&gt;" master="ccf" name="BRAVIA REVERSE">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0300</ccf>
+            </command>
+            <command comment="Line 57, &lt;clipboard&gt;" master="ccf" name="BRAVIA STOP">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0330</ccf>
+            </command>
+            <command comment="Line 59, &lt;clipboard&gt;" master="ccf" name="BRAVIA SYNC MENU">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0348</ccf>
+            </command>
+            <command comment="Line 61, &lt;clipboard&gt;" master="ccf" name="BRAVIA THEATER">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0018 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0318</ccf>
+            </command>
+            <command comment="Line 63, &lt;clipboard&gt;" master="ccf" name="BRIGHTNESS HIGH">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03F0</ccf>
+            </command>
+            <command comment="Line 65, &lt;clipboard&gt;" master="ccf" name="BRIGHTNESS LOW">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03D8</ccf>
+            </command>
+            <command comment="Line 67, &lt;clipboard&gt;" master="ccf" name="CATV / AIR">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03F0</ccf>
+            </command>
+            <command comment="Line 69, &lt;clipboard&gt;" master="ccf" name="CC">
+                <ccf>0000 0068 0000 0015 0060 0018 0030 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0210</ccf>
+            </command>
+            <command comment="Line 71, &lt;clipboard&gt;" master="ccf" name="CC/SUBTITLE">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0378</ccf>
+            </command>
+            <command comment="Line 73, &lt;clipboard&gt;" master="ccf" name="CHANNEL ADD">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03F0</ccf>
+            </command>
+            <command comment="Line 75, &lt;clipboard&gt;" master="ccf" name="CHANNEL DOWN">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0420</ccf>
+            </command>
+            <command comment="Line 77, &lt;clipboard&gt;" master="ccf" name="CHANNEL ERASE">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03D8</ccf>
+            </command>
+            <command comment="Line 79, &lt;clipboard&gt;" master="ccf" name="CHANNEL LOCK">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0408</ccf>
+            </command>
+            <command comment="Line 81, &lt;clipboard&gt;" master="ccf" name="CHANNEL UP">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0438</ccf>
+            </command>
+            <command comment="Line 83, &lt;clipboard&gt;" master="ccf" name="CLOCK SET">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03F0</ccf>
+            </command>
+            <command comment="Line 85, &lt;clipboard&gt;" master="ccf" name="COLOR LOW">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03F0</ccf>
+            </command>
+            <command comment="Line 87, &lt;clipboard&gt;" master="ccf" name="COLOR SYSTEM">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03F0</ccf>
+            </command>
+            <command comment="Line 89, &lt;clipboard&gt;" master="ccf" name="COLOR VIVID">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0408</ccf>
+            </command>
+            <command comment="Line 91, &lt;clipboard&gt;" master="ccf" name="CURSOR DOWN">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03D8</ccf>
+            </command>
+            <command comment="Line 93, &lt;clipboard&gt;" master="ccf" name="CURSOR ENTER">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03F0</ccf>
+            </command>
+            <command comment="Line 95, &lt;clipboard&gt;" master="ccf" name="CURSOR LEFT">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0408</ccf>
+            </command>
+            <command comment="Line 97, &lt;clipboard&gt;" master="ccf" name="CURSOR RIGHT">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03F0</ccf>
+            </command>
+            <command comment="Line 99, &lt;clipboard&gt;" master="ccf" name="CURSOR UP">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03F0</ccf>
+            </command>
+            <command comment="Line 101, &lt;clipboard&gt;" master="ccf" name="DEMO MODE">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 02E8</ccf>
+            </command>
+            <command comment="Line 103, &lt;clipboard&gt;" master="ccf" name="DIGIT 0">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0420</ccf>
+            </command>
+            <command comment="Line 105, &lt;clipboard&gt;" master="ccf" name="DIGIT 1">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0018 0018 0018 0018 0018 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0450</ccf>
+            </command>
+            <command comment="Line 107, &lt;clipboard&gt;" master="ccf" name="DIGIT 2">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0438</ccf>
+            </command>
+            <command comment="Line 109, &lt;clipboard&gt;" master="ccf" name="DIGIT 3">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0438</ccf>
+            </command>
+            <command comment="Line 111, &lt;clipboard&gt;" master="ccf" name="DIGIT 4">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0420</ccf>
+            </command>
+            <command comment="Line 113, &lt;clipboard&gt;" master="ccf" name="DIGIT 5">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0438</ccf>
+            </command>
+            <command comment="Line 115, &lt;clipboard&gt;" master="ccf" name="DIGIT 6">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0420</ccf>
+            </command>
+            <command comment="Line 117, &lt;clipboard&gt;" master="ccf" name="DIGIT 7">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0420</ccf>
+            </command>
+            <command comment="Line 119, &lt;clipboard&gt;" master="ccf" name="DIGIT 8">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0408</ccf>
+            </command>
+            <command comment="Line 121, &lt;clipboard&gt;" master="ccf" name="DIGIT 9">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0438</ccf>
+            </command>
+            <command comment="Line 123, &lt;clipboard&gt;" master="ccf" name="DIGIT SEPARATOR">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0300</ccf>
+            </command>
+            <command comment="Line 125, &lt;clipboard&gt;" master="ccf" name="DISCOVER">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0318</ccf>
+            </command>
+            <command comment="Line 127, &lt;clipboard&gt;" master="ccf" name="DISPLAY">
+                <ccf>0000 0068 0000 0015 0060 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 01F8</ccf>
+            </command>
+            <command comment="Line 129, &lt;clipboard&gt;" master="ccf" name="DME X BRAVIA MODULE">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0318</ccf>
+            </command>
+            <command comment="Line 131, &lt;clipboard&gt;" master="ccf" name="DMEX ONE TOUCH (SBB)">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 03C0</ccf>
+            </command>
+            <command comment="Line 133, &lt;clipboard&gt;" master="ccf" name="DRC MODE">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 02E8</ccf>
+            </command>
+            <command comment="Line 135, &lt;clipboard&gt;" master="ccf" name="DRC PALLETTE">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0300</ccf>
+            </command>
+            <command comment="Line 137, &lt;clipboard&gt;" master="ccf" name="DYNAMIC COLOR CLEAR WHITE COLOR TEMP">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03C0</ccf>
+            </command>
+            <command comment="Line 139, &lt;clipboard&gt;" master="ccf" name="ENTER">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0408</ccf>
+            </command>
+            <command comment="Line 141, &lt;clipboard&gt;" master="ccf" name="ERASE 01S LBL PRESET">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03D8</ccf>
+            </command>
+            <command comment="Line 143, &lt;clipboard&gt;" master="ccf" name="ETM CHANNEL DOWN">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0408</ccf>
+            </command>
+            <command comment="Line 145, &lt;clipboard&gt;" master="ccf" name="ETM CHANNEL UP">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0408</ccf>
+            </command>
+            <command comment="Line 147, &lt;clipboard&gt;" master="ccf" name="ETM SET END">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03D8</ccf>
+            </command>
+            <command comment="Line 149, &lt;clipboard&gt;" master="ccf" name="ETM SET START">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03F0</ccf>
+            </command>
+            <command comment="Line 151, &lt;clipboard&gt;" master="ccf" name="EXCHANGE">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03C0</ccf>
+            </command>
+            <command comment="Line 153, &lt;clipboard&gt;" master="ccf" name="EXIT">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03F0</ccf>
+            </command>
+            <command comment="Line 155, &lt;clipboard&gt;" master="ccf" name="F0 LOCK MFT ON">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03D8</ccf>
+            </command>
+            <command comment="Line 157, &lt;clipboard&gt;" master="ccf" name="FAV + (SBB)">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 03C0</ccf>
+            </command>
+            <command comment="Line 159, &lt;clipboard&gt;" master="ccf" name="FAVORITE">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 02D0</ccf>
+            </command>
+            <command comment="Line 161, &lt;clipboard&gt;" master="ccf" name="FINE DOWN">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03C0</ccf>
+            </command>
+            <command comment="Line 163, &lt;clipboard&gt;" master="ccf" name="FINE UP">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03D8</ccf>
+            </command>
+            <command comment="Line 165, &lt;clipboard&gt;" master="ccf" name="FLASH MOTION">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03D8</ccf>
+            </command>
+            <command comment="Line 167, &lt;clipboard&gt;" master="ccf" name="FLUSH +">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0300</ccf>
+            </command>
+            <command comment="Line 169, &lt;clipboard&gt;" master="ccf" name="FOOTBALL">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0318</ccf>
+            </command>
+            <command comment="Line 171, &lt;clipboard&gt;" master="ccf" name="FORMAT 16:9">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0348</ccf>
+            </command>
+            <command comment="Line 173, &lt;clipboard&gt;" master="ccf" name="FORMAT FULL">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0318</ccf>
+            </command>
+            <command comment="Line 175, &lt;clipboard&gt;" master="ccf" name="FORMAT FULL NORMAL TOGGLE">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0318</ccf>
+            </command>
+            <command comment="Line 177, &lt;clipboard&gt;" master="ccf" name="FORMAT NORMAL">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0348</ccf>
+            </command>
+            <command comment="Line 179, &lt;clipboard&gt;" master="ccf" name="FORMAT SCROLL">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0318</ccf>
+            </command>
+            <command comment="Line 181, &lt;clipboard&gt;" master="ccf" name="FORMAT WIDE">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0318</ccf>
+            </command>
+            <command comment="Line 183, &lt;clipboard&gt;" master="ccf" name="FORMAT WIDE ZOOM">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0360</ccf>
+            </command>
+            <command comment="Line 185, &lt;clipboard&gt;" master="ccf" name="FORWARD">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0318</ccf>
+            </command>
+            <command comment="Line 187, &lt;clipboard&gt;" master="ccf" name="FREEZE">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03F0</ccf>
+            </command>
+            <command comment="Line 189, &lt;clipboard&gt;" master="ccf" name="FUNCTION 1">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0318</ccf>
+            </command>
+            <command comment="Line 191, &lt;clipboard&gt;" master="ccf" name="FUNCTION 2">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0330</ccf>
+            </command>
+            <command comment="Line 193, &lt;clipboard&gt;" master="ccf" name="FUNCTION 3">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0300</ccf>
+            </command>
+            <command comment="Line 195, &lt;clipboard&gt;" master="ccf" name="FUNCTION 4">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03D8</ccf>
+            </command>
+            <command comment="Line 197, &lt;clipboard&gt;" master="ccf" name="FUNCTION 5">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0330</ccf>
+            </command>
+            <command comment="Line 199, &lt;clipboard&gt;" master="ccf" name="FUNCTION BLUE">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0330</ccf>
+            </command>
+            <command comment="Line 201, &lt;clipboard&gt;" master="ccf" name="FUNCTION GREEN">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0318</ccf>
+            </command>
+            <command comment="Line 203, &lt;clipboard&gt;" master="ccf" name="FUNCTION RED">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0318</ccf>
+            </command>
+            <command comment="Line 205, &lt;clipboard&gt;" master="ccf" name="FUNCTION YELLOW">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0300</ccf>
+            </command>
+            <command comment="Line 207, &lt;clipboard&gt;" master="ccf" name="GOOGLE PLAY">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0348</ccf>
+            </command>
+            <command comment="Line 209, &lt;clipboard&gt;" master="ccf" name="GUIDE">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0408</ccf>
+            </command>
+            <command comment="Line 211, &lt;clipboard&gt;" master="ccf" name="GUIDE ALTERNATE">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0318</ccf>
+            </command>
+            <command comment="Line 213, &lt;clipboard&gt;" master="ccf" name="HALF">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0300</ccf>
+            </command>
+            <command comment="Line 215, &lt;clipboard&gt;" master="ccf" name="HELP">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0330</ccf>
+            </command>
+            <command comment="Line 217, &lt;clipboard&gt;" master="ccf" name="HOME THEATRE">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0018 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0318</ccf>
+            </command>
+            <command comment="Line 219, &lt;clipboard&gt;" master="ccf" name="HUE GREEN">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0420</ccf>
+            </command>
+            <command comment="Line 221, &lt;clipboard&gt;" master="ccf" name="HUE PURPLE">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0018 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0438</ccf>
+            </command>
+            <command comment="Line 223, &lt;clipboard&gt;" master="ccf" name="I MANUAL">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0300</ccf>
+            </command>
+            <command comment="Line 225, &lt;clipboard&gt;" master="ccf" name="INFO">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03F0</ccf>
+            </command>
+            <command comment="Line 227, &lt;clipboard&gt;" master="ccf" name="INFO (SBB)">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 03D8</ccf>
+            </command>
+            <command comment="Line 229, &lt;clipboard&gt;" master="ccf" name="INPUT ANALOG RGB 1 PC">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0408</ccf>
+            </command>
+            <command comment="Line 231, &lt;clipboard&gt;" master="ccf" name="INPUT ANTENNA">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0420</ccf>
+            </command>
+            <command comment="Line 233, &lt;clipboard&gt;" master="ccf" name="INPUT DIGITAL RGB 1">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0408</ccf>
+            </command>
+            <command comment="Line 235, &lt;clipboard&gt;" master="ccf" name="INPUT DIRECT RGB 2">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0408</ccf>
+            </command>
+            <command comment="Line 237, &lt;clipboard&gt;" master="ccf" name="INPUT DIRECT RGB ANALOG 2">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0420</ccf>
+            </command>
+            <command comment="Line 239, &lt;clipboard&gt;" master="ccf" name="INPUT HD 1">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0330</ccf>
+            </command>
+            <command comment="Line 241, &lt;clipboard&gt;" master="ccf" name="INPUT HD 1 COMPONENT">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0330</ccf>
+            </command>
+            <command comment="Line 243, &lt;clipboard&gt;" master="ccf" name="INPUT HD 2">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0318</ccf>
+            </command>
+            <command comment="Line 245, &lt;clipboard&gt;" master="ccf" name="INPUT HD 2 COMPONENT">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0318</ccf>
+            </command>
+            <command comment="Line 247, &lt;clipboard&gt;" master="ccf" name="INPUT HDMI 1">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0330</ccf>
+            </command>
+            <command comment="Line 249, &lt;clipboard&gt;" master="ccf" name="INPUT HDMI 1 ALTERNATE">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 03C0</ccf>
+            </command>
+            <command comment="Line 251, &lt;clipboard&gt;" master="ccf" name="INPUT HDMI 2">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0318</ccf>
+            </command>
+            <command comment="Line 253, &lt;clipboard&gt;" master="ccf" name="INPUT HDMI 2 ALTERNATE">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 03A8</ccf>
+            </command>
+            <command comment="Line 255, &lt;clipboard&gt;" master="ccf" name="INPUT HDMI 3">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0330</ccf>
+            </command>
+            <command comment="Line 257, &lt;clipboard&gt;" master="ccf" name="INPUT HDMI 3 ALTERNATE">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 03C0</ccf>
+            </command>
+            <command comment="Line 259, &lt;clipboard&gt;" master="ccf" name="INPUT HDMI 4">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0318</ccf>
+            </command>
+            <command comment="Line 261, &lt;clipboard&gt;" master="ccf" name="INPUT HDMI 4 ALTERNATE">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 03A8</ccf>
+            </command>
+            <command comment="Line 263, &lt;clipboard&gt;" master="ccf" name="INPUT HDMI 5">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0318</ccf>
+            </command>
+            <command comment="Line 265, &lt;clipboard&gt;" master="ccf" name="INPUT HDMI 5 ALTERNATE">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 03A8</ccf>
+            </command>
+            <command comment="Line 267, &lt;clipboard&gt;" master="ccf" name="INPUT HDMI SCROLL">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 03C0</ccf>
+            </command>
+            <command comment="Line 269, &lt;clipboard&gt;" master="ccf" name="INPUT HDMI SCROLL (2010)">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 03C0</ccf>
+            </command>
+            <command comment="Line 271, &lt;clipboard&gt;" master="ccf" name="INPUT HDMI SCROLL (2011)">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 03C0</ccf>
+            </command>
+            <command comment="Line 273, &lt;clipboard&gt;" master="ccf" name="INPUT MEMORY STICK">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0318</ccf>
+            </command>
+            <command comment="Line 275, &lt;clipboard&gt;" master="ccf" name="INPUT OPTION 1">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0300</ccf>
+            </command>
+            <command comment="Line 277, &lt;clipboard&gt;" master="ccf" name="INPUT OPTION 2">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 02E8</ccf>
+            </command>
+            <command comment="Line 279, &lt;clipboard&gt;" master="ccf" name="INPUT PC/RGB">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0408</ccf>
+            </command>
+            <command comment="Line 281, &lt;clipboard&gt;" master="ccf" name="INPUT RGB / COMPOSITE">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03F0</ccf>
+            </command>
+            <command comment="Line 283, &lt;clipboard&gt;" master="ccf" name="INPUT S/COMPOSITE">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03F0</ccf>
+            </command>
+            <command comment="Line 285, &lt;clipboard&gt;" master="ccf" name="INPUT SCROLL">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0408</ccf>
+            </command>
+            <command comment="Line 287, &lt;clipboard&gt;" master="ccf" name="INPUT VIDEO 1">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0018 0018 0018 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0438</ccf>
+            </command>
+            <command comment="Line 289, &lt;clipboard&gt;" master="ccf" name="INPUT VIDEO 10">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03F0</ccf>
+            </command>
+            <command comment="Line 291, &lt;clipboard&gt;" master="ccf" name="INPUT VIDEO 11">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03F0</ccf>
+            </command>
+            <command comment="Line 293, &lt;clipboard&gt;" master="ccf" name="INPUT VIDEO 12">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03D8</ccf>
+            </command>
+            <command comment="Line 295, &lt;clipboard&gt;" master="ccf" name="INPUT VIDEO 2">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0420</ccf>
+            </command>
+            <command comment="Line 297, &lt;clipboard&gt;" master="ccf" name="INPUT VIDEO 3">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0420</ccf>
+            </command>
+            <command comment="Line 299, &lt;clipboard&gt;" master="ccf" name="INPUT VIDEO 4">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03F0</ccf>
+            </command>
+            <command comment="Line 301, &lt;clipboard&gt;" master="ccf" name="INPUT VIDEO 5">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0420</ccf>
+            </command>
+            <command comment="Line 303, &lt;clipboard&gt;" master="ccf" name="INPUT VIDEO 6">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0408</ccf>
+            </command>
+            <command comment="Line 305, &lt;clipboard&gt;" master="ccf" name="INPUT VIDEO 7">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0330</ccf>
+            </command>
+            <command comment="Line 307, &lt;clipboard&gt;" master="ccf" name="INPUT VIDEO 8">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 02E8</ccf>
+            </command>
+            <command comment="Line 309, &lt;clipboard&gt;" master="ccf" name="INPUT VIDEO 9">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 02E8</ccf>
+            </command>
+            <command comment="Line 311, &lt;clipboard&gt;" master="ccf" name="INTERNET APPS">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0318</ccf>
+            </command>
+            <command comment="Line 313, &lt;clipboard&gt;" master="ccf" name="INTERNET CC SUBTITLE">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0378</ccf>
+            </command>
+            <command comment="Line 315, &lt;clipboard&gt;" master="ccf" name="INTERNET QRIOCITY">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0300</ccf>
+            </command>
+            <command comment="Line 317, &lt;clipboard&gt;" master="ccf" name="INTERNET TV">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0318</ccf>
+            </command>
+            <command comment="Line 319, &lt;clipboard&gt;" master="ccf" name="INTERNET VIDEO">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0318</ccf>
+            </command>
+            <command comment="Line 321, &lt;clipboard&gt;" master="ccf" name="INTERNET WIDGETS">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0318</ccf>
+            </command>
+            <command comment="Line 323, &lt;clipboard&gt;" master="ccf" name="KEYPAD">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0318</ccf>
+            </command>
+            <command comment="Line 325, &lt;clipboard&gt;" master="ccf" name="LEVEL INDICATION">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03F0</ccf>
+            </command>
+            <command comment="Line 327, &lt;clipboard&gt;" master="ccf" name="MATRIX / SURROUND">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0408</ccf>
+            </command>
+            <command comment="Line 329, &lt;clipboard&gt;" master="ccf" name="MEMORY STICK">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0318</ccf>
+            </command>
+            <command comment="Line 331, &lt;clipboard&gt;" master="ccf" name="MENU (SBB)">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 03C0</ccf>
+            </command>
+            <command comment="Line 333, &lt;clipboard&gt;" master="ccf" name="MENU ACTION">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0330</ccf>
+            </command>
+            <command comment="Line 335, &lt;clipboard&gt;" master="ccf" name="MENU HOME">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0018 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0420</ccf>
+            </command>
+            <command comment="Line 337, &lt;clipboard&gt;" master="ccf" name="MENU MAIN">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0018 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0420</ccf>
+            </command>
+            <command comment="Line 339, &lt;clipboard&gt;" master="ccf" name="MENU OPTIONS">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0300</ccf>
+            </command>
+            <command comment="Line 341, &lt;clipboard&gt;" master="ccf" name="MENU POP UP">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 03D8</ccf>
+            </command>
+            <command comment="Line 343, &lt;clipboard&gt;" master="ccf" name="MENU SYNC">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0348</ccf>
+            </command>
+            <command comment="Line 345, &lt;clipboard&gt;" master="ccf" name="MENU TOP">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0018 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 03F0</ccf>
+            </command>
+            <command comment="Line 347, &lt;clipboard&gt;" master="ccf" name="MOSAIC">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0318</ccf>
+            </command>
+            <command comment="Line 349, &lt;clipboard&gt;" master="ccf" name="MTS SAP">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03F0</ccf>
+            </command>
+            <command comment="Line 351, &lt;clipboard&gt;" master="ccf" name="MULTISTROBE 1">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0318</ccf>
+            </command>
+            <command comment="Line 353, &lt;clipboard&gt;" master="ccf" name="MULTISTROBE 2">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0318</ccf>
+            </command>
+            <command comment="Line 355, &lt;clipboard&gt;" master="ccf" name="MUTE TOGGLE">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0420</ccf>
+            </command>
+            <command comment="Line 357, &lt;clipboard&gt;" master="ccf" name="NETFLIX">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0318</ccf>
+            </command>
+            <command comment="Line 359, &lt;clipboard&gt;" master="ccf" name="NEXT">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 02E8</ccf>
+            </command>
+            <command comment="Line 361, &lt;clipboard&gt;" master="ccf" name="NOISE REDUCER">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0408</ccf>
+            </command>
+            <command comment="Line 363, &lt;clipboard&gt;" master="ccf" name="NOTCH FILTER">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03D8</ccf>
+            </command>
+            <command comment="Line 365, &lt;clipboard&gt;" master="ccf" name="OPTION">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0300</ccf>
+            </command>
+            <command comment="Line 367, &lt;clipboard&gt;" master="ccf" name="OSIM">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0390</ccf>
+            </command>
+            <command comment="Line 369, &lt;clipboard&gt;" master="ccf" name="PAUSE">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0318</ccf>
+            </command>
+            <command comment="Line 371, &lt;clipboard&gt;" master="ccf" name="PHOTO FRAME">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0300</ccf>
+            </command>
+            <command comment="Line 373, &lt;clipboard&gt;" master="ccf" name="PICTURE HIGH">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0420</ccf>
+            </command>
+            <command comment="Line 375, &lt;clipboard&gt;" master="ccf" name="PICTURE LOW">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0408</ccf>
+            </command>
+            <command comment="Line 377, &lt;clipboard&gt;" master="ccf" name="PICTURE MODE">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0408</ccf>
+            </command>
+            <command comment="Line 379, &lt;clipboard&gt;" master="ccf" name="PICTURE MODE TIMER">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0408</ccf>
+            </command>
+            <command comment="Line 381, &lt;clipboard&gt;" master="ccf" name="PICTURE OFF">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03D8</ccf>
+            </command>
+            <command comment="Line 383, &lt;clipboard&gt;" master="ccf" name="PIP">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03D8</ccf>
+            </command>
+            <command comment="Line 385, &lt;clipboard&gt;" master="ccf" name="PIP CHANNEL DOWN">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03F0</ccf>
+            </command>
+            <command comment="Line 387, &lt;clipboard&gt;" master="ccf" name="PIP CHANNEL UP">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0408</ccf>
+            </command>
+            <command comment="Line 389, &lt;clipboard&gt;" master="ccf" name="PIP OFF">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0318</ccf>
+            </command>
+            <command comment="Line 391, &lt;clipboard&gt;" master="ccf" name="PIP POSITION">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03D8</ccf>
+            </command>
+            <command comment="Line 393, &lt;clipboard&gt;" master="ccf" name="PIP TV / VIDEO">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03F0</ccf>
+            </command>
+            <command comment="Line 395, &lt;clipboard&gt;" master="ccf" name="PLAY">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0318</ccf>
+            </command>
+            <command comment="Line 397, &lt;clipboard&gt;" master="ccf" name="POWER OFF">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03D8</ccf>
+            </command>
+            <command comment="Line 399, &lt;clipboard&gt;" master="ccf" name="POWER ON">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03F0</ccf>
+            </command>
+            <command comment="Line 401, &lt;clipboard&gt;" master="ccf" name="POWER SAVING">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 02E8</ccf>
+            </command>
+            <command comment="Line 403, &lt;clipboard&gt;" master="ccf" name="POWER TOGGLE">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0408</ccf>
+            </command>
+            <command comment="Line 405, &lt;clipboard&gt;" master="ccf" name="PRESET">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03F0</ccf>
+            </command>
+            <command comment="Line 407, &lt;clipboard&gt;" master="ccf" name="PREVIOUS">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0300</ccf>
+            </command>
+            <command comment="Line 409, &lt;clipboard&gt;" master="ccf" name="PREVIOUS CHANNEL">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03D8</ccf>
+            </command>
+            <command comment="Line 411, &lt;clipboard&gt;" master="ccf" name="QRIOCITY">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0300</ccf>
+            </command>
+            <command comment="Line 413, &lt;clipboard&gt;" master="ccf" name="REAR VOLUME DOWN">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03D8</ccf>
+            </command>
+            <command comment="Line 415, &lt;clipboard&gt;" master="ccf" name="REAR VOLUME UP">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03F0</ccf>
+            </command>
+            <command comment="Line 417, &lt;clipboard&gt;" master="ccf" name="RECORD">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0018 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0348</ccf>
+            </command>
+            <command comment="Line 419, &lt;clipboard&gt;" master="ccf" name="RELATED SEARCH">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0300</ccf>
+            </command>
+            <command comment="Line 421, &lt;clipboard&gt;" master="ccf" name="REPLAY">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0318</ccf>
+            </command>
+            <command comment="Line 423, &lt;clipboard&gt;" master="ccf" name="RESET">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0408</ccf>
+            </command>
+            <command comment="Line 425, &lt;clipboard&gt;" master="ccf" name="RETURN">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0318</ccf>
+            </command>
+            <command comment="Line 427, &lt;clipboard&gt;" master="ccf" name="RETURN MENU ENTER">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03F0</ccf>
+            </command>
+            <command comment="Line 429, &lt;clipboard&gt;" master="ccf" name="REVERSE">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0300</ccf>
+            </command>
+            <command comment="Line 431, &lt;clipboard&gt;" master="ccf" name="RF">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0360</ccf>
+            </command>
+            <command comment="Line 433, &lt;clipboard&gt;" master="ccf" name="RGB ON">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03C0</ccf>
+            </command>
+            <command comment="Line 435, &lt;clipboard&gt;" master="ccf" name="SCENE">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0330</ccf>
+            </command>
+            <command comment="Line 437, &lt;clipboard&gt;" master="ccf" name="SCENE SELECT">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 03C0</ccf>
+            </command>
+            <command comment="Line 439, &lt;clipboard&gt;" master="ccf" name="SEARCH / SEEK UP">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03D8</ccf>
+            </command>
+            <command comment="Line 441, &lt;clipboard&gt;" master="ccf" name="SEARCH /SEEK DOWN">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03C0</ccf>
+            </command>
+            <command comment="Line 443, &lt;clipboard&gt;" master="ccf" name="SEEK">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0318</ccf>
+            </command>
+            <command comment="Line 445, &lt;clipboard&gt;" master="ccf" name="SHARPNESS HIGH">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0420</ccf>
+            </command>
+            <command comment="Line 447, &lt;clipboard&gt;" master="ccf" name="SHARPNESS LOW">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0408</ccf>
+            </command>
+            <command comment="Line 449, &lt;clipboard&gt;" master="ccf" name="SHOP DEMO COLOR SPACE">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 02D0</ccf>
+            </command>
+            <command comment="Line 451, &lt;clipboard&gt;" master="ccf" name="SHOP DEMO DETAIL ENHANSER">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 02D0</ccf>
+            </command>
+            <command comment="Line 453, &lt;clipboard&gt;" master="ccf" name="SHOP DEMO FORCED DYNAMIC">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0300</ccf>
+            </command>
+            <command comment="Line 455, &lt;clipboard&gt;" master="ccf" name="SHOP DEMO MODE">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 02E8</ccf>
+            </command>
+            <command comment="Line 457, &lt;clipboard&gt;" master="ccf" name="SLEEP">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03F0</ccf>
+            </command>
+            <command comment="Line 459, &lt;clipboard&gt;" master="ccf" name="SOCIAL VIEW">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0330</ccf>
+            </command>
+            <command comment="Line 461, &lt;clipboard&gt;" master="ccf" name="SOLALIZATION">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0330</ccf>
+            </command>
+            <command comment="Line 463, &lt;clipboard&gt;" master="ccf" name="SOUND MODE">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 02D0</ccf>
+            </command>
+            <command comment="Line 465, &lt;clipboard&gt;" master="ccf" name="SOUND MODE LOUDNESS">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0420</ccf>
+            </command>
+            <command comment="Line 467, &lt;clipboard&gt;" master="ccf" name="SPEAKER OFF">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0420</ccf>
+            </command>
+            <command comment="Line 469, &lt;clipboard&gt;" master="ccf" name="SPLIT">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0300</ccf>
+            </command>
+            <command comment="Line 471, &lt;clipboard&gt;" master="ccf" name="STEREO / MONO">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03F0</ccf>
+            </command>
+            <command comment="Line 473, &lt;clipboard&gt;" master="ccf" name="STOP">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0330</ccf>
+            </command>
+            <command comment="Line 475, &lt;clipboard&gt;" master="ccf" name="STORE MODE">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0300</ccf>
+            </command>
+            <command comment="Line 477, &lt;clipboard&gt;" master="ccf" name="STROBE MANUAL">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0300</ccf>
+            </command>
+            <command comment="Line 479, &lt;clipboard&gt;" master="ccf" name="SUBTITLE">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0330</ccf>
+            </command>
+            <command comment="Line 481, &lt;clipboard&gt;" master="ccf" name="TABLET CHANGE">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0408</ccf>
+            </command>
+            <command comment="Line 483, &lt;clipboard&gt;" master="ccf" name="TELETEXT">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03C0</ccf>
+            </command>
+            <command comment="Line 485, &lt;clipboard&gt;" master="ccf" name="TELETEXT HOLD">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0408</ccf>
+            </command>
+            <command comment="Line 487, &lt;clipboard&gt;" master="ccf" name="TELETEXT PAGE DOWN">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0420</ccf>
+            </command>
+            <command comment="Line 489, &lt;clipboard&gt;" master="ccf" name="TELETEXT PAGE UP">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0438</ccf>
+            </command>
+            <command comment="Line 491, &lt;clipboard&gt;" master="ccf" name="TELETEXT REVEAL">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03F0</ccf>
+            </command>
+            <command comment="Line 493, &lt;clipboard&gt;" master="ccf" name="TEST">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03A8</ccf>
+            </command>
+            <command comment="Line 495, &lt;clipboard&gt;" master="ccf" name="THEATER">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0018 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0318</ccf>
+            </command>
+            <command comment="Line 497, &lt;clipboard&gt;" master="ccf" name="THEATER MODE">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0018 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0318</ccf>
+            </command>
+            <command comment="Line 499, &lt;clipboard&gt;" master="ccf" name="TIMER">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03F0</ccf>
+            </command>
+            <command comment="Line 501, &lt;clipboard&gt;" master="ccf" name="TIMER 2">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03D8</ccf>
+            </command>
+            <command comment="Line 503, &lt;clipboard&gt;" master="ccf" name="TIMER DOWN">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0408</ccf>
+            </command>
+            <command comment="Line 505, &lt;clipboard&gt;" master="ccf" name="TIMER UP">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0408</ccf>
+            </command>
+            <command comment="Line 507, &lt;clipboard&gt;" master="ccf" name="TRACK ID">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0300</ccf>
+            </command>
+            <command comment="Line 509, &lt;clipboard&gt;" master="ccf" name="TREBLE DOWN">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03F0</ccf>
+            </command>
+            <command comment="Line 511, &lt;clipboard&gt;" master="ccf" name="TREBLE UP">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0408</ccf>
+            </command>
+            <command comment="Line 513, &lt;clipboard&gt;" master="ccf" name="TV SCAN INDEX">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0330</ccf>
+            </command>
+            <command comment="Line 515, &lt;clipboard&gt;" master="ccf" name="TV SYSTEM">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0408</ccf>
+            </command>
+            <command comment="Line 517, &lt;clipboard&gt;" master="ccf" name="TWIN VIEW">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0300</ccf>
+            </command>
+            <command comment="Line 519, &lt;clipboard&gt;" master="ccf" name="VEHICLE TREBLE MODE">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0300</ccf>
+            </command>
+            <command comment="Line 521, &lt;clipboard&gt;" master="ccf" name="VELOCITY SCAN TOGGLE">
+                <ccf>0000 0068 0000 0010 0060 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0330</ccf>
+            </command>
+            <command comment="Line 523, &lt;clipboard&gt;" master="ccf" name="VERTICLE HOLD DOWN">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0408</ccf>
+            </command>
+            <command comment="Line 525, &lt;clipboard&gt;" master="ccf" name="VERTICLE HOLD UP">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03F0</ccf>
+            </command>
+            <command comment="Line 527, &lt;clipboard&gt;" master="ccf" name="VIDEO ANALOG PICTURE ADJUSTMENT">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0408</ccf>
+            </command>
+            <command comment="Line 529, &lt;clipboard&gt;" master="ccf" name="VIDEO RESET">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0420</ccf>
+            </command>
+            <command comment="Line 531, &lt;clipboard&gt;" master="ccf" name="VIDEOTEXT">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03D8</ccf>
+            </command>
+            <command comment="Line 533, &lt;clipboard&gt;" master="ccf" name="VIP/CANVAS">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0018 0018 0018 0018 0018 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0420</ccf>
+            </command>
+            <command comment="Line 535, &lt;clipboard&gt;" master="ccf" name="VOLUME DOWN">
+                <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0408</ccf>
+            </command>
+            <command comment="Line 537, &lt;clipboard&gt;" master="ccf" name="VOLUME UP">
+                <ccf>0000 0068 0000 000D 0060 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 0420</ccf>
+            </command>
+            <command comment="Line 539, &lt;clipboard&gt;" master="ccf" name="WIDGETS">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0018 0018 0018 0018 0018 0318</ccf>
+            </command>
+            <command comment="Line 541, &lt;clipboard&gt;" master="ccf" name="ZOOM">
+                <ccf>0000 0068 0000 0010 0060 0018 0018 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0030 0318</ccf>
+            </command>
+        </commandSet>
+    </remote>
+</remotes>

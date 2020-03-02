@@ -1,40 +1,44 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
-<remotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:girr="http://www.harctoolbox.org/schemas/girr.xsd" title="Translated by harc2girr" girrVersion="1.0" xsi:noNamespaceSchemaLocation="http://www.harctoolbox.org/schemas/girr.xsd">
+<remotes
+         title="Translated by harc2girr" girrVersion="1.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://www.harctoolbox.org/Girr"
+         xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns.xsd">
     <remote deviceClass="receiver" manufacturer="Onkyo" model="tx_sv9041" name="Onkyo TX-SV9041">
         <commandSet name="nec1_210_109">
             <parameters protocol="nec1">
                 <parameter name="D" value="210"/>
                 <parameter name="S" value="109"/>
             </parameters>
-            <command name="power_toggle" F="4"/>
-            <command name="sleep" F="93"/>
-            <command name="main_spk_toggle" F="89"/>
-            <command name="zone2_spk_toggle" F="90"/>
-            <command name="zone2_source" F="204"/>
-            <command name="in_tape1" F="8"/>
-            <command name="in_phono" F="10"/>
-            <command name="in_cd" F="9"/>
-            <command name="zone2_volume_up" F="194"/>
-            <command name="in_tuner" F="11"/>
-            <command name="in_tape2" F="7"/>
-            <command name="in_video1" F="15"/>
-            <command name="in_video2" F="14"/>
-            <command name="in_video3" F="13"/>
-            <command name="zone2_volume_down" F="195"/>
-            <command name="tuner_class_preset" F="74"/>
-            <command name="channel_up" F="0"/>
-            <command name="channel_down" F="1"/>
-            <command name="mute_toggle" F="5"/>
-            <command name="center_up" F="128"/>
-            <command name="center_down" F="129"/>
-            <command name="rear_up" F="66"/>
-            <command name="rear_down" F="67"/>
-            <command name="volume_up" F="2"/>
-            <command name="volume_down" F="3"/>
-            <command name="test_mode" F="154"/>
-            <command name="surround_mode" F="76"/>
-            <command name="delay_time" F="83"/>
+            <command master="parameters" name="power_toggle" F="4"/>
+            <command master="parameters" name="sleep" F="93"/>
+            <command master="parameters" name="main_spk_toggle" F="89"/>
+            <command master="parameters" name="zone2_spk_toggle" F="90"/>
+            <command master="parameters" name="zone2_source" F="204"/>
+            <command master="parameters" name="in_tape1" F="8"/>
+            <command master="parameters" name="in_phono" F="10"/>
+            <command master="parameters" name="in_cd" F="9"/>
+            <command master="parameters" name="zone2_volume_up" F="194"/>
+            <command master="parameters" name="in_tuner" F="11"/>
+            <command master="parameters" name="in_tape2" F="7"/>
+            <command master="parameters" name="in_video1" F="15"/>
+            <command master="parameters" name="in_video2" F="14"/>
+            <command master="parameters" name="in_video3" F="13"/>
+            <command master="parameters" name="zone2_volume_down" F="195"/>
+            <command master="parameters" name="tuner_class_preset" F="74"/>
+            <command master="parameters" name="channel_up" F="0"/>
+            <command master="parameters" name="channel_down" F="1"/>
+            <command master="parameters" name="mute_toggle" F="5"/>
+            <command master="parameters" name="center_up" F="128"/>
+            <command master="parameters" name="center_down" F="129"/>
+            <command master="parameters" name="rear_up" F="66"/>
+            <command master="parameters" name="rear_down" F="67"/>
+            <command master="parameters" name="volume_up" F="2"/>
+            <command master="parameters" name="volume_down" F="3"/>
+            <command master="parameters" name="test_mode" F="154"/>
+            <command master="parameters" name="surround_mode" F="76"/>
+            <command master="parameters" name="delay_time" F="83"/>
         </commandSet>
     </remote>
 </remotes>

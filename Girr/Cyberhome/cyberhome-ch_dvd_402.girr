@@ -1,56 +1,57 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
-<remotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:girr="http://www.harctoolbox.org/schemas/girr.xsd" title="Translated by harc2girr" girrVersion="1.0" xsi:noNamespaceSchemaLocation="http://www.harctoolbox.org/schemas/girr.xsd">
+<remotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.harctoolbox.org/Girr" title="Translated by harc2girr" girrVersion="1.0"
+         xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns.xsd">
     <remote deviceClass="dvd" manufacturer="Cyberhome" model="402" name="Cyberhome DVD 402">
         <commandSet name="nec1_114">
             <parameters protocol="nec1">
                 <parameter name="D" value="114"/>
                 <parameter name="S" value="205"/>
             </parameters>
-            <command name="power_toggle" F="14"/>
-            <command name="open_close" F="26"/>
-            <command name="title" F="64"/>
-            <command name="menu" F="2"/>
-            <command name="setup" F="65"/>
-            <command name="display" F="80"/>
-            <command name="audio" F="22"/>
-            <command name="angle" F="84"/>
-            <command name="mute_toggle" F="7"/>
-            <command name="cmd_goto" F="18"/>
-            <command name="subtitle" F="88"/>
-            <command name="up" F="68"/>
-            <command name="down" F="29"/>
-            <command name="left" F="28"/>
-            <command name="right" F="72"/>
-            <command name="ok" F="92"/>
-            <command name="rewind" F="31"/>
-            <command name="fast_forward" F="93"/>
-            <command name="play" F="6"/>
-            <command name="previous" F="24"/>
-            <command name="next" F="25"/>
-            <command name="pause_toggle" F="89"/>
-            <command name="still_advance" F="27"/>
-            <command name="stop" F="30"/>
-            <command name="cmd_0" F="73"/>
-            <command name="cmd_1" F="19"/>
-            <command name="cmd_2" F="16"/>
-            <command name="cmd_3" F="17"/>
-            <command name="cmd_4" F="15"/>
-            <command name="cmd_5" F="12"/>
-            <command name="cmd_6" F="13"/>
-            <command name="cmd_7" F="11"/>
-            <command name="cmd_8" F="8"/>
-            <command name="cmd_9" F="9"/>
-            <command name="plus10" F="77"/>
-            <command name="clear" F="81"/>
-            <command name="program" F="21"/>
-            <command name="repeat" F="3"/>
-            <command name="a_b" F="4"/>
-            <command name="intro" F="69"/>
-            <command name="zoom" F="23"/>
-            <command name="effect_toggle" F="5"/>
-            <command name="marker" F="85"/>
-            <command name="cmd_return" F="10"/>
+            <command master="parameters" name="power_toggle" F="14"/>
+            <command master="parameters" name="open_close" F="26"/>
+            <command master="parameters" name="title" F="64"/>
+            <command master="parameters" name="menu" F="2"/>
+            <command master="parameters" name="setup" F="65"/>
+            <command master="parameters" name="display" F="80"/>
+            <command master="parameters" name="audio" F="22"/>
+            <command master="parameters" name="angle" F="84"/>
+            <command master="parameters" name="mute_toggle" F="7"/>
+            <command master="parameters" name="cmd_goto" F="18"/>
+            <command master="parameters" name="subtitle" F="88"/>
+            <command master="parameters" name="up" F="68"/>
+            <command master="parameters" name="down" F="29"/>
+            <command master="parameters" name="left" F="28"/>
+            <command master="parameters" name="right" F="72"/>
+            <command master="parameters" name="ok" F="92"/>
+            <command master="parameters" name="rewind" F="31"/>
+            <command master="parameters" name="fast_forward" F="93"/>
+            <command master="parameters" name="play" F="6"/>
+            <command master="parameters" name="previous" F="24"/>
+            <command master="parameters" name="next" F="25"/>
+            <command master="parameters" name="pause_toggle" F="89"/>
+            <command master="parameters" name="still_advance" F="27"/>
+            <command master="parameters" name="stop" F="30"/>
+            <command master="parameters" name="cmd_0" F="73"/>
+            <command master="parameters" name="cmd_1" F="19"/>
+            <command master="parameters" name="cmd_2" F="16"/>
+            <command master="parameters" name="cmd_3" F="17"/>
+            <command master="parameters" name="cmd_4" F="15"/>
+            <command master="parameters" name="cmd_5" F="12"/>
+            <command master="parameters" name="cmd_6" F="13"/>
+            <command master="parameters" name="cmd_7" F="11"/>
+            <command master="parameters" name="cmd_8" F="8"/>
+            <command master="parameters" name="cmd_9" F="9"/>
+            <command master="parameters" name="plus10" F="77"/>
+            <command master="parameters" name="clear" F="81"/>
+            <command master="parameters" name="program" F="21"/>
+            <command master="parameters" name="repeat" F="3"/>
+            <command master="parameters" name="a_b" F="4"/>
+            <command master="parameters" name="intro" F="69"/>
+            <command master="parameters" name="zoom" F="23"/>
+            <command master="parameters" name="effect_toggle" F="5"/>
+            <command master="parameters" name="marker" F="85"/>
+            <command master="parameters" name="cmd_return" F="10"/>
         </commandSet>
     </remote>
 </remotes>

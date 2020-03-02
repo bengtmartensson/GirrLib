@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
 <?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
 <!--This file is in the Girr (General IR Remote) format, see http://www.harctoolbox.org/Girr.html-->
-<remotes xmlns="http://www.harctoolbox.org/Girr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" girrVersion="1.0" title="IrScrutinizer parametric export" xsi:schemaLocation="http://www.harctoolbox.org/schemas/girr_ns.xsd">
+<remotes xmlns="http://www.harctoolbox.org/Girr" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         girrVersion="1.0" title="IrScrutinizer parametric export"
+         xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns.xsd">
     <adminData>
         <creationData creatingUser="bengt" creationDate="2016-09-11_12:44:37" source="http://www.remotecentral.com/cgi-bin/mboard/rc-discrete/thread.cgi?7627" tool="IrScrutinizer" tool2="DecodeIR" tool2Version="2.45" toolVersion="1.3"/>
     </adminData>
