@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?><!--This file is in the Girr (General IR Remote) format, see http://www.harctoolbox.org/Girr.html--><remotes xmlns="http://www.harctoolbox.org/Girr" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" girrVersion="1.0" title="IrScrutinizer parametric export" xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns.xsd">
+    <remote comment="Export from IrScrutinizer" deviceClass="Audio" displayName="Bose Soundbar 300" manufacturer="Bose" model="Soundbar 300" name="bose_soundbar" remoteName="Bose universal remote">
+        <commandSet name="commandSet">
+            <command master="parameters" name="Power">
+                <parameters protocol="nec">
+                    <parameter name="S" value="160"/>
+                    <parameter name="D" value="186"/>
+                    <parameter name="F" value="76"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Source Power">
+                <parameters protocol="nec2">
+                    <parameter name="S" value="160"/>
+                    <parameter name="D" value="186"/>
+                    <parameter name="F" value="44"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Aux">
+                <parameters protocol="nec2">
+                    <parameter name="S" value="160"/>
+                    <parameter name="D" value="186"/>
+                    <parameter name="F" value="13"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Bt">
+                <parameters protocol="nec2">
+                    <parameter name="S" value="160"/>
+                    <parameter name="D" value="186"/>
+                    <parameter name="F" value="129"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="TV">
+                <parameters protocol="nec2">
+                    <parameter name="S" value="160"/>
+                    <parameter name="D" value="186"/>
+                    <parameter name="F" value="14"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Film">
+                <parameters protocol="nec2">
+                    <parameter name="S" value="160"/>
+                    <parameter name="D" value="186"/>
+                    <parameter name="F" value="83"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Bar">
+                <parameters protocol="nec2">
+                    <parameter name="S" value="160"/>
+                    <parameter name="D" value="186"/>
+                    <parameter name="F" value="6"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Vol+">
+                <parameters protocol="nec2">
+                    <parameter name="S" value="160"/>
+                    <parameter name="D" value="186"/>
+                    <parameter name="F" value="3"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Vol-">
+                <parameters protocol="nec2">
+                    <parameter name="S" value="160"/>
+                    <parameter name="D" value="186"/>
+                    <parameter name="F" value="2"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Mute">
+                <parameters protocol="nec2">
+                    <parameter name="S" value="160"/>
+                    <parameter name="D" value="186"/>
+                    <parameter name="F" value="1"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Bass">
+                <parameters protocol="nec2">
+                    <parameter name="S" value="160"/>
+                    <parameter name="D" value="186"/>
+                    <parameter name="F" value="130"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Talk">
+                <parameters protocol="nec2">
+                    <parameter name="S" value="160"/>
+                    <parameter name="D" value="186"/>
+                    <parameter name="F" value="131"/>
+                </parameters>
+            </command>
+        </commandSet>
+    </remote>
+</remotes>

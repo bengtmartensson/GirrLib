@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
+<!--This file is in the Girr (General IR Remote) format, see http://www.harctoolbox.org/Girr.html-->
+<remotes xmlns="http://www.harctoolbox.org/Girr" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" girrVersion="1.0" title="IrScrutinizer parametric export" xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns.xsd">
+    <remote comment="Export from IrScrutinizer" deviceClass="TV" displayName="Sony TV" manufacturer="Sony" model="KD-55AF9" name="Sony_TV_KD-55AF9" remoteName="RMF_TX220E">
+        <commandSet name="commandSet">
+            <command master="parameters" name="inputs">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="37"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="power_toggle">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="21"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="digital_analog">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="119"/>
+                    <parameter name="F" value="13"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="tv_radio">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="26"/>
+                    <parameter name="F" value="87"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="exit">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="99"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="ext-box-menu">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="196"/>
+                    <parameter name="F" value="73"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="1">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="0"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="2">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="1"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="3">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="2"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="4">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="3"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="5">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="4"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="6">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="5"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="7">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="6"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="8">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="7"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="9">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="8"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="info">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="58"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="0">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="9"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="teletext">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="63"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="google_play">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="196"/>
+                    <parameter name="F" value="70"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="netflix">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="26"/>
+                    <parameter name="F" value="124"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="red">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="151"/>
+                    <parameter name="F" value="37"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="green">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="151"/>
+                    <parameter name="F" value="38"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="yellow">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="151"/>
+                    <parameter name="F" value="39"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="blue">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="151"/>
+                    <parameter name="F" value="36"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="action_menu">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="196"/>
+                    <parameter name="F" value="75"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="guide">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="164"/>
+                    <parameter name="F" value="91"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="apps">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="196"/>
+                    <parameter name="F" value="42"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="up">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="116"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="down">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="117"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="left">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="52"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="right">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="51"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="ok">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="101"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="back">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="151"/>
+                    <parameter name="F" value="35"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="home">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="96"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="tv">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="36"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="vol+">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="18"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="vol-">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="19"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="last_channel">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="59"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="mute_toggle">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="20"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="ch+">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="16"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="ch-">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="17"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="audio">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="23"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="rewind">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="151"/>
+                    <parameter name="F" value="27"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="play">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="151"/>
+                    <parameter name="F" value="26"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="fast_forward">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="151"/>
+                    <parameter name="F" value="28"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="subtitle">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="151"/>
+                    <parameter name="F" value="40"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="previous">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="151"/>
+                    <parameter name="F" value="60"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="pause">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="151"/>
+                    <parameter name="F" value="25"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="next">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="151"/>
+                    <parameter name="F" value="61"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="help">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="196"/>
+                    <parameter name="F" value="77"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="record">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="151"/>
+                    <parameter name="F" value="32"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="stop">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="151"/>
+                    <parameter name="F" value="24"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="title_list">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="26"/>
+                    <parameter name="F" value="101"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="10'S WAIT">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="29"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="CC/SUBTITLE">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="164"/>
+                    <parameter name="F" value="16"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="DEMO MODE">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="151"/>
+                    <parameter name="F" value="124"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="DIGIT SEPARATOR">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="151"/>
+                    <parameter name="F" value="29"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="DISCOVER">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="26"/>
+                    <parameter name="F" value="115"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="DISPLAY">
+                <parameters protocol="sony20">
+                    <parameter name="S" value="26"/>
+                    <parameter name="D" value="26"/>
+                    <parameter name="F" value="58"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="ENTER">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="11"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="FORMAT 16:9">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="164"/>
+                    <parameter name="F" value="69"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="FORMAT FULL">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="164"/>
+                    <parameter name="F" value="59"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="FORMAT WIDE">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="164"/>
+                    <parameter name="F" value="61"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="FORMAT WIDE ZOOM">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="164"/>
+                    <parameter name="F" value="66"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="FORWARD">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="151"/>
+                    <parameter name="F" value="28"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="GUIDE">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="14"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="I MANUAL">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="26"/>
+                    <parameter name="F" value="123"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="INPUT HDMI 1">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="26"/>
+                    <parameter name="F" value="90"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="INPUT HDMI 2">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="26"/>
+                    <parameter name="F" value="91"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="INPUT HDMI 3">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="26"/>
+                    <parameter name="F" value="92"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="INPUT HDMI 4">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="26"/>
+                    <parameter name="F" value="93"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="INPUT VIDEO 1">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="64"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="MENU SYNC">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="26"/>
+                    <parameter name="F" value="88"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="OPTION">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="151"/>
+                    <parameter name="F" value="54"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="PICTURE OFF">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="62"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="PIP">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="91"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="PIP CHANNEL DOWN">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="89"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="PIP CHANNEL UP">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="88"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="PIP OFF">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="164"/>
+                    <parameter name="F" value="110"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="PIP POSITION">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="94"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="PIP TV / VIDEO">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="90"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="POWER OFF">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="47"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="POWER ON">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="46"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="PRESET">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="108"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="REPLAY">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="164"/>
+                    <parameter name="F" value="115"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="RESET">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="22"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="RF">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="164"/>
+                    <parameter name="F" value="24"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="SLEEP">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="54"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="SPLIT">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="164"/>
+                    <parameter name="F" value="119"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="STORE MODE">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="151"/>
+                    <parameter name="F" value="106"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="TELETEXT HOLD">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="37"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="TIMER">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="60"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="TIMER DOWN">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="50"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="TIMER UP">
+                <parameters protocol="sony12">
+                    <parameter name="D" value="1"/>
+                    <parameter name="F" value="49"/>
+                </parameters>
+            </command>
+        </commandSet>
+    </remote>
+</remotes>
