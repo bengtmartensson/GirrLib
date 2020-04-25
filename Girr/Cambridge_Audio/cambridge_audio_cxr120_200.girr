@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?><!--This file is in the Girr (General IR Remote) format, see http://www.harctoolbox.org/Girr.html--><remotes xmlns="http://www.harctoolbox.org/Girr" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" girrVersion="1.0" title="IrScrutinizer parametric export" xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns.xsd">
+    <remote comment="Export from IrScrutinizer" deviceClass="AV Receiver" displayName="Cambridge Audio CXR120/200" manufacturer="Cambridge Audio" model="cxr120/200" name="cambridge-audio-cxr120_200">
+        <commandSet name="commandSet">
+            <command master="parameters" name="Power Toggle">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="12"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000A 0020 0020 0040 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0040 0020 0020 0040 0020 0020 0CC8</ccf>
+                <ccf T="1">0000 0073 0000 000B 0020 0020 0020 0020 0020 0020 0040 0020 0020 0040 0020 0020 0040 0020 0020 0040 0020 0020 0040 0020 0020 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Power On">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="14"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000A 0020 0020 0040 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0040 0020 0020 0020 0020 0040 0CC8</ccf>
+                <ccf T="1">0000 0073 0000 000B 0020 0020 0020 0020 0020 0020 0040 0020 0020 0040 0020 0020 0040 0020 0020 0040 0020 0020 0020 0020 0040 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Power Off">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="15"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000B 0020 0020 0040 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0040 0020 0020 0020 0020 0020 0020 0020 0CA8</ccf>
+                <ccf T="1">0000 0073 0000 000C 0020 0020 0020 0020 0020 0020 0040 0020 0020 0040 0020 0020 0040 0020 0020 0040 0020 0020 0020 0020 0020 0020 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="Mute Toggle">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="13"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000A 0020 0020 0040 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0040 0020 0020 0040 0040 0020 0CA8</ccf>
+                <ccf T="1">0000 0073 0000 000B 0020 0020 0020 0020 0020 0020 0040 0020 0020 0040 0020 0020 0040 0020 0020 0040 0020 0020 0040 0040 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="Mute">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="50"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000A 0020 0020 0040 0040 0040 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0020 0020 0040 0040 0CC8</ccf>
+                <ccf T="1">0000 0073 0000 000B 0020 0020 0020 0020 0020 0020 0040 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0020 0020 0040 0040 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Un-mute">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="51"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000B 0020 0020 0040 0040 0040 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0020 0020 0040 0020 0020 0020 0CA8</ccf>
+                <ccf T="1">0000 0073 0000 000C 0020 0020 0020 0020 0020 0020 0040 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0020 0020 0040 0020 0020 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="Volume Up">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="16"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000A 0020 0020 0040 0040 0040 0020 0020 0040 0020 0020 0040 0040 0040 0020 0020 0020 0020 0020 0020 0CC8</ccf>
+                <ccf T="1">0000 0073 0000 000B 0020 0020 0020 0020 0020 0020 0040 0020 0020 0040 0020 0020 0040 0040 0040 0020 0020 0020 0020 0020 0020 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Volume Down">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="17"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000A 0020 0020 0040 0040 0040 0020 0020 0040 0020 0020 0040 0040 0040 0020 0020 0020 0020 0040 0020 0CA8</ccf>
+                <ccf T="1">0000 0073 0000 000B 0020 0020 0020 0020 0020 0020 0040 0020 0020 0040 0020 0020 0040 0040 0040 0020 0020 0020 0020 0040 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="LCD cycle Dim, Bright, Off">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="72"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000A 0040 0020 0020 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0040 0040 0020 0020 0020 0020 0CC8</ccf>
+                <ccf T="1">0000 0073 0000 000A 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0040 0020 0020 0040 0040 0020 0020 0020 0020 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Info">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="21"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 0009 0020 0020 0040 0040 0040 0020 0020 0040 0020 0020 0040 0040 0040 0040 0040 0040 0020 0CA8</ccf>
+                <ccf T="1">0000 0073 0000 000A 0020 0020 0020 0020 0020 0020 0040 0020 0020 0040 0020 0020 0040 0040 0040 0040 0040 0040 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="Back">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="22"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 0009 0020 0020 0040 0040 0040 0020 0020 0040 0020 0020 0040 0040 0040 0040 0020 0020 0040 0CC8</ccf>
+                <ccf T="1">0000 0073 0000 000A 0020 0020 0020 0020 0020 0020 0040 0020 0020 0040 0020 0020 0040 0040 0040 0040 0020 0020 0040 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Play/Pause">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="24"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000A 0020 0020 0040 0040 0040 0020 0020 0040 0020 0020 0040 0040 0020 0020 0040 0020 0020 0020 0020 0CC8</ccf>
+                <ccf T="1">0000 0073 0000 000B 0020 0020 0020 0020 0020 0020 0040 0020 0020 0040 0020 0020 0040 0040 0020 0020 0040 0020 0020 0020 0020 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Skip Right">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="32"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000B 0020 0020 0040 0040 0040 0020 0020 0040 0020 0020 0020 0020 0040 0020 0020 0020 0020 0020 0020 0020 0020 0CC8</ccf>
+                <ccf T="1">0000 0073 0000 000C 0020 0020 0020 0020 0020 0020 0040 0020 0020 0040 0020 0020 0020 0020 0040 0020 0020 0020 0020 0020 0020 0020 0020 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Skip Left">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="33"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000B 0020 0020 0040 0040 0040 0020 0020 0040 0020 0020 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0020 0CA8</ccf>
+                <ccf T="1">0000 0073 0000 000C 0020 0020 0020 0020 0020 0020 0040 0020 0020 0040 0020 0020 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="Menu">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="52"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000A 0020 0020 0040 0040 0040 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0040 0040 0020 0020 0CC8</ccf>
+                <ccf T="1">0000 0073 0000 000B 0020 0020 0020 0020 0020 0020 0040 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0040 0040 0020 0020 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Stop">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="54"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000A 0020 0020 0040 0040 0040 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0040 0020 0020 0040 0CC8</ccf>
+                <ccf T="1">0000 0073 0000 000B 0020 0020 0020 0020 0020 0020 0040 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0040 0020 0020 0040 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Surround Modes">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="77"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000A 0040 0020 0020 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0040 0020 0020 0040 0040 0020 0CA8</ccf>
+                <ccf T="1">0000 0073 0000 000A 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0040 0020 0020 0040 0020 0020 0040 0040 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="Direct">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="78"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000A 0040 0020 0020 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0040 0020 0020 0020 0020 0040 0CC8</ccf>
+                <ccf T="1">0000 0073 0000 000A 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0040 0020 0020 0040 0020 0020 0020 0020 0040 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Stereo Modes">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="79"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000B 0040 0020 0020 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0040 0020 0020 0020 0020 0020 0020 0020 0CA8</ccf>
+                <ccf T="1">0000 0073 0000 000B 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0040 0020 0020 0040 0020 0020 0020 0020 0020 0020 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="Up">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="80"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000A 0040 0020 0020 0040 0040 0020 0020 0040 0020 0020 0040 0040 0040 0020 0020 0020 0020 0020 0020 0CC8</ccf>
+                <ccf T="1">0000 0073 0000 000A 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0040 0040 0040 0020 0020 0020 0020 0020 0020 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Down">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="81"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000A 0040 0020 0020 0040 0040 0020 0020 0040 0020 0020 0040 0040 0040 0020 0020 0020 0020 0040 0020 0CA8</ccf>
+                <ccf T="1">0000 0073 0000 000A 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0040 0040 0040 0020 0020 0020 0020 0040 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="Trigger A">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="82"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 0009 0040 0020 0020 0040 0040 0020 0020 0040 0020 0020 0040 0040 0040 0020 0020 0040 0040 0CC8</ccf>
+                <ccf T="1">0000 0073 0000 0009 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0040 0040 0040 0020 0020 0040 0040 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Trigger B">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="83"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000A 0040 0020 0020 0040 0040 0020 0020 0040 0020 0020 0040 0040 0040 0020 0020 0040 0020 0020 0020 0CA8</ccf>
+                <ccf T="1">0000 0073 0000 000A 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0040 0040 0040 0020 0020 0040 0020 0020 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="Trigger C">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="84"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 0009 0040 0020 0020 0040 0040 0020 0020 0040 0020 0020 0040 0040 0040 0040 0040 0020 0020 0CC8</ccf>
+                <ccf T="1">0000 0073 0000 0009 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0040 0040 0040 0040 0040 0020 0020 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Left">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="85"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 0009 0040 0020 0020 0040 0040 0020 0020 0040 0020 0020 0040 0040 0040 0040 0040 0040 0020 0CA8</ccf>
+                <ccf T="1">0000 0073 0000 0009 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0040 0040 0040 0040 0040 0040 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="Right">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="86"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 0009 0040 0020 0020 0040 0040 0020 0020 0040 0020 0020 0040 0040 0040 0040 0020 0020 0040 0CC8</ccf>
+                <ccf T="1">0000 0073 0000 0009 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0040 0040 0040 0040 0020 0020 0040 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Select/Enter">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="87"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000A 0040 0020 0020 0040 0040 0020 0020 0040 0020 0020 0040 0040 0040 0040 0020 0020 0020 0020 0020 0CA8</ccf>
+                <ccf T="1">0000 0073 0000 000A 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0040 0040 0040 0040 0020 0020 0020 0020 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="Tone (treble/bass)">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="94"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000A 0040 0020 0020 0040 0040 0020 0020 0040 0020 0020 0040 0040 0020 0020 0020 0020 0020 0020 0040 0CC8</ccf>
+                <ccf T="1">0000 0073 0000 000A 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0040 0040 0020 0020 0020 0020 0020 0020 0040 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Source 1">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="100"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000A 0040 0020 0020 0040 0040 0020 0020 0040 0020 0020 0020 0020 0040 0020 0020 0040 0040 0020 0020 0CC8</ccf>
+                <ccf T="1">0000 0073 0000 000A 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0020 0020 0040 0020 0020 0040 0040 0020 0020 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Source 2">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="101"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000A 0040 0020 0020 0040 0040 0020 0020 0040 0020 0020 0020 0020 0040 0020 0020 0040 0040 0040 0020 0CA8</ccf>
+                <ccf T="1">0000 0073 0000 000A 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0020 0020 0040 0020 0020 0040 0040 0040 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="Source 3">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="102"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000A 0040 0020 0020 0040 0040 0020 0020 0040 0020 0020 0020 0020 0040 0020 0020 0040 0020 0020 0040 0CC8</ccf>
+                <ccf T="1">0000 0073 0000 000A 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0020 0020 0040 0020 0020 0040 0020 0020 0040 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Source 4">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="103"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000B 0040 0020 0020 0040 0040 0020 0020 0040 0020 0020 0020 0020 0040 0020 0020 0040 0020 0020 0020 0020 0020 0CA8</ccf>
+                <ccf T="1">0000 0073 0000 000B 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0020 0020 0040 0020 0020 0040 0020 0020 0020 0020 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="Source 5">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="104"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000A 0040 0020 0020 0040 0040 0020 0020 0040 0020 0020 0020 0020 0040 0040 0040 0020 0020 0020 0020 0CC8</ccf>
+                <ccf T="1">0000 0073 0000 000A 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0020 0020 0040 0040 0040 0020 0020 0020 0020 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Source 6">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="105"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000A 0040 0020 0020 0040 0040 0020 0020 0040 0020 0020 0020 0020 0040 0040 0040 0020 0020 0040 0020 0CA8</ccf>
+                <ccf T="1">0000 0073 0000 000A 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0020 0020 0040 0040 0040 0020 0020 0040 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="Source 7">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="106"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 0009 0040 0020 0020 0040 0040 0020 0020 0040 0020 0020 0020 0020 0040 0040 0040 0040 0040 0CC8</ccf>
+                <ccf T="1">0000 0073 0000 0009 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0020 0020 0040 0040 0040 0040 0040 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Source 8">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="107"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000A 0040 0020 0020 0040 0040 0020 0020 0040 0020 0020 0020 0020 0040 0040 0040 0040 0020 0020 0020 0CA8</ccf>
+                <ccf T="1">0000 0073 0000 000A 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0020 0020 0040 0040 0040 0040 0020 0020 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="MP3">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="108"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000A 0040 0020 0020 0040 0040 0020 0020 0040 0020 0020 0020 0020 0040 0040 0020 0020 0040 0020 0020 0CC8</ccf>
+                <ccf T="1">0000 0073 0000 000A 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0020 0020 0040 0040 0020 0020 0040 0020 0020 0CC8</ccf>
+            </command>
+            <command master="parameters" name="StreamMagic">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="109"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000A 0040 0020 0020 0040 0040 0020 0020 0040 0020 0020 0020 0020 0040 0040 0020 0020 0040 0040 0020 0CA8</ccf>
+                <ccf T="1">0000 0073 0000 000A 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0020 0020 0040 0040 0020 0020 0040 0040 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="TV/ARC">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="110"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000A 0040 0020 0020 0040 0040 0020 0020 0040 0020 0020 0020 0020 0040 0040 0020 0020 0020 0020 0040 0CC8</ccf>
+                <ccf T="1">0000 0073 0000 000A 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0020 0020 0040 0040 0020 0020 0020 0020 0040 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Tuner (AM/FM)">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="111"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000B 0040 0020 0020 0040 0040 0020 0020 0040 0020 0020 0020 0020 0040 0040 0020 0020 0020 0020 0020 0020 0020 0CA8</ccf>
+                <ccf T="1">0000 0073 0000 000B 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0020 0020 0040 0040 0020 0020 0020 0020 0020 0020 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="FM">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="112"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000B 0040 0020 0020 0040 0040 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0020 0020 0020 0020 0020 0020 0CC8</ccf>
+                <ccf T="1">0000 0073 0000 000B 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0020 0020 0020 0020 0020 0020 0CC8</ccf>
+            </command>
+            <command master="parameters" name="AM">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="113"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000B 0040 0020 0020 0040 0040 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0020 0020 0020 0020 0040 0020 0CA8</ccf>
+                <ccf T="1">0000 0073 0000 000B 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0020 0020 0020 0020 0040 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="Tuner Stereo/Mono">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="116"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000A 0040 0020 0020 0040 0040 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0040 0040 0020 0020 0CC8</ccf>
+                <ccf T="1">0000 0073 0000 000A 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0040 0040 0020 0020 0CC8</ccf>
+            </command>
+            <command master="parameters" name="AM/FM Preset Store">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="119"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000B 0040 0020 0020 0040 0040 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0040 0020 0020 0020 0020 0020 0CA8</ccf>
+                <ccf T="1">0000 0073 0000 000B 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0020 0020 0020 0020 0040 0040 0020 0020 0020 0020 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="Lip Sync">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="19"/>
+                    <parameter name="F" value="127"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000C 0040 0020 0020 0040 0040 0020 0020 0040 0020 0020 0020 0020 0020 0020 0020 0020 0020 0020 0020 0020 0020 0020 0020 0CA8</ccf>
+                <ccf T="1">0000 0073 0000 000C 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0020 0020 0020 0020 0020 0020 0020 0020 0020 0020 0020 0020 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="Power Toggle Zone 2">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="27"/>
+                    <parameter name="F" value="12"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000A 0020 0020 0040 0040 0020 0020 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0040 0020 0020 0CC8</ccf>
+                <ccf T="1">0000 0073 0000 000B 0020 0020 0020 0020 0020 0020 0020 0020 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0040 0020 0020 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Power On Zone 2">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="27"/>
+                    <parameter name="F" value="14"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000A 0020 0020 0040 0040 0020 0020 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0020 0020 0040 0CC8</ccf>
+                <ccf T="1">0000 0073 0000 000B 0020 0020 0020 0020 0020 0020 0020 0020 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0020 0020 0040 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Power Off Zone 2">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="27"/>
+                    <parameter name="F" value="15"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000B 0020 0020 0040 0040 0020 0020 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0020 0020 0020 0020 0020 0CA8</ccf>
+                <ccf T="1">0000 0073 0000 000C 0020 0020 0020 0020 0020 0020 0020 0020 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0020 0020 0020 0020 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="Mute Toggle Zone 2">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="27"/>
+                    <parameter name="F" value="13"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000A 0020 0020 0040 0040 0020 0020 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0040 0040 0020 0CA8</ccf>
+                <ccf T="1">0000 0073 0000 000B 0020 0020 0020 0020 0020 0020 0020 0020 0040 0040 0020 0020 0040 0020 0020 0040 0020 0020 0040 0040 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="Mute Zone 2">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="27"/>
+                    <parameter name="F" value="50"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000A 0020 0020 0040 0040 0020 0020 0040 0040 0020 0020 0020 0020 0020 0020 0040 0020 0020 0040 0040 0CC8</ccf>
+                <ccf T="1">0000 0073 0000 000B 0020 0020 0020 0020 0020 0020 0020 0020 0040 0040 0020 0020 0020 0020 0020 0020 0040 0020 0020 0040 0040 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Un-mute Zone 2">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="27"/>
+                    <parameter name="F" value="51"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000B 0020 0020 0040 0040 0020 0020 0040 0040 0020 0020 0020 0020 0020 0020 0040 0020 0020 0040 0020 0020 0020 0CA8</ccf>
+                <ccf T="1">0000 0073 0000 000C 0020 0020 0020 0020 0020 0020 0020 0020 0040 0040 0020 0020 0020 0020 0020 0020 0040 0020 0020 0040 0020 0020 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="Volume Up Zone 2">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="27"/>
+                    <parameter name="F" value="16"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000A 0020 0020 0040 0040 0020 0020 0040 0040 0020 0020 0040 0040 0040 0020 0020 0020 0020 0020 0020 0CC8</ccf>
+                <ccf T="1">0000 0073 0000 000B 0020 0020 0020 0020 0020 0020 0020 0020 0040 0040 0020 0020 0040 0040 0040 0020 0020 0020 0020 0020 0020 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Volume Down Zone 2">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="27"/>
+                    <parameter name="F" value="17"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000A 0020 0020 0040 0040 0020 0020 0040 0040 0020 0020 0040 0040 0040 0020 0020 0020 0020 0040 0020 0CA8</ccf>
+                <ccf T="1">0000 0073 0000 000B 0020 0020 0020 0020 0020 0020 0020 0020 0040 0040 0020 0020 0040 0040 0040 0020 0020 0020 0020 0040 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="Source 1 Zone 2">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="27"/>
+                    <parameter name="F" value="100"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000A 0040 0020 0020 0040 0020 0020 0040 0040 0020 0020 0020 0020 0040 0020 0020 0040 0040 0020 0020 0CC8</ccf>
+                <ccf T="1">0000 0073 0000 000A 0040 0040 0020 0020 0020 0020 0040 0040 0020 0020 0020 0020 0040 0020 0020 0040 0040 0020 0020 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Source 2 Zone 2">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="27"/>
+                    <parameter name="F" value="101"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000A 0040 0020 0020 0040 0020 0020 0040 0040 0020 0020 0020 0020 0040 0020 0020 0040 0040 0040 0020 0CA8</ccf>
+                <ccf T="1">0000 0073 0000 000A 0040 0040 0020 0020 0020 0020 0040 0040 0020 0020 0020 0020 0040 0020 0020 0040 0040 0040 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="Source 3 Zone 2">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="27"/>
+                    <parameter name="F" value="102"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000A 0040 0020 0020 0040 0020 0020 0040 0040 0020 0020 0020 0020 0040 0020 0020 0040 0020 0020 0040 0CC8</ccf>
+                <ccf T="1">0000 0073 0000 000A 0040 0040 0020 0020 0020 0020 0040 0040 0020 0020 0020 0020 0040 0020 0020 0040 0020 0020 0040 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Source 4 Zone 2">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="27"/>
+                    <parameter name="F" value="103"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000B 0040 0020 0020 0040 0020 0020 0040 0040 0020 0020 0020 0020 0040 0020 0020 0040 0020 0020 0020 0020 0020 0CA8</ccf>
+                <ccf T="1">0000 0073 0000 000B 0040 0040 0020 0020 0020 0020 0040 0040 0020 0020 0020 0020 0040 0020 0020 0040 0020 0020 0020 0020 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="Source 5 Zone 2">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="27"/>
+                    <parameter name="F" value="104"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000A 0040 0020 0020 0040 0020 0020 0040 0040 0020 0020 0020 0020 0040 0040 0040 0020 0020 0020 0020 0CC8</ccf>
+                <ccf T="1">0000 0073 0000 000A 0040 0040 0020 0020 0020 0020 0040 0040 0020 0020 0020 0020 0040 0040 0040 0020 0020 0020 0020 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Source 6 Zone 2">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="27"/>
+                    <parameter name="F" value="105"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000A 0040 0020 0020 0040 0020 0020 0040 0040 0020 0020 0020 0020 0040 0040 0040 0020 0020 0040 0020 0CA8</ccf>
+                <ccf T="1">0000 0073 0000 000A 0040 0040 0020 0020 0020 0020 0040 0040 0020 0020 0020 0020 0040 0040 0040 0020 0020 0040 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="Source 7 Zone 2">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="27"/>
+                    <parameter name="F" value="106"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 0009 0040 0020 0020 0040 0020 0020 0040 0040 0020 0020 0020 0020 0040 0040 0040 0040 0040 0CC8</ccf>
+                <ccf T="1">0000 0073 0000 0009 0040 0040 0020 0020 0020 0020 0040 0040 0020 0020 0020 0020 0040 0040 0040 0040 0040 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Source 8 Zone 2">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="27"/>
+                    <parameter name="F" value="107"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000A 0040 0020 0020 0040 0020 0020 0040 0040 0020 0020 0020 0020 0040 0040 0040 0040 0020 0020 0020 0CA8</ccf>
+                <ccf T="1">0000 0073 0000 000A 0040 0040 0020 0020 0020 0020 0040 0040 0020 0020 0020 0020 0040 0040 0040 0040 0020 0020 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="MP3 Zone 2">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="27"/>
+                    <parameter name="F" value="108"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000A 0040 0020 0020 0040 0020 0020 0040 0040 0020 0020 0020 0020 0040 0040 0020 0020 0040 0020 0020 0CC8</ccf>
+                <ccf T="1">0000 0073 0000 000A 0040 0040 0020 0020 0020 0020 0040 0040 0020 0020 0020 0020 0040 0040 0020 0020 0040 0020 0020 0CC8</ccf>
+            </command>
+            <command master="parameters" name="StreamMagic Zone 2">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="27"/>
+                    <parameter name="F" value="109"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000A 0040 0020 0020 0040 0020 0020 0040 0040 0020 0020 0020 0020 0040 0040 0020 0020 0040 0040 0020 0CA8</ccf>
+                <ccf T="1">0000 0073 0000 000A 0040 0040 0020 0020 0020 0020 0040 0040 0020 0020 0020 0020 0040 0040 0020 0020 0040 0040 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="TV/ARC Zone 2">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="27"/>
+                    <parameter name="F" value="110"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000A 0040 0020 0020 0040 0020 0020 0040 0040 0020 0020 0020 0020 0040 0040 0020 0020 0020 0020 0040 0CC8</ccf>
+                <ccf T="1">0000 0073 0000 000A 0040 0040 0020 0020 0020 0020 0040 0040 0020 0020 0020 0020 0040 0040 0020 0020 0020 0020 0040 0CC8</ccf>
+            </command>
+            <command master="parameters" name="Tuner (AM/FM) Zone 2">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="27"/>
+                    <parameter name="F" value="111"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000B 0040 0020 0020 0040 0020 0020 0040 0040 0020 0020 0020 0020 0040 0040 0020 0020 0020 0020 0020 0020 0020 0CA8</ccf>
+                <ccf T="1">0000 0073 0000 000B 0040 0040 0020 0020 0020 0020 0040 0040 0020 0020 0020 0020 0040 0040 0020 0020 0020 0020 0020 0020 0020 0CA8</ccf>
+            </command>
+            <command master="parameters" name="FM Zone 2">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="27"/>
+                    <parameter name="F" value="112"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000B 0040 0020 0020 0040 0020 0020 0040 0040 0020 0020 0020 0020 0020 0020 0040 0020 0020 0020 0020 0020 0020 0CC8</ccf>
+                <ccf T="1">0000 0073 0000 000B 0040 0040 0020 0020 0020 0020 0040 0040 0020 0020 0020 0020 0020 0020 0040 0020 0020 0020 0020 0020 0020 0CC8</ccf>
+            </command>
+            <command master="parameters" name="AM Zone 2">
+                <parameters protocol="rc5">
+                    <parameter name="D" value="27"/>
+                    <parameter name="F" value="113"/>
+                </parameters>
+                <ccf T="0">0000 0073 0000 000B 0040 0020 0020 0040 0020 0020 0040 0040 0020 0020 0020 0020 0020 0020 0040 0020 0020 0020 0020 0040 0020 0CA8</ccf>
+                <ccf T="1">0000 0073 0000 000B 0040 0040 0020 0020 0020 0020 0040 0040 0020 0020 0020 0020 0020 0020 0040 0020 0020 0020 0020 0040 0020 0CA8</ccf>
+            </command>
+        </commandSet>
+    </remote>
+</remotes>
