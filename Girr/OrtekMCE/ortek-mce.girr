@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--This file is in the Girr (General IR Remote) format, see http://www.harctoolbox.org/Girr.html--><remotes xmlns="http://www.harctoolbox.org/Girr" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" girrVersion="1.0" title="RemoteMaster Girr Export" xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns.xsd">
+    <adminData>
+        <creationData creatingUser="bengt" creationDate="Thu Jan 07 16:53:48 CET 2021" source="/home/bengt/jp1/myconfig/images/main.rmir" tool="RemoteMaster" toolVersion="2.12.0"/>
+    </adminData>
+    <remote deviceClass="Cable" name="OrtekMCE">
+        <notes xml:lang="en">Export from IrScrutinizer
+
+Original protocol: ortekmce</notes>
+        <applicationData application="jp1">
+            <appParameter name="SetupCode" value="1919"/>
+            <appParameter name="Remote.name" value="URC-7781 Extender A2"/>
+            <appParameter name="Remote.signature" value="113A113A"/>
+            <appParameter name="Protocol" value="021B:JP1"/>
+            <appParameter name="Protocol.name" value="OrtekMCE"/>
+        </applicationData>
+        <commandSet name="commandSet">
+            <command master="parameters" name="explorer">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="5"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="power_toggle">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="3"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="my_tv">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="6"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="my_music">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="7"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="my_pictures">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="4"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="my_videos">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="2"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="LiveTV">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="14"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Guide">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="15"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="RecordedTV">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="12"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="DVDMenu">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="10"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="rewind">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="13"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="play">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="11"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="fast_forward">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="9"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="previous">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="8"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="next">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="17"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="stop">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="16"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="pause">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="20"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="record">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="19"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="back">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="22"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="info">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="18"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="up">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="21"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="left">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="23"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="right">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="33"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="down">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="32"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="OK">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="34"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Volume+">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="50"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Volume-">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="51"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Channel+">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="47"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Channel-">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="49"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="mute">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="48"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="start">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="46"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="1">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="52"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="2">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="36"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="3">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="31"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="4">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="53"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="5">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="35"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="6">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="30"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="7">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="45"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="8">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="37"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="9">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="38"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="0">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="42"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="*">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="43"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="#">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="40"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="close">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="44"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="clear">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="41"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="enter">
+                <parameters protocol="ortekmce">
+                    <parameter name="D" value="21"/>
+                    <parameter name="F" value="39"/>
+                </parameters>
+            </command>
+        </commandSet>
+    </remote>
+</remotes>

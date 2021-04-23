@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?><!--This file is in the Girr (General IR Remote) format, see http://www.harctoolbox.org/Girr.html--><remotes xmlns="http://www.harctoolbox.org/Girr" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" girrVersion="1.0" title="IrScrutinizer parametric export" xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns.xsd">
+    <adminData>
+        <creationData creatingUser="bengt" creationDate="2021-01-05_20:25:47" tool="IrScrutinizer" tool2="IrpTransmogrifier" tool2Version="1.2.8" toolVersion="2.3.1-SNAPSHOT"/>
+    </adminData>
+    <remote comment="Export from IrScrutinizer" deviceClass="headphone amplifier" displayName="Topping MX3" manufacturer="Topping" model="MX3" name="topping_mx3" remoteName="RC-13A">
+        <commandSet name="commandSet">
+            <command master="parameters" name="power_toggle">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="136"/>
+                    <parameter name="D" value="153"/>
+                    <parameter name="F" value="24"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="mute_toggle">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="136"/>
+                    <parameter name="D" value="153"/>
+                    <parameter name="F" value="6"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="+">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="136"/>
+                    <parameter name="D" value="153"/>
+                    <parameter name="F" value="70"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="prev">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="136"/>
+                    <parameter name="D" value="153"/>
+                    <parameter name="F" value="71"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="play/pause">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="136"/>
+                    <parameter name="D" value="153"/>
+                    <parameter name="F" value="85"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="next">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="136"/>
+                    <parameter name="D" value="153"/>
+                    <parameter name="F" value="21"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="-">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="136"/>
+                    <parameter name="D" value="153"/>
+                    <parameter name="F" value="22"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="treble">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="136"/>
+                    <parameter name="D" value="153"/>
+                    <parameter name="F" value="4"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="bass">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="136"/>
+                    <parameter name="D" value="153"/>
+                    <parameter name="F" value="64"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="select">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="136"/>
+                    <parameter name="D" value="153"/>
+                    <parameter name="F" value="84"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="mode">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="136"/>
+                    <parameter name="D" value="153"/>
+                    <parameter name="F" value="80"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="auto">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="136"/>
+                    <parameter name="D" value="153"/>
+                    <parameter name="F" value="16"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="half_moon">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="136"/>
+                    <parameter name="D" value="153"/>
+                    <parameter name="F" value="20"/>
+                </parameters>
+            </command>
+        </commandSet>
+    </remote>
+</remotes>

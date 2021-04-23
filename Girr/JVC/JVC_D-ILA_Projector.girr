@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!-- was: <?xml version="1.0"?> -->
+<?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
+<remotes title="JVC D-ILA Projector" girrVersion="1.2"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns="http://www.harctoolbox.org/Girr"
+         xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns-1.2.xsd">
+    <remote deviceClass="Projector" manufacturer="JVC" model="D-ILA" name="jvc_d-ila">
+        <adminData>
+            <creationData source="http://support.jvc.com/consumer/support/documents/DILA_Remote_Code_Emulation_Long_Hex.pdf" creatingUser="Bengt Martensson" creationDate="2021-04-23" tool="hand translated"/>
+            <notes>
+                <html:pre>
+                DLA-HD350 / DLA-HD750
+                DLA-HD550 / DLA-HD950 / DLA-HD990
+                DLA-X3 / DLA-X7 / DLA-X9
+                DLA-X30 / DLA-X70R / DLA-X90R
+                DLA-RS10 / DLA-RS20
+                DLA-RS15 / DLA-RS25 / DLA-RS35
+                DLA-RS40 / DLA-RS50 / DLA-RS60
+                DLA-RS45 / DLA-RS55 / DLA-RS65
+
+                JVC Projector Infrared Remote Control Command Emulation
+                (Long Hex Format)
+                Version 3.0 03/08/2012
+                Dale McWilliams – JVC Consumer A/V Group
+                This document may be distributed freely, as long as the author and copyright information remain intact.
+                User assumes all risks associated with implementation and utilization of this information.
+                No warranties are expressed or implied regarding usability, functionality or compatibility with any specific control systems.
+                Contents are subject to change without notice, as this document may be updated from time to time.
+                Please email any corrections, suggestions or requests for more information to dmcwilliams@jvc.com.
+                © 2012 JVC
+                </html:pre>
+            </notes>
+        </adminData>
+        <commandSet name="commandSet">
+            <parameters protocol="jvc">
+                <parameter name="D" value="155"/>
+            </parameters>
+            <command name="3D Format - Cycles through all available 3D formats" comment="(X30/X70/X90/RS45/55/65)" F="214"/>
+            <command name="3D Setting - Direct access to 3D Auto mode" comment="(X30/X70/X90/RS45/55/65)" F="219"/>
+            <command name="3D Setting - Direct access to 3D Side by Side mode" comment="(X30/X70/X90/RS45/55/65)" F="220"/>
+            <command name="3D Setting - Direct access to 3D Top &amp; Bottom mode" comment="(X30/X70/X90/RS45/55/65)" F="221"/>
+            <command name="3D Setting - Direct access to 3D Setting menu" comment="(X30/X70/X90/RS45/55/65)" F="213"/>
+            <command name="Advanced – Direct access to Picture Adjust &gt; Advanced menu" comment="(HD550/950/990/X3/X7/X9/X30/X70/X90/RS15/25/35/40/50/60/45/55/65)" F="115"/>
+            <command name="Anamorphic – Off" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65); Vertical Stretch – Off (HD350/750/950/990/RS10/20/25/35)" F="36"/>
+            <command name="Anamorphic – A" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65); Vertical Stretch – On (HD350/750/950/990/RS10/20/25/35)" F="35"/>
+            <command name="Anamorphic – B" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="43"/>
+            <command name="Anamorphic – Cycles through Off/A/B" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="197"/>
+            <command name="Aspect – 16:9" F="38"/>
+            <command name="Aspect – 4:3" F="37"/>
+            <command name="Aspect – Zoom" F="39"/>
+            <command name="Aspect (PC) – Auto" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="174"/>
+            <command name="Aspect (PC) – Full" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="176"/>
+            <command name="Aspect (PC) – Just" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="175"/>
+            <command name="Aspect + (cycles through all available modes)" F="119"/>
+            <command name="Auto Align" comment="(PC input on HD750/950/990/X7/X9/X70/X90/RS20/25/35/50/60/55/65)" F="19"/>
+            <command name="Auto Lens Center" comment="(X3/X7/X9/X70/X90/RS50/60/45/55/65)" F="201"/>
+            <command name="Back (steps backwards through menus and removes any OSD messages)" F="3"/>
+            <command name="BNR (Block Noise Reduction) Off" F="16"/>
+            <command name="BNR (Block Noise Reduction) On" F="15"/>
+            <command name="Bright Level –" comment="(X7/X9/X70/X90/RS50/60/55/65)" F="163"/>
+            <command name="Bright Level +" comment="(X7/X9/X70/X90/RS50/60/55/65)" F="162"/>
+            <command name="Brightness –" F="123"/>
+            <command name="Brightness +" F="122"/>
+            <command name="Brightness Adj. (Adjustment Bar On/Off toggle)" F="9"/>
+            <command name="CEC – Off" F="87"/>
+            <command name="CEC – On" F="86"/>
+            <command name="Clear Motion Drive - Cycles through: Off/ Mode1/Mode 2/Mode 3/Mode 4/Inverse Telecine" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="138"/>
+            <command name="Clear Motion Drive – Off" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="71"/>
+            <command name="Clear Motion Drive – Mode 1" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="206"/>
+            <command name="Clear Motion Drive – Mode 2" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="207"/>
+            <command name="Clear Motion Drive – Mode 3" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="72"/>
+            <command name="Clear Motion Drive – Mode 4" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="73"/>
+            <command name="Clear Motion Drive – Inverse Telecine" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="74"/>
+            <command name="Color -" F="125"/>
+            <command name="Color +" F="124"/>
+            <command name="Color Adj. (Adjustment Bar On/Off toggle)" F="21"/>
+            <command name="Color Management – Off" comment="(HD750/950/990/X7/X9/X70/X90/RS20/25/35/50/60/55/65)" F="96"/>
+            <command name="Color Management – Custom 1" comment="(HD750/950/990/X7/X9/X70/X90/RS20/25/35/50/60/55/65)" F="97"/>
+            <command name="Color Management – Custom 2" comment="(HD750/950/990/X7/X9/X70/X90/RS20/25/35/50/60/55/65)" F="98"/>
+            <command name="Color Management – Custom 3" comment="(HD750/950/990/X7/X9/X70/X90/RS20/25/35/50/60/55/65)" F="99"/>
+            <command name="Color Management – Cycles through: Off/ Custom1/Custom2/Custom3" comment="(X7/X9/X70/X90/RS50/60/55/65)" F="137"/>
+            <command name="Color Profile – Cycles through all available Color Profiles" comment="(X7/X9/X79/X90/RS50/60/55/65)" F="136"/>
+            <command name="Color Space – Cycles through Standard/Wide1/Wide2" comment="(X3/X30/RS40/RS45)" F="205"/>
+            <command name="Color Temp. – 5800K" comment="(HD350/550/750/950/990/RS10/15/20/25/35)" F="78"/>
+            <command name="Color Temp. – 6500K" F="79"/>
+            <command name="Color Temp. – 7500K" comment="(HD350/550/750/950/990/RS10/15/20/25/35)" F="80"/>
+            <command name="Color Temp. – 9300K" comment="(HD350/550/750/950/990/RS10/15/20/25/35)" F="81"/>
+            <command name="Color Temp. – Custom 1" F="83"/>
+            <command name="Color Temp. – Custom 2" F="84"/>
+            <command name="Color Temp. – Custom 3" F="85"/>
+            <command name="Color Temp. – High Bright" comment="(HD350/550/750/950/990/X3/X30/RS10/15/20/25/35/40/45)" F="82"/>
+            <command name="Color Temp. + (cycles through all options)" F="118"/>
+            <command name="Color Temperature Gain Blue –" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="145"/>
+            <command name="Color Temperature Gain Blue +" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="144"/>
+            <command name="Color Temperature Gain Green –" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="143"/>
+            <command name="Color Temperature Gain Green +" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="142"/>
+            <command name="Color Temperature Gain Red –" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="141"/>
+            <command name="Color Temperature Gain Red +" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="140"/>
+            <command name="Color Temperature Offset Blue –" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="151"/>
+            <command name="Color Temperature Offset Blue +" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="150"/>
+            <command name="Color Temperature Offset Green –" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="149"/>
+            <command name="Color Temperature Offset Green +" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="148"/>
+            <command name="Color Temperature Offset Red –" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="147"/>
+            <command name="Color Temperature Offset Red +" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="146"/>
+            <command name="Contrast –" F="121"/>
+            <command name="Contrast +" F="120"/>
+            <command name="Contrast Adj. (Adjustment Bar On/Off toggle)" F="10"/>
+            <command name="CTI (Color Transient Improvement) – Off" comment="(HD350/550/750/950/990/RS10/15/20/25/35)" F="92"/>
+            <command name="CTI (Color Transient Improvement) – Low" comment="(HD350/550/750/950/990/RS10/15/20/25/35)" F="93"/>
+            <command name="CTI (Color Transient Improvement) – Middle" comment="(HD350/550/750/950/990/RS10/15/20/25/35)" F="94"/>
+            <command name="CTI (Color Transient improvement) – High" comment="(HD350/550/750/950/990/RS10/15/20/25/35)" F="95"/>
+            <command name="Cursor Down ▼" F="2"/>
+            <command name="Cursor Left ◄" F="54"/>
+            <command name="Cursor Right ►" F="52"/>
+            <command name="Cursor Up ▲" F="1"/>
+            <command name="Dark Level –" comment="(X7/X9/X70/X90/RS50/60/55/65)" F="165"/>
+            <command name="Dark Level +" comment="(X7/X9/X70/X90/RS50/60/55/65)" F="164"/>
+            <command name="Detail Enhance –" F="18"/>
+            <command name="Detail Enhance +" F="17"/>
+            <command name="Picture Tone Blue –" comment="(X7/X9/RS50/60 – Film Mode Only) (X70/X90/RS55/65 - All Modes)" F="161"/>
+            <command name="Picture Tone Blue +" comment="(X7/X9/RS50/60 – Film Mode Only) (X70/X90/RS55/65 - All Modes)" F="160"/>
+            <command name="Picture Tone Green –" comment="(X7/X9/RS50/60 – Film Mode Only) (X70/X90/RS55/65 - All Modes)" F="159"/>
+            <command name="Picture Tone Green +" comment="(X7/X9/RS50/60 – Film Mode Only) (X70/X90/RS55/65 - All Modes)" F="158"/>
+            <command name="Picture Tone Red –" comment="(X7/X9/RS50/60 – Film Mode Only) (X70/X90/RS55/65 - All Modes)" F="157"/>
+            <command name="Picture Tone Red +" comment="(X7/X9/RS50/60 – Film Mode Only) (X70/X90/RS55/65 - All Modes)" F="156"/>
+            <command name="Picture Tone White –" comment="(X7/X9/RS50/60 – Film Mode Only) (X70/X90/RS55/65 - All Modes)" F="155"/>
+            <command name="Picture Tone White +" comment="(X7/X9/RS50/60 – Film Mode Only) (X70/X90/RS55/65 - All Modes)" F="154"/>
+            <command name="Gamma – Normal" F="56"/>
+            <command name="Gamma – A" F="57"/>
+            <command name="Gamma – B" F="58"/>
+            <command name="Gamma – C" F="59"/>
+            <command name="Gamma – D" comment="(HD550/950/990/X3/X7/X9/X30/X70/X90/RS15/25/35/40/50/60/45/55/65)" F="63"/>
+            <command name="Gamma – Custom 1" F="60"/>
+            <command name="Gamma – Custom 2" F="61"/>
+            <command name="Gamma – Custom 3" F="62"/>
+            <command name="Gamma + (cycles through all options)" F="117"/>
+            <command name="Hide (On/Off toggle)" F="29"/>
+            <command name="Hide – Off" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="209"/>
+            <command name="Hide – On" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="208"/>
+            <command name="Horizontal Position –" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="171"/>
+            <command name="Horizontal Position +" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="170"/>
+            <command name="Information (displays Information tab of menu)" F="116"/>
+            <command name="Input – Component" F="77"/>
+            <command name="Input – HDMI-1" F="112"/>
+            <command name="Input – HDMI-2" F="113"/>
+            <command name="Input – PC" comment="(HD750/950/990/X7/X9/X70/X90/RS20/25/35/50/60/55/65)" F="70"/>
+            <command name="Input – S-Video" comment="(HD350/550/750/950/990)" F="76"/>
+            <command name="Input – Video" comment="(HD350/550/750/950/990)" F="75"/>
+            <command name="Input + (cycles through all inputs)" F="8"/>
+            <command name="ISF – Day" comment="(X7/X9/X70/X90/RS50/60/55/65)" F="100"/>
+            <command name="ISF – Night" comment="(X7/X9/X70/X90/RS50/60/55/65)" F="101"/>
+            <command name="ISF – Off" comment="(HD950/990/X7/X9/X70/X90/RS25/35/50/60/55/65)" F="90"/>
+            <command name="ISF – On" comment="(HD950/990/X7/X9/X70/X90/RS25/35/50/60/55/65)" F="91"/>
+            <command name="Keystone Correction Horizontal –" F="65"/>
+            <command name="Keystone Correction Horizontal +" F="64"/>
+            <command name="Keystone Correction Vertical –" F="28"/>
+            <command name="Keystone Correction Vertical +" F="27"/>
+            <command name="Lens Aperture – 1" comment="(HD350/HD550)" F="40"/>
+            <command name="Lens Aperture – 2" comment="(HD350/HD550)" F="41"/>
+            <command name="Lens Aperture – 3" comment="(HD350/HD550)" F="42"/>
+            <command name="Lens Aperture –" comment="If Lens Aperture Gauge is not displayed – displays gauge. If Lens Aperture Gauge is already displayed – Lens Aperture is decreased (X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="31"/>
+            <command name="Lens Aperture +" comment="If Lens Aperture Gauge is not displayed – displays gauge. If Lens Aperture Gauge is already displayed – Lens Aperture is increased (X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="30"/>
+            <command name="Lens Aperture Adj." comment="(HD350/750/950/990/RS10/20/25/35 - Adjustment Bar On/Off toggle) (X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65 - Displays Adjustment Bar) (HD550/RS15 - Cycles through all options)" F="32"/>
+            <command name="Lens Control (cycles through all options)" F="48"/>
+            <command name="Lens Focus –" F="50"/>
+            <command name="Lens Focus +" F="49"/>
+            <command name="Lens Memory - Cycles through Lens Memory Pages: Select/Save/Name Edit (X30/X70/X90/RS45/55/65)" F="212"/>
+            <command name="Lens Memory 1" comment="(X30/X70/X90/RS45/55/65)" F="216"/>
+            <command name="Lens Memory 2" comment="(X30/X70/X90/RS45/55/65)" F="217"/>
+            <command name="Lens Memory 3" comment="(X30/X70/X90/RS45/55/65)" F="218"/>
+            <command name="Lens Shift – Down" F="34"/>
+            <command name="Lens Shift – Left" F="68"/>
+            <command name="Lens Shift – Right" F="67"/>
+            <command name="Lens Shift – Up" F="33"/>
+            <command name="Lens Zoom – In" F="53"/>
+            <command name="Lens Zoom – Out" F="55"/>
+            <command name="Mask Bottom –" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="184"/>
+            <command name="Mask Bottom +" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="183"/>
+            <command name="Mask Left –" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="178"/>
+            <command name="Mask Left +" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="177"/>
+            <command name="Mask Right –" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="180"/>
+            <command name="Mask Right +" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="179"/>
+            <command name="Mask Top –" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="182"/>
+            <command name="Mask Top +" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="181"/>
+            <command name="Menu (On/Off toggle)" F="46"/>
+            <command name="Menu Position" comment="(HD550/950/990/X3/X7/X9/X30/X70/X90/RS15/25/35/40/50/60/45/55/65)" F="66"/>
+            <command name="MNR (Mosquito Noise Reduction) –" F="14"/>
+            <command name="MNR (Mosquito Noise Reduction) +" F="13"/>
+            <command name="NR (toggles display of RNR/MNR)" comment="(HD350/550/750/950/990/RS10/15/20/25/35)" F="24"/>
+            <command name="OK (to accept currently selected option)" F="47"/>
+            <command name="Phase (PC Input) –" comment="(X7/X9/X70/X90/RS50/60/55/65)" F="169"/>
+            <command name="Phase (PC Input) +" comment="(X7/X9/X70/X90/RS50/60/55/65)" F="168"/>
+            <command name="Picture Adjust" comment="(HD550/750/990/X3/X7/X9/X30/X70/X90/RS15/25/35/40/50/60/45/55/65)" F="114"/>
+            <command name="Picture Mode – 3D" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="135"/>
+            <command name="Picture Mode – Cinema 1" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65 - Film Mode)" F="105"/>
+            <command name="Picture Mode – Cinema 2" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65 - Cinema Mode)" F="104"/>
+            <command name="Picture Mode – Cinema 3" comment="(HD550/750/990/RS15/25/35) (X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65 - Animation Mode)" F="102"/>
+            <command name="Picture Mode – Dynamic" comment="(HD350/550/750/950/990)" F="107"/>
+            <command name="Picture Mode – Natural" F="106"/>
+            <command name="Picture Mode – Stage" F="103"/>
+            <command name="Picture Mode – THX" comment="(HD750/950/990/X7/X9/X70/X90/RS20/25/35/50/60/55/65)" F="111"/>
+            <command name="Picture Mode – User 1" F="108"/>
+            <command name="Picture Mode – User 2" F="109"/>
+            <command name="Picture Mode – User 3" comment="(HD550/750/950/990/X3/X30/RS20/25/35/40/45)" F="110"/>
+            <command name="Picture Mode – User 4" comment="(X30/X70/X90/RS45/55/65)" F="202"/>
+            <command name="Picture Mode – User 5" comment="(X30/X70/X90/RS45/55/65)" F="203"/>
+            <command name="Pixel Shift – Horizontal Blue –" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="190"/>
+            <command name="Pixel Shift – Horizontal Blue +" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="189"/>
+            <command name="Pixel Shift – Horizontal Green –" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="188"/>
+            <command name="Pixel Shift – Horizontal Green +" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="187"/>
+            <command name="Pixel Shift – Horizontal Red –" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="186"/>
+            <command name="Pixel Shift – Horizontal Red +" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="185"/>
+            <command name="Pixel Shift – Vertical Blue –" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="196"/>
+            <command name="Pixel Shift – Vertical Blue +" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="195"/>
+            <command name="Pixel Shift – Vertical Green –" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="194"/>
+            <command name="Pixel Shift – Vertical Green +" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="193"/>
+            <command name="Pixel Shift – Vertical Red –" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="192"/>
+            <command name="Pixel Shift – Vertical Red +" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="191"/>
+            <command name="Power – Off (send twice with short delay between to switch off)" F="6"/>
+            <command name="Power – On" F="5"/>
+            <command name="RNR (Random Noise Reduction) –" F="12"/>
+            <command name="RNR (Random Noise Reduction) +" F="11"/>
+            <command name="Screen Adjust – Off" comment="(X3/X30/RS40/45)" F="128"/>
+            <command name="Screen Adjust – A" comment="(X3/X30/RS40/45)" F="129"/>
+            <command name="Screen Adjust – B" comment="(X3/X30/RS40/45)" F="130"/>
+            <command name="Screen Adjust – C" comment="(X3/X30/RS40/45)" F="131"/>
+            <command name="Sharpness –" F="127"/>
+            <command name="Sharpness +" F="126"/>
+            <command name="Sharpness Adj. (Adjustment Bar On/Off toggle)" F="20"/>
+            <command name='Shutter – Off – Un-synchronises shutter with “Hide” function' comment="(HD550/950/990/X3/X7/X9/X30/X70/X90/RS15/25/35/40/50/60/45/55/65)" F="45"/>
+            <command name='Shutter – On – Synchronises shutter with “Hide” function' comment="(HD550/950/990/X3/X7/X9/X30/X70/X90/RS15/25/35/40/50/60/45/55/65)" F="44"/>
+            <command name="Shutter – Open" comment="(HD550/950/990/X3/X7/X9/X30/X70/X90/RS15/25/35/40/50/60/45/55/65)" F="26"/>
+            <command name="Shutter – Close" comment="(HD550/950/990/X3/X7/X9/X30/X70/X90/RS15/25/35/40/50/60/45/55/65)" F="25"/>
+            <command name="Test Pattern (cycles through all patterns)" comment="(HD350/550/750/950/990/RS10/15/20/25/35)" F="89"/>
+            <command name="THX – Off" comment="(X7/X9/X70/X90/RS50/60/55/65)" F="199"/>
+            <command name="THX – On" comment="(X7/X9/X70/X90/RS50/60/55/65)" F="200"/>
+            <command name="THX – Bright" comment="(X7/X9/X70/X90/RS50/60/55/65)" F="133"/>
+            <command name="THX – Dark" comment="(X7/X9/X70/X90/RS50/60/55/65)" F="134"/>
+            <command name="Tint –" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="153"/>
+            <command name="Tint +" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="152"/>
+            <command name="Tint Adj. (Adjustment Bar On/Off toggle)" F="22"/>
+            <command name="Tracking (PC Input) –" comment="(X7/X9/X70/X90/RS50/60/55/65)" F="167"/>
+            <command name="Tracking (PC Input) +" comment="(X7/X9/X70/X90/RS50/60/55/65)" F="166"/>
+            <command name="User - Cycles through User 1 - User 5 Picture Modes" comment="(X30/X70/X90/RS45/55/65)" F="215"/>
+            <command name="Vertical Position –" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="173"/>
+            <command name="Vertical Position +" comment="(X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="172"/>
+            <command name="Vertical Stretch – Off" comment="(HD350/550/750/950/990/RS10/15/20/25/35); Anamorphic – Off (X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="36"/>
+            <command name="Vertical Stretch – On" comment="(HD350/550/750/950/990/RS10/15/20/25/35); Anamorphic – A (X3/X7/X9/X30/X70/X90/RS40/50/60/45/55/65)" F="35"/>
+        </commandSet>
+    </remote>
+</remotes>
