@@ -309,21 +309,21 @@
                 <command master="parameters" F="27" name="eject"/>
                 <!--/command-set-->
         </commandSet>
-<!--
-        <command-set name="commandset_2" display-name="BDP-83 code 2">
+        <commandSet name="commandset_2" displayName="BDP-83 code 2">
             <parameters protocol="nec1">
                 <parameter name="D" value="97"/>
             </parameters>
-            <command-set-ref command-set="oppo-just-f"/>
-        </command-set>
+            <command master="parameters" F="26" name="power"/>
+            <command master="parameters" F="27" name="eject"/>
+        </commandSet>
 
-        <command-set name="commandset_3" display-name="BDP-83 code 3">
+        <commandSet name="commandset_3" displayName="BDP-83 code 3">
             <parameters protocol="nec1">
                 <parameter name="D" value="67"/>
             </parameters>
-            <command-set-ref command-set="oppo-just-f"/>
-        </command-set>
-        -->
+            <command master="parameters" F="26" name="power"/>
+            <command master="parameters" F="27" name="eject"/>
+        </commandSet>
     </remote>
 
 </remotes>
