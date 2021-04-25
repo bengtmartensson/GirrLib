@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!--This file is in the Girr (General IR Remote) format, see http://www.harctoolbox.org/Girr.html-->
+<remotes xmlns="http://www.harctoolbox.org/Girr"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns:xi="http://www.w3.org/2001/XInclude"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         girrVersion="1.2" title="RemoteMaster Girr Export"
+         xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns-1,2.xsd">
+    <adminData>
+        <creationData creatingUser="bengt" creationDate="Sun Apr 25 10:37:17 CEST 2021" source="/home/bengt/harctoolbox/support/120240VAC60HZ/Remote ID 1 (Default).rmdu" tool="RemoteMaster" toolVersion="2.12.15"/>
+    </adminData>
+    <remote deviceClass="Tuner" name="onkyo_t-4555" displayName="Integra/Onkyo TUN-3.7/T-4555 Multi Platform Radio Tuner  Remote ID 1, 2, 3." manufacturer="Onkyo" model="Integra T-4555" remoteName="RC-671T">
+        <notes xml:lang="en">See <a href="http://www.hifi-remote.com/forums/viewtopic.php?t=102764">this thread</a>.</notes>
+        <applicationData application="jp1">
+            <appParameter name="SetupCode" value="2000"/>
+            <appParameter name="Remote.name" value="Nevo C2"/>
+            <appParameter name="Remote.signature" value="USB8006"/>
+            <appParameter name="Protocol" value="005A"/>
+            <appParameter name="Protocol.name" value="NEC1"/>
+        </applicationData>
+        <commandSet name="id1">
+            <command master="parameters" name="Power">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="F" value="4"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Band">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="F" value="6"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Tuning Mode">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="F" value="73"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Left">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="F" value="132"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Right">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="F" value="133"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Up">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="F" value="130"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Down">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="F" value="131"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Enter">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="F" value="77"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="ENT">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="F" value="77"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Tuning/CH Up">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="F" value="66"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Tuning/CH Down">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="F" value="67"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Preset Up">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="F" value="0"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Preset Down">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="F" value="1"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Display">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="F" value="7"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Dimmer">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="F" value="79"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Setup">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="F" value="148"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Return">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="F" value="149"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Direct Tuning">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="F" value="31"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Auto Scan">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="F" value="151"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="1">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="F" value="21"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="2">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="F" value="22"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="3">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="F" value="23"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="4">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="F" value="90"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="5">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="F" value="91"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="6">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="F" value="92"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="7">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="F" value="93"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="8">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="F" value="94"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="9">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="F" value="95"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="0">
+                <parameters protocol="nec1">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="F" value="20"/>
+                </parameters>
+            </command>
+        </commandSet>
+
+        <commandSet name="id2">
+            <command master="parameters" name="Power">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="4"/>
+                    <parameter name="F" value="218"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Band">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="6"/>
+                    <parameter name="F" value="218"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Tuning Mode">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="73"/>
+                    <parameter name="F" value="218"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Left">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="132"/>
+                    <parameter name="F" value="218"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Right">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="133"/>
+                    <parameter name="F" value="218"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Up">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="130"/>
+                    <parameter name="F" value="218"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Down">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="131"/>
+                    <parameter name="F" value="218"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Enter">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="77"/>
+                    <parameter name="F" value="218"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="ENT">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="77"/>
+                    <parameter name="F" value="218"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Tuning/CH Up">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="66"/>
+                    <parameter name="F" value="218"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Tuning/CH Down">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="67"/>
+                    <parameter name="F" value="218"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Preset Up">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="0"/>
+                    <parameter name="F" value="218"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Preset Down">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="1"/>
+                    <parameter name="F" value="218"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Display">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="7"/>
+                    <parameter name="F" value="218"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Dimmer">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="79"/>
+                    <parameter name="F" value="218"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Setup">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="148"/>
+                    <parameter name="F" value="218"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Return">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="149"/>
+                    <parameter name="F" value="218"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Direct Tuning">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="31"/>
+                    <parameter name="F" value="218"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Auto Scan">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="151"/>
+                    <parameter name="F" value="218"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="1">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="21"/>
+                    <parameter name="F" value="218"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="2">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="22"/>
+                    <parameter name="F" value="218"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="3">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="23"/>
+                    <parameter name="F" value="218"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="4">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="90"/>
+                    <parameter name="F" value="218"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="5">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="91"/>
+                    <parameter name="F" value="218"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="6">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="92"/>
+                    <parameter name="F" value="218"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="7">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="93"/>
+                    <parameter name="F" value="218"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="8">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="94"/>
+                    <parameter name="F" value="218"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="9">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="95"/>
+                    <parameter name="F" value="218"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="0">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="20"/>
+                    <parameter name="F" value="218"/>
+                </parameters>
+            </command>
+        </commandSet>
+
+        <commandSet name="id3">
+            <command master="parameters" name="Power">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="4"/>
+                    <parameter name="F" value="219"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Band">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="6"/>
+                    <parameter name="F" value="219"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Tuning Mode">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="73"/>
+                    <parameter name="F" value="219"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Left">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="132"/>
+                    <parameter name="F" value="219"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Right">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="133"/>
+                    <parameter name="F" value="219"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="UP">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="130"/>
+                    <parameter name="F" value="219"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Down">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="131"/>
+                    <parameter name="F" value="219"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Enter">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="77"/>
+                    <parameter name="F" value="219"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="ENT">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="77"/>
+                    <parameter name="F" value="219"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Tuning/CH Up">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="66"/>
+                    <parameter name="F" value="219"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Tuning/CH Down">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="67"/>
+                    <parameter name="F" value="219"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Preset Up">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="0"/>
+                    <parameter name="F" value="219"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Preset Down">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="1"/>
+                    <parameter name="F" value="219"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Display">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="7"/>
+                    <parameter name="F" value="219"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Dimmer">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="79"/>
+                    <parameter name="F" value="219"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Setup">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="148"/>
+                    <parameter name="F" value="219"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Return">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="149"/>
+                    <parameter name="F" value="219"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Direct Tuning">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="31"/>
+                    <parameter name="F" value="219"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Auto Scan">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="151"/>
+                    <parameter name="F" value="219"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="1">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="21"/>
+                    <parameter name="F" value="219"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="2">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="22"/>
+                    <parameter name="F" value="219"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="3">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="23"/>
+                    <parameter name="F" value="219"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="4">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="90"/>
+                    <parameter name="F" value="219"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="5">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="91"/>
+                    <parameter name="F" value="219"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="6">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="92"/>
+                    <parameter name="F" value="219"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="7">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="93"/>
+                    <parameter name="F" value="219"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="8">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="94"/>
+                    <parameter name="F" value="219"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="9">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="95"/>
+                    <parameter name="F" value="219"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="0">
+                <parameters protocol="nec1-f16">
+                    <parameter name="S" value="37"/>
+                    <parameter name="D" value="210"/>
+                    <parameter name="E" value="20"/>
+                    <parameter name="F" value="219"/>
+                </parameters>
+            </command>
+        </commandSet>
+    </remote>
+</remotes>
