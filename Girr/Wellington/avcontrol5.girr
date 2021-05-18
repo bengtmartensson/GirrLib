@@ -3,7 +3,7 @@
 <remotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xmlns="http://www.harctoolbox.org/Girr" title="Translated by harc2girr" girrVersion="1.0"
          xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns.xsd">
-    <remote deviceClass="misc_audio" manufacturer="Vicanco" model="avc5" name="AVControl 5">
+    <remote deviceClass="misc_audio" manufacturer="Vivanco" model="avc5" name="AVControl 5">
         <commandSet name="recs80_5_">
             <parameters protocol="recs80">
                 <parameter name="D" value="5"/>

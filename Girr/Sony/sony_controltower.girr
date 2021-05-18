@@ -7,7 +7,7 @@
     <adminData>
         <creationData creatingUser="bengt" creationDate="2019-03-12_17:00:05" source="IrScrutinizer parametrized table" tool="IrScrutinizer" tool2="DecodeIR" tool2Version="2.45" toolVersion="1.4.2"/>
     </adminData>
-    <remote comment="Export from IrScrutinizer" deviceClass="" displayName="" manufacturer="" model="" name="unnamed" remoteName="">
+    <remote comment="Export from IrScrutinizer" deviceClass="" displayName="" manufacturer="" model="" name="sony-tv-generic" remoteName="">
         <commandSet name="commandSet">
             <command comment="Line 1, &lt;clipboard&gt;" master="ccf" name="10'S WAIT">
                 <ccf>0000 0068 0000 000D 0060 0018 0030 0018 0018 0018 0030 0018 0030 0018 0030 0018 0018 0018 0018 0018 0030 0018 0018 0018 0018 0018 0018 0018 0018 03F0</ccf>

@@ -1,0 +1,235 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
+<remote girrVersion="1.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.harctoolbox.org/Girr"
+        xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns.xsd"
+        deviceClass="bluray" manufacturer="Oppo" model="bdp83" name="Oppo BDP83">
+    <commandSet name="ircommandset_1">
+        <parameters protocol="nec1">
+            <parameter name="D" value="73"/>
+        </parameters>
+        <command master="parameters" name="power_toggle"	F="26"/>
+        <command master="parameters" name="open_close"          F="27"/>
+        <command master="parameters" name="setup"		F="0"/>
+        <command master="parameters" name="power_on"		F="90"/>
+        <command master="parameters" name="power_off"		F="91"/>
+        <command master="parameters" name="source"		F="17"/> <!-- Selects GUI Menu -->
+
+        <command master="parameters" name="play"		F="86"/>
+        <command master="parameters" name="pause_toggle"	F="20"/>
+        <command master="parameters" name="stop"		F="82" comment="one stop allows resuming with play, two irrecovably stops"/>
+        <command master="parameters" name="rewind"		F="85" comment="set speed backwards"/>
+        <command master="parameters" name="fast_forward"	F="81" comment="set speed forwards"/>
+        <command master="parameters" name="next"		F="80"/>
+        <command master="parameters" name="previous"		F="84"/>
+        <!--command master="parameters" name="slow"		F="78" comment="ignored on CDs"/-->
+        <command master="parameters" name="a_b"                 F="77"/>
+        <command master="parameters" name="repeat"		F="76"/>
+
+        <command master="parameters" name="title" comment="Top Menu" F="72"/>
+        <command master="parameters" name="menu" comment="Pop-up Menu" F="64"/>
+        <command master="parameters" name="cmd_goto"		F="74"/>
+        <command master="parameters" name="cmd_return"          F="66"/>
+        <command master="parameters" name="cmd_0"		F="4"/>
+        <command master="parameters" name="cmd_1"		F="11"/>
+        <command master="parameters" name="cmd_2"		F="7"/>
+        <command master="parameters" name="cmd_3"		F="3"/>
+        <command master="parameters" name="cmd_4"		F="10"/>
+        <command master="parameters" name="cmd_5"		F="6"/>
+        <command master="parameters" name="cmd_6"		F="2"/>
+        <command master="parameters" name="cmd_7"		F="9"/>
+        <command master="parameters" name="cmd_8"		F="5"/>
+        <command master="parameters" name="cmd_9"		F="1"/>
+        <!--command master="parameters" name="plus10"		F="8"/-->
+        <command master="parameters" name="cancel"		F="70"/>
+
+        <command master="parameters" name="up"                  F="24"/>
+        <command master="parameters" name="down"		F="16"/>
+        <command master="parameters" name="left"		F="87"/>
+        <command master="parameters" name="right"		F="79"/>
+        <command master="parameters" name="ok" comment="Enter"	F="83"/>
+
+        <command master="parameters" name="red"                 F="28"/>
+        <command master="parameters" name="green"		F="29"/>
+        <command master="parameters" name="blue"		F="31"/>
+        <command master="parameters" name="yellow"		F="30"/>
+
+        <command master="parameters" name="subtitle"		F="75"/>
+        <command master="parameters" name="audio"		F="71"/>
+        <command master="parameters" name="angle"		F="73"/>
+        <command master="parameters" name="zoom"		F="69"/>
+        <command master="parameters" name="SAP"                 F="18"/>
+        <command master="parameters" name="PIP"                 F="12"/>
+
+        <command master="parameters" name="osd" displayName="Display" F="68"/>
+        <command master="parameters" name="home"		F="92"/>
+        <command master="parameters" name="dimmer"		F="95"/>
+        <command master="parameters" name="light_on" displayName="Light" F="25"/> <!-- Function? -->
+        <command master="parameters" name="page_up"		F="94"/>
+        <command master="parameters" name="page_down"		F="93"/>
+        <!--command master="parameters" name="info"		F="13" comment="disk to go to?"/-->
+        <!--command master="parameters" name="bookmark"		F="88"/-->
+        <!--command master="parameters" name="img_logo_capture"	F="89"/-->
+
+        <command master="parameters" name="volume_up"		F="19"/>
+        <command master="parameters" name="volume_down"         F="23"/>
+        <command master="parameters" name="mute_toggle"         F="67"/>
+        <command master="parameters" name="audio_only" displayName="Pure Audio" F="65"/>
+
+        <command master="parameters" name="pal_ntsc"		F="22"/>
+        <command master="parameters" name="resolution"          F="21" displayName="hdmi" />
+    </commandSet>
+
+    <commandSet name="ircommandset_2">
+        <parameters protocol="nec1">
+            <parameter name="D" value="97"/>
+        </parameters>
+        <command master="parameters" name="power_toggle"	F="26"/>
+        <command master="parameters" name="open_close"          F="27"/>
+        <command master="parameters" name="setup"		F="0"/>
+        <command master="parameters" name="power_on"		F="90"/>
+        <command master="parameters" name="power_off"		F="91"/>
+        <command master="parameters" name="source"		F="17"/> <!-- Selects GUI Menu -->
+
+        <command master="parameters" name="play"		F="86"/>
+        <command master="parameters" name="pause_toggle"	F="20"/>
+        <command master="parameters" name="stop"		F="82" comment="one stop allows resuming with play, two irrecovably stops"/>
+        <command master="parameters" name="rewind"		F="85" comment="set speed backwards"/>
+        <command master="parameters" name="fast_forward"	F="81" comment="set speed forwards"/>
+        <command master="parameters" name="next"		F="80"/>
+        <command master="parameters" name="previous"		F="84"/>
+        <!--command master="parameters" name="slow"		F="78" comment="ignored on CDs"/-->
+        <command master="parameters" name="a_b"                 F="77"/>
+        <command master="parameters" name="repeat"		F="76"/>
+
+        <command master="parameters" name="title" comment="Top Menu" F="72"/>
+        <command master="parameters" name="menu" comment="Pop-up Menu" F="64"/>
+        <command master="parameters" name="cmd_goto"		F="74"/>
+        <command master="parameters" name="cmd_return"          F="66"/>
+        <command master="parameters" name="cmd_0"		F="4"/>
+        <command master="parameters" name="cmd_1"		F="11"/>
+        <command master="parameters" name="cmd_2"		F="7"/>
+        <command master="parameters" name="cmd_3"		F="3"/>
+        <command master="parameters" name="cmd_4"		F="10"/>
+        <command master="parameters" name="cmd_5"		F="6"/>
+        <command master="parameters" name="cmd_6"		F="2"/>
+        <command master="parameters" name="cmd_7"		F="9"/>
+        <command master="parameters" name="cmd_8"		F="5"/>
+        <command master="parameters" name="cmd_9"		F="1"/>
+        <!--command master="parameters" name="plus10"		F="8"/-->
+        <command master="parameters" name="cancel"		F="70"/>
+
+        <command master="parameters" name="up"                  F="24"/>
+        <command master="parameters" name="down"		F="16"/>
+        <command master="parameters" name="left"		F="87"/>
+        <command master="parameters" name="right"		F="79"/>
+        <command master="parameters" name="ok" comment="Enter"	F="83"/>
+
+        <command master="parameters" name="red"                 F="28"/>
+        <command master="parameters" name="green"		F="29"/>
+        <command master="parameters" name="blue"		F="31"/>
+        <command master="parameters" name="yellow"		F="30"/>
+
+        <command master="parameters" name="subtitle"		F="75"/>
+        <command master="parameters" name="audio"		F="71"/>
+        <command master="parameters" name="angle"		F="73"/>
+        <command master="parameters" name="zoom"		F="69"/>
+        <command master="parameters" name="SAP"                 F="18"/>
+        <command master="parameters" name="PIP"                 F="12"/>
+
+        <command master="parameters" name="osd" displayName="Display" F="68"/>
+        <command master="parameters" name="home"		F="92"/>
+        <command master="parameters" name="dimmer"		F="95"/>
+        <command master="parameters" name="light_on" displayName="Light" F="25"/> <!-- Function? -->
+        <command master="parameters" name="page_up"		F="94"/>
+        <command master="parameters" name="page_down"		F="93"/>
+        <!--command master="parameters" name="info"		F="13" comment="disk to go to?"/-->
+        <!--command master="parameters" name="bookmark"		F="88"/-->
+        <!--command master="parameters" name="img_logo_capture"	F="89"/-->
+
+        <command master="parameters" name="volume_up"		F="19"/>
+        <command master="parameters" name="volume_down"         F="23"/>
+        <command master="parameters" name="mute_toggle"         F="67"/>
+        <command master="parameters" name="audio_only" displayName="Pure Audio" F="65"/>
+
+        <command master="parameters" name="pal_ntsc"		F="22"/>
+        <command master="parameters" name="resolution"          F="21"  displayName="hdmi"/>
+    </commandSet>
+
+    <commandSet name="ircommandset_3">
+        <parameters protocol="nec1">
+            <parameter name="D" value="67"/>
+        </parameters>
+        <command master="parameters" name="power_toggle"	F="26"/>
+        <command master="parameters" name="open_close"          F="27"/>
+        <command master="parameters" name="setup"		F="0"/>
+        <command master="parameters" name="power_on"		F="90"/>
+        <command master="parameters" name="power_off"		F="91"/>
+        <command master="parameters" name="source"		F="17"/> <!-- Selects GUI Menu -->
+
+        <command master="parameters" name="play"		F="86"/>
+        <command master="parameters" name="pause_toggle"	F="20"/>
+        <command master="parameters" name="stop"		F="82" comment="one stop allows resuming with play, two irrecovably stops"/>
+        <command master="parameters" name="rewind"		F="85" comment="set speed backwards"/>
+        <command master="parameters" name="fast_forward"	F="81" comment="set speed forwards"/>
+        <command master="parameters" name="next"		F="80"/>
+        <command master="parameters" name="previous"		F="84"/>
+        <!--command master="parameters" name="slow"		F="78" comment="ignored on CDs"/-->
+        <command master="parameters" name="a_b"                 F="77"/>
+        <command master="parameters" name="repeat"		F="76"/>
+
+        <command master="parameters" name="title" comment="Top Menu" F="72"/>
+        <command master="parameters" name="menu" comment="Pop-up Menu" F="64"/>
+        <command master="parameters" name="cmd_goto"		F="74"/>
+        <command master="parameters" name="cmd_return"          F="66"/>
+        <command master="parameters" name="cmd_0"		F="4"/>
+        <command master="parameters" name="cmd_1"		F="11"/>
+        <command master="parameters" name="cmd_2"		F="7"/>
+        <command master="parameters" name="cmd_3"		F="3"/>
+        <command master="parameters" name="cmd_4"		F="10"/>
+        <command master="parameters" name="cmd_5"		F="6"/>
+        <command master="parameters" name="cmd_6"		F="2"/>
+        <command master="parameters" name="cmd_7"		F="9"/>
+        <command master="parameters" name="cmd_8"		F="5"/>
+        <command master="parameters" name="cmd_9"		F="1"/>
+        <!--command master="parameters" name="plus10"		F="8"/-->
+        <command master="parameters" name="cancel"		F="70"/>
+
+        <command master="parameters" name="up"                  F="24"/>
+        <command master="parameters" name="down"		F="16"/>
+        <command master="parameters" name="left"		F="87"/>
+        <command master="parameters" name="right"		F="79"/>
+        <command master="parameters" name="ok" comment="Enter"	F="83"/>
+
+        <command master="parameters" name="red"                 F="28"/>
+        <command master="parameters" name="green"		F="29"/>
+        <command master="parameters" name="blue"		F="31"/>
+        <command master="parameters" name="yellow"		F="30"/>
+
+        <command master="parameters" name="subtitle"		F="75"/>
+        <command master="parameters" name="audio"		F="71"/>
+        <command master="parameters" name="angle"		F="73"/>
+        <command master="parameters" name="zoom"		F="69"/>
+        <command master="parameters" name="SAP"                 F="18"/>
+        <command master="parameters" name="PIP"                 F="12"/>
+
+        <command master="parameters" name="osd" displayName="Display" F="68"/>
+        <command master="parameters" name="home"		F="92"/>
+        <command master="parameters" name="dimmer"		F="95"/>
+        <command master="parameters" name="light_on" displayName="Light" F="25"/> <!-- Function? -->
+        <command master="parameters" name="page_up"		F="94"/>
+        <command master="parameters" name="page_down"		F="93"/>
+        <!--command master="parameters" name="info"		F="13" comment="disk to go to?"/-->
+        <!--command master="parameters" name="bookmark"		F="88"/-->
+        <!--command master="parameters" name="img_logo_capture"	F="89"/-->
+
+        <command master="parameters" name="volume_up"		F="19"/>
+        <command master="parameters" name="volume_down"         F="23"/>
+        <command master="parameters" name="mute_toggle"         F="67"/>
+        <command master="parameters" name="audio_only" displayName="Pure Audio" F="65"/>
+
+        <command master="parameters" name="pal_ntsc"		F="22"/>
+        <command master="parameters" name="resolution"          F="21"  displayName="hdmi"/>
+    </commandSet>
+</remote>

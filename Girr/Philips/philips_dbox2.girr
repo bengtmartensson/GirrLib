@@ -2,7 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
 <remotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.harctoolbox.org/Girr" title="Translated by harc2girr" girrVersion="1.0"
 xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns.xsd">
-    <remote deviceClass="sat" manufacturer="Sagem" model="dbox2" name="dbox2">
+    <remote deviceClass="sat" manufacturer="Philips" model="dbox2" name="dbox2">
         <commandSet name="nokia_13_64">
             <parameters protocol="nokia">
                 <parameter name="D" value="13"/>

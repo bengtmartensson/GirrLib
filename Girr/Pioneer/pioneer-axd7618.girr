@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
+<!--This file is in the Girr (General IR Remote) format, see http://www.harctoolbox.org/Girr.html-->
+<remotes xmlns="http://www.harctoolbox.org/Girr" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" girrVersion="1.0" title="IrScrutinizer parametric export" xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns.xsd">
+    <remote comment="Export from IrScrutinizer" deviceClass="AV Receiver" displayName="Pioneer VSX-322" manufacturer="Pioneer" model="VSX-322 and others" name="pioneer-axd7618" remoteName="pioneer-axd7618">
+        <commandSet name="commandSet">
+            <command master="parameters" name="advsurr">
+                <parameters protocol="pioneer-mix">
+                    <parameter name="F0" value="159"/>
+                    <parameter name="D0" value="165"/>
+                    <parameter name="F" value="211"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="alcstandard">
+                <parameters protocol="pioneer-mix">
+                    <parameter name="F0" value="94"/>
+                    <parameter name="D0" value="165"/>
+                    <parameter name="F" value="8"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="audioparameter">
+                <parameters protocol="pioneer-mix">
+                    <parameter name="F0" value="90"/>
+                    <parameter name="D0" value="165"/>
+                    <parameter name="F" value="202"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="autodirect">
+                <parameters protocol="pioneer-mix">
+                    <parameter name="F0" value="154"/>
+                    <parameter name="D0" value="165"/>
+                    <parameter name="F" value="195"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="bassmin">
+                <parameters protocol="pioneer-mix">
+                    <parameter name="F0" value="87"/>
+                    <parameter name="D0" value="165"/>
+                    <parameter name="F" value="1"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="bassplus">
+                <parameters protocol="pioneer-mix">
+                    <parameter name="F0" value="87"/>
+                    <parameter name="D0" value="165"/>
+                    <parameter name="F" value="0"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="chselect">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="165"/>
+                    <parameter name="F" value="86"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="dimmer">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="165"/>
+                    <parameter name="F" value="86"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="down">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="165"/>
+                    <parameter name="F" value="129"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="enter">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="165"/>
+                    <parameter name="F" value="132"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="input_adapter">
+                <parameters protocol="pioneer-mix">
+                    <parameter name="F0" value="92"/>
+                    <parameter name="D0" value="165"/>
+                    <parameter name="F" value="196"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="input_back">
+                <parameters protocol="pioneer-mix">
+                    <parameter name="F0" value="86"/>
+                    <parameter name="D0" value="165"/>
+                    <parameter name="F" value="193"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="input_bd">
+                <parameters protocol="pioneer-mix">
+                    <parameter name="F0" value="92"/>
+                    <parameter name="D0" value="165"/>
+                    <parameter name="F" value="192"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="input_cd">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="165"/>
+                    <parameter name="F" value="76"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="input_cdr">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="165"/>
+                    <parameter name="F" value="136"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="input_dtv_tv">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="170"/>
+                    <parameter name="F" value="19"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="input_dvd">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="165"/>
+                    <parameter name="F" value="133"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="input_dvr_bdr">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="165"/>
+                    <parameter name="F" value="137"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="input_forward">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="165"/>
+                    <parameter name="F" value="85"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="input_phase">
+                <parameters protocol="pioneer-mix">
+                    <parameter name="F0" value="90"/>
+                    <parameter name="D0" value="165"/>
+                    <parameter name="F" value="203"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="input_portable">
+                <parameters protocol="pioneer-mix">
+                    <parameter name="F0" value="158"/>
+                    <parameter name="D0" value="165"/>
+                    <parameter name="F" value="198"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="input_signalsel">
+                <parameters protocol="pioneer-mix">
+                    <parameter name="F0" value="86"/>
+                    <parameter name="D0" value="165"/>
+                    <parameter name="F" value="3"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="input_sretriever">
+                <parameters protocol="pioneer-mix">
+                    <parameter name="F0" value="90"/>
+                    <parameter name="D0" value="165"/>
+                    <parameter name="F" value="205"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="input_tuner">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="165"/>
+                    <parameter name="F" value="71"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="input_tv">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="165"/>
+                    <parameter name="F" value="12"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="left">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="165"/>
+                    <parameter name="F" value="131"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="levelmin">
+                <parameters protocol="pioneer-mix">
+                    <parameter name="F0" value="65"/>
+                    <parameter name="D0" value="165"/>
+                    <parameter name="F" value="7"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="levelplus">
+                <parameters protocol="pioneer-mix">
+                    <parameter name="F0" value="66"/>
+                    <parameter name="D0" value="165"/>
+                    <parameter name="F" value="7"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="midnight">
+                <parameters protocol="pioneer-mix">
+                    <parameter name="F0" value="159"/>
+                    <parameter name="D0" value="165"/>
+                    <parameter name="F" value="203"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="mute">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="165"/>
+                    <parameter name="F" value="18"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="power">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="165"/>
+                    <parameter name="F" value="28"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="power_source">
+                <parameters protocol="pioneer-mix">
+                    <parameter name="F0" value="129"/>
+                    <parameter name="D0" value="161"/>
+                    <parameter name="D" value="175"/>
+                    <parameter name="F" value="188"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="power_tv_control">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="170"/>
+                    <parameter name="F" value="28"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="return">
+                <parameters protocol="pioneer-mix">
+                    <parameter name="F0" value="93"/>
+                    <parameter name="D0" value="165"/>
+                    <parameter name="F" value="9"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="right">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="165"/>
+                    <parameter name="F" value="130"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="sbch">
+                <parameters protocol="pioneer-mix">
+                    <parameter name="F0" value="159"/>
+                    <parameter name="D0" value="165"/>
+                    <parameter name="F" value="212"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="setup">
+                <parameters protocol="pioneer-mix">
+                    <parameter name="F0" value="155"/>
+                    <parameter name="D0" value="165"/>
+                    <parameter name="F" value="214"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="sleep">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="165"/>
+                    <parameter name="F" value="72"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="speakers">
+                <parameters protocol="pioneer-mix">
+                    <parameter name="F0" value="86"/>
+                    <parameter name="D0" value="165"/>
+                    <parameter name="F" value="0"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="stereo">
+                <parameters protocol="pioneer-mix">
+                    <parameter name="F0" value="159"/>
+                    <parameter name="D0" value="165"/>
+                    <parameter name="F" value="192"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="testtone">
+                <parameters protocol="pioneer-mix">
+                    <parameter name="F0" value="86"/>
+                    <parameter name="D0" value="165"/>
+                    <parameter name="F" value="1"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="treblemin">
+                <parameters protocol="pioneer-mix">
+                    <parameter name="F0" value="87"/>
+                    <parameter name="D0" value="165"/>
+                    <parameter name="F" value="3"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="trebleplus">
+                <parameters protocol="pioneer-mix">
+                    <parameter name="F0" value="87"/>
+                    <parameter name="D0" value="165"/>
+                    <parameter name="F" value="2"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="tv_ch_down">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="170"/>
+                    <parameter name="F" value="17"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="tv_ch_up">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="170"/>
+                    <parameter name="F" value="16"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="tv_vol_down">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="170"/>
+                    <parameter name="F" value="11"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="tv_vol_up">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="170"/>
+                    <parameter name="F" value="10"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="up">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="165"/>
+                    <parameter name="F" value="128"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="vol_down">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="165"/>
+                    <parameter name="F" value="11"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="vol_up">
+                <parameters protocol="pioneer">
+                    <parameter name="D" value="165"/>
+                    <parameter name="F" value="10"/>
+                </parameters>
+            </command>
+        </commandSet>
+    </remote>
+</remotes>

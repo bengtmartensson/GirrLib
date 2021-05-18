@@ -6,7 +6,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xmlns="http://www.harctoolbox.org/Girr"
          xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns.xsd" >
-    <remote deviceClass="bluray" manufacturer="Oppo" model="all" name="Oppo BDM commandset 1">
+    <remote deviceClass="bluray" manufacturer="Oppo" model="all" name="Oppo BDM commandset 3">
         <commandSet name="ircommandset_3">
             <parameters protocol="nec1">
                 <parameter name="D" value="67"/>

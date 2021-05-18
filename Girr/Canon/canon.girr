@@ -3,7 +3,7 @@
 <remotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.harctoolbox.org/Girr"
          title="Translated by harc2girr" girrVersion="1.0"
          xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns.xsd">
-    <remote deviceClass="camera" manufacturer="" model="EOS-450D" name="Canon EOS 450D">
+    <remote deviceClass="camera" manufacturer="Canon" model="EOS-450D" name="Canon EOS 450D">
         <adminData>
             <notes>Canon EOS 450D, and probably a lot of other Canon models.
                 References: http://www.doc-diy.net/photo/rc-1_hacked</notes>
