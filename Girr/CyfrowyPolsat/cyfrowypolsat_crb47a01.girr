@@ -4,7 +4,7 @@
     <adminData>
         <creationData creatingUser="Maciej S. Szmigiero"/>
     </adminData>
-    <remote deviceClass="STB" name="cyfrowypolsat_crb47a01" comment="A remote for Cyfrowy Polsat TV platform STBs. Actual ODM is unknown." remoteName="Cyfrowy Polsat CRB47A01">
+    <remote deviceClass="STB" name="cyfrowypolsat_crb47a01" manufacturer="CyfrowyPolsat" comment="A remote for Cyfrowy Polsat TV platform STBs. Actual ODM is unknown." remoteName="Cyfrowy Polsat CRB47A01">
         <commandSet name="commandSet">
             <command master="parameters" name="mute" displayName="Mute">
                 <parameters protocol="samsung36">
