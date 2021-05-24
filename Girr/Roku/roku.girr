@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
+<!--This file is in the Girr (General IR Remote) format, see http://www.harctoolbox.org/Girr.html-->
+<remotes xmlns="http://www.harctoolbox.org/Girr"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         girrVersion="1.2"
+         title="Collection of Roku commands"
+         xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns-1.2.xsd">
+    <adminData>
+        <creationData creatingUser="bengt" creationDate="2021-05-24_09:18:42" tool="IrScrutinizer" tool2="IrpTransmogrifier" tool2Version="1.2.10-SNAPSHOT" toolVersion="2.3.1-SNAPSHOT"/>
+    </adminData>
+    <remote comment="Export from IrScrutinizer" deviceClass="Video Streamer" displayName="Roku Codes from mdavej" manufacturer="Roku" model="most" name="RokuCodes">
+        <adminData>
+            <creationData creatingUser="bengt" creationDate="2021-05-24_09:18:42" source="http://www.hifi-remote.com/forums/dload.php?action=file&amp;file_id=25290"/>
+        </adminData>
+        <notes>
+            This is <html:a href="http://www.hifi-remote.com/forums/dload.php?action=file&amp;file_id=25290">mdavej's Excel file</html:a>
+            (see also <html:a href="http://www.hifi-remote.com/forums/viewtopic.php?p=117292#117292">this thread</html:a>) converted to Girr.
+        </notes>
+        <commandSet name="commandSet">
+            <parameters protocol="Roku">
+                <parameter name="D" value="234"/>
+                <parameter name="S" value="194"/>
+            </parameters>
+            <command F="3" master="parameters" name="Home"/>
+            <command F="8" master="parameters" name="Vudu"/>
+            <command F="9" master="parameters" name="Vol+ (CEC)"/>
+            <command F="10" master="parameters" name="Vol- (CEC)"/>
+            <command F="11" master="parameters" name="Mute (CEC)"/>
+            <command F="12" master="parameters" name="Power Toggle (CEC)"/>
+            <command F="15" master="parameters" name="FandangoNow"/>
+            <command F="16" master="parameters" name="Amazon"/>
+            <command F="17" master="parameters" name="Disney"/>
+            <command F="22" master="parameters" name="Apple TV"/>
+            <command F="23" master="parameters" name="Channel Store"/>
+            <command F="25" master="parameters" name="Up"/>
+            <command F="30" master="parameters" name="Left"/>
+            <command F="31" master="parameters" name="Walmart"/>
+            <command F="32" master="parameters" name="SlingTV"/>
+            <command F="39" master="parameters" name="alt SlingTV"/>
+            <command F="42" master="parameters" name="OK"/>
+            <command F="45" master="parameters" name="Right"/>
+            <command F="48" master="parameters" name="Voice Search 1"/>
+            <command F="49" master="parameters" name="Voice Search 2"/>
+            <command F="50" master="parameters" name="Voice Search 3"/>
+            <command F="51" master="parameters" name="Down"/>
+            <command F="52" master="parameters" name="Rewind"/>
+            <command F="64" master="parameters" name="obsolete rdio"/>
+            <command F="65" master="parameters" name="Google play"/>
+            <command F="66" master="parameters" name="YouTube"/>
+            <command F="71" master="parameters" name="Cinema Now"/>
+            <command F="75" master="parameters" name="Netflix"/>
+            <command F="76" master="parameters" name="Play"/>
+            <command F="77" master="parameters" name="Hulu"/>
+            <command F="78" master="parameters" name="HBO Now"/>
+            <command F="79" master="parameters" name="Showtime"/>
+            <command F="80" master="parameters" name="Red Bull TV"/>
+            <command F="81" master="parameters" name="Spotify"/>
+            <command F="82" master="parameters" name="Pandora"/>
+            <command F="83" master="parameters" name=" TED"/>
+            <command F="85" master="parameters" name="FFWD"/>
+            <command F="87" master="parameters" name="PS Vue"/>
+            <command F="89" master="parameters" name="Starz"/>
+            <command F="96" master="parameters" name="NBA TV"/>
+            <command F="97" master="parameters" name="* Menu Options"/>
+            <command F="101" master="parameters" name="AT&amp;T TV"/>
+            <command F="102" master="parameters" name="Back"/>
+            <command F="104" master="parameters" name="YuppTV"/>
+            <command F="105" master="parameters" name="Roku Channel"/>
+            <command F="106" master="parameters" name="Paramount"/>
+            <command F="107" master="parameters" name="ESPN"/>
+            <command F="113" master="parameters" name="DEEZER"/>
+            <command F="120" master="parameters" name="Instant Replay"/>
+            <command F="121" master="parameters" name="The CW"/>
+            <command F="122" master="parameters" name="HappyKids.tv"/>
+            <command F="123" master="parameters" name="WWE Network"/>
+            <command F="127" master="parameters" name="Crackle"/>
+        </commandSet>
+    </remote>
+</remotes>
