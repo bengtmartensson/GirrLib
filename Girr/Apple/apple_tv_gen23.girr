@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
+<!--This file is in the Girr (General IR Remote) format, see http://www.harctoolbox.org/Girr.html-->
+<remotes xmlns="http://www.harctoolbox.org/Girr" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" girrVersion="1.2" title="IrScrutinizer parametric export" xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns-1.2.xsd">
+    <adminData>
+        <creationData creatingUser="bengt" creationDate="2021-06-16_17:32:10" tool="IrScrutinizer" tool2="IrpTransmogrifier" tool2Version="1.2.10-SNAPSHOT" toolVersion="2.3.1-SNAPSHOT"
+                      source="https://github.com/probonopd/irdb/issues/5"/>
+    </adminData>
+    <remote comment="Export from IrScrutinizer" deviceClass="media player" displayName="Apple TV (2nd &amp; 3rd generation)" manufacturer="Apple" model="Apple TV A1427, A1469, A1378" name="AppleTV_2-3-gen">
+        <commandSet name="commandSet">
+            <parameters protocol="Apple">
+                <parameter name="PairID" value="215"/>
+            </parameters>
+            <command F="5" master="parameters" name="CUR_UP"/>
+            <command F="6" master="parameters" name="CUR_DOWN"/>
+            <command F="4" master="parameters" name="CUR_LEFT"/>
+            <command F="3" master="parameters" name="CUR_RIGHT"/>
+            <command F="46" master="parameters" name="ENTER"/>
+            <command F="1" master="parameters" name="MENU"/>
+            <command F="47" master="parameters" name="PLAY/PAUSE"/>
+        </commandSet>
+    </remote>
+</remotes>
