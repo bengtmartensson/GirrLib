@@ -8,7 +8,7 @@
     <adminData>
         <creationData creatingUser="bengt" creationDate="2016-01-12_15:20:21" source="IrScrutinizer parametrized table" tool="IrScrutinizer" tool2="DecodeIR" tool2Version="2.45" toolVersion="1.1.4snapshot"/>
     </adminData>
-    <remote comment="Export from IrScrutinizer" name="Yamaha RX-V1400">
+    <remote manufacturer="Yamaha" deviceClass="AV Receiver" name="Yamaha RX-V1400">
         <commandSet name="commandSet">
             <command comment="" master="parameters" name="in_phono">
                 <parameters protocol="nec1">

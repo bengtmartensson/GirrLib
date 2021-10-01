@@ -8,7 +8,7 @@
     <adminData>
         <creationData creatingUser="bengt" creationDate="2016-01-12_15:42:17" source="IrScrutinizer parametrized table" tool="IrScrutinizer" tool2="DecodeIR" tool2Version="2.45" toolVersion="1.1.4snapshot"/>
     </adminData>
-    <remote comment="Export from IrScrutinizer" name="Sony Generic TV">
+    <remote manufacturer="Sony" deviceClass="tv" name="Sony Generic TV">
         <commandSet name="commandSet">
             <command comment="" master="parameters" name="volume_up">
                 <parameters protocol="sony12">

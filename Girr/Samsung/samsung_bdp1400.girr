@@ -9,7 +9,7 @@
     <adminData>
         <creationData creatingUser="bengt" creationDate="2016-01-12_15:49:14" source="IrScrutinizer parametrized table" tool="IrScrutinizer" tool2="DecodeIR" tool2Version="2.45" toolVersion="1.1.4snapshot"/>
     </adminData>
-    <remote comment="Export from IrScrutinizer" name="Samsung BDP1400">
+    <remote manufacturer="Samsung" deviceClass="bluray" name="Samsung BDP1400">
         <commandSet name="commandSet">
             <parameters protocol="samsung36">
                 <parameter name="S" value="0"/>
