@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<!--This file is in the Girr (General IR Remote) format, see http://www.harctoolbox.org/Girr.html--><remotes xmlns="http://www.harctoolbox.org/Girr" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" girrVersion="1.2" title="IrScrutinizer parametric export" xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns-1.2.xsd">
+    <adminData>
+        <creationData creatingUser="bengt" creationDate="2022-06-09_11:46:49" tool="IrScrutinizer" tool2="IrpTransmogrifier" tool2Version="1.2.11" toolVersion="2.4.0-SNAPSHOT"/>
+    </adminData>
+    <remote comment="Export from IrScrutinizer" deviceClass="HDMI-switch" displayName="HDFury Diva" manufacturer="HDFury" model="Diva" name="HDFuryDiva">
+        <commandSet name="commandSet">
+            <parameters protocol="NEC2">
+                <parameter name="D" value="166"/>
+            </parameters>
+            <command F="4" master="parameters" name="inputsel0x "/>
+            <command F="1" master="parameters" name="inputsel1 "/>
+            <command F="5" master="parameters" name="inputsel1x "/>
+            <command F="2" master="parameters" name="inputsel2 "/>
+            <command F="6" master="parameters" name="inputsel2x "/>
+            <command F="3" master="parameters" name="inputsel3 "/>
+            <command F="7" master="parameters" name="inputsel3x "/>
+        </commandSet>
+    </remote>
+</remotes>

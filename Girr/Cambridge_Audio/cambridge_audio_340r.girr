@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<!--This file is in the Girr (General IR Remote) format, see http://www.harctoolbox.org/Girr.html--><remotes xmlns="http://www.harctoolbox.org/Girr" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" girrVersion="1.2" title="IrScrutinizer parametric export" xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns-1.2.xsd">
+    <adminData>
+        <creationData creatingUser="bengt" creationDate="2022-02-12_11:38:49" tool="IrScrutinizer" tool2="IrpTransmogrifier" tool2Version="1.2.10" toolVersion="2.3.1"/>
+    </adminData>
+    <remote comment="Export from IrScrutinizer" deviceClass="AV Receiver" displayName="Cambridge Audio 340R AV Receiver" manufacturer="Cambridge Audio" model="Azur 340R" name="cambridge_340r">
+        <commandSet name="commandSet">
+            <parameters protocol="NEC1">
+                <parameter name="D" value="192"/>
+                <parameter name="S" value="192"/>
+            </parameters>
+            <command F="64" master="parameters" name="ON"/>
+            <command F="65" master="parameters" name="STANDBY"/>
+            <command F="34" master="parameters" name="DVD"/>
+            <command F="35" master="parameters" name="VIDEO1"/>
+            <command F="36" master="parameters" name="VIDEO2"/>
+            <command F="37" master="parameters" name="VIDEO3"/>
+            <command F="38" master="parameters" name="TAPE_MD_CDR"/>
+            <command F="39" master="parameters" name="CD_AUX"/>
+            <command F="28" master="parameters" name="TUNER_AM_FM"/>
+            <command F="22" master="parameters" name="TUNER_PTY"/>
+            <command F="27" master="parameters" name="TUNER_APS"/>
+            <command F="14" master="parameters" name="TUNER_STEREO"/>
+            <command F="29" master="parameters" name="TUNER_STORE"/>
+            <command F="30" master="parameters" name="TUNER_MODE"/>
+            <command F="17" master="parameters" name="OSD"/>
+            <command F="4" master="parameters" name="DISPLAY"/>
+            <command F="3" master="parameters" name="UP"/>
+            <command F="6" master="parameters" name="LEFT"/>
+            <command F="33" master="parameters" name="ENTER"/>
+            <command F="21" master="parameters" name="RIGHT"/>
+            <command F="31" master="parameters" name="DOWN"/>
+            <command F="10" master="parameters" name="BASS_TREBLE"/>
+            <command F="20" master="parameters" name="MUTE"/>
+            <command F="96" master="parameters" name="AUDIO IN TYPE"/>
+            <command F="80" master="parameters" name="STEREO"/>
+            <command F="81" master="parameters" name="STEREO +SUB"/>
+            <command F="2" master="parameters" name="PLII"/>
+            <command F="23" master="parameters" name="DD_DTS"/>
+            <command F="9" master="parameters" name="DSP"/>
+            <command F="19" master="parameters" name="DYNAMIC (DRC)"/>
+            <command F="32" master="parameters" name="LFE"/>
+            <command F="70" master="parameters" name="SUB_ON"/>
+            <command F="15" master="parameters" name="DOLBY_5_1_DIRECT"/>
+            <command F="71" master="parameters" name="SUB_OFF"/>
+            <command F="5" comment="Cycles through inputs" master="parameters" name="INPUT_SELECT"/>
+            <command F="12" master="parameters" name="POWER TOGGLE"/>
+            <command F="26" comment="Toggles stereo/stereo + sub" master="parameters" name="STEREO_MODES"/>
+            <command F="18" comment="Toggles subwoofer on/off" master="parameters" name="SUB_TOGGLE"/>
+            <command F="66" master="parameters" name="MUTE_ON"/>
+            <command F="67" master="parameters" name="MUTE_OFF"/>
+            <command F="68" comment="Tuner stereo on" master="parameters" name="STEREO_ON"/>
+            <command F="69" comment="Tuner stereo off" master="parameters" name="STEREO_OFF"/>
+            <command F="72" master="parameters" name="FM_MODE"/>
+            <command F="73" master="parameters" name="AM_MODE"/>
+        </commandSet>
+    </remote>
+</remotes>
