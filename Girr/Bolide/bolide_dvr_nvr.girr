@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<!--This file is in the Girr (General IR Remote) format, see http://www.harctoolbox.org/Girr.html-->
+<remotes xmlns="http://www.harctoolbox.org/Girr" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" girrVersion="1.2" title="IrScrutinizer parametric export" xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns-1.2.xsd">
+    <adminData>
+        <creationData creatingUser="bengt" creationDate="2022-10-20_09:43:54" tool="IrScrutinizer" tool2="IrpTransmogrifier" tool2Version="1.2.11" toolVersion="2.4.0-SNAPSHOT"/>
+        <notes>From <a href="https://www.remotecentral.com/cgi-bin/mboard/rc-discrete/thread.cgi?8201">RemoteCentral</a>.</notes>
+    </adminData>
+    <remote comment="Export from IrScrutinizer" deviceClass="misc" displayName="Bolide DVR/NVR" manufacturer="Bolide DVR/NVR" name="bolide_dvr_nvr">
+        <commandSet name="commandSet">
+            <parameters protocol="NEC1">
+                <parameter name="D" value="128"/>
+            </parameters>
+            <command F="1" master="parameters" name="1"/>
+            <command F="20" master="parameters" name="2"/>
+            <command F="2" master="parameters" name="3"/>
+            <command F="0" master="parameters" name="4"/>
+            <command F="5" master="parameters" name="5"/>
+            <command F="6" master="parameters" name="6"/>
+            <command F="4" master="parameters" name="7"/>
+            <command F="9" master="parameters" name="8"/>
+            <command F="10" master="parameters" name="9"/>
+            <command F="13" master="parameters" name="0"/>
+            <command F="8" master="parameters" name="All"/>
+            <command F="28" master="parameters" name="Menu"/>
+            <command F="25" master="parameters" name="Left"/>
+            <command F="16" master="parameters" name="Right"/>
+            <command F="12" master="parameters" name="Up"/>
+            <command F="17" master="parameters" name="Down"/>
+            <command F="19" master="parameters" name="Select"/>
+            <command F="7" master="parameters" name="Play"/>
+            <command F="11" master="parameters" name="Pause"/>
+            <command F="23" master="parameters" name="Stop"/>
+            <command F="27" master="parameters" name="Rew"/>
+            <command F="24" master="parameters" name="FF"/>
+            <command F="18" master="parameters" name="Rec"/>
+            <command F="15" master="parameters" name="Submenu"/>
+            <command F="22" master="parameters" name="Mute"/>
+        </commandSet>
+    </remote>
+</remotes>

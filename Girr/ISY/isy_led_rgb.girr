@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<!--This file is in the Girr (General IR Remote) format, see http://www.harctoolbox.org/Girr.html-->
+<remotes xmlns="http://www.harctoolbox.org/Girr" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" girrVersion="1.2" title="IrScrutinizer parametric export" xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns-1.2.xsd">
+    <adminData>
+        <creationData creatingUser="bengt" creationDate="2022-11-14_17:56:59" tool="IrScrutinizer" tool2="IrpTransmogrifier" tool2Version="1.2.11" toolVersion="2.4.0-SNAPSHOT"/>
+    </adminData>
+    <remote comment="Export from IrScrutinizer" deviceClass="Light" displayName="ISY LED Stripe RGB" manufacturer="ISY" name="isy-led-stripe-rgb">
+        <commandSet name="commandSet">
+            <parameters protocol="NEC1">
+                <parameter name="D" value="0"/>
+                <parameter name="S" value="239"/>
+            </parameters>
+            <command F="0" master="parameters" name="increase speed/brightness">
+                <format name="short-ccf">900A 006C 0000 0001 00EF 00FF</format>
+            </command>
+            <command F="1" master="parameters" name="decrease speed/brightness">
+                <format name="short-ccf">900A 006C 0000 0001 00EF 01FE</format>
+            </command>
+            <command F="2" master="parameters" name="power off">
+                <format name="short-ccf">900A 006C 0000 0001 00EF 02FD</format>
+            </command>
+            <command F="3" master="parameters" name="power on">
+                <format name="short-ccf">900A 006C 0000 0001 00EF 03FC</format>
+            </command>
+            <command F="4" master="parameters" name="red">
+                <format name="short-ccf">900A 006C 0000 0001 00EF 04FB</format>
+            </command>
+            <command F="5" master="parameters" name="green">
+                <format name="short-ccf">900A 006C 0000 0001 00EF 05FA</format>
+            </command>
+            <command F="6" master="parameters" name="blue">
+                <format name="short-ccf">900A 006C 0000 0001 00EF 06F9</format>
+            </command>
+            <command F="7" master="parameters" name="white">
+                <format name="short-ccf">900A 006C 0000 0001 00EF 07F8</format>
+            </command>
+            <command F="8" master="parameters" name="red-orange">
+                <format name="short-ccf">900A 006C 0000 0001 00EF 08F7</format>
+            </command>
+            <command F="9" master="parameters" name="light.green">
+                <format name="short-ccf">900A 006C 0000 0001 00EF 09F6</format>
+            </command>
+            <command F="10" master="parameters" name="light-blue">
+                <format name="short-ccf">900A 006C 0000 0001 00EF 0AF5</format>
+            </command>
+            <command F="11" master="parameters" name="flash">
+                <format name="short-ccf">900A 006C 0000 0001 00EF 0BF4</format>
+            </command>
+            <command F="12" master="parameters" name="orange">
+                <format name="short-ccf">900A 006C 0000 0001 00EF 0CF3</format>
+            </command>
+            <command F="13" master="parameters" name="cyan">
+                <format name="short-ccf">900A 006C 0000 0001 00EF 0DF2</format>
+            </command>
+            <command F="14" master="parameters" name="purple">
+                <format name="short-ccf">900A 006C 0000 0001 00EF 0EF1</format>
+            </command>
+            <command F="15" master="parameters" name="strobe">
+                <format name="short-ccf">900A 006C 0000 0001 00EF 0FF0</format>
+            </command>
+            <command F="16" master="parameters" name="orange-yellow">
+                <format name="short-ccf">900A 006C 0000 0001 00EF 10EF</format>
+            </command>
+            <command F="17" master="parameters" name="blue-green">
+                <format name="short-ccf">900A 006C 0000 0001 00EF 11EE</format>
+            </command>
+            <command F="18" master="parameters" name="blue-red">
+                <format name="short-ccf">900A 006C 0000 0001 00EF 12ED</format>
+            </command>
+            <command F="19" master="parameters" name="fade">
+                <format name="short-ccf">900A 006C 0000 0001 00EF 13EC</format>
+            </command>
+            <command F="20" master="parameters" name="yellow">
+                <format name="short-ccf">900A 006C 0000 0001 00EF 14EB</format>
+            </command>
+            <command F="21" master="parameters" name="blue-cyan">
+                <format name="short-ccf">900A 006C 0000 0001 00EF 15EA</format>
+            </command>
+            <command F="22" master="parameters" name="light-purple">
+                <format name="short-ccf">900A 006C 0000 0001 00EF 16E9</format>
+            </command>
+            <command F="23" master="parameters" name="smooth">
+                <format name="short-ccf">900A 006C 0000 0001 00EF 17E8</format>
+            </command>
+        </commandSet>
+    </remote>
+</remotes>
