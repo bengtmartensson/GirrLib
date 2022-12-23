@@ -569,6 +569,12 @@
                     <parameter name="F" value="49"/>
                 </parameters>
             </command>
+	    <command master="parameters" name="youtube">
+                <parameters protocol="sony15">
+                    <parameter name="D" value="196"/>
+                    <parameter name="F" value="71"/>
+                </parameters>
+            </command>
         </commandSet>
     </remote>
 </remotes>
