@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<!--This file is in the Girr (General IR Remote) format, see
+http://www.harctoolbox.org/Girr.html-->
+<remotes xmlns="http://www.harctoolbox.org/Girr"
+	 xmlns:html="http://www.w3.org/1999/xhtml"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 girrVersion="1.2"
+	 title="Denon RC-1252 for AVC-X4800 and others"
+	 xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns-1.2.xsd">
+    <adminData>
+        <creationData creatingUser="bengt" creationDate="2024-03-31_12:28:24" tool="IrScrutinizer" tool2="IrpTransmogrifier" tool2Version="1.2.13" toolVersion="2.4.1"/>
+    </adminData>
+    <remote comment="This file contains the commands of the remote RC-1252. It does not contain all commands the receiver accepts."
+	    deviceClass="AVR"
+	    displayName="Denon RC-1252"
+	    manufacturer="Denon"
+	    model="AVC-X4800"
+	    name="denon_rc-1252"
+	    remoteName="RC-1252">
+        <commandSet name="main">
+            <parameters protocol="Denon-K">
+                <parameter name="D" value="4"/>
+                <parameter name="S" value="1"/>
+            </parameters>
+            <command F="1" name="all_power_toggle"/>
+            <command F="2" name="all_power_on"/>
+            <command F="3" name="all_power_off"/>
+            <command F="5" name="power_toggle"/>
+            <command F="6" name="power_on"/>
+            <command F="7" name="power_off"/>
+            <command F="27" name="up"/>
+            <command F="28" name="down"/>
+            <command F="29" name="left"/>
+            <command F="30" name="right"/>
+            <command F="31" name="enter"/>
+            <command F="34" name="back"/>
+            <command F="35" name="setup"/>
+            <command F="292" name="quick_select_1"/>
+            <command F="293" name="quick_select_2"/>
+            <command F="294" name="quick_select_3"/>
+            <command F="295" name="quick_select_4"/>
+            <command F="304" name="stereo"/>
+            <command F="305" name="stereo_direct"/>
+            <command F="309" name="sound_mode_pure"/>
+            <command F="329" name="sound_mode_movie"/>
+            <command F="330" name="sound_mode_music"/>
+            <command F="331" name="sound_mode_game"/>
+            <command F="340" name="rock_arena"/>
+            <command F="352" name="input_mode"/>
+            <command F="353" name="input_mode_analog"/>
+            <command F="357" name="input_mode_hdmi"/>
+            <command F="358" name="input_mode_auto"/>
+            <command F="359" name="input_mode_digital"/>
+            <command F="368" name="vol-"/>
+            <command F="369" name="vol+"/>
+            <command F="370" name="mute_toggle"/>
+            <command F="624" name="info"/>
+            <command F="669" name="hdmi_monitor1"/>
+            <command F="670" name="hdmi_monitor2"/>
+            <command F="671" name="hdmi_monitor_audo"/>
+
+            <command F="704" name="phono"/>
+            <command F="706" name="cd"/>
+            <command F="711" name="heos"/>
+            <command F="718" name="usb"/>
+            <command F="719" name="tuner"/>
+            <command F="721" name="bluray"/>
+            <command F="722" name="tv_audio"/>
+            <command F="723" name="cbl_sat"/>
+            <command F="725" name="game1"/>
+            <command F="726" name="mediaplayer"/>
+            <command F="727" name="game2"/>
+            <command F="729" name="aux1"/>
+            <command F="730" name="aux2"/>
+            <command F="741" name="internet_radio"/>
+            <command F="751" name="bluetooth"/>
+            <command F="753" name="hdmi_out"/>
+            <command F="836" name="sleep"/>
+            <command F="872" name="eco"/>
+            <command F="945" name="ch-"/>
+            <command F="946" name="ch+"/>
+            <command F="949" name="option"/>
+            <command F="992" name="play_pause"/>
+            <command F="995" name="previous"/>
+            <command F="996" name="next"/>
+        </commandSet>
+        <commandSet name="zone2">
+            <parameters protocol="Denon-K">
+                <parameter name="D" value="4"/>
+                <parameter name="S" value="3"/>
+            </parameters>
+            <command F="5" name="zone2:power_toggle"/>
+            <command F="6" name="zone2:power_on"/>
+            <command F="7" name="zone2:power_off"/>
+            <command F="27" name="zone2:up"/>
+            <command F="28" name="zone2:down"/>
+            <command F="29" name="zone2:left"/>
+            <command F="30" name="zone2:right"/>
+            <command F="31" name="zone2:enter"/>
+            <command F="34" name="zone2:back"/>
+            <command F="292" name="zone2:quick_select_1"/>
+            <command F="293" name="zone2:quick_select_2"/>
+            <command F="294" name="zone2:quick_select_3"/>
+            <command F="295" name="zone2:quick_select_4"/>
+            <command F="368" name="zone2:vol-"/>
+            <command F="369" name="zone2:vol+"/>
+            <command F="370" name="zone2:mute_toggle"/>
+            <command F="704" name="zone2:phono"/>
+            <command F="706" name="zone2:cd"/>
+            <command F="711" name="zone2:heos"/>
+            <command F="718" name="zone2:usb"/>
+            <command F="719" name="zone2:tuner"/>
+            <command F="721" name="zone2:bluray"/>
+            <command F="722" name="zone2:tv_audio"/>
+	    <command F="723" name="zone2:cbl_sat"/>
+            <command F="725" name="zone2:game1"/>
+            <command F="726" name="zone2:mediaplayer"/>
+            <command F="727" name="zone2:game2"/>
+            <command F="729" name="zone2:aux1"/>
+            <command F="730" name="zone2:aux2"/>
+            <command F="741" name="zone2:internet_radio"/>
+            <command F="751" name="zone2:bluetooth"/>
+            <command F="836" name="zone2:sleep"/>
+            <command F="945" name="zone2:ch-"/>
+            <command F="946" name="zone2:ch+"/>
+            <command F="992" name="zone2:play_pause"/>
+            <command F="995" name="zone2:previous"/>
+            <command F="996" name="zone2:next"/>
+        </commandSet>
+        <commandSet name="zone3">
+            <parameters protocol="Denon-K">
+                <parameter name="D" value="4"/>
+                <parameter name="S" value="5"/>
+            </parameters>
+            <command F="5" name="zone3:power_toggle"/>
+            <command F="27" name="zone3:up"/>
+            <command F="28" name="zone3:down"/>
+            <command F="29" name="zone3:left"/>
+            <command F="30" name="zone3:right"/>
+            <command F="31" name="zone3:enter"/>
+            <command F="34" name="zone3:back"/>
+            <command F="292" name="zone3:quick_select_1"/>
+            <command F="293" name="zone3:quick_select_2"/>
+            <command F="294" name="zone3:quick_select_3"/>
+            <command F="295" name="zone3:quick_select_4"/>
+            <command F="368" name="zone3:vol-"/>
+            <command F="369" name="zone3:vol+"/>
+            <command F="370" name="zone3:mute_toggle"/>
+            <command F="704" name="zone3:phono"/>
+            <command F="706" name="zone3:cd"/>
+            <command F="711" name="zone3:heos"/>
+            <command F="718" name="zone3:usb"/>
+            <command F="719" name="zone3:tuner"/>
+            <command F="721" name="zone3:bluray"/>
+            <command F="722" name="zone3:tv_audio"/>
+	    <command F="723" name="zone3:cbl_sat"/>
+            <command F="725" name="zone3:game1"/>
+            <command F="726" name="zone3:mediaplayer"/>
+            <command F="727" name="zone3:game2"/>
+            <command F="729" name="zone3:aux1"/>
+            <command F="730" name="zone3:aux2"/>
+            <command F="741" name="zone3:internet_radio"/>
+            <command F="751" name="zone3:bluetooth"/>
+            <command F="836" name="zone3:sleep"/>
+            <command F="945" name="zone3:ch-"/>
+            <command F="946" name="zone3:ch+"/>
+            <command F="992" name="zone3:play_pause"/>
+            <command F="995" name="zone3:previous"/>
+            <command F="996" name="zone3:next"/>
+        </commandSet>
+    </remote>
+</remotes>
