@@ -345,51 +345,51 @@
             <command F="996" name="zone3:next"/>
         </commandSet>
 
-        <commandSet name="commandset47">
+        <commandSet name="net_audio">
             <parameters protocol="Denon-K">
                 <parameter name="D" value="4"/>
                 <parameter name="S" value="7"/>
             </parameters>
-            <command F="0" name="input net audio"/>
-            <command F="27" name="net audio cursor up"/>
-            <command F="28" name="net audio cursor down"/>
-            <command F="29" name="net audio cursor left"/>
-            <command F="30" name="net audio cursor right"/>
-            <command F="31" name="net audio cursor enter"/>
-            <command F="34" name="net audio return"/>
-            <command F="145" name="net audio jpeg previous"/>
-            <command F="146" name="net audio preset up"/>
-            <command F="147" name="net audio preset down"/>
-            <command F="148" name="net audio preset shift"/>
-            <command F="160" name="net audio memory"/>
-            <command F="163" name="net audio search"/>
-            <command F="176" name="net audio preset 1"/>
-            <command F="177" name="net audio preset 2"/>
-            <command F="178" name="net audio preset 3"/>
-            <command F="179" name="net audio preset 4"/>
-            <command F="180" name="net audio preset 5"/>
-            <command F="181" name="net audio preset 6"/>
-            <command F="182" name="net audio preset 7"/>
-            <command F="183" name="net audio preset 8"/>
-            <command F="248" name="net audio shift a"/>
-            <command F="249" name="net audio shift b"/>
-            <command F="250" name="net audio shift c"/>
-            <command F="251" name="net audio shift d"/>
-            <command F="252" name="net audio shift e"/>
-            <command F="253" name="net audio shift f"/>
-            <command F="254" name="net audio play"/>
-            <command F="254" name="net audio shift g"/>
-            <command F="773" name="net audio play$1"/>
-            <command F="774" name="net audio pause"/>
-            <command F="775" name="net audio stop"/>
-            <command F="776" name="net audio next"/>
-            <command F="777" name="net audio previous"/>
-            <command F="778" name="net audio repeat"/>
-            <command F="779" name="net audio repeat off"/>
-            <command F="780" name="net audio random on"/>
-            <command F="781" name="net audio random off"/>
-            <command F="785" name="net audio repeat all"/>
-            <command F="790" name="net audio status request"/>
+            <command F="0" name="net_audio:select input"/>
+            <command F="27" name="net_audio:cursor up"/>
+            <command F="28" name="net_audio:cursor down"/>
+            <command F="29" name="net_audio:cursor left"/>
+            <command F="30" name="net_audio:cursor right"/>
+            <command F="31" name="net_audio:cursor enter"/>
+            <command F="34" name="net_audio:return"/>
+            <command F="145" name="net_audio:jpeg previous"/>
+            <command F="146" name="net_audio:preset up"/>
+            <command F="147" name="net_audio:preset down"/>
+            <command F="148" name="net_audio:preset shift"/>
+            <command F="160" name="net_audio:memory"/>
+            <command F="163" name="net_audio:search"/>
+            <command F="176" name="net_audio:preset 1"/>
+            <command F="177" name="net_audio:preset 2"/>
+            <command F="178" name="net_audio:preset 3"/>
+            <command F="179" name="net_audio:preset 4"/>
+            <command F="180" name="net_audio:preset 5"/>
+            <command F="181" name="net_audio:preset 6"/>
+            <command F="182" name="net_audio:preset 7"/>
+            <command F="183" name="net_audio:preset 8"/>
+            <command F="248" name="net_audio:shift a"/>
+            <command F="249" name="net_audio:shift b"/>
+            <command F="250" name="net_audio:shift c"/>
+            <command F="251" name="net_audio:shift d"/>
+            <command F="252" name="net_audio:shift e"/>
+            <command F="253" name="net_audio:shift f"/>
+            <command F="254" name="net_audio:play"/>
+            <command F="254" name="net_audio:shift g"/>
+            <command F="773" name="net_audio:play$1"/>
+            <command F="774" name="net_audio:pause"/>
+            <command F="775" name="net_audio:stop"/>
+            <command F="776" name="net_audio:next"/>
+            <command F="777" name="net_audio:previous"/>
+            <command F="778" name="net_audio:repeat"/>
+            <command F="779" name="net_audio:repeat off"/>
+            <command F="780" name="net_audio:random on"/>
+            <command F="781" name="net_audio:random off"/>
+            <command F="785" name="net_audio:repeat all"/>
+            <command F="790" name="net_audio:status request"/>
         </commandSet>
     </remote>
 </remotes>
