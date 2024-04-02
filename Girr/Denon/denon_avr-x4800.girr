@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
-<!--This file is in the Girr (General IR Remote) format, see
-http://www.harctoolbox.org/Girr.html-->
+<!--This file is in the Girr (General IR Remote) format, see http://www.harctoolbox.org/Girr.html-->
 <remotes xmlns="http://www.harctoolbox.org/Girr"
 	 xmlns:html="http://www.w3.org/1999/xhtml"
 	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	 girrVersion="1.2"
-	 title="Denon RC-1252 for AVC-X4800 and others"
+	 title="Denon AVC-X4800"
 	 xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns-1.2.xsd">
     <adminData>
-        <creationData creatingUser="bengt" creationDate="2024-03-31_12:28:24" tool="IrScrutinizer" tool2="IrpTransmogrifier" tool2Version="1.2.13" toolVersion="2.4.1"/>
+        <creationData creatingUser="Bengt Martensson" creationDate="2024-04-02"/>
     </adminData>
-    <remote comment="This file contains the commands of the remote RC-1252. It does not contain all commands the receiver accepts."
+    <remote comment="This file contains most commands of the Denon AVC X4800H, (and possibly some more)."
 	    deviceClass="AVR"
-	    displayName="Denon RC-1252"
+	    displayName="Denon AVC X4800H"
 	    manufacturer="Denon"
 	    model="AVC-X4800"
-	    name="denon_rc-1252"
-	    remoteName="RC-1252">
+	    name="denon_avc_x4800h"
+	    >
         <commandSet name="main">
             <parameters protocol="Denon-K">
                 <parameter name="D" value="4"/>
@@ -28,6 +27,10 @@ http://www.harctoolbox.org/Girr.html-->
             <command F="5" name="power_toggle"/>
             <command F="6" name="power_on"/>
             <command F="7" name="power_off"/>
+            <command F="12" name="trigger 1 on"/>
+            <command F="13" name="trigger 1 off"/>
+            <command F="14" name="trigger 2 on"/>
+            <command F="15" name="trigger 2 off"/>
             <command F="27" name="up"/>
             <command F="28" name="down"/>
             <command F="29" name="left"/>
@@ -35,6 +38,12 @@ http://www.harctoolbox.org/Girr.html-->
             <command F="31" name="enter"/>
             <command F="34" name="back"/>
             <command F="35" name="setup"/>
+            <command F="42" name="upgrade id on"/>
+            <command F="45" name="bilingual mode"/>
+            <command F="242" name="internet radio preset channel 1"/>
+            <command F="243" name="internet radio preset channel 2"/>
+            <command F="244" name="internet radio preset channel 3"/>
+            <command F="245" name="internet radio preset channel 4"/>
             <command F="292" name="quick_select_1"/>
             <command F="293" name="quick_select_2"/>
             <command F="294" name="quick_select_3"/>
@@ -42,28 +51,113 @@ http://www.harctoolbox.org/Girr.html-->
             <command F="304" name="stereo"/>
             <command F="305" name="stereo_direct"/>
             <command F="309" name="sound_mode_pure"/>
+            <command F="319" name="mode Dts Neo X toggle"/>
             <command F="329" name="sound_mode_movie"/>
             <command F="330" name="sound_mode_music"/>
             <command F="331" name="sound_mode_game"/>
+            <command F="332" name="mode surround previous"/>
+            <command F="336" name="mode next"/>
             <command F="340" name="rock_arena"/>
+            <command F="348" name="mode Dolby Atmos"/>
+            <command F="349" name="mode surround next"/>
             <command F="352" name="input_mode"/>
             <command F="353" name="input_mode_analog"/>
-            <command F="357" name="input_mode_hdmi"/>
+            <command F="357" name="input_mode_HDMI"/>
             <command F="358" name="input_mode_auto"/>
             <command F="359" name="input_mode_digital"/>
+            <command F="364" name="select decode mode"/>
             <command F="368" name="vol-"/>
             <command F="369" name="vol+"/>
             <command F="370" name="mute_toggle"/>
+            <command F="378" name="channel level"/>
+            <command F="406" name="tone control toggle"/>
+            <command F="407" name="tone control off"/>
+            <command F="408" name="tone control on"/>
+            <command F="410" name="subwoofer 2 level up"/>
+            <command F="411" name="subwoofer 2 level down"/>
+            <command F="412" name="subwoofer 3 level up"/>
+            <command F="413" name="subwoofer 3 level down"/>
+            <command F="414" name="tactile trans level up"/>
+            <command F="415" name="tactile trans level down"/>
+            <command F="417" name="level up top front left"/>
+            <command F="418" name="level down top front left"/>
+            <command F="419" name="level up top front right"/>
+            <command F="420" name="level down top front right"/>
+            <command F="421" name="level up top middle left"/>
+            <command F="422" name="level down top middle left"/>
+            <command F="423" name="level up top middle right"/>
+            <command F="424" name="level down top middle right"/>
+            <command F="425" name="level up top rear left"/>
+            <command F="426" name="level down top rear left"/>
+            <command F="427" name="level up top rear right"/>
+            <command F="428" name="level down top rear right"/>
+            <command F="429" name="level up rear height left"/>
+            <command F="430" name="level down rear height left"/>
+            <command F="431" name="level up rear height right"/>
+            <command F="432" name="level down rear height right"/>
+            <command F="433" name="level up front dolby left"/>
+            <command F="434" name="level down front dolby left"/>
+            <command F="435" name="level up front dolby right"/>
+            <command F="436" name="level down front dolby right"/>
+            <command F="437" name="level up surround dolby left"/>
+            <command F="438" name="level down surround dolby left"/>
+            <command F="439" name="level up surround dolby right"/>
+            <command F="440" name="level down surround dolby right"/>
+            <command F="441" name="level up back dolby left"/>
+            <command F="442" name="level down back dolby left"/>
+            <command F="443" name="level up back dolby right"/>
+            <command F="444" name="level down back dolby right"/>
+            <command F="445" name="audyssey lfc on"/>
+            <command F="446" name="audyssey lfc off"/>
+            <command F="456" name="audyssey lfc toggle"/>
+            <command F="529" name="audyssey dsx select"/>
+            <command F="533" name="front height toggle"/>
+            <command F="542" name="audyssey dynamic volume off"/>
+            <command F="545" name="audyssey dynamic volume toggle"/>
+            <command F="547" name="audyssey dynamic eq toggle"/>
+            <command F="548" name="audio restorer select"/>
+            <command F="549" name="audyssey dynamic volume eq toggle"/>
+            <command F="550" name="front speaker a"/>
+            <command F="552" name="front speaker b"/>
+            <command F="554" name="front speaker a plus b"/>
+            <command F="556" name="audio restorer off"/>
+            <command F="557" name="audio restorer mode 1"/>
+            <command F="558" name="audio restorer mode 2"/>
+            <command F="559" name="audio restorer mode 3"/>
+            <command F="620" name="audio delay mode"/>
+            <command F="621" name="audio delay up"/>
+            <command F="622" name="audio delay down"/>
             <command F="624" name="info"/>
+            <command F="642" name="audyssey dsx on (height)"/>
+            <command F="643" name="audyssey dsx on (wide)"/>
+            <command F="644" name="audyssey dsx off"/>
+            <command F="645" name="status request"/>
+            <command F="647" name="audyssey dsx on (wide &amp; height)"/>
+            <command F="649" name="front height left level up"/>
+            <command F="650" name="front height left level down"/>
+            <command F="651" name="front height right level up"/>
+            <command F="652" name="front height right level down"/>
             <command F="669" name="hdmi_monitor1"/>
             <command F="670" name="hdmi_monitor2"/>
             <command F="671" name="hdmi_monitor_audo"/>
-
+            <command F="679" name="trigger 3 on"/>
+            <command F="680" name="trigger 3 off"/>
+            <command F="691" name="input internet radio"/>
+            <command F="694" name="input rhapsody"/>
+            <command F="695" name="input napster"/>
+            <command F="697" name="input flickr"/>
+            <command F="699" name="input media server"/>
+            <command F="701" name="input sirius"/>
             <command F="704" name="phono"/>
             <command F="706" name="cd"/>
             <command F="711" name="heos"/>
+            <command F="714" name="input xm"/>
+            <command F="715" name="input hd radio"/>
+            <command F="716" name="input net usb"/>
+            <command F="717" name="input dock"/>
             <command F="718" name="usb"/>
             <command F="719" name="tuner"/>
+            <command F="720" name="input dvd/blu ray"/>
             <command F="721" name="bluray"/>
             <command F="722" name="tv_audio"/>
             <command F="723" name="cbl_sat"/>
@@ -72,15 +166,97 @@ http://www.harctoolbox.org/Girr.html-->
             <command F="727" name="game2"/>
             <command F="729" name="aux1"/>
             <command F="730" name="aux2"/>
+            <command F="735" name="input media player"/>
+            <command F="736" name="audyssey multeq xt 32"/>
             <command F="741" name="internet_radio"/>
+            <command F="744" name="portable"/>
+            <command F="748" name="audyssey dynamic volume heavy"/>
+            <command F="749" name="audyssey dynamic volume medium"/>
+            <command F="750" name="audyssey dynamic volume light"/>
             <command F="751" name="bluetooth"/>
-            <command F="753" name="hdmi_out"/>
+            <command F="752" name="resolution"/>
+            <command F="753" name="hdmi monitor select"/>
+            <command F="754" name="resolution (hdmi)"/>
+            <command F="757" name="format 16:9"/>
+            <command F="758" name="format 4:3"/>
+            <command F="760" name="audyssey dynamic eq 0db"/>
+            <command F="761" name="audyssey dynamic eq 5db"/>
+            <command F="762" name="audyssey dynamic eq 10db"/>
+            <command F="763" name="audyssey dynamic eq 15db"/>
+            <command F="764" name="app spotify"/>
+            <command F="765" name="app pandora"/>
+            <command F="768" name="net usb cursor up"/>
+            <command F="769" name="net usb cursor down"/>
+            <command F="770" name="net usb cursor left"/>
+            <command F="771" name="net usb cursor right"/>
+            <command F="772" name="net usb cursor enter play pause"/>
+            <command F="773" name="net usb play"/>
+            <command F="774" name="net usb pause"/>
+            <command F="775" name="net usb stop"/>
+            <command F="776" name="net usb next"/>
+            <command F="777" name="net usb previous"/>
+            <command F="778" name="net usb repeat one"/>
+            <command F="779" name="net usb repeat off"/>
+            <command F="780" name="net usb random on"/>
+            <command F="781" name="net usb random off"/>
+            <command F="785" name="net usb repeat all"/>
+            <command F="789" name="audyssey graphic eq"/>
+            <command F="792" name="audyssey graphic eq off"/>
+            <command F="799" name="audyssey graphic eq on"/>
+            <command F="822" name="all zone stereo on"/>
+            <command F="823" name="all zone stereo off"/>
+            <command F="826" name="HDMI control CEC on"/>
+            <command F="827" name="HDMI control CEC off"/>
+            <command F="829" name="HDMI audio out select"/>
+            <command F="830" name="HDMI audio out tv"/>
+            <command F="831" name="HDMI audio out amp"/>
+            <command F="834" name="all zone stereo toggle"/>
+            <command F="835" name="mode party"/>
             <command F="836" name="sleep"/>
+            <command F="850" name="video mode select auto"/>
+            <command F="851" name="video mode select movie"/>
+            <command F="852" name="video mode select game"/>
+            <command F="853" name="video mode select bypass"/>
+            <command F="859" name="insta preview toggle"/>
+            <command F="861" name="bass sync up"/>
+            <command F="862" name="bass sync down"/>
+            <command F="870" name="insta preview on"/>
+            <command F="871" name="insta preview off"/>
             <command F="872" name="eco"/>
+            <command F="873" name="eco off"/>
+            <command F="874" name="eco on"/>
+            <command F="875" name="eco auto"/>
+            <command F="891" name="speaker preset"/>
+            <command F="892" name="speaker preset 1"/>
+            <command F="893" name="speaker preset 2"/>
+            <command F="900" name="ts level up"/>
+            <command F="901" name="ts level down"/>
+            <command F="902" name="ch level up"/>
+            <command F="903" name="ch level down"/>
+            <command F="904" name="subwoofer 4 level up"/>
+            <command F="905" name="subwoofer 4 level down"/>
+            <command F="912" name="tactile trans toggle"/>
+            <command F="913" name="tactile trans off"/>
+            <command F="914" name="tactile trans on"/>
+            <command F="915" name="Dirac filter select"/>
+            <command F="916" name="Dirac filter slot 1"/>
+            <command F="917" name="Dirac filter slot 2"/>
+            <command F="918" name="Dirac filter slot 3"/>
+            <command F="919" name="Dirac filter off"/>
             <command F="945" name="ch-"/>
             <command F="946" name="ch+"/>
             <command F="949" name="option"/>
+            <command F="950" name="page up"/>
+            <command F="951" name="page nown"/>
+            <command F="956" name="repeat"/>
+            <command F="957" name="random/shuffle"/>
+            <command F="958" name="usb direct play"/>
+            <command F="959" name="favorite direct play"/>
+            <command F="976" name="reverse"/>
+            <command F="979" name="forward"/>
             <command F="992" name="play_pause"/>
+            <command F="993" name="stop"/>
+            <command F="994" name="pause"/>
             <command F="995" name="previous"/>
             <command F="996" name="next"/>
         </commandSet>
@@ -167,6 +343,53 @@ http://www.harctoolbox.org/Girr.html-->
             <command F="992" name="zone3:play_pause"/>
             <command F="995" name="zone3:previous"/>
             <command F="996" name="zone3:next"/>
+        </commandSet>
+
+        <commandSet name="commandset47">
+            <parameters protocol="Denon-K">
+                <parameter name="D" value="4"/>
+                <parameter name="S" value="7"/>
+            </parameters>
+            <command F="0" name="input net audio"/>
+            <command F="27" name="net audio cursor up"/>
+            <command F="28" name="net audio cursor down"/>
+            <command F="29" name="net audio cursor left"/>
+            <command F="30" name="net audio cursor right"/>
+            <command F="31" name="net audio cursor enter"/>
+            <command F="34" name="net audio return"/>
+            <command F="145" name="net audio jpeg previous"/>
+            <command F="146" name="net audio preset up"/>
+            <command F="147" name="net audio preset down"/>
+            <command F="148" name="net audio preset shift"/>
+            <command F="160" name="net audio memory"/>
+            <command F="163" name="net audio search"/>
+            <command F="176" name="net audio preset 1"/>
+            <command F="177" name="net audio preset 2"/>
+            <command F="178" name="net audio preset 3"/>
+            <command F="179" name="net audio preset 4"/>
+            <command F="180" name="net audio preset 5"/>
+            <command F="181" name="net audio preset 6"/>
+            <command F="182" name="net audio preset 7"/>
+            <command F="183" name="net audio preset 8"/>
+            <command F="248" name="net audio shift a"/>
+            <command F="249" name="net audio shift b"/>
+            <command F="250" name="net audio shift c"/>
+            <command F="251" name="net audio shift d"/>
+            <command F="252" name="net audio shift e"/>
+            <command F="253" name="net audio shift f"/>
+            <command F="254" name="net audio play"/>
+            <command F="254" name="net audio shift g"/>
+            <command F="773" name="net audio play$1"/>
+            <command F="774" name="net audio pause"/>
+            <command F="775" name="net audio stop"/>
+            <command F="776" name="net audio next"/>
+            <command F="777" name="net audio previous"/>
+            <command F="778" name="net audio repeat"/>
+            <command F="779" name="net audio repeat off"/>
+            <command F="780" name="net audio random on"/>
+            <command F="781" name="net audio random off"/>
+            <command F="785" name="net audio repeat all"/>
+            <command F="790" name="net audio status request"/>
         </commandSet>
     </remote>
 </remotes>
