@@ -73,12 +73,12 @@
             <command F="406" name="tone control toggle"/>
             <command F="407" name="tone control off"/>
             <command F="408" name="tone control on"/>
-            <command F="410" name="subwoofer 2 level up"/>
-            <command F="411" name="subwoofer 2 level down"/>
-            <command F="412" name="subwoofer 3 level up"/>
-            <command F="413" name="subwoofer 3 level down"/>
-            <command F="414" name="tactile trans level up"/>
-            <command F="415" name="tactile trans level down"/>
+            <command F="410" name="level up subwoofer 2"/>
+            <command F="411" name="level down subwoofer 2"/>
+            <command F="412" name="level up subwoofer 3"/>
+            <command F="413" name="level down subwoofer 3"/>
+            <command F="414" name="level up tactile trans"/>
+            <command F="415" name="level down tactile trans"/>
             <command F="417" name="level up top front left"/>
             <command F="418" name="level down top front left"/>
             <command F="419" name="level up top front right"/>
@@ -133,13 +133,13 @@
             <command F="644" name="audyssey dsx off"/>
             <command F="645" name="status request"/>
             <command F="647" name="audyssey dsx on (wide &amp; height)"/>
-            <command F="649" name="front height left level up"/>
-            <command F="650" name="front height left level down"/>
-            <command F="651" name="front height right level up"/>
-            <command F="652" name="front height right level down"/>
+            <command F="649" name="level up front height left"/>
+            <command F="650" name="level down front height left"/>
+            <command F="651" name="level up front height right"/>
+            <command F="652" name="level down front height right"/>
             <command F="669" name="hdmi_monitor1"/>
             <command F="670" name="hdmi_monitor2"/>
-            <command F="671" name="hdmi_monitor_audo"/>
+            <command F="671" name="hdmi_monitor_auto"/>
             <command F="679" name="trigger 3 on"/>
             <command F="680" name="trigger 3 off"/>
             <command F="691" name="input internet radio"/>
@@ -148,24 +148,24 @@
             <command F="697" name="input flickr"/>
             <command F="699" name="input media server"/>
             <command F="701" name="input sirius"/>
-            <command F="704" name="phono"/>
-            <command F="706" name="cd"/>
-            <command F="711" name="heos"/>
+            <command F="704" name="input_phono"/>
+            <command F="706" name="input_cd"/>
+            <command F="711" name="input_heos"/>
             <command F="714" name="input xm"/>
             <command F="715" name="input hd radio"/>
             <command F="716" name="input net usb"/>
             <command F="717" name="input dock"/>
-            <command F="718" name="usb"/>
-            <command F="719" name="tuner"/>
+            <command F="718" name="input_usb"/>
+            <command F="719" name="input_tuner"/>
             <command F="720" name="input dvd/blu ray"/>
-            <command F="721" name="bluray"/>
-            <command F="722" name="tv_audio"/>
-            <command F="723" name="cbl_sat"/>
-            <command F="725" name="game1"/>
-            <command F="726" name="mediaplayer"/>
-            <command F="727" name="game2"/>
-            <command F="729" name="aux1"/>
-            <command F="730" name="aux2"/>
+            <command F="721" name="input_bluray"/>
+            <command F="722" name="input_tv_audio"/>
+            <command F="723" name="input_cbl_sat"/>
+            <command F="725" name="input_game1"/>
+            <command F="726" name="input_mediaplayer"/>
+            <command F="727" name="input_game2"/>
+            <command F="729" name="input_aux1"/>
+            <command F="730" name="input_aux2"/>
             <command F="735" name="input media player"/>
             <command F="736" name="audyssey multeq xt 32"/>
             <command F="741" name="internet_radio"/>
@@ -229,12 +229,12 @@
             <command F="891" name="speaker preset"/>
             <command F="892" name="speaker preset 1"/>
             <command F="893" name="speaker preset 2"/>
-            <command F="900" name="ts level up"/>
-            <command F="901" name="ts level down"/>
-            <command F="902" name="ch level up"/>
-            <command F="903" name="ch level down"/>
-            <command F="904" name="subwoofer 4 level up"/>
-            <command F="905" name="subwoofer 4 level down"/>
+            <command F="900" name="level up ts"/>
+            <command F="901" name="level down ts"/>
+            <command F="902" name="level up ch"/>
+            <command F="903" name="level down ch"/>
+            <command F="904" name="level up subwoofer 4"/>
+            <command F="905" name="level down subwoofer 4"/>
             <command F="912" name="tactile trans toggle"/>
             <command F="913" name="tactile trans off"/>
             <command F="914" name="tactile trans on"/>
@@ -247,7 +247,7 @@
             <command F="946" name="ch+"/>
             <command F="949" name="option"/>
             <command F="950" name="page up"/>
-            <command F="951" name="page nown"/>
+            <command F="951" name="page down"/>
             <command F="956" name="repeat"/>
             <command F="957" name="random/shuffle"/>
             <command F="958" name="usb direct play"/>
@@ -281,19 +281,19 @@
             <command F="368" name="zone2:vol-"/>
             <command F="369" name="zone2:vol+"/>
             <command F="370" name="zone2:mute_toggle"/>
-            <command F="704" name="zone2:phono"/>
-            <command F="706" name="zone2:cd"/>
-            <command F="711" name="zone2:heos"/>
-            <command F="718" name="zone2:usb"/>
-            <command F="719" name="zone2:tuner"/>
-            <command F="721" name="zone2:bluray"/>
-            <command F="722" name="zone2:tv_audio"/>
-	    <command F="723" name="zone2:cbl_sat"/>
-            <command F="725" name="zone2:game1"/>
-            <command F="726" name="zone2:mediaplayer"/>
-            <command F="727" name="zone2:game2"/>
-            <command F="729" name="zone2:aux1"/>
-            <command F="730" name="zone2:aux2"/>
+            <command F="704" name="zone2:input_phono"/>
+            <command F="706" name="zone2:input_cd"/>
+            <command F="711" name="zone2:input_heos"/>
+            <command F="718" name="zone2:input_usb"/>
+            <command F="719" name="zone2:input_tuner"/>
+            <command F="721" name="zone2:input_bluray"/>
+            <command F="722" name="zone2:input_tv_audio"/>
+            <command F="723" name="zone2:input_cbl_sat"/>
+            <command F="725" name="zone2:input_game1"/>
+            <command F="726" name="zone2:input_mediaplayer"/>
+            <command F="727" name="zone2:input_game2"/>
+            <command F="729" name="zone2:input_aux1"/>
+            <command F="730" name="zone2:input_aux2"/>
             <command F="741" name="zone2:internet_radio"/>
             <command F="751" name="zone2:bluetooth"/>
             <command F="836" name="zone2:sleep"/>
@@ -322,19 +322,19 @@
             <command F="368" name="zone3:vol-"/>
             <command F="369" name="zone3:vol+"/>
             <command F="370" name="zone3:mute_toggle"/>
-            <command F="704" name="zone3:phono"/>
-            <command F="706" name="zone3:cd"/>
-            <command F="711" name="zone3:heos"/>
-            <command F="718" name="zone3:usb"/>
-            <command F="719" name="zone3:tuner"/>
-            <command F="721" name="zone3:bluray"/>
-            <command F="722" name="zone3:tv_audio"/>
-	    <command F="723" name="zone3:cbl_sat"/>
-            <command F="725" name="zone3:game1"/>
-            <command F="726" name="zone3:mediaplayer"/>
-            <command F="727" name="zone3:game2"/>
-            <command F="729" name="zone3:aux1"/>
-            <command F="730" name="zone3:aux2"/>
+            <command F="704" name="zone3:input_phono"/>
+            <command F="706" name="zone3:input_cd"/>
+            <command F="711" name="zone3:input_heos"/>
+            <command F="718" name="zone3:input_usb"/>
+            <command F="719" name="zone3:input_tuner"/>
+            <command F="721" name="zone3:input_bluray"/>
+            <command F="722" name="zone3:input_tv_audio"/>
+            <command F="723" name="zone3:input_cbl_sat"/>
+            <command F="725" name="zone3:input_game1"/>
+            <command F="726" name="zone3:input_mediaplayer"/>
+            <command F="727" name="zone3:input_game2"/>
+            <command F="729" name="zone3:input_aux1"/>
+            <command F="730" name="zone3:input_aux2"/>
             <command F="741" name="zone3:internet_radio"/>
             <command F="751" name="zone3:bluetooth"/>
             <command F="836" name="zone3:sleep"/>
