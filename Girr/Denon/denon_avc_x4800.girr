@@ -66,8 +66,8 @@
             <command F="358" name="input_mode_auto"/>
             <command F="359" name="input_mode_digital"/>
             <command F="364" name="select decode mode"/>
-            <command F="368" name="vol-"/>
-            <command F="369" name="vol+"/>
+            <command F="368" name="vol+"/>
+            <command F="369" name="vol-"/>
             <command F="370" name="mute_toggle"/>
             <command F="378" name="channel level"/>
             <command F="406" name="tone control toggle"/>
@@ -278,8 +278,8 @@
             <command F="293" name="zone2:quick_select_2"/>
             <command F="294" name="zone2:quick_select_3"/>
             <command F="295" name="zone2:quick_select_4"/>
-            <command F="368" name="zone2:vol-"/>
-            <command F="369" name="zone2:vol+"/>
+            <command F="368" name="zone2:vol+"/>
+            <command F="369" name="zone2:vol-"/>
             <command F="370" name="zone2:mute_toggle"/>
             <command F="704" name="zone2:input_phono"/>
             <command F="706" name="zone2:input_cd"/>
@@ -319,8 +319,8 @@
             <command F="293" name="zone3:quick_select_2"/>
             <command F="294" name="zone3:quick_select_3"/>
             <command F="295" name="zone3:quick_select_4"/>
-            <command F="368" name="zone3:vol-"/>
-            <command F="369" name="zone3:vol+"/>
+            <command F="368" name="zone3:vol+"/>
+            <command F="369" name="zone3:vol-"/>
             <command F="370" name="zone3:mute_toggle"/>
             <command F="704" name="zone3:input_phono"/>
             <command F="706" name="zone3:input_cd"/>
