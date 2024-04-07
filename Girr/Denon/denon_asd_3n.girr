@@ -4,7 +4,7 @@
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xmlns="http://www.harctoolbox.org/Girr"
          xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns.xsd">
-    <remote deviceClass="misc_audio" manufacturer="Denon" model="asd_3n" name="Denon iPod dock">
+    <remote deviceClass="misc_audio" manufacturer="Denon" model="asd_3n" name="Denon iPod dock" remoteName="rc-1088">
         <commandSet name="denon-k_2">
             <parameters protocol="denon-k">
                 <parameter name="D" value="2"/>
