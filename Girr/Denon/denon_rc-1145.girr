@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<!--This file is in the Girr (General IR Remote) format, see http://www.harctoolbox.org/Girr.html--><remotes xmlns="http://www.harctoolbox.org/Girr" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" girrVersion="1.2" title="IrScrutinizer parametric export" xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns-1.2.xsd">
+    <adminData>
+        <creationData creatingUser="bengt" creationDate="2024-04-08_18:52:15" tool="IrScrutinizer" tool2="IrpTransmogrifier" tool2Version="1.2.13" toolVersion="2.4.1"/>
+    </adminData>
+    <remote comment="Export from IrScrutinizer" deviceClass="Receiver" displayName="Denon RC 1145" manufacturer="Denon" model="AVR, many" name="denon_rc-1148" remoteName="RC-1148">
+        <commandSet name="commandSet">
+            <parameters protocol="Denon-K">
+                <parameter name="D" value="4"/>
+                <parameter name="S" value="1"/>
+            </parameters>
+            <command F="7" master="parameters" name="zone off"/>
+            <command F="6" master="parameters" name="zone on"/>
+            <command F="3" master="parameters" name="power off"/>
+            <command F="2" master="parameters" name="power on"/>
+            <command master="parameters" name="net/usb">
+                <parameters protocol="Denon-K">
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="711"/>
+                    <parameter name="S" value="7"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="ipod">
+                <parameters protocol="Denon-K">
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="667"/>
+                    <parameter name="S" value="7"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="dvd">
+                <parameters protocol="Denon-K">
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="720"/>
+                    <parameter name="S" value="7"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="bd">
+                <parameters protocol="Denon-K">
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="721"/>
+                    <parameter name="S" value="7"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="tuner/dtu">
+                <parameters protocol="Denon-K">
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="719"/>
+                    <parameter name="S" value="7"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="dock">
+                <parameters protocol="Denon-K">
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="717"/>
+                    <parameter name="S" value="7"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="sat/tu">
+                <parameters protocol="Denon-K">
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="696"/>
+                    <parameter name="S" value="7"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="sat/cbl">
+                <parameters protocol="Denon-K">
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="723"/>
+                    <parameter name="S" value="7"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="game">
+                <parameters protocol="Denon-K">
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="725"/>
+                    <parameter name="S" value="7"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="v.aux">
+                <parameters protocol="Denon-K">
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="729"/>
+                    <parameter name="S" value="7"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="phono">
+                <parameters protocol="Denon-K">
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="704"/>
+                    <parameter name="S" value="7"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="cd">
+                <parameters protocol="Denon-K">
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="706"/>
+                    <parameter name="S" value="7"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="dvr">
+                <parameters protocol="Denon-K">
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="726"/>
+                    <parameter name="S" value="7"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="tv">
+                <parameters protocol="Denon-K">
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="722"/>
+                    <parameter name="S" value="7"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="quick select 1">
+                <parameters protocol="Denon-K">
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="292"/>
+                    <parameter name="S" value="7"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="quick select 2">
+                <parameters protocol="Denon-K">
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="293"/>
+                    <parameter name="S" value="7"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="quick select 3">
+                <parameters protocol="Denon-K">
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="294"/>
+                    <parameter name="S" value="7"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="ch+">
+                <parameters protocol="Denon-K">
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="972"/>
+                    <parameter name="S" value="7"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="ch-">
+                <parameters protocol="Denon-K">
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="973"/>
+                    <parameter name="S" value="7"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="mute_toggle">
+                <parameters protocol="Denon-K">
+                    <parameter name="D" value="4"/>
+                    <parameter name="F" value="370"/>
+                    <parameter name="S" value="7"/>
+                </parameters>
+            </command>
+            <command F="693" master="parameters" name="source select"/>
+            <command F="368" master="parameters" name="vol+"/>
+            <command F="369" master="parameters" name="vol-"/>
+            <command F="35" master="parameters" name="menu"/>
+            <command F="983" master="parameters" name="search"/>
+            <command F="378" master="parameters" name="ch level"/>
+            <command F="34" master="parameters" name="return"/>
+            <command F="976" master="parameters" name="rewind"/>
+            <command F="992" master="parameters" name="play"/>
+            <command F="979" master="parameters" name="fast forward"/>
+            <command F="995" master="parameters" name="previous"/>
+            <command F="994" master="parameters" name="pause"/>
+            <command F="993" master="parameters" name="stop"/>
+            <command F="996" master="parameters" name="next"/>
+            <command F="736" master="parameters" name="multieq"/>
+            <command F="549" master="parameters" name="dyn eq/vol"/>
+            <command F="529" master="parameters" name="a.dsx"/>
+            <command F="548" master="parameters" name="restorer"/>
+            <command F="308" master="parameters" name="standard"/>
+            <command F="305" master="parameters" name="d/st"/>
+            <command F="336" master="parameters" name="simulation"/>
+            <command F="307" master="parameters" name="pure"/>
+            <command F="16" master="parameters" name="1"/>
+            <command F="17" master="parameters" name="2"/>
+            <command F="18" master="parameters" name="3"/>
+            <command F="19" master="parameters" name="4"/>
+            <command F="20" master="parameters" name="5"/>
+            <command F="21" master="parameters" name="6"/>
+            <command F="22" master="parameters" name="7"/>
+            <command F="23" master="parameters" name="8"/>
+            <command F="974" master="parameters" name="shift"/>
+            <command F="24" master="parameters" name="9"/>
+            <command F="25" master="parameters" name="0"/>
+            <command F="36" master="parameters" name="+10"/>
+            <command F="836" master="parameters" name="sleep"/>
+            <command F="835" master="parameters" name="memory"/>
+        </commandSet>
+    </remote>
+</remotes>
