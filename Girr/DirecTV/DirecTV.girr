@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<!--This file is in the Girr (General IR Remote) format, see http://www.harctoolbox.org/Girr.html--><remotes xmlns="http://www.harctoolbox.org/Girr" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" girrVersion="1.2" title="IrScrutinizer parametric export" xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns-1.2.xsd">
+    <adminData>
+        <creationData source="https://www.remotecentral.com/cgi-bin/mboard/rc-discrete/thread.cgi?8346" creatingUser="bengt" creationDate="2024-10-03_20:09:01" tool="IrScrutinizer" tool2="IrpTransmogrifier" tool2Version="1.2.14-SNAPSHOT" toolVersion="2.4.2-SNAPSHOT"/>
+    </adminData>
+    <remote comment="Export from IrScrutinizer" deviceClass="streamer" displayName="DirecTV Stream boxes" manufacturer="DirecTV" model="C71KW-200" name="DirecTV_Stream_boxes">
+        <commandSet name="commandSet">
+            <parameters protocol="DirecTV_P3">
+                <parameter name="D" value="12"/>
+            </parameters>
+            <command F="17" master="parameters" name="0"/>
+            <command F="1" master="parameters" name="1"/>
+            <command F="2" master="parameters" name="2"/>
+            <command F="3" master="parameters" name="3"/>
+            <command F="4" master="parameters" name="4"/>
+            <command F="5" master="parameters" name="5"/>
+            <command F="6" master="parameters" name="6"/>
+            <command F="7" master="parameters" name="7"/>
+            <command F="8" master="parameters" name="8"/>
+            <command F="9" master="parameters" name="9"/>
+            <command F="16" master="parameters" name="power"/>
+            <command F="39" master="parameters" name="last"/>
+            <command F="15" master="parameters" name="previous channel"/>
+            <command F="42" master="parameters" name="DVR recordings"/>
+            <command F="65" master="parameters" name="Netflix"/>
+            <command F="19" master="parameters" name="App Page"/>
+            <command F="32" master="parameters" name="menu"/>
+            <command F="40" master="parameters" name="program guide"/>
+            <command F="33" master="parameters" name="up arrow"/>
+            <command F="34" master="parameters" name="down arrow"/>
+            <command F="35" master="parameters" name="left arrow"/>
+            <command F="36" master="parameters" name="right arrow"/>
+            <command F="37" master="parameters" name="select"/>
+            <command F="46" master="parameters" name="Info"/>
+            <command F="50" master="parameters" name="play"/>
+            <command F="50" master="parameters" name="pause"/>
+            <command F="51" master="parameters" name="rewind"/>
+            <command F="52" master="parameters" name="fast fwd"/>
+            <command F="49" master="parameters" name="stop"/>
+            <command F="53" master="parameters" name="record"/>
+            <command F="38" master="parameters" name="exit"/>
+        </commandSet>
+    </remote>
+</remotes>

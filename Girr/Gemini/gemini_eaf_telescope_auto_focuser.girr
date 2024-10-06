@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<!--This file is in the Girr (General IR Remote) format, see http://www.harctoolbox.org/Girr.html--><remotes xmlns="http://www.harctoolbox.org/Girr" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" girrVersion="1.2" title="IrScrutinizer parametric export" xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns-1.2.xsd">
+    <adminData>
+        <creationData source="https://www.remotecentral.com/cgi-bin/mboard/rc-remote/thread.cgi?10090" creatingUser="bengt" creationDate="2024-10-03_16:51:37" tool="IrScrutinizer" tool2="IrpTransmogrifier" tool2Version="1.2.13" toolVersion="2.4.2-SNAPSHOT"/>
+    </adminData>
+    <remote comment="Export from IrScrutinizer" deviceClass="Misc" displayName="Gemini Eaf Telescope Focuser" manufacturer="Gemini" model="EAF" name="gemini_eaf_telescope_focuser">
+        <commandSet name="commandSet">
+            <parameters protocol="NEC1">
+                <parameter name="D" value="128"/>
+            </parameters>
+            <command F="18" master="parameters" name="MIN Speed"/>
+            <command F="26" master="parameters" name="MAX Speed"/>
+            <command F="1" master="parameters" name="FWD 1 Step"/>
+            <command F="3" master="parameters" name="FWD 10 Steps"/>
+            <command F="5" master="parameters" name="FWD 50 Steps"/>
+            <command F="30" master="parameters" name="REV 1 Step"/>
+            <command F="2" master="parameters" name="REV 10 Steps"/>
+            <command F="4" master="parameters" name="REV 50 Steps"/>
+        </commandSet>
+    </remote>
+</remotes>
