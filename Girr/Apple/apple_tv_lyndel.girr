@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<!--This file is in the Girr (General IR Remote) format, see http://www.harctoolbox.org/Girr.html-->
+<remotes xmlns="http://www.harctoolbox.org/Girr"
+         xmlns:html="http://www.w3.org/1999/xhtml"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         girrVersion="1.2" title="IrScrutinizer parametric export"
+         xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns-1.2.xsd">
+    <adminData>
+        <creationData source="https://www.remotecentral.com/cgi-bin/mboard/prontopro/thread.cgi?5397" creatingUser="Bengt Martensson" creationDate="2024-10-30_14:57:39" tool="IrScrutinizer" tool2="IrpTransmogrifier" tool2Version="1.2.13" toolVersion="2.4.2-SNAPSHOT"/>
+    </adminData>
+    <remote comment="Export from IrScrutinizer, hand edited" name="apple_tv">
+        <commandSet name="commandSet_229">
+            <parameters protocol="Apple">
+                <parameter name="PairID" value="254"/>
+                <parameter name="D" value="229"/>
+            </parameters>
+            <command F="1" master="parameters" name="CURSOR_UP"/>
+            <command F="2" master="parameters" name="CURSOR_DOWN"/>
+            <command F="3" master="parameters" name="CURSOR_LEFT"/>
+            <command F="4" master="parameters" name="CURSOR_RIGHT"/>
+            <command F="5" master="parameters" name="SELECT"/>
+            <command F="8" master="parameters" name="UNKNOWN_A" comment="ATV accepts command but does nothing as of TVOS14.7"/>
+            <command F="9" master="parameters" name="UNKNOWN_B" comment="ATV accepts command but does nothing as of TVOS14.7"/>
+            <command F="11" master="parameters" name="PLAY_DISPLAY" comment="This appears to be a discrete Play if Paused. If Playing, will pop up display. However, if sent multiple times, the ATV will not act on command if sent another time within 5 seconds. Each resend resets the 5 second wait period."/>
+            <command F="13" master="parameters" name="FORWARD" comment="Fast Foward"/>
+            <command F="14" master="parameters" name="REVERSE" comment="Rewind"/>
+            <command F="17" master="parameters" name="CHANNEL_UP" comment="Reportedly works on some EU IPTV apps - In US, Apple Music Library, this will change track."/>
+            <command F="18" master="parameters" name="CHANNEL_DOWN" comment="Reportedly works on some EU IPTV apps - In US, Apple Music Library, this will change track."/>
+            <command F="19" master="parameters" name="10_SECONDS_REVERSE"/>
+            <command F="20" master="parameters" name="UNKNOWN_F" comment="ATV accepts command but does nothing as of TVOS15"/>
+            <command F="21" master="parameters" name="DISCRETE_POWER_OFF" comment="Immediate"/>
+            <command F="22" master="parameters" name="DISCRETE_POWER_ON" comment="Immediate - If ATV is powered on, does nothing - Use this instead of Menu to prevent jumping back if ATV is already on."/>
+            <command F="23" master="parameters" name="10_SECONDS_FORWARD"/>
+            <command F="24" master="parameters" name="PAUSE" comment="Discrete ATV pauses if Playing"/>
+            <command F="25" master="parameters" name="PAUSE_ALTERNATE" comment="Behaves same as PAUSE as of TVOS14.7 - Discrete ATV pauses if Playing"/>
+            <command F="32" master="parameters" name="HOME" comment="A Short press takes you home. A Long press presents the Sleep Menu - Just like Siri Remote"/>
+            <command F="33" master="parameters" name="HOME_ALTERNATE" comment="Behaves same as HOME as of TVOS14.7 A Short press takes you home. A Long press presents the Sleep Menu - Just like Siri Remote"/>
+            <command F="35" master="parameters" name="UNKNOWN_C" comment="ATV accepts command but does nothing as of TVOS14.7"/>
+            <command F="36" master="parameters" name="UNKNOWN_D" comment="ATV accepts command but does nothing as of TVOS14.7"/>
+            <command F="37" master="parameters" name="UNKNOWN_E" comment="ATV accepts command but does nothing as of TVOS14.7"/>
+        </commandSet>
+        <commandSet name="commandSet_238">
+            <parameters protocol="Apple">
+                <parameter name="PairID" value="254"/>
+                <parameter name="D" value="238"/>
+            </parameters>
+            <command F="1" master="parameters" name="MENU"/>
+            <command F="3" master="parameters" name="CURSOR_RIGHT_ALTERNATE" comment="Appears to behaves same as CURSOR_RIGHT as of TVOS14.7"/>
+            <command F="4" master="parameters" name="CURSOR_LEFT_ALTERNATE" comment="Appears to behaves same as CURSOR_LEFT as of TVOS14.7"/>
+            <command F="5" master="parameters" name="CURSOR_UP_ALTERNATE" comment="Appears to behaves same as CURSOR_UP as of TVOS14.7"/>
+            <command F="6" master="parameters" name="CURSOR_DOWN_ALTERNATE" comment="Appears to behaves same as CURSOR_DOWN as of TVOS14.7"/>
+            <command F="7" master="parameters" name="SCREEN_SHOT_A" comment="Takes a screen shot that only Mac users can obtain"/>
+            <command F="11" master="parameters" name="VIDEO_RESOLUTION_CHANGE" comment="Change Video Resolution Menu"/>
+            <command F="12" master="parameters" name="REBOOT_FAULT_A" comment="Causes a reboot which internally generates a stack trace which can be sent to Apple"/>
+            <command F="46" master="parameters" name="SELECT_ALTERNATE" comment="Appears to behaves same as SELECT as of TVOS14.7"/>
+            <command F="47" master="parameters" name="PLAY_PAUSE"/>
+            <command F="48" master="parameters" name="REBOOT_FAULT_B" comment="Causes a reboot which internally generates a stack trace which can be sent to Apple"/>
+            <command F="49" master="parameters" name="REBOOT_FAULT_C" comment="Causes a reboot which internally generates a stack trace which can be sent to Apple"/>
+            <command F="50" master="parameters" name="SCREEN_SHOT_B" comment="Takes a screen shot that only Mac users can obtain"/>
+        </commandSet>
+    </remote>
+</remotes>
