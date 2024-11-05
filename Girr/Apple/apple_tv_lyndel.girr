@@ -54,8 +54,8 @@
             <command F="12" master="parameters" name="REBOOT_FAULT_A" comment="Causes a reboot which internally generates a stack trace which can be sent to Apple"/>
             <command F="46" master="parameters" name="SELECT_ALTERNATE" comment="Appears to behaves same as SELECT as of TVOS14.7"/>
             <command F="47" master="parameters" name="PLAY_PAUSE"/>
-            <command F="48" master="parameters" name="REBOOT_FAULT_B" comment="Causes a reboot which internally generates a stack trace which can be sent to Apple"/>
-            <command F="49" master="parameters" name="REBOOT_FAULT_C" comment="Causes a reboot which internally generates a stack trace which can be sent to Apple"/>
+            <command F="48" master="parameters" name="REBOOT_FAULT_B" comment="CAVEAT EMPTOR - As of TVOS16, this IR code causes the ATV to do a factory reset.  To perform the reset, bluetooth pairing with an IPhone is required.  If at any time the ATV is powered off or the update fails, the ATV will be bricked."/>
+            <command F="49" master="parameters" name="REBOOT_FAULT_C" comment="CAVEAT EMPTOR - As of TVOS16, this IR code causes the ATV to do a factory reset.  To perform the reset, bluetooth pairing with an IPhone is required.  If at any time the ATV is powered off or the update fails, the ATV will be bricked."/>
             <command F="50" master="parameters" name="SCREEN_SHOT_B" comment="Takes a screen shot that only Mac users can obtain"/>
         </commandSet>
     </remote>
