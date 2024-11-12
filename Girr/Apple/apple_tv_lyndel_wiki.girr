@@ -9,7 +9,8 @@
         <creationData source="https://www.remotecentral.com/cgi-bin/mboard/prontopro/thread.cgi?5397" creatingUser="Bengt Martensson" creationDate="2024-10-30_14:57:39" tool="IrScrutinizer" tool2="IrpTransmogrifier" tool2Version="1.2.13" toolVersion="2.4.2-SNAPSHOT"/>
     </adminData>
     <irp:protocols xmlns="http://www.w3.org/1999/xhtml"
-                   xmlns:irp="http://www.harctoolbox.org/irp-protocols">
+                   xmlns:irp="http://www.harctoolbox.org/irp-protocols"
+		   version="experimental-2024-11-12">
         <irp:protocol name="Apple_wiki">
             <irp:irp>
             <![CDATA[{38.4k,564}<1,-1|1,-3>(16,-8,P:5,Vendor:11,C:1,F:7,D:8,1,^108m,(16,-4,1,^108m)*){Vendor=0x43f,C=1-(#P+#Vendor+#F+#D)%2}[P:0..31,F:0..127,D:0..255]]]>
