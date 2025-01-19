@@ -1,1393 +1,1124 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
-<!--This file is in the Girr (General IR Remote) format, see http://www.harctoolbox.org/Girr.html-->
-<remotes girrVersion="1.0" title="IrScrutinizer parametric export"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xmlns="http://www.harctoolbox.org/Girr"
-         xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns.xsd">
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<!--This file is in the Girr (General IR Remote) format, see http://www.harctoolbox.org/Girr.html--><remotes xmlns="http://www.harctoolbox.org/Girr" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" girrVersion="1.2" title="IrScrutinizer parametric export" xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns-1.2.xsd">
     <adminData>
-        <creationData creatingUser="bengt" creationDate="2016-01-12_15:20:21" source="IrScrutinizer parametrized table" tool="IrScrutinizer" tool2="DecodeIR" tool2Version="2.45" toolVersion="1.1.4snapshot"/>
+        <creationData creatingUser="bengt" creationDate="2025-01-19_23:18:41" tool="IrScrutinizer" tool2="IrpTransmogrifier" tool2Version="1.2.14" toolVersion="2.4.2-SNAPSHOT"/>
     </adminData>
-    <remote manufacturer="Yamaha" deviceClass="AV Receiver" name="Yamaha RX-V1400">
+    <remote comment="Export from IrScrutinizer" deviceClass="AV Receiver" displayName="Yamaha RX-V1400" manufacturer="Yamaha" name="yamaha_rxv1400">
         <commandSet name="commandSet">
-            <command comment="" master="parameters" name="in_phono">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="20"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="in_cd">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="21"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="in_tuner">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="22"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="in_tape">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="24"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="in_cd_r">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="25"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="in_dvd">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="193"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="in_dtv">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="84"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="in_cable">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="192"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="in_vcr1">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="15"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="in_vcr2">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="19"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="in_video_aux">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="85"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="input_mode">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="195"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="volume_up">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="26"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="volume_down">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="27"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="power_on">
+            <parameters protocol="nec1">
+                <parameter name="D" value="122"/>
+            </parameters>
+            <command F="20" master="parameters" name="in_phono"/>
+            <command F="21" master="parameters" name="in_cd"/>
+            <command F="22" master="parameters" name="in_tuner"/>
+            <command F="24" master="parameters" name="in_tape"/>
+            <command F="25" master="parameters" name="in_cd_r"/>
+            <command F="193" master="parameters" name="in_dvd"/>
+            <command F="84" master="parameters" name="in_dtv"/>
+            <command F="192" master="parameters" name="in_cable"/>
+            <command F="15" master="parameters" name="in_vcr1"/>
+            <command F="19" master="parameters" name="in_vcr2"/>
+            <command F="85" master="parameters" name="in_video_aux"/>
+            <command F="195" master="parameters" name="input_mode"/>
+            <command F="26" master="parameters" name="volume_up"/>
+            <command F="27" master="parameters" name="volume_down"/>
+            <command master="parameters" name="power_on">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="126"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="power_off">
+            <command master="parameters" name="power_off">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="127"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="mute_toggle">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="28"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="ext_input_toggle">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="135"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="osd">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="194"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="sleep">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="87"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="menu">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="156"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="stereo">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="136"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="hall">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="137"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="jazz_club">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="138"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="rock_concert">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="139"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="entertainment">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="140"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="music_video">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="141"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="tv_theatre">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="142"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="movie_theatre">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="143"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="thx">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="144"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="dolby_dts">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="145"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="ok">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="150"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="night_toggle">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="149"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="ex_es">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="151"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="effect_toggle">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="86"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="effect_level_select">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="134"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="test_mode">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="133"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="up">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="152"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="down">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="153"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="plus">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="82"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="minus">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="83"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="preset_page_toggle">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="18"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="channel_up">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="16"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="channel_down">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="17"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="service_menu">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="223"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="page_a">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="224"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="page_b">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="225"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="page_c">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="226"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="page_d">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="227"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="page_e">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="228"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="cmd_1">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="229"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="cmd_2">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="230"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="cmd_3">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="231"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="cmd_4">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="232"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="cmd_5">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="233"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="cmd_6">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="234"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="cmd_7">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="235"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="cmd_8">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="236"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="zone2_volume_up">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="218"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="zone2_volume_down">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="219"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="zone2_mute_toggle">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="220"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="zone2_phono">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="208"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="zone2_cd">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="209"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="zone2_tuner">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="210"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="zone2_md_tape">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="211"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="zone2_cd_r">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="212"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="zone2_dvd">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="205"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="zone2_d_tv">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="217"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="zone2_sat_cbl">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="204"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="zone2_vcr1">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="214"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="zone2_vcr2">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="215"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="zone2_video_aux">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="216"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="zone3_on">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="237"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="zone3_off">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="238"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="zone3_mute_toggle">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="255"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="zone3_phono">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="241"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="zone3_cd">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="242"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="zone3_tuner">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="243"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="zone3_md_tape">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="244"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="zone3_cd_r">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="245"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="zone3_dvd">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="252"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="zone3_d_tv">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="246"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="zone3_sat_cbl">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="247"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="zone3_vcr1">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="249"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="zone3_vcr2">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="250"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="zone3_video_aux">
-                <parameters protocol="nec1">
-                    <parameter name="D" value="122"/>
-                    <parameter name="F" value="240"/>
-                </parameters>
-            </command>
-            <command comment="" master="parameters" name="zone2_on">
+                    <parameter name="S" value="129"/>
+                </parameters>
+            </command>
+            <command F="28" master="parameters" name="mute_toggle"/>
+            <command F="135" master="parameters" name="ext_input_toggle"/>
+            <command F="194" master="parameters" name="osd"/>
+            <command F="87" master="parameters" name="sleep"/>
+            <command F="156" master="parameters" name="menu"/>
+            <command F="136" master="parameters" name="stereo"/>
+            <command F="137" master="parameters" name="hall"/>
+            <command F="138" master="parameters" name="jazz_club"/>
+            <command F="139" master="parameters" name="rock_concert"/>
+            <command F="140" master="parameters" name="entertainment"/>
+            <command F="141" master="parameters" name="music_video"/>
+            <command F="142" master="parameters" name="tv_theatre"/>
+            <command F="143" master="parameters" name="movie_theatre"/>
+            <command F="144" master="parameters" name="thx"/>
+            <command F="145" master="parameters" name="dolby_dts"/>
+            <command F="150" master="parameters" name="ok"/>
+            <command F="149" master="parameters" name="night_toggle"/>
+            <command F="151" master="parameters" name="ex_es"/>
+            <command F="86" master="parameters" name="effect_toggle"/>
+            <command F="134" master="parameters" name="effect_level_select"/>
+            <command F="133" master="parameters" name="test_mode"/>
+            <command F="152" master="parameters" name="up"/>
+            <command F="153" master="parameters" name="down"/>
+            <command F="82" master="parameters" name="plus"/>
+            <command F="83" master="parameters" name="minus"/>
+            <command F="18" master="parameters" name="preset_page_toggle"/>
+            <command F="16" master="parameters" name="channel_up"/>
+            <command F="17" master="parameters" name="channel_down"/>
+            <command F="223" master="parameters" name="service_menu"/>
+            <command F="224" master="parameters" name="page_a"/>
+            <command F="225" master="parameters" name="page_b"/>
+            <command F="226" master="parameters" name="page_c"/>
+            <command F="227" master="parameters" name="page_d"/>
+            <command F="228" master="parameters" name="page_e"/>
+            <command F="229" master="parameters" name="cmd_1"/>
+            <command F="230" master="parameters" name="cmd_2"/>
+            <command F="231" master="parameters" name="cmd_3"/>
+            <command F="232" master="parameters" name="cmd_4"/>
+            <command F="233" master="parameters" name="cmd_5"/>
+            <command F="234" master="parameters" name="cmd_6"/>
+            <command F="235" master="parameters" name="cmd_7"/>
+            <command F="236" master="parameters" name="cmd_8"/>
+            <command F="218" master="parameters" name="zone2_volume_up"/>
+            <command F="219" master="parameters" name="zone2_volume_down"/>
+            <command F="220" master="parameters" name="zone2_mute_toggle"/>
+            <command F="208" master="parameters" name="zone2_phono"/>
+            <command F="209" master="parameters" name="zone2_cd"/>
+            <command F="210" master="parameters" name="zone2_tuner"/>
+            <command F="211" master="parameters" name="zone2_md_tape"/>
+            <command F="212" master="parameters" name="zone2_cd_r"/>
+            <command F="205" master="parameters" name="zone2_dvd"/>
+            <command F="217" master="parameters" name="zone2_d_tv"/>
+            <command F="204" master="parameters" name="zone2_sat_cbl"/>
+            <command F="214" master="parameters" name="zone2_vcr1"/>
+            <command F="215" master="parameters" name="zone2_vcr2"/>
+            <command F="216" master="parameters" name="zone2_video_aux"/>
+            <command F="237" master="parameters" name="zone3_on"/>
+            <command F="238" master="parameters" name="zone3_off"/>
+            <command F="255" master="parameters" name="zone3_mute_toggle"/>
+            <command F="241" master="parameters" name="zone3_phono"/>
+            <command F="242" master="parameters" name="zone3_cd"/>
+            <command F="243" master="parameters" name="zone3_tuner"/>
+            <command F="244" master="parameters" name="zone3_md_tape"/>
+            <command F="245" master="parameters" name="zone3_cd_r"/>
+            <command F="252" master="parameters" name="zone3_dvd"/>
+            <command F="246" master="parameters" name="zone3_d_tv"/>
+            <command F="247" master="parameters" name="zone3_sat_cbl"/>
+            <command F="249" master="parameters" name="zone3_vcr1"/>
+            <command F="250" master="parameters" name="zone3_vcr2"/>
+            <command F="240" master="parameters" name="zone3_video_aux"/>
+            <command master="parameters" name="zone2_on">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="186"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="zone2_off">
+            <command master="parameters" name="zone2_off">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="187"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="zone2_mute_on">
+            <command master="parameters" name="zone2_mute_on">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="160"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="zone2_mute_off">
+            <command master="parameters" name="zone2_mute_off">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="161"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="mute_on">
+            <command master="parameters" name="mute_on">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="162"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="mute_off">
+            <command master="parameters" name="mute_off">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="163"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="zone3_mute_on">
+            <command master="parameters" name="zone3_mute_on">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="38"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="zone3_mute_off">
+            <command master="parameters" name="zone3_mute_off">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="102"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="ext_input_on">
+            <command master="parameters" name="ext_input_on">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="164"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="ext_input_off">
+            <command master="parameters" name="ext_input_off">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="165"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="input_mode_auto">
+            <command master="parameters" name="input_mode_auto">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="166"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="input_mode_d_d_rf">
+            <command master="parameters" name="input_mode_d_d_rf">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="167"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="input_mode_dts">
+            <command master="parameters" name="input_mode_dts">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="168"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="input_mode_digital">
+            <command master="parameters" name="input_mode_digital">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="169"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="input_mode_analog">
+            <command master="parameters" name="input_mode_analog">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="170"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="spk_a_on">
+            <command master="parameters" name="spk_a_on">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="171"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="spk_a_off">
+            <command master="parameters" name="spk_a_off">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="172"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="spk_b_on">
+            <command master="parameters" name="spk_b_on">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="173"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="spk_b_off">
+            <command master="parameters" name="spk_b_off">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="174"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="osd_off">
+            <command master="parameters" name="osd_off">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="176"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="osd_short">
+            <command master="parameters" name="osd_short">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="177"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="osd_full">
+            <command master="parameters" name="osd_full">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="178"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="sleep_off">
+            <command master="parameters" name="sleep_off">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="179"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="sleep_120">
+            <command master="parameters" name="sleep_120">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="180"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="sleep_90">
+            <command master="parameters" name="sleep_90">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="181"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="sleep_60">
+            <command master="parameters" name="sleep_60">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="182"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="sleep_30">
+            <command master="parameters" name="sleep_30">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="183"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="ex_es_auto">
+            <command master="parameters" name="ex_es_auto">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="124"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="ex_es_on">
+            <command master="parameters" name="ex_es_on">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="125"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="ex_es_off">
+            <command master="parameters" name="ex_es_off">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="185"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="dc1_trg_control_zone1">
+            <command master="parameters" name="dc1_trg_control_zone1">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="50"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="dc1_trg_control_zone2">
+            <command master="parameters" name="dc1_trg_control_zone2">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="51"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="dc1_trg_control_zone3">
+            <command master="parameters" name="dc1_trg_control_zone3">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="49"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="dc1_trg_control_all_or">
+            <command master="parameters" name="dc1_trg_control_all_or">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="52"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="dc2_trg_control_zone1">
+            <command master="parameters" name="dc2_trg_control_zone1">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="150"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="dc2_trg_control_zone2">
+            <command master="parameters" name="dc2_trg_control_zone2">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="151"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="dc2_trg_control_zone3">
+            <command master="parameters" name="dc2_trg_control_zone3">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="159"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="dc2_trg_control_all_or">
+            <command master="parameters" name="dc2_trg_control_all_or">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="152"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="dc1_trigger_zone1_on">
+            <command master="parameters" name="dc1_trigger_zone1_on">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="115"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="dc1_trigger_zone1_off">
+            <command master="parameters" name="dc1_trigger_zone1_off">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="116"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="dc1_trigger_zone2_on">
+            <command master="parameters" name="dc1_trigger_zone2_on">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="113"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="dc1_trigger_zone2_off">
+            <command master="parameters" name="dc1_trigger_zone2_off">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="114"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="dc1_trigger_zone3_on">
+            <command master="parameters" name="dc1_trigger_zone3_on">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="131"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="dc1_trigger_zone3_off">
+            <command master="parameters" name="dc1_trigger_zone3_off">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="132"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="dc2_trigger_zone1_on">
+            <command master="parameters" name="dc2_trigger_zone1_on">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="62"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="dc2_trigger_zone1_off">
+            <command master="parameters" name="dc2_trigger_zone1_off">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="63"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="dc2_trigger_zone2_on">
+            <command master="parameters" name="dc2_trigger_zone2_on">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="60"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="dc2_trigger_zone2_off">
+            <command master="parameters" name="dc2_trigger_zone2_off">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="61"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="dc2_trigger_zone3_on">
+            <command master="parameters" name="dc2_trigger_zone3_on">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="133"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="dc2_trigger_zone3_off">
+            <command master="parameters" name="dc2_trigger_zone3_off">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="134"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="effect_off">
+            <command master="parameters" name="effect_off">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="224"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="effect_on">
+            <command master="parameters" name="effect_on">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="39"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="night_on">
+            <command master="parameters" name="night_on">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="155"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="night_off">
+            <command master="parameters" name="night_off">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="156"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="hall_a">
+            <command master="parameters" name="hall_a">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="225"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="hall_b">
+            <command master="parameters" name="hall_b">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="226"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="hall_c">
+            <command master="parameters" name="hall_c">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="227"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="hall_d">
+            <command master="parameters" name="hall_d">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="228"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="hall_e">
+            <command master="parameters" name="hall_e">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="229"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="live_concert">
+            <command master="parameters" name="live_concert">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="230"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="tokyo">
+            <command master="parameters" name="tokyo">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="231"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="freiburg">
+            <command master="parameters" name="freiburg">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="232"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="royaumont">
+            <command master="parameters" name="royaumont">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="233"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="village_gate">
+            <command master="parameters" name="village_gate">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="234"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="village_vanguard">
+            <command master="parameters" name="village_vanguard">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="235"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="the_bottom_line">
+            <command master="parameters" name="the_bottom_line">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="236"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="the_roxy_theatre">
+            <command master="parameters" name="the_roxy_theatre">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="237"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="loft">
+            <command master="parameters" name="loft">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="238"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="arena">
+            <command master="parameters" name="arena">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="239"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="disco">
+            <command master="parameters" name="disco">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="240"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="party">
+            <command master="parameters" name="party">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="241"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="game">
+            <command master="parameters" name="game">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="242"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="cmd_7ch_stereo">
+            <command master="parameters" name="cmd_7ch_stereo">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="255"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="pop_rock">
+            <command master="parameters" name="pop_rock">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="243"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="dj">
+            <command master="parameters" name="dj">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="244"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="classical_opera">
+            <command master="parameters" name="classical_opera">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="245"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="pavilion">
+            <command master="parameters" name="pavilion">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="246"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="mono_movie">
+            <command master="parameters" name="mono_movie">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="247"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="variety_sports">
+            <command master="parameters" name="variety_sports">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="248"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="spectacle">
+            <command master="parameters" name="spectacle">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="249"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="sci_fi">
+            <command master="parameters" name="sci_fi">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="250"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="adventure">
+            <command master="parameters" name="adventure">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="251"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="general">
+            <command master="parameters" name="general">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="252"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="normal">
+            <command master="parameters" name="normal">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="253"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="enhanced">
+            <command master="parameters" name="enhanced">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="254"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="plii_movie">
+            <command master="parameters" name="plii_movie">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="103"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="plii_music">
+            <command master="parameters" name="plii_music">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="104"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="neo_6_movie">
+            <command master="parameters" name="neo_6_movie">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="105"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="neo_6_music">
+            <command master="parameters" name="neo_6_music">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="106"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="thx_cinema_sur_ex">
+            <command master="parameters" name="thx_cinema_sur_ex">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="194"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="cmd_2ch_stereo">
+            <command master="parameters" name="cmd_2ch_stereo">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="192"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="direct_stereo">
+            <command master="parameters" name="direct_stereo">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="193"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="preset_home_memory_a">
+            <command master="parameters" name="preset_home_memory_a">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="43"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="preset_home_memory_b">
+            <command master="parameters" name="preset_home_memory_b">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="44"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="preset_home_memory_c">
+            <command master="parameters" name="preset_home_memory_c">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="45"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="preset_home_memory_d">
+            <command master="parameters" name="preset_home_memory_d">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="46"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="preset_home_memory_e">
+            <command master="parameters" name="preset_home_memory_e">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="47"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="preset_home_memory_f">
+            <command master="parameters" name="preset_home_memory_f">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="48"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="preset_home_recall_a">
+            <command master="parameters" name="preset_home_recall_a">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="53"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="preset_home_recall_b">
+            <command master="parameters" name="preset_home_recall_b">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="54"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="preset_home_recall_c">
+            <command master="parameters" name="preset_home_recall_c">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="55"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="preset_home_recall_d">
+            <command master="parameters" name="preset_home_recall_d">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="56"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="preset_home_recall_e">
+            <command master="parameters" name="preset_home_recall_e">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="57"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="preset_home_recall_f">
+            <command master="parameters" name="preset_home_recall_f">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="58"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="preset_vol_memory_a">
+            <command master="parameters" name="preset_vol_memory_a">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="107"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="preset_vol_memory_b">
+            <command master="parameters" name="preset_vol_memory_b">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="108"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="preset_vol_memory_c">
+            <command master="parameters" name="preset_vol_memory_c">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="109"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="preset_vol_memory_d">
+            <command master="parameters" name="preset_vol_memory_d">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="110"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="preset_vol_memory_e">
+            <command master="parameters" name="preset_vol_memory_e">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="111"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="preset_vol_memory_f">
+            <command master="parameters" name="preset_vol_memory_f">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="112"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="preset_vol_recall_a">
+            <command master="parameters" name="preset_vol_recall_a">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="117"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="preset_vol_recall_b">
+            <command master="parameters" name="preset_vol_recall_b">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="118"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="preset_vol_recall_c">
+            <command master="parameters" name="preset_vol_recall_c">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="119"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="preset_vol_recall_d">
+            <command master="parameters" name="preset_vol_recall_d">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="120"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="preset_vol_recall_e">
+            <command master="parameters" name="preset_vol_recall_e">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="121"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="preset_vol_recall_f">
+            <command master="parameters" name="preset_vol_recall_f">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="122"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="zone2_preset_vol_memory_a">
+            <command master="parameters" name="zone2_preset_vol_memory_a">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="135"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="zone2_preset_vol_memory_b">
+            <command master="parameters" name="zone2_preset_vol_memory_b">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="136"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="zone2_preset_vol_memory_c">
+            <command master="parameters" name="zone2_preset_vol_memory_c">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="137"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="zone2_preset_vol_memory_d">
+            <command master="parameters" name="zone2_preset_vol_memory_d">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="138"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="zone2_preset_vol_memory_e">
+            <command master="parameters" name="zone2_preset_vol_memory_e">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="139"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="zone2_preset_vol_memory_f">
+            <command master="parameters" name="zone2_preset_vol_memory_f">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="140"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="zone2_preset_vol_recall_a">
+            <command master="parameters" name="zone2_preset_vol_recall_a">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="141"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="zone2_preset_vol_recall_b">
+            <command master="parameters" name="zone2_preset_vol_recall_b">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="142"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="zone2_preset_vol_recall_c">
+            <command master="parameters" name="zone2_preset_vol_recall_c">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="143"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="zone2_preset_vol_recall_d">
+            <command master="parameters" name="zone2_preset_vol_recall_d">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="144"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="zone2_preset_vol_recall_e">
+            <command master="parameters" name="zone2_preset_vol_recall_e">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="145"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="zone2_preset_vol_recall_f">
+            <command master="parameters" name="zone2_preset_vol_recall_f">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="146"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="zone3_preset_vol_memory_a">
+            <command master="parameters" name="zone3_preset_vol_memory_a">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="32"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="zone3_preset_vol_memory_b">
+            <command master="parameters" name="zone3_preset_vol_memory_b">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="33"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="zone3_preset_vol_memory_c">
+            <command master="parameters" name="zone3_preset_vol_memory_c">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="34"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="zone3_preset_vol_memory_d">
+            <command master="parameters" name="zone3_preset_vol_memory_d">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="35"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="zone3_preset_vol_memory_e">
+            <command master="parameters" name="zone3_preset_vol_memory_e">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="36"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="zone3_preset_vol_memory_f">
+            <command master="parameters" name="zone3_preset_vol_memory_f">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="37"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="zone3_preset_vol_recall_a">
+            <command master="parameters" name="zone3_preset_vol_recall_a">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="96"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="zone3_preset_vol_recall_b">
+            <command master="parameters" name="zone3_preset_vol_recall_b">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="97"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="zone3_preset_vol_recall_c">
+            <command master="parameters" name="zone3_preset_vol_recall_c">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="98"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="zone3_preset_vol_recall_d">
+            <command master="parameters" name="zone3_preset_vol_recall_d">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="99"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="zone3_preset_vol_recall_e">
+            <command master="parameters" name="zone3_preset_vol_recall_e">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="100"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="zone3_preset_vol_recall_f">
+            <command master="parameters" name="zone3_preset_vol_recall_f">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="101"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="fm">
+            <command master="parameters" name="fm">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="188"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="am">
+            <command master="parameters" name="am">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="189"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="auto_tuning_up">
+            <command master="parameters" name="auto_tuning_up">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="190"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
-            <command comment="" master="parameters" name="auto_tuning_down">
+            <command master="parameters" name="auto_tuning_down">
                 <parameters protocol="nec1">
                     <parameter name="D" value="126"/>
                     <parameter name="F" value="191"/>
+                    <parameter name="S" value="129"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="power_toggle">
+                <parameters protocol="nec1">
+                    <parameter name="D" value="126"/>
+                    <parameter name="F" value="42"/>
+                    <parameter name="S" value="129"/>
                 </parameters>
             </command>
         </commandSet>
