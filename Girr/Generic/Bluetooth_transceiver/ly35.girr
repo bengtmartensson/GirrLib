@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<!--This file is in the Girr (General IR Remote) format, see http://www.harctoolbox.org/Girr.html--><remotes xmlns="http://www.harctoolbox.org/Girr" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" girrVersion="1.2" title="IrScrutinizer parametric export" xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns-1.2.xsd">
+    <adminData>
+        <creationData creatingUser="bengt" creationDate="2025-01-05_19:46:19" tool="IrScrutinizer" tool2="IrpTransmogrifier" tool2Version="1.2.14-SNAPSHOT" toolVersion="2.4.2-SNAPSHOT"/>
+    </adminData>
+    <remote comment="Export from IrScrutinizer" deviceClass="Bluetooth_transceiver" displayName="Music Link HiFi Receiver LY35" manufacturer="generic" name="ly35">
+        <commandSet name="commandSet">
+            <parameters protocol="NEC1">
+                <parameter name="D" value="0"/>
+                <parameter name="S" value="239"/>
+            </parameters>
+            <command F="5" comment="Switches between English and Chinese" master="parameters" name="ch/en"/>
+            <command F="1" comment="Cycles between the modes" master="parameters" name="mode"/>
+            <command F="2" master="parameters" name="mute"/>
+            <command F="12" comment="Looks like |&lt;&lt;" master="parameters" name="rewind"/>
+            <command F="0" master="parameters" name="vol+"/>
+            <command F="6" comment="Looks like &gt;&gt;|" master="parameters" name="fast_forward"/>
+            <command F="15" comment="Looks like &lt;|" master="parameters" name="previous"/>
+            <command F="10" master="parameters" name="play/pause"/>
+            <command F="9" comment="Looks like |&gt;" master="parameters" name="next"/>
+            <command F="7" master="parameters" name="repeat"/>
+            <command F="13" master="parameters" name="vol-"/>
+            <command F="21" master="parameters" name="repeat_song"/>
+            <command F="19" master="parameters" name="eq"/>
+            <command F="18" master="parameters" name="aux"/>
+            <command F="17" master="parameters" name="usb"/>
+            <command F="23" comment="SD card mode" master="parameters" name="tf"/>
+            <command F="14" master="parameters" name="optical"/>
+            <command F="22" master="parameters" name="coax"/>
+            <command F="11" comment="Bluetooth transmit" master="parameters" name="tx"/>
+            <command F="16" comment="Bluetooth receive" master="parameters" name="rx"/>
+            <command F="3" master="parameters" name="bluetooth"/>
+        </commandSet>
+    </remote>
+</remotes>
