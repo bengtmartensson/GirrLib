@@ -137,6 +137,7 @@
             <command F="650" name="level down front height left"/>
             <command F="651" name="level up front height right"/>
             <command F="652" name="level down front height right"/>
+            <command F="656" name="dimmer"/>
             <command F="669" name="hdmi_monitor1"/>
             <command F="670" name="hdmi_monitor2"/>
             <command F="671" name="hdmi_monitor_auto"/>
