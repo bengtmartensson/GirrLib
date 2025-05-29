@@ -1,10 +1,12 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="simplehtml.xsl"?>
 <remotes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         title="Translated by harc2girr" girrVersion="1.0"
+         title="Translated by harc2girr" girrVersion="1.2"
+         xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns.xsd"
          xmlns="http://www.harctoolbox.org/Girr"
-         xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns.xsd">
+         xmlns:html="http://www.w3.org/1999/xhtml">
     <remote deviceClass="misc_audio" manufacturer="asus" model="oplay_hd2" name="ASUS O!Play HD2">
+        <html:img src="../../images/asus_oplay_hd2.jpg" alt="Picture of remote"/>
         <commandSet name="nec1_108">
             <parameters protocol="nec1">
                 <parameter name="D" value="108"/>
