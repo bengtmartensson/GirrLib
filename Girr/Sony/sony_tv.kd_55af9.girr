@@ -575,6 +575,32 @@
                     <parameter name="F" value="71"/>
                 </parameters>
             </command>
+            <command master="parameters" name="Disney Plus">
+                <parameters protocol="Sony20">
+                    <parameter name="D" value="31"/>
+                    <parameter name="F" value="5"/>
+                    <parameter name="S" value="64"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Google Play">
+                <parameters protocol="Sony15">
+                    <parameter name="D" value="196"/>
+                    <parameter name="F" value="70"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Netflix">
+                <parameters protocol="Sony15">
+                    <parameter name="D" value="26"/>
+                    <parameter name="F" value="124"/>
+                </parameters>
+            </command>
+            <command master="parameters" name="Prime Video">
+                <parameters protocol="Sony20">
+                    <parameter name="D" value="31"/>
+                    <parameter name="F" value="4"/>
+                    <parameter name="S" value="64"/>
+                </parameters>
+            </command>
         </commandSet>
     </remote>
 </remotes>
