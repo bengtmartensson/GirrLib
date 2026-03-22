@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<!--This file is in the Girr (General IR Remote) format, see http://www.harctoolbox.org/Girr.html--><remotes xmlns="http://www.harctoolbox.org/Girr" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" girrVersion="1.2" title="IrScrutinizer parametric export" xsi:schemaLocation="http://www.harctoolbox.org/Girr http://www.harctoolbox.org/schemas/girr_ns-1.2.xsd">
+    <adminData>
+        <creationData creatingUser="bengt" creationDate="2026-03-22_14:23:44" tool="IrScrutinizer" tool2="IrpTransmogrifier" tool2Version="1.2.14" toolVersion="2.4.3-SNAPSHOT"/>
+    </adminData>
+    <remote comment="Export from IrScrutinizer" deviceClass="projector" displayName="Casio XJ-350" manufacturer="Casio" model="XJ-350" name="casio_XJ-350">
+        <commandSet name="commandSet">
+            <parameters protocol="IODATAn">
+                <parameter name="x" value="2"/>
+                <parameter name="S" value="12"/>
+                <parameter name="C" value="14"/>
+                <parameter name="D" value="32"/>
+            </parameters>
+            <command F="241" master="parameters" name="power">
+                <ccf>0000 006D 0000 002A 014E 00A7 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 003F 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 003F 0015 003F 0015 003F 0015 003F 0015 0015 0015 003F 0015 003F 0015 003F 0015 0580</ccf>
+            </command>
+            <command master="parameters" name="menu">
+                <parameters protocol="IODATAn">
+                    <parameter name="y" value="64"/>
+                    <parameter name="C" value="13"/>
+                    <parameter name="F" value="114"/>
+                </parameters>
+                <ccf>0000 006D 0000 002A 014E 00A7 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 003F 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 0015 0015 003F 0015 0015 0015 0015 0015 003F 0015 003F 0015 003F 0015 0015 0015 003F 0015 0015 0015 003F 0015 003F 0015 0580</ccf>
+            </command>
+            <command master="parameters" name="up">
+                <parameters protocol="IODATAn">
+                    <parameter name="y" value="16"/>
+                    <parameter name="C" value="12"/>
+                    <parameter name="F" value="211"/>
+                </parameters>
+                <ccf>0000 006D 0000 002A 014E 00A7 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 003F 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 0015 0015 0015 0015 003F 0015 003F 0015 0015 0015 0015 0015 003F 0015 0015 0015 003F 0015 003F 0015 0015 0015 0015 0015 003F 0015 003F 0015 0580</ccf>
+            </command>
+            <command master="parameters" name="left">
+                <parameters protocol="IODATAn">
+                    <parameter name="C" value="12"/>
+                    <parameter name="F" value="243"/>
+                    <parameter name="y" value="0"/>
+                </parameters>
+                <ccf>0000 006D 0000 002A 014E 00A7 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 003F 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 003F 0015 0015 0015 0015 0015 003F 0015 003F 0015 003F 0015 003F 0015 0015 0015 0015 0015 003F 0015 003F 0015 0580</ccf>
+            </command>
+            <command master="parameters" name="enter">
+                <parameters protocol="IODATAn">
+                    <parameter name="C" value="11"/>
+                    <parameter name="F" value="244"/>
+                    <parameter name="y" value="0"/>
+                </parameters>
+                <ccf>0000 006D 0000 002A 014E 00A7 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 003F 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 0015 0015 003F 0015 003F 0015 003F 0015 003F 0015 003F 0015 003F 0015 0015 0015 003F 0015 0580</ccf>
+            </command>
+            <command master="parameters" name="right">
+                <parameters protocol="IODATAn">
+                    <parameter name="y" value="8"/>
+                    <parameter name="C" value="12"/>
+                    <parameter name="F" value="227"/>
+                </parameters>
+                <ccf>0000 006D 0000 002A 014E 00A7 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 003F 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 003F 0015 003F 0015 0015 0015 0015 0015 0015 0015 003F 0015 003F 0015 003F 0015 0015 0015 0015 0015 003F 0015 003F 0015 0580</ccf>
+            </command>
+            <command master="parameters" name="down">
+                <parameters protocol="IODATAn">
+                    <parameter name="y" value="24"/>
+                    <parameter name="C" value="12"/>
+                    <parameter name="F" value="195"/>
+                </parameters>
+                <ccf>0000 006D 0000 002A 014E 00A7 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 003F 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 003F 0015 0015 0015 0015 0015 003F 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 003F 0015 0015 0015 0015 0015 003F 0015 003F 0015 0580</ccf>
+            </command>
+            <command master="parameters" name="esc">
+                <parameters protocol="IODATAn">
+                    <parameter name="y" value="8"/>
+                    <parameter name="C" value="11"/>
+                    <parameter name="F" value="228"/>
+                </parameters>
+                <ccf>0000 006D 0000 002A 014E 00A7 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 003F 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 0015 0015 0015 0015 003F 0015 003F 0015 003F 0015 003F 0015 003F 0015 0015 0015 003F 0015 0580</ccf>
+            </command>
+            <command master="parameters" name="vol+">
+                <parameters protocol="IODATAn">
+                    <parameter name="C" value="8"/>
+                    <parameter name="F" value="247"/>
+                    <parameter name="y" value="0"/>
+                </parameters>
+                <ccf>0000 006D 0000 002A 014E 00A7 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 003F 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 003F 0015 003F 0015 0015 0015 003F 0015 003F 0015 003F 0015 003F 0015 0015 0015 0015 0015 0015 0015 003F 0015 0580</ccf>
+            </command>
+            <command master="parameters" name="d-zoom+">
+                <parameters protocol="IODATAn">
+                    <parameter name="y" value="8"/>
+                    <parameter name="C" value="10"/>
+                    <parameter name="F" value="229"/>
+                </parameters>
+                <ccf>0000 006D 0000 002A 014E 00A7 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 003F 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 003F 0015 0015 0015 003F 0015 0015 0015 0015 0015 003F 0015 003F 0015 003F 0015 0015 0015 003F 0015 0015 0015 003F 0015 0580</ccf>
+            </command>
+            <command master="parameters" name="vol-">
+                <parameters protocol="IODATAn">
+                    <parameter name="y" value="8"/>
+                    <parameter name="C" value="8"/>
+                    <parameter name="F" value="231"/>
+                </parameters>
+                <ccf>0000 006D 0000 002A 014E 00A7 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 003F 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 003F 0015 003F 0015 003F 0015 0015 0015 0015 0015 003F 0015 003F 0015 003F 0015 0015 0015 0015 0015 0015 0015 003F 0015 0580</ccf>
+            </command>
+            <command master="parameters" name="mute">
+                <parameters protocol="IODATAn">
+                    <parameter name="C" value="9"/>
+                    <parameter name="F" value="246"/>
+                    <parameter name="y" value="0"/>
+                </parameters>
+                <ccf>0000 006D 0000 002A 014E 00A7 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 003F 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 003F 0015 0015 0015 003F 0015 003F 0015 003F 0015 003F 0015 003F 0015 0015 0015 0015 0015 003F 0015 0580</ccf>
+            </command>
+            <command master="parameters" name="d-zoom-">
+                <parameters protocol="IODATAn">
+                    <parameter name="y" value="16"/>
+                    <parameter name="C" value="10"/>
+                    <parameter name="F" value="213"/>
+                </parameters>
+                <ccf>0000 006D 0000 002A 014E 00A7 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 003F 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 0015 0015 0015 0015 003F 0015 0015 0015 003F 0015 0015 0015 003F 0015 0015 0015 003F 0015 003F 0015 0015 0015 003F 0015 0015 0015 003F 0015 0580</ccf>
+            </command>
+            <command master="parameters" name="RGB/Component">
+                <parameters protocol="IODATAn">
+                    <parameter name="C" value="13"/>
+                    <parameter name="F" value="242"/>
+                    <parameter name="y" value="0"/>
+                </parameters>
+                <ccf>0000 006D 0000 002A 014E 00A7 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 003F 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 0015 0015 0015 0015 003F 0015 003F 0015 003F 0015 003F 0015 003F 0015 0015 0015 003F 0015 003F 0015 0580</ccf>
+            </command>
+            <command master="parameters" name="video">
+                <parameters protocol="IODATAn">
+                    <parameter name="y" value="16"/>
+                    <parameter name="C" value="13"/>
+                    <parameter name="F" value="210"/>
+                </parameters>
+                <ccf>0000 006D 0000 002A 014E 00A7 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 003F 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 003F 0015 0015 0015 0015 0015 003F 0015 0015 0015 003F 0015 003F 0015 003F 0015 0015 0015 003F 0015 003F 0015 0580</ccf>
+            </command>
+            <command master="parameters" name="s-video">
+                <parameters protocol="IODATAn">
+                    <parameter name="y" value="8"/>
+                    <parameter name="C" value="13"/>
+                    <parameter name="F" value="226"/>
+                </parameters>
+                <ccf>0000 006D 0000 002A 014E 00A7 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 003F 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 003F 0015 003F 0015 003F 0015 003F 0015 0015 0015 003F 0015 003F 0015 0580</ccf>
+            </command>
+            <command master="parameters" name="auto">
+                <parameters protocol="IODATAn">
+                    <parameter name="y" value="24"/>
+                    <parameter name="C" value="13"/>
+                    <parameter name="F" value="194"/>
+                </parameters>
+                <ccf>0000 006D 0000 002A 014E 00A7 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 003F 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 003F 0015 0015 0015 0015 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 003F 0015 003F 0015 0015 0015 003F 0015 003F 0015 0580</ccf>
+            </command>
+            <command master="parameters" name="freeze">
+                <parameters protocol="IODATAn">
+                    <parameter name="y" value="8"/>
+                    <parameter name="C" value="9"/>
+                    <parameter name="F" value="230"/>
+                </parameters>
+                <ccf>0000 006D 0000 002A 014E 00A7 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 003F 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 003F 0015 0015 0015 0015 0015 003F 0015 003F 0015 003F 0015 003F 0015 0015 0015 0015 0015 003F 0015 0580</ccf>
+            </command>
+            <command master="parameters" name="p-in-p">
+                <parameters protocol="IODATAn">
+                    <parameter name="y" value="24"/>
+                    <parameter name="C" value="9"/>
+                    <parameter name="F" value="198"/>
+                </parameters>
+                <ccf>0000 006D 0000 002A 014E 00A7 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 003F 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 003F 0015 0015 0015 0015 0015 0015 0015 003F 0015 003F 0015 0015 0015 0015 0015 0015 0015 003F 0015 003F 0015 003F 0015 0015 0015 0015 0015 003F 0015 0580</ccf>
+            </command>
+            <command master="parameters" name="keystone">
+                <parameters protocol="IODATAn">
+                    <parameter name="C" value="10"/>
+                    <parameter name="F" value="245"/>
+                    <parameter name="y" value="0"/>
+                </parameters>
+                <ccf>0000 006D 0000 002A 014E 00A7 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 003F 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 0015 0015 003F 0015 0015 0015 003F 0015 003F 0015 003F 0015 003F 0015 0015 0015 003F 0015 0015 0015 003F 0015 0580</ccf>
+            </command>
+            <command master="parameters" name="PageUp">
+                <parameters protocol="IODATAn">
+                    <parameter name="y" value="64"/>
+                    <parameter name="C" value="12"/>
+                    <parameter name="F" value="115"/>
+                </parameters>
+                <ccf>0000 006D 0000 002A 014E 00A7 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 003F 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 003F 0015 003F 0015 0015 0015 0015 0015 003F 0015 003F 0015 003F 0015 0015 0015 0015 0015 0015 0015 003F 0015 003F 0015 0580</ccf>
+            </command>
+            <command master="parameters" name="PageDown">
+                <parameters protocol="IODATAn">
+                    <parameter name="y" value="72"/>
+                    <parameter name="C" value="12"/>
+                    <parameter name="F" value="99"/>
+                </parameters>
+                <ccf>0000 006D 0000 002A 014E 00A7 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 0015 0015 0015 0015 0015 0015 003F 0015 003F 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 0015 003F 0015 0015 0015 0015 0015 003F 0015 003F 0015 003F 0015 0015 0015 0015 0015 0015 0015 003F 0015 003F 0015 0015 0015 0015 0015 0015 0015 003F 0015 003F 0015 0580</ccf>
+            </command>
+        </commandSet>
+    </remote>
+</remotes>
